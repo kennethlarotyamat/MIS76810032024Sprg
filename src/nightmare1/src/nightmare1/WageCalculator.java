@@ -17,6 +17,9 @@ public class WageCalculator {
 		salary = (hours - REGULAR_HOURS) * BASE_PAY * 0.5 + hours * BASE_PAY;
 		System.out.print("The salary is $" + salary);
 		// this was originally created in eclipse IDE, but this specific comment was written in VS Code
+		// I think that it makes sense that I try using both.
+		// i almost want to say that it can't really hurt to use both, i'm just
+		// not sure how much extra time it would take to learn both.
 	}
 
 }
