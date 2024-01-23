@@ -1,3 +1,25 @@
+2
+
+i remember downloading a modding
+program for empire total war
+and it was hosted on github
+it actually can mod any total war game
+
+what was it. well, i don't remember it
+having a landing page
+and all the details were
+right there on the github repository
+so i guess i don't really need a landing page
+for every repository
+
+but it was a convention established
+in the first programming course i took
+so i think i'll continue to do it.
+
+...
+
+1
+
 I don't even know where to begin.
 I'm setting up a landing page for this repository
 
