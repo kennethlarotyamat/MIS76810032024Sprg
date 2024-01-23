@@ -16,6 +16,7 @@ public class WageCalculator {
 		
 		salary = (hours - REGULAR_HOURS) * BASE_PAY * 0.5 + hours * BASE_PAY;
 		System.out.print("The salary is $" + salary);
+		// this was originally created in eclips, but this specific comment was written in VS Code
 	}
 
 }
