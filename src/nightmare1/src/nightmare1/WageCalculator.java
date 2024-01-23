@@ -10,7 +10,7 @@ public class WageCalculator {
 		final double BASE_PAY = 25;
 		final double REGULAR_HOURS = 40;
 		
-//		declare variables
+		//		declare variables
 		double salary;  // salary to be calculated
 		double hours = 57; // hours worked
 		
