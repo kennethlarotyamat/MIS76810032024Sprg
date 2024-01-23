@@ -4,6 +4,12 @@ let's put it this way
 i haven't even started
 and i'm already lost
 
+there was a reading that i kind of missed
+
+Oracle. (1995). Documentation: The Java™ Tutorials - 
+Object-Oriented Programming Concepts. Retrieved from 
+[https://docs.oracle.com/javase/tutorial/java/concepts/index.html]
+
 ...
 
 2
