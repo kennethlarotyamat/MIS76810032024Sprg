@@ -20,6 +20,8 @@ public class WageCalculator {
 		// I think that it makes sense that I try using both.
 		// i almost want to say that it can't really hurt to use both, i'm just
 		// not sure how much extra time it would take to learn both.
+		// I'm already tired. I think that i have. i . well. i actually do have a group meeting
+		// for my other class later today.
 	}
 
 }
