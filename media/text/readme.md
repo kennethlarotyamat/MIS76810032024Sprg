@@ -2,6 +2,9 @@
 
 i have to use a different IDE
 
+so workspace save interval in minuts. I think setting it from 5 to 1. 
+from five minutes to 1 minutes is essentially the same as autosave. right?
+
 ...
 
 3
