@@ -27,7 +27,15 @@ public class Employee {
 	}
 	
 	public double getPayrate() {
-		return PayRate;
+		return payRate;
+	}
+	
+	public void setPayrate(double payrate) {
+		this.payRate = payrate;
+	}
+	
+	public double calDailyPay (double hours) {
+		return payRate * hours;
 	}
 	
 	
@@ -46,4 +54,4 @@ public class Employee {
 
 	}
 
-}
+
