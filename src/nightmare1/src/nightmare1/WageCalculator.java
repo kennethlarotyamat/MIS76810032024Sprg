@@ -27,6 +27,6 @@ public class WageCalculator {
 		// with my main github account but basically. it was kind of a difficult process.
 		// with a lot of things, there seems to be a kind of runaround, but i was eventually
 		// able to unlink info@chestnutandhazel from my old account, and re-link it after being unlinked
-		// to my main account. i think the old account was finally deleted. 
+		// to my main account. i think the old account was finally deleted.  
 
 }
