@@ -59,4 +59,11 @@ public class Employee {
 
 	// MIS 768: Advanced Software Concepts Spring 2024 MIS 768 1003 2024 Sprg
 
+	// this comment is being written in VS Code
+	// so i realized that there. well
+	// i jumped into the assignment and was confused about what was going on
+	// and i didn't realize that there were modules that led up to the assignment
+	// or i mean. lab modules that led up to the assignment-specific lab modules.
+	// so I was confused about a number of things before getting started.
+
 
