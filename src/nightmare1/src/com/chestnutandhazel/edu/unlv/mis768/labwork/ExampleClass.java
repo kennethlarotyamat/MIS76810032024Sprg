@@ -11,6 +11,7 @@ public class ExampleClass {
 		
 		System.out.println("Month"+ " " + month + " " + "has" + " " + days + " " + "days.");
 		System.out.println("Month "+month+" has "+days+" days.");
+//		constants final int CAL_SALES_TAX .725
 
 	}
 
