@@ -21,3 +21,8 @@ public class Simple {
 	
 
 }
+
+// I'm really tired. I need to try to get all my my coursework done
+// on thursdays because that's basically when I have class, and I might
+// as well, you know, work on that day. do my homework and attend class
+// on the same day.
