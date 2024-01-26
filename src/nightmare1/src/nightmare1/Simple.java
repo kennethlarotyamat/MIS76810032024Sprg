@@ -520,6 +520,10 @@ Meta Analysis of business value of IT vicky
 
 Research on IS Business Value  vicky
 
+Mod 1 vicky
+Mod 2 kelly
+Mod 3 kenneth
+Mod 4 all group together (All Together)
 
 
  * 
