@@ -30,3 +30,11 @@ public class WageCalculator {
 		// to my main account. i think the old account was finally deleted.  
 
 }
+
+/*  
+what am I thinking about here
+
+I want to look at the rosters for 764 and 768 to see if i have any classmates in both classes. since 768 is asycnhronous. i wouldn't see anyone.
+there is no overlap between the two classes, other than me.
+
+*/
