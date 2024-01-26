@@ -428,6 +428,17 @@ Schryen, Guido  (2013). “Revisiting IS business value research: what we alread
 
 
 
+References
+
+Kohli, Rajiv and Grover, Varun (2008) "Business Value of IT: An Essay on Expanding Research Directions to Keep up with the Times," Journal of the Association for Information Systems, 9(1),. DOI: 10.17705/1jais.00147
+
+Mandrella, Markus; Trang, Simon; and Kolbe, Lutz M. (2020) "Synthesizing and Integrating Research on IT-Based Value Cocreation: A Meta-Analysis," Journal of the Association for Information Systems, 21(2),. DOI: 10.17705/1jais.00606
+
+Roberts, Nicholas; Jeyaraj, Anand; and Pullin, Jennifer E. (2023) "Assessing the Connections among Top Management Support, IT Assimilation, and the Business Value of IT: A Meta-Analysis," Journal of the Association for Information Systems, 24(1), 107-135. DOI: 10.17705/1jais.00772
+
+Schryen, Guido  (2013). “Revisiting IS business value research: what we already know, what we still need to know, and how we can get there.” European Journal of Information Systems, 22(2), 139–169. doi:10.1057/ejis.2012.45
+
+
 
 
 
