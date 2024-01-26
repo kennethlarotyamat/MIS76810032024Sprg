@@ -66,4 +66,6 @@ public class Employee {
 	// or i mean. lab modules that led up to the assignment-specific lab modules.
 	// so I was confused about a number of things before getting started.
 
+	// i need to try and get all of my work done on Thursday, or, I mean I need to try to get all
+	// of my coursework done on Thursday.
 
