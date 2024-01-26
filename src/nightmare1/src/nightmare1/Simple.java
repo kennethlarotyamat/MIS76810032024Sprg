@@ -610,7 +610,9 @@ The subsections are going to be renamed to reflect the change from the change to
 
 
 
-
+so what? well right now I 
+i kind of need to pivot around back to my
+assignments for MIS 768
 
 
 
