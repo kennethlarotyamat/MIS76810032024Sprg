@@ -1,4 +1,4 @@
-package edu.unlv.mis768.labwork3;
+package mis768unlv;
 
 import java.util.Scanner;
 
