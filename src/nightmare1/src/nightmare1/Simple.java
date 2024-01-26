@@ -444,6 +444,84 @@ Schryen, Guido  (2013). “Revisiting IS business value research: what we alread
 
 
 
+Module III: IT-Enabled Innovation
+
+Module 3: IT-Enabled Innovation
+Context Module Sub Header
+3.1. The Relation between IT and Organizational Innovation
+Attachment
+Role of IT in Organizational Innovation - Lit Review.pdf
+Attachment
+ChatterjeeMoodyLowryChakrabortyHardinISJ2021.pdf
+Attachment
+ChatterjeeMoodyLowryChakrabortyHardinJMIS2015.pdf
+Attachment
+ChatterjeeMoodyLowryChakrabortyHardinJSIS2020.pdf
+Context Module Sub Header
+3.2. Disruptive innovations with IT
+Attachment
+Disruptive_Innovation_Conceptual_Foundations.pdf
+Attachment
+INFORM~1.PDF
+Attachment
+INFORM~2.PDF
+Attachment
+The Disruptive Nature of Information Technology Innovations_ The.pdf
+Context Module Sub Header
+3.3. Innovating with Artificial Intelligence
+Attachment
+Special Issue Editorial_ Artificial Intelligence in Organizations.pdf
+Attachment
+AI Innovation Typology.pdf
+Attachment
+AI Multidisciplinary Perspectives.pdf
+Attachment
+Strategic use of AI.pdf
+Assignment
+Module Paper 3
+Apr 7
+25 pts
+
+
+
+Term Paper: Module 1 vicky
+
+
+The Business Value of IT
+
+February 11th 2024
+
+Kelly Miller
+Vicky Saab
+K.L. Yamat
+
+
+
+Each paper would be an integrative conceptual summary and critical analysis of the readings in that respective module 
+
+Length will be at least 5 pages, double spaced, excluding references
+
+
+
+Business Value of IT vicky
+
+Developing IT Strategy for Business Value vicky
+
+Data as a Strategic Resource in Organizations vicky
+
+Business Value of IT vicky
+
+
+IT based value cocreation vicky
+
+
+Meta Analysis of business value of IT vicky
+
+
+Research on IS Business Value  vicky
+
+
+
  * 
  * 
 */
