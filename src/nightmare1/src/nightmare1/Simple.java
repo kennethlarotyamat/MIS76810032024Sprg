@@ -209,6 +209,53 @@ Schryen, Guido  (2013). “Revisiting IS business value research: what we alread
 
 
 
+Write title of mod 
+Module Paper 3
+MIS 764 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Written By:
+Vicky Saab 
+Kelly Miller  
+Kenneth Yamat
+Due: 
+
+Integrative Conceptual Summary
+Write title of section
+Critical Analysis of the Reading 
+
+References 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
