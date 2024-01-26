@@ -37,4 +37,45 @@ what am I thinking about here
 I want to look at the rosters for 764 and 768 to see if i have any classmates in both classes. since 768 is asycnhronous. i wouldn't see anyone.
 there is no overlap between the two classes, other than me.
 
+
+Dictionary
+Definitions from Oxford Languages · Learn more
+in·ter·mit·tent
+/ˌin(t)ərˈmitnt/
+adjective
+adjective: intermittent
+occurring at irregular intervals; not continuous or steady.
+"intermittent rain"
+Similar:
+sporadic
+irregular
+fitful
+spasmodic
+broken
+fragmentary
+discontinuous
+disconnected
+isolated
+odd
+random
+patchy
+scattered
+on again and off again
+on and off
+in fits and starts
+occasional
+periodic
+cyclic
+recurrent
+recurring
+Opposite:
+continuous
+steady
+Origin
+
+mid 16th century: from Latin intermittent- ‘ceasing’, from the verb intermittere (see intermit).
+Use over time for: intermittent
+
+
+
 */
