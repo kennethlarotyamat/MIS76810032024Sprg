@@ -42,8 +42,11 @@ public class Employee {
 	
 	// calculate salary based on the number of hours given.
 	public double calcSalary(int numOfHours) {
+		double salary = numOfHours * BASE_PAY;
+		if(numOfHours > REGULAR_HOURS)
+			salary+= (numOfHours-REGULAR_HOURS) * BASE_PAY * .8;
 		// a simplified formula. We will revise it when we talk about if-else statement
-		double salary = REGULAR_HOURS * BASE_PAY + (numOfHours-REGULAR_HOURS)*BASE_PAY*1.5;
+		// double salary = REGULAR_HOURS * BASE_PAY + (numOfHours-REGULAR_HOURS)*BASE_PAY*1.8;
 		return salary;
 	}
 
