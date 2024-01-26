@@ -785,6 +785,18 @@ Subsection 4.3 group
 4.3.4 Digitalization Ethical Challenge Kenneth
 
 
+Thank god it's still only january
+it's almost february, but it's not, thank god.
+jez
+i'm so glad it's not already february.
+
+for some reason i thought it was february
+
+i have to log my earnings and expenses, and - january isn't over so i - i'm just really
+pleased to know that it's not february.
+
+
+
  * 
  * 
 */
