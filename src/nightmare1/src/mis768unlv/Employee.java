@@ -28,8 +28,16 @@ public class Employee {
 	}
 
 	// add a certain number of points to the experience point
-	public void earnExperiencePoint(int numOfPoints) {
-		experiencePoint+= numOfPoints;
+	public boolean earnExperiencePoint(int numOfPoints) {
+		if(numOfPoints <0)
+			return false;
+		else {
+			experiencePoint+= numOfPoints;
+			return true;
+			
+		}
+			
+		
 	}
 	
 	// calculate salary based on the number of hours given.

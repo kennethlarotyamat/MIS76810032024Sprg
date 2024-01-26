@@ -22,10 +22,11 @@ public class EmployeeDemo2 {
 	    System.out.print("Enter the points earned: ");
 	    points = keyboard.nextInt();
 
-      if (                     )      {
-         
+      if (newbie.earnExperiencePoint(points)                     )      {
+         System.out.println("The points are added.");
       }
       else {
+    	  System.out.println("The points cannot be negative");
          
       }
 	      // print the name and the exp
