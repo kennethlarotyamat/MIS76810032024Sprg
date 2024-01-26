@@ -616,6 +616,50 @@ assignments for MIS 768
 
 
 
+ together (All Together)
+
+ all 
+
+ 
+
+
+
+
+
+4.3. Digitalization: Advances and Challenges (Group Project)
+
+
+Digital Innovation Review.pdf
+
+
+Unpacking the Difference Between Digital Transformation and IT-En.pdf
+
+
+Digital opportunities for incumbents – A resource centric Perspective.pdf
+
+Digital opportunities for incumbents – A resource centric Perspective.pdf Attachment Digitalization Ethical Challenge.pdf
+
+4.3. Digitalization: Advances and Challenges Attachment 
+
+Digital Innovation Review.pdf Attachment 
+
+Unpacking the Difference Between Digital Transformation and IT-En.pdf Attachment 
+
+Digital opportunities for incumbents – A resource centric Perspective.pdf Attachment    (Kenneth)
+
+Digitalization Ethical Challenge.pdf   (Kenneth)
+
+
+
+
+Digitalization Ethical Challenge.pdf  (Kenneth)
+
+
+I'll be doing the last two topics of module 4
+
+I'm going to rename this file as module 3
+
+The subsections are going to be renamed to reflect the change from the change to module 3
 
 
 
@@ -624,6 +668,70 @@ assignments for MIS 768
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Module 3: IT-Enabled Innovation 
+
+3.1. The Relation between IT and Organizational Innovation 
+The role of IT in organizational innovation – A systematic literature review 
+The nonlinear influence of harmonious information technology affordance on organisational innovation 
+ChatterjeeMoodyLowryChakrabortyHardinJMIS2015.pdf Attachment 
+ChatterjeeMoodyLowryChakrabortyHardinJSIS2020.pdf Context 
+
+3.2 Module Sub Header. 
+Disruptive innovations with IT Attachment 
+Disruptive_Innovation_Conceptual_Foundations.pdf Attachment 
+INFORM~1.PDF Attachment 
+INFORM~2.PDF Attachment 
+The Disruptive Nature of Information Technology Innovations_ The.pdf Context 
+3.3 Module Sub Header. 
+Innovating with Artificial Intelligence 
+Special Issue Editorial_ Artificial Intelligence in Organizations.pdf 
+AI Innovation Typology.pdf 
+AI Multidisciplinary Perspectives.pdf Attachment Strategic use of AI.pdf
+
+References
+
+
+
+
+
+
+
+
+Annotations
+
+It was by pure chance that I took module 3 to work on, or it wasn’t pure chance, but it wasn’t exactly a deliberate decision.
+
+It was more that it was due module 3 is due way off in april, it was the assignment that was due later on.
+
+So I didn’t end up working on the references page first. I actually started with the outline
+
+
+
+Module 1 vicky
+Module 2 kelly
+Module 3 kenneth
+Module 4 group
+Subsection 4.3
+4.3.1 Digital Innovation Review
+4.3.2 Unpacking the Difference 
+4.3.3 Digital opportunities for incumbents Kenneth
+4.3.4 Digitalization Ethical Challenge Kenneth
 
 
 
