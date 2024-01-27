@@ -49,5 +49,13 @@ public class Employee {
 		// double salary = REGULAR_HOURS * BASE_PAY + (numOfHours-REGULAR_HOURS)*BASE_PAY*1.8;
 		return salary;
 	}
+	public boolean getBonusQualification(int numOfHours) {
+		
+		if(numOfHours > REGULAR_HOURS && experiencePoint >200)
+			return true;
+		else
+			return false;
+		
+	}
 
 }
