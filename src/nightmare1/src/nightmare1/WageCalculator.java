@@ -77,5 +77,88 @@ mid 16th century: from Latin intermittent- ‘ceasing’, from the verb intermit
 Use over time for: intermittent
 
 
+Rosati's Pizza
+4.2
+(935)·$$
+Pizza restaurant
+
+Overview
+
+Reviews
+
+About
+
+
+Directions
+
+
+Save
+
+
+Nearby
+
+
+Send to phone
+
+
+Share
+ORDER ONLINE
+
+·
+
+Dine-in
+·
+
+Takeout
+·
+
+No-contact delivery
+
+You visited today
+Visit your timeline
+
+
+8001 N Durango Dr #110, Las Vegas, NV 89143
+Copy address
+
+Open ⋅ Closes 12 AM
+
+Menu
+myrosatis.com
+Open menu link
+Copy menu link
+
+myrosatis.com
+Open website
+Copy website
+
+
+(702) 294-1212
+Copy phone number
+Call phone number
+
+
+8P4C+P9 Las Vegas, Nevada
+Copy plus code
+Learn more about plus codes
+
+
+Send to your phone
+
+
+Your Maps activity
+
+Add a label
+
+
+I prefer the Losee location. If you look at my pictures, you will see why: at the Losee location, the tomatoes are thick quarter slices, at this location, the durango location, the tomatoes were diced. When I think of diced tomatoes, I think of gas station hot dogs.
+
+It was the same thing with the onions, they were diced, just like gas station hot dog onions.
+
+This location also doesn't have anchovies or artichokes or linguica or mortadella. and honestly. I really think that I would have looked past the tomato and onion issue. if this location had anchovies.
+
+I also spent 45 dollars on this pizza after an 8 dollar tip. I think 45 dollars for an 18 inch personal pizza is somewhat elevated. It's the kind of thing that I can look past. when the 45 dollar pizza has anchovies on it. but my 45 dollar pizza didn't have anchovies on it, because this location doesn't have anchovies.
+
+
 
 */
