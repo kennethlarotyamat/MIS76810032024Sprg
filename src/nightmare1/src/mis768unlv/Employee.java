@@ -123,6 +123,54 @@ Subsection 4.3 group
 4.3.3 Digital opportunities for incumbents Kenneth
 4.3.4 Digitalization Ethical Challenge Kenneth
 
+Module 3: It-Enabled Innovation 
+
+3.1 The Relation Between It And Organizational Innovation 
+The Role Of It In Organizational Innovation 
+The Nonlinear Influence Of Harmonious Information Technology 
+Strategic Relevance Of Organizational Virtues Enabled By Information Technology 
+Information Technology And Organizational Innovation: 
+
+3.2 Disruptive Innovations With It
+Disruptive Innovation: Conceptual Foundations And Research Opportunities 
+Agility In Responding To Disruptive Digital Innovation
+The Disruptive Information Technology Innovation Model
+The Disruptive Nature Of Information Technology Innovations
+
+3.3 Innovating With Artificial Intelligence 
+Artificial Intelligence In Organizations 
+Ai Innovation Typology
+Artificial Intelligence (Ai): Multidisciplinary Perspectives 
+Strategic Use Of Ai
+
+References
+
+
+
+
+
+
+
+
+Annotations
+
+I Need To Find Out If It’s A Standard Convention To Truncate Titles Of Academic Articles.
+
+
+
+
+
+Module 1 Vicky
+Module 2 Kelly
+Module 3 Kenneth
+Module 4 Group
+Subsection 4.3 Group
+4.3.1 Digital Innovation Review Vicky
+4.3.2 Unpacking The Difference Kelly
+4.3.3 Digital Opportunities For Incumbents Kenneth
+4.3.4 Digitalization Ethical Challenge Kenneth
+
+
 
 
 
