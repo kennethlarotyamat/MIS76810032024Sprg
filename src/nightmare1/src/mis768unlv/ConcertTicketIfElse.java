@@ -31,10 +31,14 @@ public class ConcertTicketIfElse {
                 System.out.print("The ticket class entered is not a valid ticket class");
             }
         } finally {
-            keyboard.close(); // Close the Scanner in the finally block
+            keyboard.close();
         }
     }
 }
+ // Close the Scanner in the finally block
+// I got a note that there is an issue with my code, and that it's that I have to close the keyboard
+// at the end of the code.
+
 // Determine the grade point entered.
 // there is no nextChar() method
 // we need to use next().charAt(0). 
