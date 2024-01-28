@@ -14,7 +14,7 @@ public class SecretWord {
 		      System.out.print("Enter the secret word: ");
 		      input = keyboard.nextLine();
 
-		      if (                                 ){
+		      if (theWord.equalsIgnoreCase(input)){
 		         System.out.println("Congratulations! You know the " +
 		                            "secret word!");
 		      }
