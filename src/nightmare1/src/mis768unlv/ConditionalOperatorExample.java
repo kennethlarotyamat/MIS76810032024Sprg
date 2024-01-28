@@ -14,6 +14,9 @@ public class ConditionalOperatorExample {
 		double charge;
 		
 		Scanner kb = new Scanner(System.in);
+		try {
+			
+
 		
 		System.out.print("Please enter the weight of the package:");
 		weight = kb.nextDouble();
@@ -21,7 +24,11 @@ public class ConditionalOperatorExample {
 		charge = weight * (weight<=WEIGHT_LIMIT? BASE_FEE: OVERWEIGHT_FEE);
 		
 		System.out.print("The total charge is:$" +charge);
-		
+	} 
+
+	finally {
+		kb.close();
+	}
 
 	}
 
@@ -29,6 +36,27 @@ public class ConditionalOperatorExample {
 
 
 /* 
+
+
+
+
+
+		  try {
+			
+        } finally {
+            keyboard.close();
+        }
+
+
+I'm not sure why closing the keyboard is important.
+
+everything seems to work just fine without the keyboard being closed.
+i think.
+
+anyway.
+
+
+
  
  
 I'm experiencing quite a bit of anxiety right now. 
