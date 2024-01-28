@@ -11,6 +11,9 @@ public class EmployeeDemo2 {
 
 	    // Create a Scanner object for keyboard input.
 	    Scanner keyboard = new Scanner(System.in);
+		try {
+
+
 	    
 	    // Get the first number.
 	    System.out.print("Enter the name: ");
@@ -32,6 +35,9 @@ public class EmployeeDemo2 {
 	      // print the name and the exp
 		  System.out.println("Name: "+ newbie.getName());
 		  System.out.println("Exp: "+ newbie.getExperiencePoint());
+		} finally {
+			keyboard.close();
+			}
    }
 
 }
@@ -43,9 +49,7 @@ public class EmployeeDemo2 {
 
 
 
-try {
-
-} finally {
+finally {
 keyboard.close();
 }
 
