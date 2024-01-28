@@ -10,14 +10,13 @@ public class ConcertTicketIfElse {
 	      Scanner keyboard = new Scanner(System.in);
 	      
 
-	      System.out.print("Enter Ticket Class 1, 2, 3 or 4: ");
 
-	      ticketClass = keyboard.next().charAt(0); 
 
 
 		  try {
-            System.out.print("Enter Ticket Class 1, 2, 3 or 4: ");
-            ticketClass = keyboard.next().charAt(0);
+			System.out.print("Enter Ticket Class 1, 2, 3 or 4: ");
+
+			ticketClass = keyboard.next().charAt(0); 
 
             if (ticketClass == '1') {
                 System.out.print("Ticket Class 1 has been added to your cart, the amount due is $15");
