@@ -8,7 +8,8 @@ public class ConcertTicketWithSwitch{
 		          
 		      // Create a Scanner object for keyboard input.
 		      Scanner keyboard = new Scanner(System.in);
-		      
+			  try {
+ 		      
 
 		      System.out.print("Enter Ticket Class 1, 2, 3 or 4: ");
 
@@ -43,6 +44,14 @@ public class ConcertTicketWithSwitch{
 
 
 		      }
+
+			}
+
+			finally {
+				keyboard.close();
+			}
+
+
 		   }
 
 }
@@ -51,8 +60,7 @@ public class ConcertTicketWithSwitch{
 /*    
 
 
-		  try {
-        } finally {
+finally {
             keyboard.close();
         }
 
