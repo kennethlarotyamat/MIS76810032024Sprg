@@ -10,6 +10,9 @@ public class LogicalAnd {
 			Employee anEmployee = new Employee();
 			
 		    Scanner keyboard = new Scanner(System.in);
+			try {
+
+
 		    
 		    // get the name
 		    System.out.print("Enter the name: ");
@@ -34,6 +37,9 @@ public class LogicalAnd {
 	    	  System.out.print("The Employee is not qualified.");
 
 	      }
+		} finally {
+            keyboard.close();
+        }
 	   }
 
 }
@@ -42,6 +48,13 @@ public class LogicalAnd {
 
 
 /*
+
+
+		  try {
+
+		  } finally {
+            keyboard.close();
+        }
 
 
 Module 3: It-Enabled Innovation 
