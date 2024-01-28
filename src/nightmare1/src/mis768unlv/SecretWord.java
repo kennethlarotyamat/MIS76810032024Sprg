@@ -15,6 +15,8 @@ public class SecretWord {
 		      input = keyboard.nextLine();
 
 		      if (theWord.equalsIgnoreCase(input)){
+//		    	  can also be written in reverse as
+//		    	  inuput.equalsIgnoreCase(theWord)
 		         System.out.println("Congratulations! You know the " +
 		                            "secret word!");
 		      }
