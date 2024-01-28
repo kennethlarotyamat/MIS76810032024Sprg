@@ -9,6 +9,10 @@ public class SecretWord {
 		      
 		      // Create a Scanner object for keyboard input.
 		      Scanner keyboard = new Scanner(System.in);
+
+			  try {
+
+
 		      
 		      // Prompt the user to enter the secret word.
 		      System.out.print("Enter the secret word: ");
@@ -24,6 +28,9 @@ public class SecretWord {
 		         System.out.println("Sorry, that is NOT the " +
 		                            "secret word!");
 		      }
+			} finally {
+				keyboard.close();
+			}
 		   }
 
 }
