@@ -67,4 +67,16 @@ I don't know what it is, but I am so super tired right now. I wanted to get this
 
 this might actually be easier than I was worried about.
 
+from MIS 764 annotations to notes
+
+It was by pure chance that I took module 3 to work on, or it wasn’t pure chance, but it wasn’t exactly a deliberate decision.
+
+It was more that it was due module 3 is due way off in april, it was the assignment that was due later on.
+
+So I didn’t end up working on the references page first. I actually started with the outline
+
+I have to put this aside for now and work on my MIS 768 Assignments
+
+
+
 */
