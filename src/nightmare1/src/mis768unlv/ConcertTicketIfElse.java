@@ -35,7 +35,13 @@ public class ConcertTicketIfElse {
         }
     }
 }
- // Close the Scanner in the finally block
+
+
+
+
+ 
+
+// Close the Scanner in the finally block
 // I got a note that there is an issue with my code, and that it's that I have to close the keyboard
 // at the end of the code.
 
