@@ -2,7 +2,7 @@ package mis768unlv;
 
 import java.util.Scanner;
 
-public class GradePointCalculatorWithSwitch{
+public class ConcertTicketWithSwitch{
 	   public static void main(String[] args) {
 		      char grade;       // A character entered by the user
 		          
