@@ -19,15 +19,15 @@ public class GradePointCalculator {
 	      grade = keyboard.next().charAt(0); 
 
 	      // Determine the grade point entered.
-	      if(grade == 'A') {
+	      if(grade == 'A' || grade == 'a') {
 	    	  System.out.print("4.0");
 	    	  
 	      }
-	      else if(grade =='B') {
+	      else if(grade =='B' || grade == 'b') {
 	    	  System.out.print("3.0");
 	    	  
 	      }
-	      else if(grade =='C') {
+	      else if(grade =='C' || grade == 'c' ) {
 	    	  System.out.print("2.0");
 	    	  
 	      }
