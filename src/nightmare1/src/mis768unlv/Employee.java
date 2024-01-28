@@ -77,6 +77,53 @@ So I didn’t end up working on the references page first. I actually started wi
 
 I have to put this aside for now and work on my MIS 768 Assignments
 
+Module 3: IT-Enabled Innovation 
+
+3.1. The Relation between IT and Organizational Innovation 
+The role of IT in organizational innovation – A systematic literature review 
+The nonlinear influence of harmonious information technology affordance on organisational innovation 
+ChatterjeeMoodyLowryChakrabortyHardinJMIS2015.pdf Attachment 
+ChatterjeeMoodyLowryChakrabortyHardinJSIS2020.pdf Context 
+
+3.2 Module Sub Header. 
+Disruptive innovations with IT Attachment 
+Disruptive_ nnovation Conceptual Foundations
+INFORM~1.PDF Attachment 
+INFORM~2.PDF Attachment 
+The Disruptive Nature of Information Technology Innovations_ The.pdf Context 
+
+3.3 Module Sub Header. 
+Innovating with Artificial Intelligence 
+Special Issue Editorial_ Artificial Intelligence in Organizations.pdf 
+AI Innovation Typology.pdf 
+AI Multidisciplinary Perspectives.pdf Attachment Strategic use of AI.pdf
+
+References
+
+
+
+
+
+
+
+
+Annotations
+
+
+
+
+
+Module 1 vicky
+Module 2 kelly
+Module 3 kenneth
+Module 4 group
+Subsection 4.3 group
+4.3.1 Digital Innovation Review vicky
+4.3.2 Unpacking the Difference kelly
+4.3.3 Digital opportunities for incumbents Kenneth
+4.3.4 Digitalization Ethical Challenge Kenneth
+
+
 
 
 */
