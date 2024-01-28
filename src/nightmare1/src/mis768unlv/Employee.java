@@ -58,8 +58,13 @@ public class Employee {
 		
 	}
 
-}/*
+}
+/*
 
 I don't know what it is, but I am so super tired right now. I wanted to get this second assignment done.
+
+...
+
+this might actually be easier than I was worried about.
 
 */
