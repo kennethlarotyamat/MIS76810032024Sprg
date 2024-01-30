@@ -40,6 +40,7 @@ public class GradePointCalculatorWithSwitch{
 
 
 		      }
+			  keyboard.close();
 		   }
 
 }

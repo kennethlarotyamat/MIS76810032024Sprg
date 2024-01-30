@@ -35,6 +35,7 @@ public class GradePointCalculatorStringMethod {
 	    	  System.out.print("0.0");
 	    	  
 	      }
+		  keyboard.close();
 	}
 
 }
