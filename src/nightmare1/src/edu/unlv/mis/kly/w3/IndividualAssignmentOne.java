@@ -33,7 +33,7 @@ public class IndividualAssignmentOne {
             taxableIncome = kb.nextDouble();
 
             if (taxableIncome < 0) {
-                System.out.print("Negative taxable income cannot be processed. Please purchase our net operating loss product extension to handle");
+                System.out.print("Negative taxable income cannot be processed.");
             } else {
                 taxDue =
                         // start brackets
