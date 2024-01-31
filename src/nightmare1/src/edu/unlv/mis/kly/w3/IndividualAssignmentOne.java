@@ -24,7 +24,7 @@ public class IndividualAssignmentOne {
 
         double taxableIncome;
         double taxDue;
-        double negativeTaxableIncome;
+
 
         Scanner kb = new Scanner(System.in);
         try {
@@ -71,7 +71,7 @@ public class IndividualAssignmentOne {
 }
 /*
 
-
+//      double negativeTaxableIncome; // I wont be using this
 I had to use a spreadsheet to figure out what was wrong with my math
 
 the issue was that the first 11000 was being double taxed at the 12 percent bracket
