@@ -35,18 +35,14 @@ public class IndividualAssignmentOne {
             if (taxableIncome < 0) {
                 System.out.print("Negative taxable income cannot be processed.");
             } else {
-            taxDue = (taxableIncome <= BRACKET_LIMIT_TEN && taxableIncome > 0) ? taxableIncome * TEN_PERCENT
-                    : (taxableIncome <= BRACKET_LIMIT_TWELVE && BRACKET_LIMIT_TEN < taxableIncome)
-                            ? (BRACKET_LIMIT_TEN * TEN_PERCENT) + ((taxableIncome - BRACKET_LIMIT_TEN) * TWELVE_PERCENT)
-                            : TWENTY_TWO_PERCENT;
+                taxDue = (taxableIncome <= BRACKET_LIMIT_TEN && taxableIncome > 0) ? taxableIncome * TEN_PERCENT
+                        : (taxableIncome <= BRACKET_LIMIT_TWELVE && BRACKET_LIMIT_TEN < taxableIncome)
+                                ? (BRACKET_LIMIT_TEN * TEN_PERCENT)
+                                        + ((taxableIncome - BRACKET_LIMIT_TEN) * TWELVE_PERCENT)
+                                : TWENTY_TWO_PERCENT;
 
-
-                            System.out.print("The total tax due is: $" + taxDue);
-                    }   
-
-
-
-
+                System.out.print("The total tax due is: $" + taxDue);
+            }
 
         }
 
@@ -57,29 +53,30 @@ public class IndividualAssignmentOne {
     }
 
 }
-            // i need a ternary conditional operator for before the first tax bracket for negative numbers
-            // something like if taxable income is  less than zero
-            // I'm making progress here. thank god!
-            // I have to convert this ternary conditional operators to if or else if or if
-            // else statements because
-            // I'm already confused about how to do the next ternary conditional operators
-            // in the chain.
+// i need a ternary conditional operator for before the first tax bracket for
+// negative numbers
+// something like if taxable income is less than zero
+// I'm making progress here. thank god!
+// I have to convert this ternary conditional operators to if or else if or if
+// else statements because
+// I'm already confused about how to do the next ternary conditional operators
+// in the chain.
 
-            /*
-             * BRACKET_LIMIT_TEN <
-             * taxDue = (taxableIncome <= BRACKET_LIMIT_TEN) ?
-             * taxableIncome * TEN_PERCENT :
-             * 
-             * (taxableIncome <= BRACKET_LIMIT_TWELVE) ?
-             * (BRACKET_LIMIT_TEN * TEN_PERCENT) + ((taxableIncome - BRACKET_LIMIT_TEN) *
-             * TWELVE_PERCENT) :
-             * 
-             * // Add additional condition or expression here if needed
-             * (BRACKET_LIMIT_TWELVE * TWELVE_PERCENT) + ((taxableIncome -
-             * BRACKET_LIMIT_TWELVE) * ANOTHER_PERCENT);
-             * 
-             * 
-             */
+/*
+ * BRACKET_LIMIT_TEN <
+ * taxDue = (taxableIncome <= BRACKET_LIMIT_TEN) ?
+ * taxableIncome * TEN_PERCENT :
+ * 
+ * (taxableIncome <= BRACKET_LIMIT_TWELVE) ?
+ * (BRACKET_LIMIT_TEN * TEN_PERCENT) + ((taxableIncome - BRACKET_LIMIT_TEN) *
+ * TWELVE_PERCENT) :
+ * 
+ * // Add additional condition or expression here if needed
+ * (BRACKET_LIMIT_TWELVE * TWELVE_PERCENT) + ((taxableIncome -
+ * BRACKET_LIMIT_TWELVE) * ANOTHER_PERCENT);
+ * 
+ * 
+ */
 /*
  * 
  * taxDue = (taxableIncome <= BRACKET_LIMIT_TEN) ?
