@@ -10,7 +10,7 @@ public class IndividualAssignmentOne {
 		final double OVERWEIGHT_FEE = 7;
 		final double WEIGHT_LIMIT = 20;
 		
-		double weight;
+		double taxableIncome;
 		double charge;
 		
 		Scanner kb = new Scanner(System.in);
@@ -19,11 +19,11 @@ public class IndividualAssignmentOne {
 
 		
 		System.out.print("Please enter your taxable income: ");
-		weight = kb.nextDouble();
+		taxableIncome = kb.nextDouble();
 		
-		charge = weight * (weight<=WEIGHT_LIMIT? BASE_FEE: OVERWEIGHT_FEE);
+		charge = taxableIncome * (taxableIncome<=WEIGHT_LIMIT? BASE_FEE: OVERWEIGHT_FEE);
 		
-		System.out.print("The total charge is: $" +charge);
+		System.out.print("The total tax due is: $" +charge);
 	} 
 
 	finally {
@@ -34,8 +34,24 @@ public class IndividualAssignmentOne {
 
 }
 
+
+
+
+
+
 /*
 
+taxableIncome
+
+    10% on taxable income from $0 to $11,000, plus
+    12% on taxable income over $11,001 to $44,725, plus
+    22% on taxable income over $44,726 to $95,375, plus
+    24% on taxable income over $95,376 to $182,100, plus
+    32% on taxable income over $182,101 to $231,250, plus
+    35% on taxable income over $231,251 to $578,125, plus
+    37% on taxable income over $578,126 or more
+    
+    
 
 		final String CLASS_1 = "$15";
 		final String CLASS_2 = "$15";
@@ -173,7 +189,7 @@ The program then uses the tax bracket (as shown below) to calculate the tax amou
     12% on taxable income over $11,001 to $44,725, plus
     22% on taxable income over $44,726 to $95,375, plus
     24% on taxable income over $95,376 to $182,100, plus
-    32% on taxable income over $182,101to $231,250, plus
+    32% on taxable income over $182,101 to $231,250, plus
     35% on taxable income over $231,251 to $578,125, plus
     37% on taxable income over $578,126 or more
 
