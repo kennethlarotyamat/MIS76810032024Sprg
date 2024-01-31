@@ -33,7 +33,7 @@ public class IndividualAssignmentOne {
             taxableIncome = kb.nextDouble();
 
             if (taxableIncome < 0) {
-                System.out.print("Negative taxable income cannot be processed.");
+                System.out.print("Negative taxable income cannot be processed. Please purchase our net operating loss product extension to handle");
             } else {
                 taxDue =
                         // start brackets
@@ -64,7 +64,7 @@ public class IndividualAssignmentOne {
                                         :           THIRTY_SEVEN_PERCENT ;  // REPLACE THIS WHEN READY
 
 
-                System.out.print("The total tax due is: $" + taxDue);
+                System.out.print("The total tax due is: $" + Math.ceil(taxDue));
             }
 
         }
@@ -79,6 +79,9 @@ public class IndividualAssignmentOne {
 /*
 
 //
+
+
+Math.ceil(number) to get the round-up number.
 
 : (BRACKET_LIMIT_TWENTY_TWO < taxableIncome && taxableIncome <= BRACKET_LIMIT_TWENTY_FOUR)
 ?
