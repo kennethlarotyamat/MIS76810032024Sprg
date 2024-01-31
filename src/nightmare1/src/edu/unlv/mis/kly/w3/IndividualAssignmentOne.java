@@ -6,8 +6,13 @@ public class IndividualAssignmentOne {
 	
 	public static void main(String[] args) {
 
-		final double BASE_FEE = 4.5;
-		final double OVERWEIGHT_FEE = 7;
+		final double TEN_PERCENT = 4.5;
+		final double TWELVE_PERCENT = 7;
+        final double TWENTY_TWO_PERCENT = 7;
+        final double LIMIT_TWENTY_FOUR_PERCENT = 7;
+        final double THIRTY_TWO_PERCENT = 7;
+        final double THIRTY_FIVE_PERCENT = 7;
+        final double THIRTY_SEVEN_PERCENT = 7;
 		
 		final double BRACKET_LIMIT_TEN = 20;
 		final double BRACKET_LIMIT_TWELVE = 20;
