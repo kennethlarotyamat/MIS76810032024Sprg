@@ -33,6 +33,7 @@ public class IndividualAssignmentOne {
 
             taxDue = (taxableIncome <= BRACKET_LIMIT_TEN) ? taxableIncome * TEN_PERCENT
                     : (BRACKET_LIMIT_TEN * TEN_PERCENT) + ((taxableIncome - BRACKET_LIMIT_TEN) * TWELVE_PERCENT);
+                    
             // I'm making progress here. thank god!
             // I have to convert this ternary conditional operators to if or else if or if else statements because
             // I'm already confused about how to do the next ternary conditional operators in the chain.
@@ -57,7 +58,7 @@ taxDue = (taxableIncome <= BRACKET_LIMIT_TEN) ?
 		taxDue = taxableIncome * (taxableIncome <= BRACKET_LIMIT_TEN ? TEN_PERCENT : (TWELVE_PERCENT - (11000 * TEN_PERCENT)));
 
 
-        
+
 		final double BRACKET_LIMIT_TEN = 20;
 //37% on taxable income over $578,126 or more
 //	    10% on taxable income from $0 to $11,000, plus
