@@ -60,6 +60,7 @@ public class IndividualAssignmentOne {
                                         ((BRACKET_LIMIT_TWENTY_TWO - BRACKET_LIMIT_TWELVE) * TWENTY_TWO_PERCENT) +
                                         ((taxableIncome - BRACKET_LIMIT_TWENTY_TWO) * TWENTY_FOUR_PERCENT) 
                                         
+                        // end 24
                                         :           THIRTY_SEVEN_PERCENT ;  // REPLACE THIS WHEN READY
 
 
