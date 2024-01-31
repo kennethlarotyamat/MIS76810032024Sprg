@@ -3,16 +3,81 @@ package edu.unlv.mis.kly.w3;
 import java.util.Scanner;
 
 public class IndividualAssignmentOne {
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		final double BASE_FEE = 4.5;
+		final double OVERWEIGHT_FEE = 7;
+		final double WEIGHT_LIMIT = 20;
+		
+		double weight;
+		double charge;
+		
+		Scanner kb = new Scanner(System.in);
+		try {
+			
+
+		
+		System.out.print("Please enter your taxable income: ");
+		weight = kb.nextDouble();
+		
+		charge = weight * (weight<=WEIGHT_LIMIT? BASE_FEE: OVERWEIGHT_FEE);
+		
+		System.out.print("The total charge is: $" +charge);
+	} 
+
+	finally {
+		kb.close();
+	}
+
+	}
 
 }
 
 /*
 
 
+		final String CLASS_1 = "$15";
+		final String CLASS_2 = "$15";
+		final String CLASS_3 = "$25";
+		final String CLASS_4 = "$35";
+		final String OTHER = "Invalid";
 
 
 
 
+
+
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		final double BASE_FEE = 4.5;
+		final double OVERWEIGHT_FEE = 7;
+		final double WEIGHT_LIMIT = 20;
+		
+		double weight;
+		double charge;
+		
+		Scanner kb = new Scanner(System.in);
+		try {
+			
+
+		
+		System.out.print("Please enter the weight of the package:");
+		weight = kb.nextDouble();
+		
+		charge = weight * (weight<=WEIGHT_LIMIT? BASE_FEE: OVERWEIGHT_FEE);
+		
+		System.out.print("The total charge is:$" +charge);
+	} 
+
+	finally {
+		kb.close();
+	}
+
+	}
+	
+	
 package com.chestnutandhazel.edu.unlv.mis768.labwork;
 
 public class WageCalculatorP {
