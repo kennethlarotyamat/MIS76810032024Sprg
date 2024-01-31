@@ -37,17 +37,19 @@ public class IndividualAssignmentOne {
             } else {
                 taxDue =
                         // start brackets
-                        (0 < taxableIncome && taxableIncome <= BRACKET_LIMIT_TEN)
-                        ? taxableIncome * TEN_PERCENT
+                                        (0 < taxableIncome && taxableIncome <= BRACKET_LIMIT_TEN)
+                                        ? 
+                                        taxableIncome * TEN_PERCENT
                         //end 10
-                                : (BRACKET_LIMIT_TEN < taxableIncome && taxableIncome <= BRACKET_LIMIT_TWELVE)
-                                        ? (BRACKET_LIMIT_TEN * TEN_PERCENT)
-                                                + ((taxableIncome - BRACKET_LIMIT_TEN) * TWELVE_PERCENT)
+                                        : (BRACKET_LIMIT_TEN < taxableIncome && taxableIncome <= BRACKET_LIMIT_TWELVE)
+                                        ? 
+                                        (BRACKET_LIMIT_TEN * TEN_PERCENT) +
+                                        ((taxableIncome - BRACKET_LIMIT_TEN) * TWELVE_PERCENT)
                         // end 12
                                         : (BRACKET_LIMIT_TWELVE < taxableIncome && taxableIncome <= BRACKET_LIMIT_TWENTY_TWO)
                                         ?
                                         (BRACKET_LIMIT_TEN * TEN_PERCENT) + 
-                                        ((BRACKET_LIMIT_TWELVE) * TWELVE_PERCENT) +
+                                        ((BRACKET_LIMIT_TWELVE - BRACKET_LIMIT_TEN) * TWELVE_PERCENT) +
                                         ((taxableIncome - BRACKET_LIMIT_TWELVE) * TWENTY_TWO_PERCENT)
 
                         // end 22
@@ -68,6 +70,32 @@ public class IndividualAssignmentOne {
 
 }
 /*
+
+
+I had to use a spreadsheet to figure out what was wrong with my math
+
+the issue was that the first 11000 was being double taxed at the 12 percent bracket
+
+
+
+		92750		10% on taxable income from $0 to $11,000, plus		
+				12% on taxable income over $11,001 to $44,725, plus		
+				22% on taxable income over $44,726 to $95,375, plus		
+						
+						
+						
+						
+						
+		11000	0.1	1100		
+		44725	0.12	5367		
+		48025	0.22	10565.5		
+						
+				17032.5		
+						
+						
+						
+						
+
 
 (BRACKET_LIMIT_TWELVE < taxableIncome && taxableIncome <= BRACKET_LIMIT_TWENTY_TWO)
 ?
