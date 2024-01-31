@@ -8,7 +8,14 @@ public class IndividualAssignmentOne {
 
 		final double BASE_FEE = 4.5;
 		final double OVERWEIGHT_FEE = 7;
-		final double WEIGHT_LIMIT = 20;
+		
+		final double BRACKET_LIMIT_TEN = 20;
+		final double BRACKET_LIMIT_TWELVE = 20;
+		final double BRACKET_LIMIT_TWENTY_TWO = 20;
+		final double BRACKET_LIMIT_TWENTY_FOUR = 20;
+		final double BRACKET_LIMIT_THIRTY_TWO = 20;
+		final double BRACKET_LIMIT_THIRTY_FIVE = 20;
+		final double BRACKET_LIMIT_THIRTY_SEVEN = 20;
 		
 		double taxableIncome;
 		double taxDue;
@@ -21,7 +28,7 @@ public class IndividualAssignmentOne {
 		System.out.print("Please enter your taxable income: ");
 		taxableIncome = kb.nextDouble();
 		
-		taxDue = taxableIncome * (taxableIncome<=WEIGHT_LIMIT? BASE_FEE: OVERWEIGHT_FEE);
+		taxDue = taxableIncome * (taxableIncome<=BRACKET_LIMIT_TEN? BASE_FEE: OVERWEIGHT_FEE);
 		
 		System.out.print("The total tax due is: $" +taxDue);
 	} 
@@ -34,13 +41,33 @@ public class IndividualAssignmentOne {
 
 }
 
-
-
-
-
-
 /*
 
+
+
+
+		final double BRACKET_LIMIT_TEN = 20;
+//37% on taxable income over $578,126 or more
+//	    10% on taxable income from $0 to $11,000, plus
+//12% on taxable income over $11,001 to $44,725, plus
+//22% on taxable income over $44,726 to $95,375, plus
+//24% on taxable income over $95,376 to $182,100, plus
+//32% on taxable income over $182,101 to $231,250, plus
+//35% on taxable income over $231,251 to $578,125, plus
+    10% on taxable income from $0 to $11,000, plus
+    		final double BRACKET_LIMIT_TEN = 20;
+    12% on taxable income over $11,001 to $44,725, plus
+    		final double BRACKET_LIMIT_TWELVE = 20;
+    22% on taxable income over $44,726 to $95,375, plus
+    		final double BRACKET_LIMIT_TWENTY_TWO = 20;
+    24% on taxable income over $95,376 to $182,100, plus
+    		final double BRACKET_LIMIT_TWENTY-FOUR = 20;
+    32% on taxable income over $182,101 to $231,250, plus
+    		final double BRACKET_LIMIT_THIRTY_TWO = 20;
+    35% on taxable income over $231,251 to $578,125, plus
+    		final double BRACKET_LIMIT_THIRTY_FIVE = 20;
+    37% on taxable income over $578,126 or more
+    		final double BRACKET_LIMIT_THIRTY_SEVEN = 20;
 
 taxDue
 		// TODO Auto-generated method stub
@@ -49,12 +76,19 @@ taxDue
 taxableIncome
 
     10% on taxable income from $0 to $11,000, plus
+    		final double BRACKET_LIMIT_TEN = 20;
     12% on taxable income over $11,001 to $44,725, plus
+    		final double BRACKET_LIMIT_TWELVE = 20;
     22% on taxable income over $44,726 to $95,375, plus
+    		final double BRACKET_LIMIT_TWENTY_TWO = 20;
     24% on taxable income over $95,376 to $182,100, plus
+    		final double BRACKET_LIMIT_TWENTY-FOUR = 20;
     32% on taxable income over $182,101 to $231,250, plus
+    		final double BRACKET_LIMIT_THIRTY_TWO = 20;
     35% on taxable income over $231,251 to $578,125, plus
+    		final double BRACKET_LIMIT_THIRTY_FIVE = 20;
     37% on taxable income over $578,126 or more
+    		final double BRACKET_LIMIT_THIRTY_SEVEN = 20;
     
     
 
