@@ -14,13 +14,13 @@ public class IndividualAssignmentOne {
         final double THIRTY_FIVE_PERCENT = 0.35;
         final double THIRTY_SEVEN_PERCENT = 0.37;
 		
-		final double BRACKET_LIMIT_TEN = 20;
-		final double BRACKET_LIMIT_TWELVE = 20;
-		final double BRACKET_LIMIT_TWENTY_TWO = 20;
-		final double BRACKET_LIMIT_TWENTY_FOUR = 20;
-		final double BRACKET_LIMIT_THIRTY_TWO = 20;
-		final double BRACKET_LIMIT_THIRTY_FIVE = 20;
-		final double BRACKET_LIMIT_THIRTY_SEVEN = 20;
+		final double BRACKET_LIMIT_TEN = 11000;
+		final double BRACKET_LIMIT_TWELVE = 44725;
+		final double BRACKET_LIMIT_TWENTY_TWO = 95375;
+		final double BRACKET_LIMIT_TWENTY_FOUR = 182100;
+		final double BRACKET_LIMIT_THIRTY_TWO = 231250;
+		final double BRACKET_LIMIT_THIRTY_FIVE = 578125;
+		final double BRACKET_LIMIT_THIRTY_SEVEN = 578126;
 		
 		double taxableIncome;
 		double taxDue;
@@ -71,7 +71,7 @@ public class IndividualAssignmentOne {
     		final double BRACKET_LIMIT_THIRTY_TWO = 20;
     35% on taxable income over $231,251 to $578,125, plus
     		final double BRACKET_LIMIT_THIRTY_FIVE = 20;
-    37% on taxable income over $578,126 or more
+    37% on taxable income over $578,126 or more                         578126
     		final double BRACKET_LIMIT_THIRTY_SEVEN = 20;
 
 taxDue
@@ -82,15 +82,15 @@ taxableIncome
 
     10% on taxable income from $0 to $11,000, plus                  11000
     		final double BRACKET_LIMIT_TEN = 20;
-    12% on taxable income over $11,001 to $44,725, plus             44,725
+    12% on taxable income over $11,001 to $44,725, plus             44725
     		final double BRACKET_LIMIT_TWELVE = 20;
-    22% on taxable income over $44,726 to $95,375, plus             95,375
+    22% on taxable income over $44,726 to $95,375, plus             95375
     		final double BRACKET_LIMIT_TWENTY_TWO = 20;
-    24% on taxable income over $95,376 to $182,100, plus            182,100
+    24% on taxable income over $95,376 to $182,100, plus            182100
     		final double BRACKET_LIMIT_TWENTY-FOUR = 20;
-    32% on taxable income over $182,101 to $231,250, plus           231,250
+    32% on taxable income over $182,101 to $231,250, plus           231250
     		final double BRACKET_LIMIT_THIRTY_TWO = 20;
-    35% on taxable income over $231,251 to $578,125, plus           578,125
+    35% on taxable income over $231,251 to $578,125, plus           578125
     		final double BRACKET_LIMIT_THIRTY_FIVE = 20;
     37% on taxable income over $578,126 or more
     		final double BRACKET_LIMIT_THIRTY_SEVEN = 20;
