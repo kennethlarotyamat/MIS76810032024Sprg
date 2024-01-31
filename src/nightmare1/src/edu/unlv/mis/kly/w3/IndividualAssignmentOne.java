@@ -35,11 +35,13 @@ public class IndividualAssignmentOne {
             if (taxableIncome < 0) {
                 System.out.print("Negative taxable income cannot be processed.");
             } else {
-                taxDue = (taxableIncome <= BRACKET_LIMIT_TEN && taxableIncome > 0) ? taxableIncome * TEN_PERCENT
-                        : (taxableIncome <= BRACKET_LIMIT_TWELVE && BRACKET_LIMIT_TEN < taxableIncome)
-                                ? (BRACKET_LIMIT_TEN * TEN_PERCENT)
-                                        + ((taxableIncome - BRACKET_LIMIT_TEN) * TWELVE_PERCENT)
-                                : TWENTY_TWO_PERCENT;
+                taxDue =
+
+                        (taxableIncome <= BRACKET_LIMIT_TEN && taxableIncome > 0) ? taxableIncome * TEN_PERCENT
+                                : (taxableIncome <= BRACKET_LIMIT_TWELVE && BRACKET_LIMIT_TEN < taxableIncome)
+                                        ? (BRACKET_LIMIT_TEN * TEN_PERCENT)
+                                                + ((taxableIncome - BRACKET_LIMIT_TEN) * TWELVE_PERCENT)
+                                        : TWENTY_TWO_PERCENT;
 
                 System.out.print("The total tax due is: $" + taxDue);
             }
