@@ -36,6 +36,9 @@ public class IndividualAssignmentOne {
                             ? (BRACKET_LIMIT_TEN * TEN_PERCENT) + ((taxableIncome - BRACKET_LIMIT_TEN) * TWELVE_PERCENT)
                             : TWENTY_TWO_PERCENT;
 
+
+            // i need a ternary conditional operator for before the first tax bracket for negative numbers
+            // something like if taxable income is  less than zero
             // I'm making progress here. thank god!
             // I have to convert this ternary conditional operators to if or else if or if
             // else statements because
