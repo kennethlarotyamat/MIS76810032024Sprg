@@ -5,13 +5,13 @@ import java.util.Scanner;
 public class IndividualAssignmentOne {
 	
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+
 		final double BASE_FEE = 4.5;
 		final double OVERWEIGHT_FEE = 7;
 		final double WEIGHT_LIMIT = 20;
 		
 		double taxableIncome;
-		double charge;
+		double taxDue;
 		
 		Scanner kb = new Scanner(System.in);
 		try {
@@ -21,9 +21,9 @@ public class IndividualAssignmentOne {
 		System.out.print("Please enter your taxable income: ");
 		taxableIncome = kb.nextDouble();
 		
-		charge = taxableIncome * (taxableIncome<=WEIGHT_LIMIT? BASE_FEE: OVERWEIGHT_FEE);
+		taxDue = taxableIncome * (taxableIncome<=WEIGHT_LIMIT? BASE_FEE: OVERWEIGHT_FEE);
 		
-		System.out.print("The total tax due is: $" +charge);
+		System.out.print("The total tax due is: $" +taxDue);
 	} 
 
 	finally {
@@ -40,6 +40,11 @@ public class IndividualAssignmentOne {
 
 
 /*
+
+
+taxDue
+		// TODO Auto-generated method stub
+
 
 taxableIncome
 
