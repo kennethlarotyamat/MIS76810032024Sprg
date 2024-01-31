@@ -44,8 +44,16 @@ public class IndividualAssignmentOne {
                                         ? (BRACKET_LIMIT_TEN * TEN_PERCENT)
                                                 + ((taxableIncome - BRACKET_LIMIT_TEN) * TWELVE_PERCENT)
                         // end 12
-                                        : TWENTY_TWO_PERCENT;  // REPLACE THIS WHEN READY
+                                        : (BRACKET_LIMIT_TWELVE < taxableIncome && taxableIncome <= BRACKET_LIMIT_TWENTY_TWO)
+                                        ?
+                                        (BRACKET_LIMIT_TEN * TEN_PERCENT) + 
+                                        ((taxableIncome - BRACKET_LIMIT_TEN) * TWELVE_PERCENT) +
+                                        ((taxableIncome - BRACKET_LIMIT_TWELVE) * TWENTY_TWO_PERCENT)
+
                         // end 22
+                                        
+                                        :           THIRTY_SEVEN_PERCENT ;  // REPLACE THIS WHEN READY
+
 
                 System.out.print("The total tax due is: $" + taxDue);
             }
@@ -60,6 +68,12 @@ public class IndividualAssignmentOne {
 
 }
 /*
+
+(BRACKET_LIMIT_TWELVE < taxableIncome && taxableIncome <= BRACKET_LIMIT_TWENTY_TWO)
+?
+(BRACKET_LIMIT_TEN * TEN_PERCENT) + 
+((taxableIncome - BRACKET_LIMIT_TEN) * TWELVE_PERCENT) +
+((taxableIncome - BRACKET_LIMIT_TWELVE) * TWENTY_TWO_PERCENT)
 
 (taxableIncome <= BRACKET_LIMIT_TEN && taxableIncome > 0)                           
                         (taxableIncome <= BRACKET_LIMIT_TEN && taxableIncome > 0) 
