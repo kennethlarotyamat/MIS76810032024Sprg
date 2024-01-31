@@ -3,54 +3,56 @@ package edu.unlv.mis.kly.w3;
 import java.util.Scanner;
 
 public class IndividualAssignmentOne {
-	
-	public static void main(String[] args) {
 
-		final double TEN_PERCENT = 0.10;
-		final double TWELVE_PERCENT = 0.12;
+    public static void main(String[] args) {
+
+        final double TEN_PERCENT = 0.10;
+        final double TWELVE_PERCENT = 0.12;
         final double TWENTY_TWO_PERCENT = 0.22;
         final double LIMIT_TWENTY_FOUR_PERCENT = 0.24;
         final double THIRTY_TWO_PERCENT = 0.32;
         final double THIRTY_FIVE_PERCENT = 0.35;
         final double THIRTY_SEVEN_PERCENT = 0.37;
-		
-		final double BRACKET_LIMIT_TEN = 11000;
-		final double BRACKET_LIMIT_TWELVE = 44725;
-		final double BRACKET_LIMIT_TWENTY_TWO = 95375;
-		final double BRACKET_LIMIT_TWENTY_FOUR = 182100;
-		final double BRACKET_LIMIT_THIRTY_TWO = 231250;
-		final double BRACKET_LIMIT_THIRTY_FIVE = 578125;
-		final double BRACKET_LIMIT_THIRTY_SEVEN = 578126;
-		
-		double taxableIncome;
-		double taxDue;
-		
-		Scanner kb = new Scanner(System.in);
-		try {
-			
 
-		
-		System.out.print("Please enter your taxable income: ");
-		taxableIncome = kb.nextDouble();
-		
-		taxDue = taxableIncome * (taxableIncome<=BRACKET_LIMIT_TEN? TEN_PERCENT: OVERWEIGHT_FEE);
-		
-		System.out.print("The total tax due is: $" +taxDue);
-	} 
+        final double BRACKET_LIMIT_TEN = 11000;
+        final double BRACKET_LIMIT_TWELVE = 44725;
+        final double BRACKET_LIMIT_TWENTY_TWO = 95375;
+        final double BRACKET_LIMIT_TWENTY_FOUR = 182100;
+        final double BRACKET_LIMIT_THIRTY_TWO = 231250;
+        final double BRACKET_LIMIT_THIRTY_FIVE = 578125;
+        final double BRACKET_LIMIT_THIRTY_SEVEN = 578126;
 
-	finally {
-		kb.close();
-	}
+        double taxableIncome;
+        double taxDue;
 
-	}
+        Scanner kb = new Scanner(System.in);
+        try {
+
+            System.out.print("Please enter your taxable income: ");
+            taxableIncome = kb.nextDouble();
+
+            taxDue = (taxableIncome <= BRACKET_LIMIT_TEN) ? taxableIncome * TEN_PERCENT
+                    : (BRACKET_LIMIT_TEN * TEN_PERCENT) + ((taxableIncome - BRACKET_LIMIT_TEN) * TWELVE_PERCENT);
+            // I'm making progress here. thank god!
+
+            System.out.print("The total tax due is: $" + taxDue);
+        }
+
+        finally {
+            kb.close();
+        }
+
+    }
 
 }
 
 /*
 
+taxDue = (taxableIncome <= BRACKET_LIMIT_TEN) ?
+          taxableIncome * TEN_PERCENT :
+          (BRACKET_LIMIT_TEN * TEN_PERCENT) + ((taxableIncome - BRACKET_LIMIT_TEN) * TWELVE_PERCENT);
 
-
-
+		taxDue = taxableIncome * (taxableIncome <= BRACKET_LIMIT_TEN ? TEN_PERCENT : (TWELVE_PERCENT - (11000 * TEN_PERCENT)));
 		final double BRACKET_LIMIT_TEN = 20;
 //37% on taxable income over $578,126 or more
 //	    10% on taxable income from $0 to $11,000, plus
