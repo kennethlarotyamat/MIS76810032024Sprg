@@ -32,7 +32,7 @@ public class IndividualAssignmentOne {
             System.out.print("Please enter your taxable income: ");
             taxableIncome = kb.nextDouble();
 
-            taxDue = (taxableIncome <= BRACKET_LIMIT_TEN) ? taxableIncome * TEN_PERCENT
+            taxDue = (taxableIncome <= BRACKET_LIMIT_TEN && taxableIncome < 0) ? taxableIncome * TEN_PERCENT
                     : (taxableIncome <= BRACKET_LIMIT_TWELVE && BRACKET_LIMIT_TEN < taxableIncome)
                             ? (BRACKET_LIMIT_TEN * TEN_PERCENT) + ((taxableIncome - BRACKET_LIMIT_TEN) * TWELVE_PERCENT)
                             : TWENTY_TWO_PERCENT;
