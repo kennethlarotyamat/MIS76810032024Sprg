@@ -9,7 +9,7 @@ public class IndividualAssignmentOne {
         final double TEN_PERCENT = 0.10;
         final double TWELVE_PERCENT = 0.12;
         final double TWENTY_TWO_PERCENT = 0.22;
-        final double LIMIT_TWENTY_FOUR_PERCENT = 0.24;
+        final double TWENTY_FOUR_PERCENT = 0.24;
         final double THIRTY_TWO_PERCENT = 0.32;
         final double THIRTY_FIVE_PERCENT = 0.35;
         final double THIRTY_SEVEN_PERCENT = 0.37;
@@ -53,6 +53,12 @@ public class IndividualAssignmentOne {
                                         ((taxableIncome - BRACKET_LIMIT_TWELVE) * TWENTY_TWO_PERCENT)
 
                         // end 22
+                                        : (BRACKET_LIMIT_TWENTY_TWO < taxableIncome && taxableIncome <= BRACKET_LIMIT_TWENTY_FOUR)
+                                        ?
+                                        (BRACKET_LIMIT_TEN * TEN_PERCENT) + 
+                                        ((BRACKET_LIMIT_TWELVE - BRACKET_LIMIT_TEN) * TWELVE_PERCENT) +
+                                        ((BRACKET_LIMIT_TWENTY_TWO - BRACKET_LIMIT_TWELVE) * TWENTY_TWO_PERCENT) +
+                                        ((taxableIncome - BRACKET_LIMIT_TWENTY_TWO) * TWENTY_FOUR_PERCENT) 
                                         
                                         :           THIRTY_SEVEN_PERCENT ;  // REPLACE THIS WHEN READY
 
@@ -71,7 +77,14 @@ public class IndividualAssignmentOne {
 }
 /*
 
+//
 
+: (BRACKET_LIMIT_TWENTY_TWO < taxableIncome && taxableIncome <= BRACKET_LIMIT_TWENTY_FOUR)
+?
+(BRACKET_LIMIT_TEN * TEN_PERCENT) + 
+((BRACKET_LIMIT_TWELVE - BRACKET_LIMIT_TEN) * TWELVE_PERCENT) +
+((BRACKET_LIMIT_TWENTY_TWO - BRACKET_LIMIT_TWELVE) * TWENTY_TWO_PERCENT) +
+((taxableIncome - BRACKET_LIMIT_TWENTY_TWO) * TWENTY_FOUR_PERCENT) 
 
 
 
