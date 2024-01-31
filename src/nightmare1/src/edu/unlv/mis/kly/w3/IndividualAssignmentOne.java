@@ -47,7 +47,7 @@ public class IndividualAssignmentOne {
                                         : (BRACKET_LIMIT_TWELVE < taxableIncome && taxableIncome <= BRACKET_LIMIT_TWENTY_TWO)
                                         ?
                                         (BRACKET_LIMIT_TEN * TEN_PERCENT) + 
-                                        ((taxableIncome - BRACKET_LIMIT_TEN) * TWELVE_PERCENT) +
+                                        ((BRACKET_LIMIT_TWELVE) * TWELVE_PERCENT) +
                                         ((taxableIncome - BRACKET_LIMIT_TWELVE) * TWENTY_TWO_PERCENT)
 
                         // end 22
