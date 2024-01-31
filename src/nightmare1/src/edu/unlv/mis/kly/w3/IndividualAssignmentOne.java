@@ -8,6 +8,11 @@ public class IndividualAssignmentOne {
 
 /*
 
+there was another assignment, a package weight assignment, and this also might be another approach that i can use. it's
+something like a package weight calculator. or package weight pricing calculator.
+
+...
+
 I'm thinking that I should start off with something similar to the ticket class assignment
 
 Resources:
