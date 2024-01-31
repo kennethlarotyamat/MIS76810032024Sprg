@@ -31,12 +31,30 @@ public class IndividualAssignmentOne {
             System.out.print("Please enter your taxable income: ");
             taxableIncome = kb.nextDouble();
 
-            taxDue = (taxableIncome <= BRACKET_LIMIT_TEN) ? taxableIncome * TEN_PERCENT
-                    : (BRACKET_LIMIT_TEN * TEN_PERCENT) + ((taxableIncome - BRACKET_LIMIT_TEN) * TWELVE_PERCENT);
-                    
+            taxDue = (taxableIncome <= BRACKET_LIMIT_TEN) ? 
+            taxableIncome * TEN_PERCENT
+                    : (taxableIncome <= BRACKET_LIMIT_TWELVE && BRACKET_LIMIT_TEN < taxableIncome ) ? 
+                    (BRACKET_LIMIT_TEN * TEN_PERCENT) + ((taxableIncome - BRACKET_LIMIT_TEN) * TWELVE_PERCENT) : TWENTY_TWO_PERCENT;
+
             // I'm making progress here. thank god!
             // I have to convert this ternary conditional operators to if or else if or if else statements because
             // I'm already confused about how to do the next ternary conditional operators in the chain.
+
+            /*
+             * BRACKET_LIMIT_TEN < 
+             * taxDue = (taxableIncome <= BRACKET_LIMIT_TEN) ?
+             * taxableIncome * TEN_PERCENT :
+             * 
+             * (taxableIncome <= BRACKET_LIMIT_TWELVE) ?
+             * (BRACKET_LIMIT_TEN * TEN_PERCENT) + ((taxableIncome - BRACKET_LIMIT_TEN) *
+             * TWELVE_PERCENT) :
+             * 
+             * // Add additional condition or expression here if needed
+             * (BRACKET_LIMIT_TWELVE * TWELVE_PERCENT) + ((taxableIncome -
+             * BRACKET_LIMIT_TWELVE) * ANOTHER_PERCENT);
+             * 
+             * 
+             */
 
             System.out.print("The total tax due is: $" + taxDue);
         }
