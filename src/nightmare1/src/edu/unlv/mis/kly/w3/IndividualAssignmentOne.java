@@ -33,7 +33,7 @@ public class IndividualAssignmentOne {
 		System.out.print("Please enter your taxable income: ");
 		taxableIncome = kb.nextDouble();
 		
-		taxDue = taxableIncome * (taxableIncome<=BRACKET_LIMIT_TEN? BASE_FEE: OVERWEIGHT_FEE);
+		taxDue = taxableIncome * (taxableIncome<=BRACKET_LIMIT_TEN? TEN_PERCENT: OVERWEIGHT_FEE);
 		
 		System.out.print("The total tax due is: $" +taxDue);
 	} 
