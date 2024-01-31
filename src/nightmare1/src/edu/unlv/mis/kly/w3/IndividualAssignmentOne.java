@@ -8,6 +8,8 @@ public class IndividualAssignmentOne {
 
 /*
 
+I'm thinking that I should start off with something similar to the ticket class assignment
+
 Resources:
 
 https://docs.oracle.com/javase/8/docs/api/java/lang/Math.html
