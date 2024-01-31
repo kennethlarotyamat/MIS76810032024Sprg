@@ -113,7 +113,12 @@ public class IndividualAssignmentOne {
  * final double BRACKET_LIMIT_THIRTY_SEVEN = 20;
  * 
  * taxDue
- * // TODO Auto-generated method stub
+ * // 
+ * 
+ * TO1DO Auto- 
+ * generated 
+ * method  
+ * stub
  * 
  * 
  * taxableIncome
@@ -148,7 +153,7 @@ public class IndividualAssignmentOne {
  * 
  * 
  * public static void main(String[] args) {
- * // TODO Auto-generated method stub
+ * // TO1DO Auto-generated method stub
  * final double BASE_FEE = 4.5;
  * final double OVERWEIGHT_FEE = 7;
  * final double WEIGHT_LIMIT = 20;
