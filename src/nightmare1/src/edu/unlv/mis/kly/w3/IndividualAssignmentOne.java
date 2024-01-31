@@ -8,6 +8,14 @@ public class IndividualAssignmentOne {
 
 /*
 
+Resources:
+
+https://docs.oracle.com/javase/8/docs/api/java/lang/Math.html
+
+https://www.w3schools.com/java/java_math.asp
+
+https://www.javatpoint.com/java-math
+
 
 Availability and Response Time
 I will be logging in to this course to answer questions and provide feedback twice a day Monday-Friday. I will not be answering questions over the weekends or on holidays. 
