@@ -16,6 +16,10 @@ https://www.w3schools.com/java/java_math.asp
 
 https://www.javatpoint.com/java-math
 
+https://docs.oracle.com/javase/tutorial/java/concepts/
+
+https://www.geeksforgeeks.org/java-math-class/
+
 
 Availability and Response Time
 I will be logging in to this course to answer questions and provide feedback twice a day Monday-Friday. I will not be answering questions over the weekends or on holidays. 
