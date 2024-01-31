@@ -1,10 +1,23 @@
 package edu.unlv.mis.kly.w3;
 
+import java.util.Scanner;
+
 public class IndividualAssignmentOne {
 
 }
 
 /*
+
+
+Availability and Response Time
+I will be logging in to this course to answer questions and provide feedback twice a day Monday-Friday. I will not be answering questions over the weekends or on holidays. 
+
+You can attend the Office Hours on Tuesdays and Thursdays from 12-2 pm: https://calendar.app.google/4o3svZoNqmAyi61cALinks to an external site..
+If the regular office hours do not work for you, please feel free to email me to set up appointments.
+Resources
+How do I send a message to a user (including the instructor) in a course in the InboxLinks to an external site.?
+
+...
 
 Correction: Assignment 1 tax bracket
 Han-Fen Hu (She/Her)
