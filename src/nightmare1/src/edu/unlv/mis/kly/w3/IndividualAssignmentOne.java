@@ -8,6 +8,12 @@ public class IndividualAssignmentOne {
 
 /*
 
+Resources:
+
+https://www.geeksforgeeks.org/java-math-class/
+
+...
+
 there was another assignment, a package weight assignment, and this also might be another approach that i can use. it's
 something like a package weight calculator. or package weight pricing calculator.
 

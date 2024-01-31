@@ -38,6 +38,35 @@ public class ConditionalOperatorExample {
 /* 
 
 
+wait. it is in effect. never mind.
+I thought that the weight limit would prevent the package from being shipped, but the weight limit determines if or not
+the package is subject to an overweight fee.
+
+...
+
+
+THere is a weight limit here that isn't actually in effect.
+
+...
+
+		  try {
+			System.out.print("Enter Ticket Class 1, 2, 3 or 4: ");
+
+			ticketClass = keyboard.next().charAt(0); 
+
+            if (ticketClass == '1') {
+                System.out.print("Ticket Class 1 has been added to your cart, the amount due is $15");
+            } else if (ticketClass == '2') {
+                System.out.print("Ticket Class 2 has been added to your cart, the amount due is $15");
+            } else if (ticketClass == '3') {
+                System.out.print("Ticket Class 3 has been added to your cart, the amount due is $25");
+            } else if (ticketClass == '4') {
+                System.out.print("Ticket Class 4 has been added to your cart, the amount due is $35");
+            } else {
+                System.out.print("The ticket class entered is not a valid ticket class");
+            }
+
+
 
 
 
