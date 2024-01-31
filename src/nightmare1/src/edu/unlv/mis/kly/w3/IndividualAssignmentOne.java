@@ -25,7 +25,6 @@ public class IndividualAssignmentOne {
         double taxableIncome;
         double taxDue;
 
-
         Scanner kb = new Scanner(System.in);
         try {
 
@@ -37,25 +36,25 @@ public class IndividualAssignmentOne {
             } else {
                 taxDue =
                         // start brackets
-                                        (0 < taxableIncome && taxableIncome <= BRACKET_LIMIT_TEN)
-                                        ? 
-                                        taxableIncome * TEN_PERCENT
-                        //end 10
-                                        : (BRACKET_LIMIT_TEN < taxableIncome && taxableIncome <= BRACKET_LIMIT_TWELVE)
-                                        ? 
-                                        (BRACKET_LIMIT_TEN * TEN_PERCENT) +
-                                        ((taxableIncome - BRACKET_LIMIT_TEN) * TWELVE_PERCENT)
-                        // end 12
-                                        : (BRACKET_LIMIT_TWELVE < taxableIncome && taxableIncome <= BRACKET_LIMIT_TWENTY_TWO)
-                                        ?
-                                        (BRACKET_LIMIT_TEN * TEN_PERCENT) + 
-                                        ((BRACKET_LIMIT_TWELVE - BRACKET_LIMIT_TEN) * TWELVE_PERCENT) +
-                                        ((taxableIncome - BRACKET_LIMIT_TWELVE) * TWENTY_TWO_PERCENT)
+                        (0 < taxableIncome && taxableIncome <= BRACKET_LIMIT_TEN)
+                                ? taxableIncome * TEN_PERCENT
+                                // end 10
+                                : (BRACKET_LIMIT_TEN < taxableIncome && taxableIncome <= BRACKET_LIMIT_TWELVE)
+                                        ? (BRACKET_LIMIT_TEN * TEN_PERCENT) +
+                                                ((taxableIncome - BRACKET_LIMIT_TEN) * TWELVE_PERCENT)
+                                        // end 12
+                                        : (BRACKET_LIMIT_TWELVE < taxableIncome
+                                                && taxableIncome <= BRACKET_LIMIT_TWENTY_TWO)
+                                                        ? (BRACKET_LIMIT_TEN * TEN_PERCENT) +
+                                                                ((BRACKET_LIMIT_TWELVE - BRACKET_LIMIT_TEN)
+                                                                        * TWELVE_PERCENT)
+                                                                +
+                                                                ((taxableIncome - BRACKET_LIMIT_TWELVE)
+                                                                        * TWENTY_TWO_PERCENT)
 
-                        // end 22
-                                        
-                                        :           THIRTY_SEVEN_PERCENT ;  // REPLACE THIS WHEN READY
+                                                        // end 22
 
+                                                        : THIRTY_SEVEN_PERCENT; // REPLACE THIS WHEN READY
 
                 System.out.print("The total tax due is: $" + taxDue);
             }
@@ -70,6 +69,17 @@ public class IndividualAssignmentOne {
 
 }
 /*
+
+
+
+
+
+
+
+
+
+
+
 
 //      double negativeTaxableIncome; // I wont be using this
 I had to use a spreadsheet to figure out what was wrong with my math
