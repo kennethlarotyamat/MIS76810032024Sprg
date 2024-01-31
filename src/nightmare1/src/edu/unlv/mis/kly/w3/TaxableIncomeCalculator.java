@@ -8,7 +8,7 @@ package edu.unlv.mis.kly.w3;
 
 import java.util.Scanner;
 
-public class IndividualAssignmentOne {
+public class TaxableIncomeCalculator {
 
     public static void main(String[] args) {
 
