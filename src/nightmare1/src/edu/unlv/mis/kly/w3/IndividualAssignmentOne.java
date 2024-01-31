@@ -6,13 +6,13 @@ public class IndividualAssignmentOne {
 	
 	public static void main(String[] args) {
 
-		final double TEN_PERCENT = 4.5;
-		final double TWELVE_PERCENT = 7;
-        final double TWENTY_TWO_PERCENT = 7;
-        final double LIMIT_TWENTY_FOUR_PERCENT = 7;
-        final double THIRTY_TWO_PERCENT = 7;
-        final double THIRTY_FIVE_PERCENT = 7;
-        final double THIRTY_SEVEN_PERCENT = 7;
+		final double TEN_PERCENT = 0.10;
+		final double TWELVE_PERCENT = 0.12;
+        final double TWENTY_TWO_PERCENT = 0.22;
+        final double LIMIT_TWENTY_FOUR_PERCENT = 0.24;
+        final double THIRTY_TWO_PERCENT = 0.32;
+        final double THIRTY_FIVE_PERCENT = 0.35;
+        final double THIRTY_SEVEN_PERCENT = 0.37;
 		
 		final double BRACKET_LIMIT_TEN = 20;
 		final double BRACKET_LIMIT_TWELVE = 20;
