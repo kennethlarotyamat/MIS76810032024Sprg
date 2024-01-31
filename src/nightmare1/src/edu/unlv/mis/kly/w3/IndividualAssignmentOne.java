@@ -37,11 +37,15 @@ public class IndividualAssignmentOne {
             } else {
                 taxDue =
 
-                        (taxableIncome <= BRACKET_LIMIT_TEN && taxableIncome > 0) ? taxableIncome * TEN_PERCENT
+                        (taxableIncome <= BRACKET_LIMIT_TEN && taxableIncome > 0) 
+                        ? taxableIncome * TEN_PERCENT
+                        //end 10
                                 : (taxableIncome <= BRACKET_LIMIT_TWELVE && BRACKET_LIMIT_TEN < taxableIncome)
                                         ? (BRACKET_LIMIT_TEN * TEN_PERCENT)
                                                 + ((taxableIncome - BRACKET_LIMIT_TEN) * TWELVE_PERCENT)
+                        // end 12
                                         : TWENTY_TWO_PERCENT;
+                        // end 22
 
                 System.out.print("The total tax due is: $" + taxDue);
             }
@@ -55,6 +59,26 @@ public class IndividualAssignmentOne {
     }
 
 }
+/*
+
+(BRACKET_LIMIT_TEN < taxableIncome  &&     taxableIncome <= BRACKET_LIMIT_TWELVE )
+
+
+
+
+
+
+
+
+
+
+
+ */
+
+
+
+
+
 // i need a ternary conditional operator for before the first tax bracket for
 // negative numbers
 // something like if taxable income is less than zero
