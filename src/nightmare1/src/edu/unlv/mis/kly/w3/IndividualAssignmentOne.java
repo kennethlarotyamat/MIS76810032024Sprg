@@ -44,7 +44,7 @@ public class IndividualAssignmentOne {
                                         ? (BRACKET_LIMIT_TEN * TEN_PERCENT)
                                                 + ((taxableIncome - BRACKET_LIMIT_TEN) * TWELVE_PERCENT)
                         // end 12
-                                        : TWENTY_TWO_PERCENT;
+                                        : TWENTY_TWO_PERCENT;  // REPLACE THIS WHEN READY
                         // end 22
 
                 System.out.print("The total tax due is: $" + taxDue);
