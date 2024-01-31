@@ -36,7 +36,7 @@ public class IndividualAssignmentOne {
                 System.out.print("Negative taxable income cannot be processed.");
             } else {
                 taxDue =
-
+                        // start brackets
                         (0 < taxableIncome && taxableIncome <= BRACKET_LIMIT_TEN)
                         ? taxableIncome * TEN_PERCENT
                         //end 10
