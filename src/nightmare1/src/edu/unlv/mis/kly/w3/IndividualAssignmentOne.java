@@ -24,7 +24,7 @@ public class IndividualAssignmentOne {
 
         double taxableIncome;
         double taxDue;
-        double
+        double negativeTaxableIncome;
 
         Scanner kb = new Scanner(System.in);
         try {
