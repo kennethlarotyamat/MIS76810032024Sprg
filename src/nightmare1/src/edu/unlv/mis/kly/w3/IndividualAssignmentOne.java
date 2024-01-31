@@ -37,7 +37,7 @@ public class IndividualAssignmentOne {
             } else {
                 taxDue =
 
-                        (taxableIncome <= BRACKET_LIMIT_TEN && taxableIncome > 0) 
+                        (0 < taxableIncome && taxableIncome <= BRACKET_LIMIT_TEN)
                         ? taxableIncome * TEN_PERCENT
                         //end 10
                                 : (BRACKET_LIMIT_TEN < taxableIncome && taxableIncome <= BRACKET_LIMIT_TWELVE)
@@ -60,6 +60,14 @@ public class IndividualAssignmentOne {
 
 }
 /*
+
+(taxableIncome <= BRACKET_LIMIT_TEN && taxableIncome > 0)                           
+                        (taxableIncome <= BRACKET_LIMIT_TEN && taxableIncome > 0) 
+
+
+
+
+
 (taxableIncome <= BRACKET_LIMIT_TWELVE && BRACKET_LIMIT_TEN < taxableIncome)
 (BRACKET_LIMIT_TEN < taxableIncome  &&     taxableIncome <= BRACKET_LIMIT_TWELVE )
 
