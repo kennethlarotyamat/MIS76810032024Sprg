@@ -10,11 +10,14 @@ package edu.unlv.mis.kly.w3;
 
 import java.util.Scanner;
 
+// this was originally IndividualAssignmentOne, however, in order to follow correct naming conventions, it has been change to TaxableIncomeCalculator, since
+// the name of a class must describe what the class does.
 public class TaxableIncomeCalculator {
 
     public static void main(String[] args) {
 
-        // these are the various tax rates at which different
+        // these are the various tax rates used in calculating the
+        // amount of tax due
         final double TEN_PERCENT = 0.10;
         final double TWELVE_PERCENT = 0.12;
         final double TWENTY_TWO_PERCENT = 0.22;
@@ -24,6 +27,10 @@ public class TaxableIncomeCalculator {
         final double THIRTY_SEVEN_PERCENT = 0.37;
         final double ONE_HUNDRED_PERCENT = 1.00; // This is more or less not used, other than to end the ternary operator
 
+        // this are the upper limits of each marginal tax bracket
+        // the lower limit of any given tax bracket is basically the upper limit of the previous tax bracket
+        // this is resolved in the code by using the comparison operator < 
+
         final double BRACKET_LIMIT_TEN = 11000;
         final double BRACKET_LIMIT_TWELVE = 44725;
         final double BRACKET_LIMIT_TWENTY_TWO = 95375;
@@ -32,7 +39,7 @@ public class TaxableIncomeCalculator {
         final double BRACKET_LIMIT_THIRTY_FIVE = 578125;
         final double BRACKET_LIMIT_THIRTY_SEVEN = 578126;
 
-        double taxableIncome = 0.00;
+        double taxableIncome = 0.00; // this initializes taxableIncome - this will be updated later on by the user when they enter their taxable income
 
         boolean invalidInformation = false;
         double taxDue;
