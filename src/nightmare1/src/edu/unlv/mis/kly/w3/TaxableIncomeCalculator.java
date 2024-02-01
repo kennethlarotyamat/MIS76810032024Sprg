@@ -54,7 +54,8 @@ public class TaxableIncomeCalculator {
         }
 
         catch (java.util.InputMismatchException e) {
-            invalidInformation = true; // This causes any input other than a number to be classified as invalid information                   
+            // This causes any input other than a number to be classified as invalid information
+            invalidInformation = true;                    
         }
 
         if (taxableIncome < 0) {
