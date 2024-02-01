@@ -20,7 +20,7 @@ public class TaxableIncomeCalculator {
         final double THIRTY_TWO_PERCENT = 0.32;
         final double THIRTY_FIVE_PERCENT = 0.35;
         final double THIRTY_SEVEN_PERCENT = 0.37;
-        final double ONE_HUNDRED_PERCENT = 1.00;
+        final double ONE_HUNDRED_PERCENT = 1.00;     // This is more or less not used, other than to end the ternary operator
 
         final double BRACKET_LIMIT_TEN = 11000;
         final double BRACKET_LIMIT_TWELVE = 44725;
