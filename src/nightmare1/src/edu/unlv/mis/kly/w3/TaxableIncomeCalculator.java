@@ -69,15 +69,18 @@ public class TaxableIncomeCalculator {
                // like negative numbers, letters, or characters
             taxDue =
                         // start brackets
+                                        // 10% on taxable income from $0 to $11,000
                                         (0 <= taxableIncome && taxableIncome <= BRACKET_LIMIT_TEN)
                                         ? 
                                         taxableIncome * TEN_PERCENT
                         // end 10
+                                        // 12% on taxable income over $11,001 to $44,725
                                         : (BRACKET_LIMIT_TEN < taxableIncome && taxableIncome <= BRACKET_LIMIT_TWELVE)
                                         ? 
                                         (BRACKET_LIMIT_TEN * TEN_PERCENT) +
                                         ((taxableIncome - BRACKET_LIMIT_TEN) * TWELVE_PERCENT)
                         // end 12
+                                        // 22% on taxable income over $44,726 to $95,375
                                         : (BRACKET_LIMIT_TWELVE < taxableIncome && taxableIncome <= BRACKET_LIMIT_TWENTY_TWO)
                                         ?
                                         (BRACKET_LIMIT_TEN * TEN_PERCENT) + 
@@ -85,6 +88,7 @@ public class TaxableIncomeCalculator {
                                         ((taxableIncome - BRACKET_LIMIT_TWELVE) * TWENTY_TWO_PERCENT)
 
                         // end 22
+                                        // 24% on taxable income over $95,376 to $182,100,
                                         : (BRACKET_LIMIT_TWENTY_TWO < taxableIncome && taxableIncome <= BRACKET_LIMIT_TWENTY_FOUR)
                                         ?
                                         (BRACKET_LIMIT_TEN * TEN_PERCENT) + 
