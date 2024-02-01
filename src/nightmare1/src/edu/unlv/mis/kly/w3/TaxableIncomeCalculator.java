@@ -20,7 +20,7 @@ public class TaxableIncomeCalculator {
         final double THIRTY_TWO_PERCENT = 0.32;
         final double THIRTY_FIVE_PERCENT = 0.35;
         final double THIRTY_SEVEN_PERCENT = 0.37;
-        final double ONE_HUNDRED_PERCENT = 1.00;     // This is more or less not used, other than to end the ternary operator
+        final double ONE_HUNDRED_PERCENT = 1.00; // This is more or less not used, other than to end the ternary operator
 
         final double BRACKET_LIMIT_TEN = 11000;
         final double BRACKET_LIMIT_TWELVE = 44725;
@@ -41,7 +41,7 @@ public class TaxableIncomeCalculator {
         }
 
         catch (java.util.InputMismatchException e) {
-            invalidInformation = true;
+            invalidInformation = true; // This causes any input other than a number to be classified as invalid information                   
         }
 
         if (taxableIncome < 0) {
@@ -52,7 +52,7 @@ public class TaxableIncomeCalculator {
             System.out.print("The information entered is invalid.");
         }
 
-        else {
+        else { // this is where the taxes due calculations take place, after throwing out differnt types of invalid inputs, like negative numbers, letters, or characters
             taxDue =
                         // start brackets
                                         (0 < taxableIncome && taxableIncome <= BRACKET_LIMIT_TEN)
