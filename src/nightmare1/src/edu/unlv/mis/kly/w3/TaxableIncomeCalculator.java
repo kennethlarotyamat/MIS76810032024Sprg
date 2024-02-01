@@ -77,6 +77,7 @@ public class TaxableIncomeCalculator {
 
                         // end 32
                                         :           THIRTY_SEVEN_PERCENT ;  // REPLACE THIS WHEN READY
+                                                                            // REMEMBER TO CHECK BRACKET CONDITIONAL BRACKET RANGES
 
 
                 System.out.print("The total tax due is: $" + Math.ceil(taxDue));
