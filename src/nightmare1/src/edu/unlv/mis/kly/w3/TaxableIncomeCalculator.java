@@ -41,7 +41,7 @@ try{
     }
    
 catch(java.util.InputMismatchException e){
-        invalidInformation = false;
+        invalidInformation = true;
      }
 
      /*
