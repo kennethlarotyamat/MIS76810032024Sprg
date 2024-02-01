@@ -158,6 +158,17 @@ public class TaxableIncomeCalculator {
         // String taxableIncome = 0.00;
         /*
 
+        I tried to set the first article up for text to speech, but it was basically incomprehensible with all of the in-text citations.
+
+Extant literature is literature that has survived
+
+This audio version isn’t too bad
+
+I can’t believe it’s 55 pages after processing.
+
+Good lord it’s already thursday
+
+
         Module 3: It-Enabled Innovation 
 
 3.1: The Relation Between It And Organizational Innovation 
