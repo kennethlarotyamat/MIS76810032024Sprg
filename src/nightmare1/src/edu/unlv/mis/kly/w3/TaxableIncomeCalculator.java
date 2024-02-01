@@ -53,7 +53,8 @@ public class TaxableIncomeCalculator {
          * at java.base/java.util.Scanner.nextDouble(Scanner.java:2573)
          * at nightmare1/edu.unlv.mis.kly.w3.TaxableIncomeCalculator.main(
          * TaxableIncomeCalculator.java:39)
-         * 
+         *  what a nightmare. i think that this works. when i enter: uasofua0ifjoiasdjfo 
+         * or whatever, it prints the message "information not valid." 
          */
 
         if (taxableIncome < 0) {
