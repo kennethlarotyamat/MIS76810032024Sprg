@@ -59,10 +59,12 @@ public class TaxableIncomeCalculator {
         }
 
         if (taxableIncome < 0) {
+            // this throws out a negative number and informs the user that negative taxable income cannot be processed by this program.
             System.out.print("Negative taxable income cannot be processed.");
         }
 
         else if (invalidInformation) {
+            // this is active if a user enters non-numeric characters and informs the user that the information entered is not valid.
             System.out.print("The information entered is invalid.");
         }
 
