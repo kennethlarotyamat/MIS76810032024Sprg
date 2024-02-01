@@ -43,8 +43,8 @@ public class TaxDueCalculator {
 
         double taxableIncome = 0.00; // this initializes taxableIncome - this will be updated later on by the user when they enter their taxable income
 
-        boolean invalidInformation = false;
-        double taxDue;
+        boolean invalidInformation = false; // invalid information is being declared and initialized as false - this becomes true if the user enters invalid information
+        double taxDue = 0.00; // taxDue is declared and initialized
 
         Scanner kb = new Scanner(System.in);
         try {
