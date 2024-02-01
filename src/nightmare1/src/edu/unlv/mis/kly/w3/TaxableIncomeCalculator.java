@@ -129,7 +129,7 @@ public class TaxableIncomeCalculator {
                                         ((taxableIncome - BRACKET_LIMIT_THIRTY_FIVE) * THIRTY_SEVEN_PERCENT): ONE_HUNDRED_PERCENT;  // this one_hundred_percent isn't used other than to end the expression
                         // end 37
 
-                        System.out.print("The total tax due is: $" + Math.ceil(taxDue));
+                        System.out.print("The total tax due is: $" + Math.ceil(taxDue)); // Amount of tax due is rounded up to the nearest whole number
 
                     }
         			// this closes out the keyboard after the program runs
