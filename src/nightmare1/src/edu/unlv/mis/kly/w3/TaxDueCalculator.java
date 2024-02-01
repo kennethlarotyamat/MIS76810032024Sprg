@@ -136,12 +136,14 @@ public class TaxDueCalculator {
                                         ?
                                         (BRACKET_LIMIT_TEN * TEN_PERCENT) +                                                 // income taxable at 10%
                                         ((BRACKET_LIMIT_TWELVE - BRACKET_LIMIT_TEN) * TWELVE_PERCENT) +                     // income taxable at 12%
-                                        ((BRACKET_LIMIT_TWENTY_TWO - BRACKET_LIMIT_TWELVE) * TWENTY_TWO_PERCENT) +          // income taxable at 10%
-                                        ((BRACKET_LIMIT_TWENTY_FOUR - BRACKET_LIMIT_TWENTY_TWO) * TWENTY_FOUR_PERCENT) +
-                                        ((BRACKET_LIMIT_THIRTY_TWO - BRACKET_LIMIT_TWENTY_FOUR) * THIRTY_TWO_PERCENT) +
-                                        ((BRACKET_LIMIT_THIRTY_FIVE - BRACKET_LIMIT_THIRTY_TWO) * THIRTY_FIVE_PERCENT) +
-                                        ((taxableIncome - BRACKET_LIMIT_THIRTY_FIVE) * THIRTY_SEVEN_PERCENT): ONE_HUNDRED_PERCENT;  // this one_hundred_percent isn't used other than to end the expression
-                        // end 37
+                                        ((BRACKET_LIMIT_TWENTY_TWO - BRACKET_LIMIT_TWELVE) * TWENTY_TWO_PERCENT) +          // income taxable at 22%
+                                        ((BRACKET_LIMIT_TWENTY_FOUR - BRACKET_LIMIT_TWENTY_TWO) * TWENTY_FOUR_PERCENT) +    // income taxable at 24%
+                                        ((BRACKET_LIMIT_THIRTY_TWO - BRACKET_LIMIT_TWENTY_FOUR) * THIRTY_TWO_PERCENT) +     // income taxable at 32%
+                                        ((BRACKET_LIMIT_THIRTY_FIVE - BRACKET_LIMIT_THIRTY_TWO) * THIRTY_FIVE_PERCENT) +    // income taxable at 35%        
+                                        ((taxableIncome - BRACKET_LIMIT_THIRTY_FIVE) * THIRTY_SEVEN_PERCENT)
+                        // end 37                                        
+                                        : ONE_HUNDRED_PERCENT;  // this one_hundred_percent isn't used other than to end the expression
+
 
                         System.out.print("The total tax due is: $" + Math.ceil(taxDue)); // Amount of tax due is rounded up to the nearest whole number
 
