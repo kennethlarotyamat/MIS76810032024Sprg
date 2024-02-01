@@ -38,8 +38,7 @@ public class TaxableIncomeCalculator {
         Scanner kb = new Scanner(System.in);
         try {
             System.out.print("Please enter your taxable income: ");
-            //taxableIncome = kb.nextDouble();
-            //taxableIncome = kb.nextLine();
+
             String userInput = kb.nextLine();
 
             // Remove extra spaces, commas, and dollar bill signs
@@ -127,7 +126,8 @@ public class TaxableIncomeCalculator {
 
             }
 
-
+            //taxableIncome = kb.nextDouble();
+            //taxableIncome = kb.nextLine();
 // I think that this is more or less ready to go. I just need to double check everything and see that it fits the grading rubric.
         // String taxableIncome = 0.00;
         /*
