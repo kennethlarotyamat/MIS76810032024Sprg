@@ -86,6 +86,42 @@ public class IndividualAssignmentOne {
 
 
 
+
+
+
+Module 3: It-Enabled Innovation 
+
+3.1: The Relation Between It And Organizational Innovation 
+1: The Role Of It In Organizational Innovation 
+Correlations: 	number of servers to firm performance
+			Computing capacity to firm performance
+			Storage capacity to firm performance
+			Number of patents to IT investments
+Influences:		Firm alignment and orientation
+			Posture
+			Governance
+			Internal conflict
+			
+
+2: The Nonlinear Influence Of Harmonious Information Technology 
+3: Strategic Relevance Of Organizational Virtues Enabled By IT
+4: Information Technology And Organizational Innovation: 
+
+3.2: Disruptive Innovations With It
+1: Disruptive Innovation: Conceptual Foundations And Research Opportunities 
+2: Agility In Responding To Disruptive Digital Innovation
+3: The Disruptive Information Technology Innovation Model
+4: The Disruptive Nature Of Information Technology Innovations
+
+3.3: Innovating With Artificial Intelligence 
+1: Artificial Intelligence In Organizations 
+2: Ai Innovation Typology
+3: Artificial Intelligence (Ai): Multidisciplinary Perspectives 
+4: Strategic Use Of Ai
+
+
+
+
                                         : (BRACKET_LIMIT_TWENTY_TWO < taxableIncome && taxableIncome <= BRACKET_LIMIT_TWENTY_FOUR)
                                         ?
                                         (BRACKET_LIMIT_TEN * TEN_PERCENT) + 
