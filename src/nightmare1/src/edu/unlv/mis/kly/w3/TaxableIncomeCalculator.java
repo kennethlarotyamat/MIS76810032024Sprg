@@ -84,7 +84,8 @@ public class TaxableIncomeCalculator {
 }
 /*
 
-
+I renamed this - well i had to create a copy of the original file, and rename the copy to follow the naming conventions requirement of the assignment
+I'm going to be working on this from the file, the renamed - the copied and renamed file. = TaxableIncomeCalculator rather than IndividualAssignmentOne
 
                                         : (BRACKET_LIMIT_TWENTY_TWO < taxableIncome && taxableIncome <= BRACKET_LIMIT_TWENTY_FOUR)
                                         ?
