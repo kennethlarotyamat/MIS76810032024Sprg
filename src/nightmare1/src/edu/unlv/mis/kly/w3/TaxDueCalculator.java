@@ -200,6 +200,15 @@ keyboard.close();
 
 ...
 
+I’m going to double check the references page before transferring the information over to the module 3 paper
+
+MIS 764 1001 - 2024 Sprg <notifications@instructure.com> Mon, Jan 29, 12:20 PM (15 hours ago) to yamatk1 
+
+Hi Folks Some of you have asked me about the module papers after class last Thursday. I am posting for the benefit of all. The module papers can be of 2 parts. The first part is the summary of the readings (1-2 paragraphs per reading). The second part can be a critique/analysis/list of recommendations based on your readings. So for example, the second part could be about a few points you things the readings missed. Or it could be about a point or two that really struck you in the readings and recommendations on how organizations can pursue those. Or it could be about a couple of ideas in the readings that you think need to be modified, and how they can be modified. In other words, how you decide to write the second part is up to you, as long as it is connected to the readings. 
+
+Thanks Sutirtha
+
+
 
 		// String input = "";
 		// String result = "";
