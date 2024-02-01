@@ -20,7 +20,7 @@ public class TaxableIncomeCalculator {
         final double THIRTY_FIVE_PERCENT = 0.35;
         final double THIRTY_SEVEN_PERCENT = 0.37;
         final double ONE_HUNDRED_PERCENT = 1.00;
-        // final String INVALID_INFORMATION = "The Information Entered is not Valid";
+
 
         final double BRACKET_LIMIT_TEN = 11000;
         final double BRACKET_LIMIT_TWELVE = 44725;
@@ -30,15 +30,14 @@ public class TaxableIncomeCalculator {
         final double BRACKET_LIMIT_THIRTY_FIVE = 578125;
         final double BRACKET_LIMIT_THIRTY_SEVEN = 578126;
         
-		// String input = "";
-		// String result = "";
+
 
         double taxableIncome;
         double taxDue;
 
 
         Scanner kb = new Scanner(System.in);
-        try {
+//        try {
 
             System.out.print("Please enter your taxable income: ");
             taxableIncome = kb.nextDouble();
@@ -106,20 +105,36 @@ public class TaxableIncomeCalculator {
 
 
                 System.out.print("The total tax due is: $" + Math.ceil(taxDue));
+                
             } 
-
-        }
-
-        finally {
             kb.close();
-        }
+//        }
+
+//        finally {
+//            kb.close();
+//        }
 
     }
 
 }
 /*
 
+...
 
+System.out.print("The ticket class entered is not a valid ticket class");
+
+}
+
+keyboard.close();
+
+...
+
+
+		// String input = "";
+		// String result = "";
+
+
+        // final String INVALID_INFORMATION = "The Information Entered is not Valid";
 
             // invalidInformation = !kb.hasNextDouble();
 
