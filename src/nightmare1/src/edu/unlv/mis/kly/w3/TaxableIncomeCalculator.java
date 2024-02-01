@@ -69,7 +69,7 @@ public class TaxableIncomeCalculator {
                // like negative numbers, letters, or characters
             taxDue =
                         // start brackets
-                                        (0 < taxableIncome && taxableIncome <= BRACKET_LIMIT_TEN)
+                                        (0 <= taxableIncome && taxableIncome <= BRACKET_LIMIT_TEN)
                                         ? 
                                         taxableIncome * TEN_PERCENT
                         // end 10
