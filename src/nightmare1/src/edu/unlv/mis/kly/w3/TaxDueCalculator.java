@@ -768,4 +768,151 @@ the issue was that the first 11000 was being double taxed at the 12 percent brac
  * 
  * 
  * 
+ 
+
+
+
+
+ Module 3: It-Enabled Innovation 
+
+3.1: The Relation Between It And Organizational Innovation 
+1: The Role Of It In Organizational Innovation
+ 
+correlations: 	number of servers to firm performance
+computing capacity to firm performance
+storage capacity to firm performance
+number of patents to it investments
+it expertise and firm performance
+patents filed to commercialized products
+moderate competition stimulates innovation
+intense competition depresses innovation
+
+variables:		productivity 
+sales performance 
+profitability 
+value added 
+stock returns 
+return on investment
+Economies of scale
+Architectural flexibility
+Diminishing returns
+Limited impact
+
+influences:		firm alignment and orientation
+			posture
+			governance
+			internal conflict
+			internal and external context
+group conflict hinders adoption
+actively fostering innovation
+informal mechanisms
+industry dynamics
+gender diversity
+Knowledge integration
+Key actors
+
+frameworks:	resource based view
+			capabilities based perspective
+industry convergence
+Organizational innovation system
+
+cases:			polaroid - misalignment
+			xerox - failure to capitalize
+			yahoo - failure to capitalize
+			hospitality incumbents - dismissive of disruptors
+			pharmaceutical companies - r&d failures lead to patent
+acquisition resulting in depressed firm performance
+
+limitations:		knowledge gaps
+			outcome measurement
+			Conceptual abstraction hinders implementation
+			Difficulties in establishing causation between variables
+			
+2: The Nonlinear Influence Of Harmonious Information Technology 
+
+
+Frameworks: 	HITA - Harmonious IT affordance
+			Non-linear vs quadratic
+Affordances not inherent in people or artifacts, but
+ organizational relationships
+Distinctions between Affordances  & impediments 
+Resonance - HITA alignment preserves organizational 
+memory 
+Organizational inertia - delays in implementation
+Adaptation
+Paradox - tensions between interdependent elements
+
+
+limitations:		Few studies use non-linear frameworks
+			Most studies assume linear relationships
+
+
+Variables:		IT Affordance
+			IT appropriation
+
+
+Guidance:		Promote positive hita or impede negative HITA
+			Managing tensions to promote innovations
+			Finding and leveraging existing paradoxes to stimulate
+innovation - converting tensions into synergies
+
+Examples:		New Collaborations tools that don’t integrate well with 
+Existing Organizational memory tools, reducing HITA
+Paradoxes - when innovation increases despite increasing
+organizational misalignment
+
+Perspectives:	IT Affordance misalignment may prevent standardization 
+or an effort toward homogeneity and uniformity - or it may be perceived in this manner - but it is exactly this misalignment that results in novel solutions as disparate structures attempt to integrate with one another.
+
+
+3: Strategic Relevance Of Organizational Virtues Enabled By IT
+4: Information Technology And Organizational Innovation: 
+
+3.2: Disruptive Innovations With It
+1: Disruptive Innovation: Conceptual Foundations And Research Opportunities 
+2: Agility In Responding To Disruptive Digital Innovation
+3: The Disruptive Information Technology Innovation Model
+4: The Disruptive Nature Of Information Technology Innovations
+
+3.3: Innovating With Artificial Intelligence 
+1: Artificial Intelligence In Organizations 
+2: Ai Innovation Typology
+3: Artificial Intelligence (Ai): Multidisciplinary Perspectives 
+4: Strategic Use Of Ai
+
+References
+
+Mamonov, S., & Peterson, R. (2021). The role of IT in organizational innovation – A systematic literature review. Journal of Strategic Information Systems, 30, 101696. https://doi.org/10.1016/j.jsis.2021.101696
+
+Chatterjee, S., Moody, G. D., Lowry, P. B., Chakraborty, S., & Hardin, A. (2021). The nonlinear influence of harmonious information technology affordance on organisational innovation. Information Systems Journal, 31(3), 294–322. https://doi.org/10.1111/isj.12311
+
+Chatterjee, S., Moody, G., Lowry, P. B., Chakraborty, S., & Hardin, A. (2015). Strategic relevance of organizational virtues enabled by information technology in organizational innovation. Journal of Management Information Systems, 32(3), 158–196. https://doi.org/10.1080/07421222.2015.1099180
+
+Chatterjee, S., Moody, G., Lowry, P. B., Chakraborty, S., & Hardin, A. (2020). Information technology and organizational innovation: Harmonious information technology affordance and courage-based actualization. Journal of Strategic Information Systems, 29, 101596. https://doi.org/10.1016/j.jsis.2020.101596
+
+Hopp, C., Antons, D., Kaminski, J., & Salge, T. O. (2018). Disruptive Innovation: Conceptual Foundations, Empirical Evidence, and Research Opportunities in the Digital Age. Journal of Product Innovation Management, 35(3), 446–457. https://doi.org/10.1111/jpim.12448
+
+Chan, C. M. L., Teoh, S. Y., Yeow, A., & Pan, G. (2018). Agility in responding to disruptive digital innovation: Case study of an SME. Information Systems Journal, 29(2), 436–455. https://doi.org/10.1111/isj.12215
+
+Carlo, J. L., Gaskin, J., Lyytinen, K., & Rose, G. M. (2014). Early vs. late adoption of radical information technology innovations across software development organizations: an extension of the disruptive information technology innovation model. Information Systems Journal, 24(6), 537–569. https://doi.org/10.1111/isj.12039
+
+Lyytinen, K., & Rose, G. M. (2003). The disruptive nature of information technology innovations: The case of internet computing in systems development organizations. MIS Quarterly, 27(4), 557-595. https://doi.org/10.2307/30036549
+
+
+Benbya, H., Pachidi, S., & Jarvenpaa, S. (2021). Special Issue Editorial: Artificial Intelligence in Organizations: Implications for Information Systems Research. Journal of the Association for Information Systems, 22(2), 281-303. https://doi.org/10.17705/1jais.00662
+
+
+Paschen, U., Pitt, C., & Kietzmann, J. (2020). Artificial intelligence: Building blocks and an innovation typology. Business Horizons, 63, 147-155. https://doi.org/10.1016/j.bushor.2019.10.004
+
+
+Dwivedi, Y. K., Hughes, L., Ismagilova, E., Aarts, G., Coombs, C., Crick, T., ... Williams, M. D. (2021). Artificial Intelligence (AI): Multidisciplinary perspectives on emerging challenges, opportunities, and agenda for research, practice and policy. International Journal of Information Management, 57, 101994. https://doi.org/10.1016/j.ijinfomgt.2019.08.002
+
+
+Borges, A. F. S., Laurindo, F. J. B., Spínola, M. M., Gonçalves, R. F., & Mattos, C. A. (2021). The strategic use of artificial intelligence in the digital era: Systematic literature review and future research directions. International Journal of Information Management, 57, 102225. https://doi.org/10.1016/j.ijinfomgt.2020.102225
+
+
+
+
+
+
  */
