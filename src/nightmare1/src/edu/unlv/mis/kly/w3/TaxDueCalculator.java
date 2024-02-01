@@ -91,15 +91,15 @@ public class TaxDueCalculator {
                                         // 12% on taxable income over $11,001 to $44,725
                                         : (BRACKET_LIMIT_TEN < taxableIncome && taxableIncome <= BRACKET_LIMIT_TWELVE)
                                         ? 
-                                        (BRACKET_LIMIT_TEN * TEN_PERCENT) +
-                                        ((taxableIncome - BRACKET_LIMIT_TEN) * TWELVE_PERCENT)
+                                        (BRACKET_LIMIT_TEN * TEN_PERCENT) +                    // income taxable at 10%
+                                        ((taxableIncome - BRACKET_LIMIT_TEN) * TWELVE_PERCENT) // marginal income taxable at 12%
                         // end 12
                                         // 22% on taxable income over $44,726 to $95,375
                                         : (BRACKET_LIMIT_TWELVE < taxableIncome && taxableIncome <= BRACKET_LIMIT_TWENTY_TWO)
                                         ?
-                                        (BRACKET_LIMIT_TEN * TEN_PERCENT) + 
-                                        ((BRACKET_LIMIT_TWELVE - BRACKET_LIMIT_TEN) * TWELVE_PERCENT) +
-                                        ((taxableIncome - BRACKET_LIMIT_TWELVE) * TWENTY_TWO_PERCENT)
+                                        (BRACKET_LIMIT_TEN * TEN_PERCENT) +                     // income taxable at 10%
+                                        ((BRACKET_LIMIT_TWELVE - BRACKET_LIMIT_TEN) * TWELVE_PERCENT) + // income taxable at 12%
+                                        ((taxableIncome - BRACKET_LIMIT_TWELVE) * TWENTY_TWO_PERCENT) // marginal income taxable at 22%
 
                         // end 22
                                         // 24% on taxable income over $95,376 to $182,100,
