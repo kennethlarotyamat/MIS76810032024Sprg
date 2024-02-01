@@ -88,7 +88,7 @@ public class TaxableIncomeCalculator {
                                         ((BRACKET_LIMIT_THIRTY_TWO - BRACKET_LIMIT_TWENTY_FOUR) * THIRTY_TWO_PERCENT) +
                                         ((taxableIncome - BRACKET_LIMIT_THIRTY_TWO) * THIRTY_FIVE_PERCENT)
                         // end 35
-                                        : (taxableIncome >= BRACKET_LIMIT_THIRTY_SEVEN)
+                                        : (BRACKET_LIMIT_THIRTY_FIVE < taxableIncome && taxableIncome >= BRACKET_LIMIT_THIRTY_SEVEN)
                                         ?
                                         (BRACKET_LIMIT_TEN * TEN_PERCENT) + 
                                         ((BRACKET_LIMIT_TWELVE - BRACKET_LIMIT_TEN) * TWELVE_PERCENT) +
