@@ -118,7 +118,7 @@ public class TaxableIncomeCalculator {
             }
 
 
-
+// I think that this is more or less ready to go. I just need to double check everything and see that it fits the grading rubric.
 
         /*
          * 
