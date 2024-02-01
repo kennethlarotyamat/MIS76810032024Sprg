@@ -30,7 +30,8 @@ public class TaxableIncomeCalculator {
         final double BRACKET_LIMIT_THIRTY_FIVE = 578125;
         final double BRACKET_LIMIT_THIRTY_SEVEN = 578126;
         
-
+		// String input = "";
+		// String result = "";
 
         double taxableIncome;
         double taxDue;
