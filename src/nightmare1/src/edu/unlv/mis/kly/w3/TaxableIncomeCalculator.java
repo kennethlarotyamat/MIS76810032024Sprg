@@ -1,6 +1,7 @@
 /*
  * Author's Name: 		    Kenneth Larot Yamat
- * Purpose of Program:      To calculate the amount of tax due based on a user-entered amount of taxable income
+ * Purpose of Program:      To calculate the amount of tax due 
+ *                          based on a user-entered amount of taxable income
  * 						    given a tiered marginal income tax structure
  */
 
