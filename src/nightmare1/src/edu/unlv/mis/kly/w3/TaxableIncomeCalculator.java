@@ -31,7 +31,7 @@ public class TaxableIncomeCalculator {
         final double BRACKET_LIMIT_THIRTY_SEVEN = 578126;
 
         double taxableIncome = 0.00;
-        // String taxableIncome = 0.00;
+
         boolean invalidInformation = false;
         double taxDue;
 
@@ -129,7 +129,7 @@ public class TaxableIncomeCalculator {
 
 
 // I think that this is more or less ready to go. I just need to double check everything and see that it fits the grading rubric.
-
+        // String taxableIncome = 0.00;
         /*
         finally {
 
