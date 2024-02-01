@@ -97,6 +97,7 @@ public class TaxableIncomeCalculator {
                                         ((taxableIncome - BRACKET_LIMIT_TWENTY_TWO) * TWENTY_FOUR_PERCENT) 
                                         
                         // end 24
+                                        // 32% on taxable income over $182,101to $231,250
                                         : (BRACKET_LIMIT_TWENTY_FOUR < taxableIncome && taxableIncome <= BRACKET_LIMIT_THIRTY_TWO)
                                         ?
                                         (BRACKET_LIMIT_TEN * TEN_PERCENT) + 
@@ -106,6 +107,7 @@ public class TaxableIncomeCalculator {
                                         ((taxableIncome - BRACKET_LIMIT_TWENTY_FOUR) * THIRTY_TWO_PERCENT)
 
                         // end 32
+                                        // 35% on taxable income over $231,251 to $578,125
                                         : (BRACKET_LIMIT_THIRTY_TWO < taxableIncome && taxableIncome <= BRACKET_LIMIT_THIRTY_FIVE)
                                         ?
                                         (BRACKET_LIMIT_TEN * TEN_PERCENT) + 
@@ -115,6 +117,7 @@ public class TaxableIncomeCalculator {
                                         ((BRACKET_LIMIT_THIRTY_TWO - BRACKET_LIMIT_TWENTY_FOUR) * THIRTY_TWO_PERCENT) +
                                         ((taxableIncome - BRACKET_LIMIT_THIRTY_TWO) * THIRTY_FIVE_PERCENT)
                         // end 35
+                                        // 37% on taxable income over $578,126 or more
                                         : (BRACKET_LIMIT_THIRTY_FIVE < taxableIncome && taxableIncome >= BRACKET_LIMIT_THIRTY_SEVEN)
                                         ?
                                         (BRACKET_LIMIT_TEN * TEN_PERCENT) + 
@@ -123,7 +126,7 @@ public class TaxableIncomeCalculator {
                                         ((BRACKET_LIMIT_TWENTY_FOUR - BRACKET_LIMIT_TWENTY_TWO) * TWENTY_FOUR_PERCENT) +
                                         ((BRACKET_LIMIT_THIRTY_TWO - BRACKET_LIMIT_TWENTY_FOUR) * THIRTY_TWO_PERCENT) +
                                         ((BRACKET_LIMIT_THIRTY_FIVE - BRACKET_LIMIT_THIRTY_TWO) * THIRTY_FIVE_PERCENT) +
-                                        ((taxableIncome - BRACKET_LIMIT_THIRTY_FIVE) * THIRTY_SEVEN_PERCENT): ONE_HUNDRED_PERCENT;  
+                                        ((taxableIncome - BRACKET_LIMIT_THIRTY_FIVE) * THIRTY_SEVEN_PERCENT): ONE_HUNDRED_PERCENT;  // this one_hundred_percent isn't used other than to end the expression
                         // end 37
 
                         System.out.print("The total tax due is: $" + Math.ceil(taxDue));
