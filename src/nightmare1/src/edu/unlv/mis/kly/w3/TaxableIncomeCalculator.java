@@ -107,7 +107,7 @@ public class TaxableIncomeCalculator {
                 System.out.print("The total tax due is: $" + Math.ceil(taxDue));
                 
             } 
-            kb.close();
+                kb.close();
 
 
     }
