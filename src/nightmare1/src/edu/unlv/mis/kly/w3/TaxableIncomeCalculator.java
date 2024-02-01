@@ -30,7 +30,7 @@ public class TaxableIncomeCalculator {
         final double BRACKET_LIMIT_THIRTY_FIVE = 578125;
         final double BRACKET_LIMIT_THIRTY_SEVEN = 578126;
 
-        double taxableIncome;
+        double taxableIncome = 0.00;
         boolean invalidInformation = false;
         double taxDue;
 
