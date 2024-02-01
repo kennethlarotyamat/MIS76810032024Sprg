@@ -19,6 +19,7 @@ public class TaxableIncomeCalculator {
         final double THIRTY_TWO_PERCENT = 0.32;
         final double THIRTY_FIVE_PERCENT = 0.35;
         final double THIRTY_SEVEN_PERCENT = 0.37;
+        final double ONE_HUNDRED_PERCENT = 1.00;
 
         final double BRACKET_LIMIT_TEN = 11000;
         final double BRACKET_LIMIT_TWELVE = 44725;
@@ -95,7 +96,7 @@ public class TaxableIncomeCalculator {
                                         ((BRACKET_LIMIT_TWENTY_FOUR - BRACKET_LIMIT_TWENTY_TWO) * TWENTY_FOUR_PERCENT) +
                                         ((BRACKET_LIMIT_THIRTY_TWO - BRACKET_LIMIT_TWENTY_FOUR) * THIRTY_TWO_PERCENT) +
                                         ((BRACKET_LIMIT_THIRTY_FIVE - BRACKET_LIMIT_THIRTY_TWO) * THIRTY_FIVE_PERCENT) +
-                                        ((taxableIncome - BRACKET_LIMIT_THIRTY_FIVE) * THIRTY_SEVEN_PERCENT);  
+                                        ((taxableIncome - BRACKET_LIMIT_THIRTY_FIVE) * THIRTY_SEVEN_PERCENT):ONE_HUNDRED_PERCENT;  
                         // end 37
                                                                                             // REPLACE THIS WHEN READY
                                                                                             // REMEMBER TO CHECK BRACKET CONDITIONAL BRACKET RANGES
