@@ -111,9 +111,10 @@ public class TaxableIncomeCalculator {
                         System.out.print("The total tax due is: $" + Math.ceil(taxDue));
 
                     }
-                        kb.close();
+                    kb.close();
 
                 }
+                
 
             }
 
@@ -121,6 +122,9 @@ public class TaxableIncomeCalculator {
 // I think that this is more or less ready to go. I just need to double check everything and see that it fits the grading rubric.
 
         /*
+        finally {
+
+}
          * 
          * Please enter your taxable income: asdasdasd
          * Exception in thread "main" java.util.InputMismatchException
