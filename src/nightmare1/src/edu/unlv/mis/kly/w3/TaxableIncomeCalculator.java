@@ -37,7 +37,6 @@ public class TaxableIncomeCalculator {
 
 
         Scanner kb = new Scanner(System.in);
-//        try {
 
             System.out.print("Please enter your taxable income: ");
             taxableIncome = kb.nextDouble();
@@ -108,16 +107,21 @@ public class TaxableIncomeCalculator {
                 
             } 
             kb.close();
-//        }
 
-//        finally {
-//            kb.close();
-//        }
 
     }
 
 }
 /*
+
+
+
+//        }
+
+//        finally {
+//            kb.close();
+//        }
+//        try {
 
 ...
 
