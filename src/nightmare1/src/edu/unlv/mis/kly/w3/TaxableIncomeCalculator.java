@@ -31,6 +31,7 @@ public class TaxableIncomeCalculator {
         final double BRACKET_LIMIT_THIRTY_SEVEN = 578126;
 
         double taxableIncome;
+        boolean invalidInformation = false;
         double taxDue;
 
         Scanner kb = new Scanner(System.in);
