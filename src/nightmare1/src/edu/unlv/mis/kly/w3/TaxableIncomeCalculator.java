@@ -22,7 +22,6 @@ public class TaxableIncomeCalculator {
         final double THIRTY_SEVEN_PERCENT = 0.37;
         final double ONE_HUNDRED_PERCENT = 1.00;
 
-
         final double BRACKET_LIMIT_TEN = 11000;
         final double BRACKET_LIMIT_TWELVE = 44725;
         final double BRACKET_LIMIT_TWENTY_TWO = 95375;
@@ -30,24 +29,19 @@ public class TaxableIncomeCalculator {
         final double BRACKET_LIMIT_THIRTY_TWO = 231250;
         final double BRACKET_LIMIT_THIRTY_FIVE = 578125;
         final double BRACKET_LIMIT_THIRTY_SEVEN = 578126;
-        
-
 
         double taxableIncome;
         double taxDue;
 
-
         Scanner kb = new Scanner(System.in);
 
-            System.out.print("Please enter your taxable income: ");
-            taxableIncome = kb.nextDouble();
+        System.out.print("Please enter your taxable income: ");
+        taxableIncome = kb.nextDouble();
 
-
-            if (taxableIncome < 0) {
-                System.out.print("Negative taxable income cannot be processed.");
-            } 
-             else {
-                taxDue =
+        if (taxableIncome < 0) {
+            System.out.print("Negative taxable income cannot be processed.");
+        } else {
+            taxDue =
                         // start brackets
                                         (0 < taxableIncome && taxableIncome <= BRACKET_LIMIT_TEN)
                                         ? 
