@@ -39,7 +39,7 @@ try{
         taxableIncome = kb.nextDouble();
     }
    
-catch{
+catch(java.util.InputMismatchException e){
         boolean invalidInformation = !kb.hasNextDouble();
      }
 
