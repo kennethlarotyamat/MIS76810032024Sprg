@@ -14,6 +14,7 @@ public class TaxableIncomeCalculator {
 
     public static void main(String[] args) {
 
+        // these are the various tax rates at which different
         final double TEN_PERCENT = 0.10;
         final double TWELVE_PERCENT = 0.12;
         final double TWENTY_TWO_PERCENT = 0.22;
