@@ -49,7 +49,8 @@ public class TaxableIncomeCalculator {
             userInput = userInput.replaceAll("[, $]", "");
 
             // This parses the cleaned input to double - the user input information is then converted to taxableIncome
-            taxableIncome = Double.parseDouble(userInput);
+            // the user input is then rounded up to the nearest whole number before being used in calculations
+            taxableIncome = Math.ceil(Double.parseDouble(userInput));
         }
 
         catch (java.util.InputMismatchException e) {
@@ -124,6 +125,7 @@ public class TaxableIncomeCalculator {
                         System.out.print("The total tax due is: $" + Math.ceil(taxDue));
 
                     }
+        			// this closes out the keyboard after the program runs
                     kb.close();
 
                 }
@@ -194,7 +196,7 @@ else{			//result = OTHER;
             }
 
 
-Developemnt commentary:
+Development commentary:
 
 this started out as an iteration upon the shipment pricing calculator
 and other class assignments were used as well, including the ticket pricing calculator.
@@ -240,7 +242,7 @@ I FIGURED SOMETHING OUT -- FOR THE FINAL TAX BRACKET CODE -- IT'S DIFFERENT THAN
 
 : INVALID_INFORMATION
 		final double INVALID_INFORMATION ;
-I think that I'm done almost well with the tax brackets protion anyway.
+I think that I'm done almost well with the tax brackets portion anyway.
 
                                         : (BRACKET_LIMIT_THIRTY_FIVE < taxableIncome && taxableIncome <= BRACKET_LIMIT_THIRTY_SEVEN)
                                         ?
