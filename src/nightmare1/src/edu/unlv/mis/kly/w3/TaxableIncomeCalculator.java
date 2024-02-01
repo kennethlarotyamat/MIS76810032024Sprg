@@ -42,7 +42,7 @@ public class TaxableIncomeCalculator {
             //taxableIncome = kb.nextLine();
             String userInput = kb.nextLine();
 
-            // Remove extra spaces, commas, and dollar signs
+            // Remove extra spaces, commas, and dollar bill signs
             userInput = userInput.replaceAll("[, $]", "");
 
             // Parse the cleaned input to double
