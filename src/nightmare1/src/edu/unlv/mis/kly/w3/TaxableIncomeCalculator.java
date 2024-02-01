@@ -27,6 +27,8 @@ public class TaxableIncomeCalculator {
         final double BRACKET_LIMIT_THIRTY_TWO = 231250;
         final double BRACKET_LIMIT_THIRTY_FIVE = 578125;
         final double BRACKET_LIMIT_THIRTY_SEVEN = 578126;
+        
+
 
         double taxableIncome;
         double taxDue;
@@ -114,6 +116,10 @@ public class TaxableIncomeCalculator {
 /*
 
 
+
+
+: INVALID_INFORMATION
+		final double INVALID_INFORMATION ;
 I think that I'm done almost well with the tax brackets protion anyway.
 
                                         : (BRACKET_LIMIT_THIRTY_FIVE < taxableIncome && taxableIncome <= BRACKET_LIMIT_THIRTY_SEVEN)
