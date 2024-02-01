@@ -37,11 +37,20 @@ public class TaxableIncomeCalculator {
 
         System.out.print("Please enter your taxable income: ");
         taxableIncome = kb.nextDouble();
+        boolean invalidInformation = !kb.hasNextDouble();
 
 
         if (taxableIncome < 0) {
             System.out.print("Negative taxable income cannot be processed.");
-        } else {
+        } 
+        
+        
+        
+        else if (invalidInformation) {System.out.print("The information entered is invalid.");}
+        
+        
+        
+        else {
             taxDue =
                         // start brackets
                                         (0 < taxableIncome && taxableIncome <= BRACKET_LIMIT_TEN)
