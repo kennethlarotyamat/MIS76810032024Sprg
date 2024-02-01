@@ -117,6 +117,26 @@ public class TaxableIncomeCalculator {
 /*
 
 
+		System.out.print("Please enter the ticket class: ");
+		input = kb.nextLine();
+		
+		if (input.equals("1"))
+			result = CLASS_1;
+		else if (input.equals("2"))
+			result = CLASS_2;
+		else if (input.equals("3"))
+			result = CLASS_3;
+		else if (input.equals("4"))
+			result = CLASS_4;
+		else
+			result = OTHER;
+		System.out.print("The Price is: "+result);
+		
+		kb.close();
+	}
+
+
+
 BRACKET_LIMIT_THIRTY_FIVE < taxableIncome && 
 I FIGURED SOMETHING OUT -- FOR THE FINAL TAX BRACKET CODE -- IT'S DIFFERENT THAN THE OTHER ONES --
 
