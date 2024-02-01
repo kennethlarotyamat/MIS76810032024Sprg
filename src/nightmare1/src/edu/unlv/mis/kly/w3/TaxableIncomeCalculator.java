@@ -38,8 +38,11 @@ public class TaxableIncomeCalculator {
         Scanner kb = new Scanner(System.in);
         try {
             System.out.print("Please enter your taxable income: ");
-            
-            //
+
+            // the next 3 statements are used for input validation -
+            // this was originally a straight forward statement like:     taxableIncome = kb.nextDouble();
+            // however, something like:  $ 578,126 would throw an input error because it contains a dollar bill sign, and a comma
+            // and a space
             String userInput = kb.nextLine();
 
             // this removes extra spaces, commas, and dollar bill signs
