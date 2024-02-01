@@ -35,25 +35,26 @@ public class TaxableIncomeCalculator {
         double taxDue;
 
         Scanner kb = new Scanner(System.in);
-try{
-        System.out.print("Please enter your taxable income: ");
-        taxableIncome = kb.nextDouble();
-    }
-   
-catch(java.util.InputMismatchException e){
-        invalidInformation = true;
-     }
+        try {
+            System.out.print("Please enter your taxable income: ");
+            taxableIncome = kb.nextDouble();
+        }
 
-     /*
-      
-Please enter your taxable income: asdasdasd
-Exception in thread "main" java.util.InputMismatchException
-	at java.base/java.util.Scanner.throwFor(Scanner.java:947)
-	at java.base/java.util.Scanner.next(Scanner.java:1602)
-	at java.base/java.util.Scanner.nextDouble(Scanner.java:2573)
-	at nightmare1/edu.unlv.mis.kly.w3.TaxableIncomeCalculator.main(TaxableIncomeCalculator.java:39)
+        catch (java.util.InputMismatchException e) {
+            invalidInformation = true;
+        }
 
-      */
+        /*
+         * 
+         * Please enter your taxable income: asdasdasd
+         * Exception in thread "main" java.util.InputMismatchException
+         * at java.base/java.util.Scanner.throwFor(Scanner.java:947)
+         * at java.base/java.util.Scanner.next(Scanner.java:1602)
+         * at java.base/java.util.Scanner.nextDouble(Scanner.java:2573)
+         * at nightmare1/edu.unlv.mis.kly.w3.TaxableIncomeCalculator.main(
+         * TaxableIncomeCalculator.java:39)
+         * 
+         */
 
         if (taxableIncome < 0) {
             System.out.print("Negative taxable income cannot be processed.");
