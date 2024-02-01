@@ -38,13 +38,14 @@ public class TaxableIncomeCalculator {
         Scanner kb = new Scanner(System.in);
         try {
             System.out.print("Please enter your taxable income: ");
-
+            
+            //
             String userInput = kb.nextLine();
 
-            // Remove extra spaces, commas, and dollar bill signs
+            // this removes extra spaces, commas, and dollar bill signs
             userInput = userInput.replaceAll("[, $]", "");
 
-            // Parse the cleaned input to double
+            // This parses the cleaned input to double - the user input information is then converted to taxableIncome
             taxableIncome = Double.parseDouble(userInput);
         }
 
