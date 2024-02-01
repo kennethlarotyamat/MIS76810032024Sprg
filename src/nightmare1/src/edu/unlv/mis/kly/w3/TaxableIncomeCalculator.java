@@ -42,6 +42,7 @@ public class TaxableIncomeCalculator {
 
             System.out.print("Please enter your taxable income: ");
             taxableIncome = kb.nextDouble();
+            // invalidInformation = !kb.hasNextDouble();
 
             if (taxableIncome < 0) {
                 System.out.print("Negative taxable income cannot be processed.");
