@@ -30,14 +30,16 @@ public class TaxableIncomeCalculator {
         final double BRACKET_LIMIT_THIRTY_FIVE = 578125;
         final double BRACKET_LIMIT_THIRTY_SEVEN = 578126;
 
-        double taxableIncome = 0.00;
+        //double taxableIncome = 0.00;
+        String taxableIncome = 0.00;
         boolean invalidInformation = false;
         double taxDue;
 
         Scanner kb = new Scanner(System.in);
         try {
             System.out.print("Please enter your taxable income: ");
-            taxableIncome = kb.nextDouble();
+            // taxableIncome = kb.nextDouble();
+            taxableIncome = kb.nextLine();
         }
 
         catch (java.util.InputMismatchException e) {
