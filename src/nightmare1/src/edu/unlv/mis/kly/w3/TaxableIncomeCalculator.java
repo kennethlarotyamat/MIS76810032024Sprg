@@ -44,7 +44,9 @@ public class TaxableIncomeCalculator {
 
             if (taxableIncome < 0) {
                 System.out.print("Negative taxable income cannot be processed.");
-            } else  {
+            } else if (!kb.hasNextDouble()) {
+                System.out.print(INVALID_INFORMATION);
+            }else  {
                 taxDue =
                         // start brackets
                                         (0 < taxableIncome && taxableIncome <= BRACKET_LIMIT_TEN)
