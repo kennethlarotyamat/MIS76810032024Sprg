@@ -42,14 +42,12 @@ public class TaxableIncomeCalculator {
 
         if (taxableIncome < 0) {
             System.out.print("Negative taxable income cannot be processed.");
-        } 
-        
-        
-        
-        else if (invalidInformation) {System.out.print("The information entered is invalid.");}
-        
-        
-        
+        }
+
+        else if (invalidInformation) {
+            System.out.print("The information entered is invalid.");
+        }
+
         else {
             taxDue =
                         // start brackets
