@@ -44,19 +44,6 @@ public class TaxableIncomeCalculator {
             invalidInformation = true;
         }
 
-        /*
-         * 
-         * Please enter your taxable income: asdasdasd
-         * Exception in thread "main" java.util.InputMismatchException
-         * at java.base/java.util.Scanner.throwFor(Scanner.java:947)
-         * at java.base/java.util.Scanner.next(Scanner.java:1602)
-         * at java.base/java.util.Scanner.nextDouble(Scanner.java:2573)
-         * at nightmare1/edu.unlv.mis.kly.w3.TaxableIncomeCalculator.main(
-         * TaxableIncomeCalculator.java:39)
-         *  what a nightmare. i think that this works. when i enter: uasofua0ifjoiasdjfo 
-         * or whatever, it prints the message "information not valid." 
-         */
-
         if (taxableIncome < 0) {
             System.out.print("Negative taxable income cannot be processed.");
         }
@@ -121,8 +108,6 @@ public class TaxableIncomeCalculator {
                                         ((taxableIncome - BRACKET_LIMIT_THIRTY_FIVE) * THIRTY_SEVEN_PERCENT): ONE_HUNDRED_PERCENT;  
                         // end 37
 
-
-
                         System.out.print("The total tax due is: $" + Math.ceil(taxDue));
 
                     }
@@ -131,6 +116,22 @@ public class TaxableIncomeCalculator {
                 }
 
             }
+
+
+
+
+        /*
+         * 
+         * Please enter your taxable income: asdasdasd
+         * Exception in thread "main" java.util.InputMismatchException
+         * at java.base/java.util.Scanner.throwFor(Scanner.java:947)
+         * at java.base/java.util.Scanner.next(Scanner.java:1602)
+         * at java.base/java.util.Scanner.nextDouble(Scanner.java:2573)
+         * at nightmare1/edu.unlv.mis.kly.w3.TaxableIncomeCalculator.main(
+         * TaxableIncomeCalculator.java:39)
+         *  what a nightmare. i think that this works. when i enter: uasofua0ifjoiasdjfo 
+         * or whatever, it prints the message "information not valid." 
+         */
 /*
 
         boolean  invalidInformation = !kb.nextDouble();
