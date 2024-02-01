@@ -156,6 +156,8 @@ public class TaxDueCalculator {
 
             }
 
+// i need to knock out these next two assignments so that i have the weekend. well. friday through sunday to do work work. 
+
 // I really enjoyed this assignment, but I'm really nervous because of how long it took me, and because of how long it turned out to be.
 //and also because how how much more invloved the grading system is with this, but, i turned it in. and now I'm done with it.
             //taxableIncome = kb.nextDouble();
