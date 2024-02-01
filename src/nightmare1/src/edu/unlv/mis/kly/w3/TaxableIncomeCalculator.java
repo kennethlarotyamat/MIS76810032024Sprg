@@ -116,6 +116,11 @@ public class TaxableIncomeCalculator {
 }
 /*
 
+Developemnt commentary:
+
+this started out as an iteration upon the shipment pricing calculator
+and other class assignments were used as well, including the ticket pricing calculator.
+
 
 ...
 		System.out.print("Please enter the weight of the package:");
