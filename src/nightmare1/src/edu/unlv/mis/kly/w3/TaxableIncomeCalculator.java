@@ -116,8 +116,9 @@ public class TaxableIncomeCalculator {
 }
 /*
 
+I FIGURED SOMETHING OUT -- FOR THE FINAL TAX BRACKET CODE -- IT'S DIFFERENT THAN THE OTHER ONES --
 
-
+                                        : (BRACKET_LIMIT_THIRTY_FIVE < taxableIncome && taxableIncome <= BRACKET_LIMIT_THIRTY_SEVEN)
 
 : INVALID_INFORMATION
 		final double INVALID_INFORMATION ;
