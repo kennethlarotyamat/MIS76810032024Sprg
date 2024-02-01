@@ -117,6 +117,19 @@ public class TaxableIncomeCalculator {
 /*
 
 
+...
+		System.out.print("Please enter the weight of the package:");
+		weight = kb.nextDouble();
+		
+		charge = weight * (weight<=WEIGHT_LIMIT? BASE_FEE: OVERWEIGHT_FEE);
+		
+		System.out.print("The total charge is:$" +charge);
+
+
+
+        ...
+
+
 		System.out.print("Please enter the ticket class: ");
 		input = kb.nextLine();
 		
