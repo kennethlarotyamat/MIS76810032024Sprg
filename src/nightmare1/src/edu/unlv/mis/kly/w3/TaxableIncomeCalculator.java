@@ -41,7 +41,7 @@ try{
     }
    
 catch(java.util.InputMismatchException e){
-        boolean invalidInformation = !kb.hasNextDouble();
+        invalidInformation = false;
      }
 
      /*
