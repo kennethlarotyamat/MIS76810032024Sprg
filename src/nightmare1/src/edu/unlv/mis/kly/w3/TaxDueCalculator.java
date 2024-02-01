@@ -46,7 +46,7 @@ public class TaxDueCalculator {
         boolean invalidInformation = false; // invalid information is being declared and initialized as false - this becomes true if the user enters invalid information
         double taxDue = 0.00; // taxDue is declared and initialized
 
-        Scanner kb = new Scanner(System.in);
+        Scanner kb = new Scanner(System.in); // this is where the keyboard is initialized
         try {
             System.out.print("Please enter your taxable income: ");
 
