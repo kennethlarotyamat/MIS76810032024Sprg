@@ -46,9 +46,7 @@ public class TaxableIncomeCalculator {
 
             if (taxableIncome < 0) {
                 System.out.print("Negative taxable income cannot be processed.");
-            } //else if (!kb.hasNextDouble()) {
-                //System.out.print("The Information Entered is not Valid");
-            //}
+            } 
              else {
                 taxDue =
                         // start brackets
@@ -104,8 +102,7 @@ public class TaxableIncomeCalculator {
                                         ((BRACKET_LIMIT_THIRTY_FIVE - BRACKET_LIMIT_THIRTY_TWO) * THIRTY_FIVE_PERCENT) +
                                         ((taxableIncome - BRACKET_LIMIT_THIRTY_FIVE) * THIRTY_SEVEN_PERCENT): ONE_HUNDRED_PERCENT;  
                         // end 37
-                                                                                            // REPLACE THIS WHEN READY
-                                                                                            // REMEMBER TO CHECK BRACKET CONDITIONAL BRACKET RANGES
+
 
 
                 System.out.print("The total tax due is: $" + Math.ceil(taxDue));
@@ -121,6 +118,18 @@ public class TaxableIncomeCalculator {
 
 }
 /*
+
+
+
+
+
+                                                                                            // REPLACE THIS WHEN READY
+                                                                                            // REMEMBER TO CHECK BRACKET CONDITIONAL BRACKET RANGES
+
+//else if (!kb.hasNextDouble()) {
+                //System.out.print("The Information Entered is not Valid");
+            //}
+
 
 
 else{			//result = OTHER;
