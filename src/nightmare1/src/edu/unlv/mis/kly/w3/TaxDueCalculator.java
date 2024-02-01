@@ -140,7 +140,7 @@ public class TaxDueCalculator {
                                         ((BRACKET_LIMIT_TWENTY_FOUR - BRACKET_LIMIT_TWENTY_TWO) * TWENTY_FOUR_PERCENT) +    // income taxable at 24%
                                         ((BRACKET_LIMIT_THIRTY_TWO - BRACKET_LIMIT_TWENTY_FOUR) * THIRTY_TWO_PERCENT) +     // income taxable at 32%
                                         ((BRACKET_LIMIT_THIRTY_FIVE - BRACKET_LIMIT_THIRTY_TWO) * THIRTY_FIVE_PERCENT) +    // income taxable at 35%        
-                                        ((taxableIncome - BRACKET_LIMIT_THIRTY_FIVE) * THIRTY_SEVEN_PERCENT)
+                                        ((taxableIncome - BRACKET_LIMIT_THIRTY_FIVE) * THIRTY_SEVEN_PERCENT)                // marginal income taxable at 37%
                         // end 37                                        
                                         : ONE_HUNDRED_PERCENT;  // this one_hundred_percent isn't used other than to end the expression
 
