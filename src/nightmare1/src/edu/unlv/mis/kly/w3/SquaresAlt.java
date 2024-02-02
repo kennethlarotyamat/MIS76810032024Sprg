@@ -2,7 +2,7 @@ package edu.unlv.mis.kly.w3;
 
 import java.util.Scanner;
 
-public class Squares {
+public class SquaresAlt {
 
 	public static void main(String[] args) {
 		int number; // Loop control variable
@@ -19,9 +19,9 @@ public class Squares {
 		System.out.println("-----------------------");
 		
 		// use a loop to print from 1 to the number entered
-		for (int i=0; i<number; i++) {
+		for (int i=1; i<=number; i++) {
 			// can also do    
-			System.out.println(i+1+"      "+(i+1)*(i+1));
+			System.out.println(i+"      "+(i+1)*(i+1));
 			
 	        kb.close();
 	         
