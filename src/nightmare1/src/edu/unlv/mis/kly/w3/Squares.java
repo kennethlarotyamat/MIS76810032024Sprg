@@ -21,7 +21,7 @@ public class Squares {
 		// use a loop to print from 1 to the number entered
 		for (int i=0; i<number; i++) {
 			// can also do    
-			System.out.println(i+1+"      "+(i+1)*(i+1));
+			System.out.println(i+1+"      "+(i+1)*(i+1)); // can also use \t to indicate space or use in place of actual spaces
 			
 	        kb.close();
 	         
