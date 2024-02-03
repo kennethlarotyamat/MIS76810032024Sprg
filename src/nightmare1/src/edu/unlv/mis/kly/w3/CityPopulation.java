@@ -55,6 +55,7 @@ public class CityPopulation {
  * 
  * 
 	
+PrintWriter outputFile = new PrintWriter ("StudentData.txt");
 
 		Please submit the .java file (i.e., the source files).
 You can use printf() for formatted result
