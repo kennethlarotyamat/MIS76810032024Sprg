@@ -28,3 +28,5 @@ public class ConvertToMinutes {
 
 } 
 // it works. as simple as this is, I'm actually really excited about it.
+// i need to work today, and this is the last day to turn in the assignment to calculating average grades
+// i didn't realize that the course grade has weights for different assignment classes.
