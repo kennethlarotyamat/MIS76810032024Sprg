@@ -21,12 +21,12 @@ public class AverageTestScoreConversion {
 		System.out.print("Enter score on Assignment 2: ");
 		secondScore = kb.nextInt();
 		
-		System.out.print("Enter score on Assignment 2: ");
+		System.out.print("Enter score on Assignment 3: ");
 		thirdScore = kb.nextInt();
 		
 		enteredScores = processedScores(firstScore, secondScore, thirdScore);											
 		System.out.println("Your average score is: "+enteredScores);
-		System.out.println("Your letter grade is: ");
+		System.out.println("Your letter grade is: "+letterGrade(enteredScores));
 		
         kb.close();
 		
@@ -40,7 +40,7 @@ public class AverageTestScoreConversion {
 		
 	}
 	
-	public static String letterGrade () {
+	public static String letterGrade (int enteredScores) {
 		
 		String resultLetterGrade = 
 		  (0 <= enteredScores && enteredScores <= 69)    ?  "F"
