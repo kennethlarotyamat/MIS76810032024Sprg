@@ -43,12 +43,12 @@ public class AverageTestScoreConversion {
 	public static String letterGrade () {
 		
 		String resultLetterGrade = 
-				(0 <= enteredScores && enteredScores <= 69) ? "F"
-		
-				: (70 <= enteredScores && enteredScores <= 79) ? "C"
-					
-					: (80 <= enteredScores && enteredScores <= 89) ?"B"
-		: (90 <= enteredScores && enteredScores <= 100) ?  "A" 
+		  (0 <= enteredScores && enteredScores <= 69)    ?  "F"
+
+		: (70 <= enteredScores && enteredScores <= 79)   ?  "C"
+
+		: (80 <= enteredScores && enteredScores <= 89)   ?  "B"
+		: (90 <= enteredScores && enteredScores <= 100)  ?  "A" 
 		: "There seems to be an error, please review inputs.";
 		return resultLetterGrade;
 		
