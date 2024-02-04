@@ -18,12 +18,15 @@ public class ConvertToMinutes {
 		
 		convertedMinutes = convertToMinutes(hours, minutes);
 		System.out.println(hours+" hour(s) and "+minutes+" minute(s) is "+convertedMinutes+" minute(s).");
+        kb.close();
+		
 
 	}
 	public static int convertToMinutes (int hr, int min) {
 		// result variable and calculation
 		int result = 60*hr+min;
 		return result;
+		
 	}
 
 } 

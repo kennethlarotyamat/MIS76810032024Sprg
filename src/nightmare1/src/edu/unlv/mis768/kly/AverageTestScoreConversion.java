@@ -5,16 +5,24 @@ import java.util.Scanner;
 public class AverageTestScoreConversion {
 
 	public static void main(String[] args) {
-		int firstScore;
-		int secondScore;
-		int thirdScore;
-		int enteredScores; 
+		int firstScore = 0;
+		int secondScore = 0;
+		int thirdScore = 0;
+		int enteredScores;
+		boolean invalidInformation = false;
+		//boolean invalidInformation = false;
 																														//int hours; 																									// user input - entered by user - user defined
-																														//int minutes;																								// user input - entered by user - user defined
+// i really don't want to do any more input validation that I've already done. it throws out negative numbers, scores taht are negative numbers, and scores over 100
+		//int minutes;																								// user input - entered by user - user defined
 																											
 																													
-		Scanner kb = new Scanner(System.in); 																		
+		Scanner kb = new Scanner(System.in); 
 		
+		//try {
+		
+		
+		
+		try {
 		System.out.print("Enter score on Assignment 1: ");
 		firstScore = kb.nextInt();
 		
@@ -23,20 +31,41 @@ public class AverageTestScoreConversion {
 		
 		System.out.print("Enter score on Assignment 3: ");
 		thirdScore = kb.nextInt();
+		}
+        catch (java.util.InputMismatchException e) {
+            	// This causes any input other than a number to be classified as invalid information
+            	invalidInformation = true;                    
+        }
+        finally{kb.close();}
+        if (invalidInformation) {
+            // this is active if a user enters non-numeric characters and informs the user that the information entered is not valid.
+            System.out.println("There seems to be an error, please review inputs.");
+        }
 		
+		
+		// i can't believe it's finally done.
+        // this was actually as time consuming as the tax due assignment
+		
+		//}
+		// catch (java.util.InputMismatchException e) {
+            // This causes any input other than a number to be classified as invalid information
+       //     invalidInformation = true;                    
+       // }
+        //else {
 		enteredScores = processedScores(firstScore, secondScore, thirdScore);											
-		System.out.println("Your average score is: "+enteredScores);
-		System.out.println("Your letter grade is: "+letterGrade(enteredScores));
+		System.out.println(enteredScores == -1 || invalidInformation == true ?"There seems to be an error, please review inputs.":"Your average score is: "+enteredScores); 					// "There seems to be an error, please review inputs."
+		System.out.println(enteredScores == -1 || invalidInformation == true ?"There seems to be an error, please review inputs.":"Your letter grade is: "+letterGrade(enteredScores));
 		
-        kb.close();
-		
+        
+       // }
 
 	}
 	public static int processedScores (int scoreOne, int scoreTwo, int scoreThree) {
 																																					
-		double resultRoundedUp = Math.ceil((double)(scoreOne+scoreTwo+scoreThree)/3);									
+		double resultRoundedUp = 
+		Math.ceil((double)(scoreOne+scoreTwo+scoreThree)/3);									
 		int result = (int) resultRoundedUp;
-		return result;
+		return (result < 0 || result > 100 ) ? -1 : result;    											//  "There seems to be an error, please review inputs."  Integer.toString(result);  // (String) result; // what a headache Integer.toString  System.out.print("Negative taxable income cannot be processed.");
 		
 	}
 	
