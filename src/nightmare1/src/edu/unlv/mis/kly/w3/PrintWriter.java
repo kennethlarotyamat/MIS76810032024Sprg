@@ -22,4 +22,13 @@ outputFile.println("Kathryn");
 outputFile.println("Jean");
 outputFile.close();
 
+must use two backslash characters
+
+PrintWriter outFile =
+new PrintWriter("D:\\PriceList.txt");
+
+handle exceptions
+
+public static void main (String[] args) throws IOException
+
 */ 

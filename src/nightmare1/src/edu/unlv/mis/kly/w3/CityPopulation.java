@@ -55,6 +55,11 @@ public class CityPopulation {
  * 
  * 
 	
+PrintWriter class allows you
+to write data to a file using
+print and println
+new line character
+
 PrintWriter outputFile = new PrintWriter ("StudentData.txt");
 
 		Please submit the .java file (i.e., the source files).
