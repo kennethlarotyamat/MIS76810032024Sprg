@@ -1,10 +1,15 @@
-package edu.unlv.mis768.labwork4;
+package edu.unlv.mis.kly.w3; // package edu.unlv.mis768.labwork4;
 
+// import java.io.FileNotFoundException;
+// import java.io.IOException;
+// import java.io.PrintWriter;
+import java.io.PrintWriter;
+import java.io.*; // this is an alternative, which includes IOException and PrintWriter
 import java.util.Scanner;
 
 public class WriteFileDemo {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws IOException {
 		// declare variables
 		String fileName; // name of the file to store the data
 		String friendName; // name of a friend to be written to the file
@@ -18,11 +23,25 @@ public class WriteFileDemo {
 		numOfFriends = kb.nextInt();
 		
 		// Consume the remaining newline character
-		
+		kb.nextLine();
 		
 		// get the filename
 		System.out.print("Please enter the file name where you would like to store the data: ");
 		fileName = kb.nextLine();
+		
+		// open the file
+		PrintWriter outputFile = new PrintWriter(fileName);
+		
+		//for loop
+		
+		for (int i=0; i<numOfFriends; i++) { // integer variable i is initialized at zero, and as long as variable i is less than the number of friends or num of friends variable, the program will continue to prompt user to enter new friend names
+			System.out.print("Please enter the name of friends"+(i+1));
+			friendName = kb.nextLine();
+			
+			outputFile.println(friendName);
+		}
+		outputFile.close();
+		System.out.print("The Data is saved to the file" =fileName);
 		
 	}
 
