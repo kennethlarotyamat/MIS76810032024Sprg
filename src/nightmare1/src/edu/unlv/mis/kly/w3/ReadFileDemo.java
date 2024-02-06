@@ -28,3 +28,15 @@ public class ReadFileDemo {
 	      inputFile.close();
 	}
 }
+/*
+
+Scanner keyboard = new Scanner(System.in);
+System.out.print("Enter the filename: ");
+String filename = keyboard.nextLine();
+File file = new File(filename;
+Scanner inputFile = new Scanner(file);
+
+File myFile = new File ("Customers.txt");
+Scanner inputFile = new Scanner(myFile;
+
+*/
