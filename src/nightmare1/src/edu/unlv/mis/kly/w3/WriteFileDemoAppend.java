@@ -53,6 +53,12 @@ public class WriteFileDemoAppend {
 
 /*
 
+C:\Users\KLYam\OneDrive\Documents\GitHub\MIS76810032024Sprg\media\text\appendfildemo.txt
+
+This is the file path for the file that I'm going to use here. It was interesting because as i was appending the appendfiledemo.txt the eclipse dictionary file was also appended with new words
+
+C:\Users\KLYam\OneDrive\Documents\GitHub\MIS76810032024Sprg\media\text\appendfildemo.txt
+
 these file names have been used:
 
 Please enter the file name where you would like to store the data: 
