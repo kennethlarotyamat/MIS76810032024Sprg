@@ -7,7 +7,7 @@ import java.io.PrintWriter;
 import java.io.*; // this is an alternative, which includes IOException and PrintWriter
 import java.util.Scanner;
 
-public class WriteFileDemo {
+public class WriteFileDemoAppend {
 
 	public static void main(String[] args) throws IOException {
 		// declare variables
@@ -42,7 +42,6 @@ public class WriteFileDemo {
 		}
 		outputFile.close();
 		System.out.print("The Data is saved to the file " +fileName); // edC:\Users\KLYam\OneDrive\Documents\GitHub\MIS76810032024Sprg\media\text\writefilemo.txt
-        kb.close();
 		
 	}
 
@@ -57,7 +56,6 @@ these file names have been used:
 C:\Users\KLYam\OneDrive\Documents\GitHub\MIS76810032024Sprg\media\text\writefilemo.txt
 C:\Users\KLYam\OneDrive\Documents\GitHub\MIS76810032024Sprg\media\text\writefilemo2.txt
 C:\Users\KLYam\OneDrive\Documents\GitHub\MIS76810032024Sprg\media\text\writefilemo3.txt
-C:\Users\KLYam\OneDrive\Documents\GitHub\MIS76810032024Sprg\media\text\writefilemo4.txt
 
 
 
