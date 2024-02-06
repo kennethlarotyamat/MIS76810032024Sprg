@@ -30,7 +30,8 @@ public class WriteFileDemoAppend {
 		fileName = kb.nextLine(); // C:\Users\KLYam\OneDrive\Documents\GitHub\MIS76810032024Sprg\media\text\writefiledemo.txt
 		
 		// open the file
-		PrintWriter outputFile = new PrintWriter(fileName); // C:\Users\KLYam\OneDrive\Documents\GitHub\MIS76810032024Sprg\media\text\writefiledemo.txt
+		FileWriter fw = new FileWriter(fileName, true); // this line has been added to append data, rather than overwrite date
+		PrintWriter outputFile = new PrintWriter(fw); // PrintWriter outputFile = new PrintWriter(fileName); // C:\Users\KLYam\OneDrive\Documents\GitHub\MIS76810032024Sprg\media\text\writefiledemo.txt
 		
 		//for loop
 		
@@ -42,6 +43,7 @@ public class WriteFileDemoAppend {
 		}
 		outputFile.close();
 		System.out.print("The Data is saved to the file " +fileName); // edC:\Users\KLYam\OneDrive\Documents\GitHub\MIS76810032024Sprg\media\text\writefilemo.txt
+        kb.close();
 		
 	}
 
@@ -52,6 +54,8 @@ public class WriteFileDemoAppend {
 /*
 
 these file names have been used:
+
+Please enter the file name where you would like to store the data: C:\Users\KLYam\OneDrive\Documents\GitHub\MIS76810032024Sprg\media\text\appendfildemo.txt
 
 C:\Users\KLYam\OneDrive\Documents\GitHub\MIS76810032024Sprg\media\text\writefilemo.txt
 C:\Users\KLYam\OneDrive\Documents\GitHub\MIS76810032024Sprg\media\text\writefilemo2.txt
