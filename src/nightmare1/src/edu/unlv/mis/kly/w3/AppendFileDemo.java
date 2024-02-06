@@ -53,6 +53,19 @@ public class AppendFileDemo {
 
 /*
 
+How many friends do you have?5
+Please enter the file name where you would like to store the data: C:\Users\KLYam\OneDrive\Documents\GitHub\MIS76810032024Sprg\media\text\appendfildemo.txt
+Please enter the name of friend #1:Fragola
+Please enter the name of friend #2:fragolieee
+Please enter the name of friend #3:fragonardee
+Please enter the name of friend #4:fraswhaa
+Please enter the name of friend #5:fransolina
+The Data is saved to the file C:\Users\KLYam\OneDrive\Documents\GitHub\MIS76810032024Sprg\media\text\appendfildemo.txt
+
+
+
+
+
 C:\Users\KLYam\OneDrive\Documents\GitHub\MIS76810032024Sprg\media\text\appendfildemo.txt
 
 This is the file path for the file that I'm going to use here. It was interesting because as i was appending the appendfiledemo.txt 
