@@ -12,3 +12,4 @@ sharlilponi
 src
 eclipsedictionaryfile
 dictionaryfile
+str
