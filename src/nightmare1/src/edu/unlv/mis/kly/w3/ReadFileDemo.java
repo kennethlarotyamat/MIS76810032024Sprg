@@ -50,16 +50,31 @@ public class ReadFileDemo {
 
 /*
 
+Detecting the End of a File
+
+The scanner class's has next() method
+will return true if another item can be read from the file
+
+open the file
+File file = new File(filename);
+Scanner inutFile = new Scanner(file);
+// read until the end of the file
+while (inputFile.hasNext(){
+String str = inputFile.nextLine();
+System.out.println(str);
+
+
+
 Enter the name of a file: C:\Users\KLYam\OneDrive\Documents\GitHub\MIS76810032024Sprg\media\text\appendfildemo.txt
 The names in the file is:
- Sharlika
- sharliponi
+Sharlika
+sharliponi
 Tarantula
 Doogie
 Elephant
 Toucan
 Pig
- Appendia
+Appendia
 Appendio
 appendiala
 apendila dicshonario
@@ -69,7 +84,7 @@ appendio blormeesa
 appendeema bloggienemo
 apendorglimorna blorgarlika
 aplorika blorglika
- Shorna
+Shorna
 Shorneena
 Shorliga
 shorlaga
@@ -79,14 +94,14 @@ Shorlaika
 
 Enter the name of a file: C:\Users\KLYam\OneDrive\Documents\GitHub\MIS76810032024Sprg\media\text\appendfildemo.txt
 The names in the file is:
- Sharlika
- sharliponi
+Sharlika
+sharliponi
 Tarantula
 Doogie
 Elephant
 Toucan
 Pig
- Appendia
+Appendia
 Appendio
 appendiala
 apendila dicshonario
@@ -96,7 +111,7 @@ appendio blormeesa
 appendeema bloggienemo
 apendorglimorna blorgarlika
 aplorika blorglika
- Shorna
+Shorna
 Shorneena
 Shorliga
 shorlaga
