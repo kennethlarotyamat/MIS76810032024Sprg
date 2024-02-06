@@ -35,13 +35,13 @@ public class WriteFileDemo {
 		//for loop
 		
 		for (int i=0; i<numOfFriends; i++) { // integer variable i is initialized at zero, and as long as variable i is less than the number of friends or num of friends variable, the program will continue to prompt user to enter new friend names
-			System.out.print("Please enter the name of friend #"+(i+1));
+			System.out.print("Please enter the name of friend #"+(i+1)+":");
 			friendName = kb.nextLine();
 			
 			outputFile.println(friendName);
 		}
 		outputFile.close();
-		System.out.print("The Data is saved to the file " +fileName); // C:\Users\KLYam\OneDrive\Documents\GitHub\MIS76810032024Sprg\media\text\writefiledemo.txt
+		System.out.print("The Data is saved to the file " +fileName); // edC:\Users\KLYam\OneDrive\Documents\GitHub\MIS76810032024Sprg\media\text\writefilemo.txt
 		
 	}
 
