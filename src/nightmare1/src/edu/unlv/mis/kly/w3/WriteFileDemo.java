@@ -41,7 +41,7 @@ public class WriteFileDemo {
 			outputFile.println(friendName);
 		}
 		outputFile.close();
-		System.out.print("The Data is saved to the file" =fileName);
+		System.out.print("The Data is saved to the file" +fileName);
 		
 	}
 
