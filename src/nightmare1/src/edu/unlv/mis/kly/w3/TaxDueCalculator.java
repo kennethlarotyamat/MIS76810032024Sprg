@@ -70,7 +70,18 @@ public class TaxDueCalculator {
         }
         catch (java.lang.NumberFormatException e) {
             // this catch has been added because another issue has come up when i entered "Blordanicalimor" as my income // This causes any input other than a number to be classified as invalid information
-            invalidInformation = true;                    
+            invalidInformation = true;
+            /*
+                This second catch statement was used to address the following exception:
+                Please enter your taxable income: asadasddsa
+				Exception in thread "main" java.lang.NumberFormatException: For input string: "asadasddsa"
+				at java.base/jdk.internal.math.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:2054)
+				at java.base/jdk.internal.math.FloatingDecimal.parseDouble(FloatingDecimal.java:110)
+				at java.base/java.lang.Double.parseDouble(Double.java:792)
+				at nightmare1/edu.unlv.mis.kly.w3.TaxableIncomeCalculator.main(TaxableIncomeCalculator.java:62)
+             
+             
+             */
         }
 
         if (taxableIncome < 0) {
@@ -83,8 +94,8 @@ public class TaxDueCalculator {
             System.out.print("The information entered is invalid.");
         }
 
-        else { // this is where the taxes due calculations take place, after throwing out differnt types of invalid inputs, 
-               // like negative numbers, letters, or characters
+        else { // this is where the taxes due calculations take place, after throwing out different types of invalid inputs, 
+               // like negative numbers, letters, or special characters
             taxDue =
                         // start brackets
                                         // 10% on taxable income from $0 to $11,000
@@ -163,7 +174,7 @@ public class TaxDueCalculator {
 // i need to knock out these next two assignments so that i have the weekend. well. friday through sunday to do work work. 
 
 // I really enjoyed this assignment, but I'm really nervous because of how long it took me, and because of how long it turned out to be.
-//and also because how how much more invloved the grading system is with this, but, i turned it in. and now I'm done with it.
+//and also because how how much more involved the grading system is with this, but, i turned it in. and now I'm done with it.
             //taxableIncome = kb.nextDouble();
             //taxableIncome = kb.nextLine();
 // I think that this is more or less ready to go. I just need to double check everything and see that it fits the grading rubric.
