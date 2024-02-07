@@ -14,3 +14,5 @@ eclipsedictionaryfile
 dictionaryfile
 str
 blordanicalimor
+hr
+min

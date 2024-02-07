@@ -2,7 +2,7 @@ package edu.unlv.mis768.kly; // edu.unlv.mis768.labwork5 // package edu.unlv.mis
 
 import java.util.Scanner;
 
-public class CreditCardApproval {
+public class CreditCardApproval2 {
 
 	public static void main(String[] args) {
 		// variables for user input and result
@@ -40,7 +40,7 @@ public class CreditCardApproval {
 		// it is fine that this class is called private because we will only use this method 
 		// in this class
 		//	
-		if(salary >=20000 && creditRating >=7)
+		if(salary >=20000 && creditRating >=7 || salary >=15000 && creditRating >=8)
 			return true;
 		else
 			return false;

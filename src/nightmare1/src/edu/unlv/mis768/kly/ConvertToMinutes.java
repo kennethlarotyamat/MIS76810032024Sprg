@@ -33,3 +33,27 @@ public class ConvertToMinutes {
 // it works. as simple as this is, I'm actually really excited about it.
 // i need to work today, and this is the last day to turn in the assignment to calculating average grades
 // i didn't realize that the course grade has weights for different assignment classes.
+/*
+
+public static int convertToMinutes(int hr, int min) {
+//result variable and calculation
+ 
+ int result = 60*hr + min;
+ return result;
+ 
+ 
+ public static void displayMessage () {
+ 
+ System.out.println("Hello");
+ }
+ 
+ what does return type void mean
+ static 
+ 
+ private static double calcTrainingRate(int age, int restingRate) {
+ // user the formula to calculate the target training heart rate
+ return 0.6 *(220-age)+restingRate;
+ }
+ 
+ 
+ */
