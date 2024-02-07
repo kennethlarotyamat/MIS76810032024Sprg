@@ -34,13 +34,13 @@ public class CreditCardApproval2 {
 	         
 	}
 
-	private static boolean determineQualification(double salary, int creditRating) { // parameter name doesn't always need to be the same as the argument name
+	private static boolean determineQualification(double salary, int creditRating) {
 		// TODO Auto-generated method stub
 		// return false;
 		// it is fine that this class is called private because we will only use this method 
 		// in this class
 		//	
-		if(salary >=20000 && creditRating >=7 || salary >=15000 && creditRating >=8) // but the parameters would have to be the same as in the method.
+		if(salary >=20000 && creditRating >=7 || salary >=15000 && creditRating >=8)
 			return true;
 		else
 			return false;

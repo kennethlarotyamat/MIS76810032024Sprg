@@ -1,4 +1,5 @@
-package edu.unlv.mis768.labwork5;
+package edu.unlv.mis768.kly; // package edu.unlv.mis768.kly; // package edu.unlv.mis768.labwork5;
+
 
 import java.util.Scanner;
 
@@ -33,6 +34,7 @@ public class ExerciseTargetSetter {
 			// show result
 			System.out.print("Please exercise to reach the training heart rate of "+
 					trainingHeartRate+" per minute.");
+	        kb.close();
 		}
 
 	}
@@ -46,6 +48,12 @@ public class ExerciseTargetSetter {
 		
 		if(bmi<=25) // determine whether the person is overweight
 			isOverweight = false;
+		//else
+		//	isOverweight = true;
+		// it is actually not needed to have an else statement in this case
+		// because isOverweight is already defined as true when the variable 
+		// is initialized
+		
 		
 		// return the result
 		return isOverweight;
