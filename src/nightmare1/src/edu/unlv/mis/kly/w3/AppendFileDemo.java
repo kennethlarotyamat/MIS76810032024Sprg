@@ -53,6 +53,52 @@ public class AppendFileDemo {
 
 /*
 
+so the answer is yes, it will automatically create a file if that file doesn't already exist
+and after creating the file, it proceedes to append the file it just created.
+
+How many friends do you have? 30
+Please enter the file name where you would like to store the data: C:\Users\KLYam\OneDrive\Documents\GitHub\MIS76810032024Sprg\media\text\appendfiledemoautomaticallycreatedfile.txt
+Please enter the name of friend #1:Hlorna
+Please enter the name of friend #2:Glorna
+Please enter the name of friend #3:Florna
+Please enter the name of friend #4:Flortaki
+Please enter the name of friend #5:shorla
+Please enter the name of friend #6:hando
+Please enter the name of friend #7:comme
+Please enter the name of friend #8:larti
+Please enter the name of friend #9:shera
+Please enter the name of friend #10:gogo
+Please enter the name of friend #11:Gugina
+Please enter the name of friend #12:gugino
+Please enter the name of friend #13:plarkee
+Please enter the name of friend #14:Dog
+Please enter the name of friend #15:Fish
+Please enter the name of friend #16:Orange
+Please enter the name of friend #17:These
+Please enter the name of friend #18:you are
+Please enter the name of friend #19:whatever a moon
+Please enter the name of friend #20:has always
+Please enter the name of friend #21:meant
+Please enter the name of friend #22:oranges
+Please enter the name of friend #23:are
+Please enter the name of friend #24:I'm going to buy
+Please enter the name of friend #25:a bunch of oranges
+Please enter the name of friend #26:and then I'm going to squeeze them
+Please enter the name of friend #27:I'm going to buy a bag of oranges, and then I'm going to squeeze them.
+Please enter the name of friend #28:that's my business Idea
+Please enter the name of friend #29:what do you
+Please enter the name of friend #30:think?
+The Data is saved to the file C:\Users\KLYam\OneDrive\Documents\GitHub\MIS76810032024Sprg\media\text\appendfiledemoautomaticallycreatedfile.txt
+
+
+
+
+This file does not exist yet, I want to see if this program will automatically create it C:\Users\KLYam\OneDrive\Documents\GitHub\MIS76810032024Sprg\media\text\appendfiledemoautomaticallycreatedfile.txt
+
+Please enter the file name where you would like to store the data: C:\Users\KLYam\OneDrive\Documents\GitHub\MIS76810032024Sprg\media\text\appendfiledemo.txt
+
+Please enter the file name where you would like to store the data: C:\Users\KLYam\OneDrive\Documents\GitHub\MIS76810032024Sprg\media\text\appendfiledemo.txt
+
 How many friends do you have?5
 Please enter the file name where you would like to store the data: C:\Users\KLYam\OneDrive\Documents\GitHub\MIS76810032024Sprg\media\text\appendfildemo.txt
 Please enter the name of friend #1:Fragola
