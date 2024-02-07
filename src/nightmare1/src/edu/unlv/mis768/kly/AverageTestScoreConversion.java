@@ -12,7 +12,7 @@ public class AverageTestScoreConversion {
 		boolean invalidInformation = false;
 		//boolean invalidInformation = false;
 																														//int hours; 																									// user input - entered by user - user defined
-// i really don't want to do any more input validation that I've already done. it throws out negative numbers, scores taht are negative numbers, and scores over 100
+// i really don't want to do any more input validation that I've already done. it throws out negative numbers, scores that are negative numbers, and scores over 100
 		//int minutes;																								// user input - entered by user - user defined
 																											
 																													

@@ -10,3 +10,22 @@ public class AverageTestScore {
 	}
 
 }
+
+/*
+
+
+
+Methods
+Page
+Concept of Method Design
+Assignment
+Class Exercise (Week 3): Average Test Score
+Feb 4
+1 pts
+Page
+After Designing a Method
+Page
+An Example of Designing Multiple Methods in One Program
+
+
+*/
