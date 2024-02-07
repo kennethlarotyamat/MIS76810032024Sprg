@@ -68,6 +68,10 @@ public class TaxDueCalculator {
             // This causes any input other than a number to be classified as invalid information
             invalidInformation = true;                    
         }
+        catch (java.lang.NumberFormatException e) {
+            // this catch has been added because another issue has come up when i entered "Blordanicalimor" as my income // This causes any input other than a number to be classified as invalid information
+            invalidInformation = true;                    
+        }
 
         if (taxableIncome < 0) {
             // this throws out a negative number and informs the user that negative taxable income cannot be processed by this program.
