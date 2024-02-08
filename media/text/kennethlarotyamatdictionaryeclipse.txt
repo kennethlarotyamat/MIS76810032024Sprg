@@ -17,3 +17,6 @@ blordanicalimor
 hr
 min
 kly
+edu
+mis
+labwork
