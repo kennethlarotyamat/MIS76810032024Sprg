@@ -137,8 +137,28 @@ C:\Users\KLYam\OneDrive\Documents\GitHub\MIS76810032024Sprg\media\text\writefile
 
 
 
-*/// orange juice is not the elixer of oranges
-// and neither is lemonade the elixer of lemons
-// apple juice will never be the elixer of apples 
-// nor will wine be the elixer of the vine
+*/
+// elixir
+
+// orange juice is not the elixir of oranges
+// and neither is lemonade the elixir of lemons
+// apple juice will never be the elixir of apples 
+// nor will wine be the elixir of the vine
 // but here is the truth: oranges are to be squeezed!
+
+// so i guess that it is possible for a .java file to append its self
+
+/*
+ * 
+ 
+How many friends do you have?5
+Please enter the file name where you would like to store the data: C:\Users\KLYam\OneDrive\Documents\GitHub\MIS76810032024Sprg\src\nightmare1\src\edu\ unlv \mis\kly\w3\AppendFileDemo.java
+Please enter the name of friend #1:// orange juice is not the elixir of oranges
+Please enter the name of friend #2:// and neither is lemonade the elixir of lemons
+Please enter the name of friend #3:// apple juice will never be the elixir of apples 
+Please enter the name of friend #4:// nor will wine be the elixir of the vine
+Please enter the name of friend #5:// but here is the truth: oranges are to be squeezed!
+The Data is saved to the file C:\Users\KLYam\OneDrive\Documents\GitHub\MIS76810032024Sprg\src\nightmare1\src\edu\ unlv \mis\kly\w3\AppendFileDemo.java 
+
+ * 
+ */
