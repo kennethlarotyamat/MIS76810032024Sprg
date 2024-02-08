@@ -20,3 +20,5 @@ kly
 edu
 mis
 labwork
+elixir
+unlv
