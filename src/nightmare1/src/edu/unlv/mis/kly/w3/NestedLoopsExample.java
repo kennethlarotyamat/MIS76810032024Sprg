@@ -18,7 +18,7 @@ public class NestedLoopsExample {
 }
 /*
 
-
+So there is an SAS software and also an SAS programming language
 
 
 Terminology:	Machine Learning
