@@ -33,7 +33,13 @@ public class CreditCardApproval {
         kb.close();
 	         
 	}
-
+/**
+ *  This program is used to determine the qualification
+ *  of a credit card application
+ * @param salary this is a double number representing the applicant's salary
+ * @param creditRating this represents the applicants credit score
+ * @return boolean of approval or not
+ */
 	private static boolean determineQualification(double salary, int creditRating) {
 		// TODO Auto-generated method stub
 		// return false;
@@ -45,7 +51,7 @@ public class CreditCardApproval {
 		else
 			return false;
 	}
-
+// very nice documentation can be recognized by javadoc
 
 	
 	

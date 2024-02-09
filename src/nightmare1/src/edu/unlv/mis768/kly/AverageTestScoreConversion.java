@@ -3,7 +3,13 @@ package edu.unlv.mis768.kly;
 import java.util.Scanner;
 
 public class AverageTestScoreConversion {
-
+/**
+ * 
+ * @param args this is the main method
+ * it allows the user to enter the score of 3 different assignments
+ * each assignment is a integer number type
+ */
+	
 	public static void main(String[] args) {
 		int firstScore = 0;
 		int secondScore = 0;
@@ -36,6 +42,13 @@ public class AverageTestScoreConversion {
             	// This causes any input other than a number to be classified as invalid information
             	invalidInformation = true;                    
         }
+		
+		/**
+		 *  this closes the keyboard to address the resource leak warning
+		 *  actually, the if statement spits out a message to the user to inform the user
+		 *  that invalid information has been entered, it's the catch statement above that throws out non numeric characters
+		 *  then the if statement throws out non-numeric characters
+		 */
         finally{kb.close();}
         if (invalidInformation) {
             // this is active if a user enters non-numeric characters and informs the user that the information entered is not valid.

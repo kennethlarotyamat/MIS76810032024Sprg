@@ -11,10 +11,10 @@ public class SalesReports {
 	 * @throws IOException 
 	*/
 	public static void main(String[] args) throws IOException  {
-	      final int NUM_DAYS = 30; // Number of days of sales
-	      String filename;         // The name of the file to open
-	      double totalSales;       // Total sales for period
-	      double averageSales;     // Average daily sales
+	      final int NUM_DAYS = 30;  // Number of days of sales
+	      String filename;          // C:\Users\KLYam\OneDrive\Documents\GitHub\MIS76810032024Sprg\src\nightmare1\src\edu\ unlv\mis768\kly\MonthlySales.txt // The name of the file to open // 
+	      double totalSales;        // Total sales for period
+	      double averageSales;      // Average daily sales
 	      		
 		  // declare a Scanner object for keyboard input
 		  Scanner kb = new Scanner(System.in);
