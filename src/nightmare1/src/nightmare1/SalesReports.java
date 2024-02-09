@@ -33,11 +33,22 @@ public class SalesReports {
 	      
 	      // Calculate the average.
 	      averageSales = totalSales / NUM_DAYS;
+	      	DecimalFormat formatter = new DecimalFormat("#0.00") 						;   // formats the number
 	      
 	      // Display the total and average.
-	      System.out.println("The total sales for the period is $"+totalSales);
-	      System.out.println("The average daily sales were $"+ averageSales);} finally {kb.close();}
-	      
+	      System.out.println("The total sales for the period is $"+formatter.format(totalSales));									//	   System.out.println(formatter.format(number1));
+	      System.out.println("The average daily sales were $"+  formatter.format(averageSales)   );} finally {kb.close();}            // System.out.println(formatter.format(number1));      // "The average daily sales were $"+ averageSales  // System.out.println("The average daily sales were $"+ averageSales);} finally {kb.close();}			//	
+/**
+ * 
+ * 
+ * 			File name please?   C:\Users\KLYam\OneDrive\Documents\GitHub\MIS76810032024Sprg\src\nightmare1\src\nightmare1\MonthlySales.txt
+The total sales for the period is $56437.41999999999
+Exception in thread "main" java.lang.IllegalArgumentException: Cannot format given Object as a Number
+	at java.base/java.text.DecimalFormat.format(DecimalFormat.java:546)
+	at java.base/java.text.Format.format(Format.java:159)
+	at nightmare1/nightmare1.SalesReports.main(SalesReports.java:40)
+		      
+ */
 
 	}
 	public static String getFileName() {
@@ -45,9 +56,18 @@ public class SalesReports {
 		Scanner kb = new Scanner (System.in); // Scanner Object
 		try{
 		System.out.print("Please enter the file name:");  
-		return kb.nextLine(); // it isn't clear to me where to put 			kb.close();     because i have opened a keyboard twice
+		return kb.nextLine(); 									// it isn't clear to me where to put 			kb.close();     because i have opened a keyboard twice
 		} finally {kb.close();}
 	
+
+		/**
+		 *  0 digit always displays
+		 *  # leading zeroes omitted
+		 *  % percentage shows
+		 *  		DecimalFormat formatter = new DecimalFormat("#0.00")
+		 *  
+		 *  		System.out.println(formatter.format(number1));
+		 */
 		
 		
 	}
@@ -59,7 +79,7 @@ public class SalesReports {
 		// total+= sales;
 		// C:\Users\KLYam\OneDrive\Documents\GitHub\MIS76810032024Sprg\src\nightmare1\src\nightmare1\MonthlySales.txt
 		File file = new File (filename);
-		try (Scanner iFile = new Scanner(file)) {
+		try (Scanner iFile = new Scanner(file)) { // i don't understand what just happened, but it only has a try block. but i guess it's fixed.
 			while(iFile.hasNext()) {
 			sales = iFile.nextDouble();
 			total+= sales;
