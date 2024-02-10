@@ -20,10 +20,10 @@ public class SalesReports {
 	public static void main(String[] args) throws IOException { // i only entered the throws IO exception for the method
 																// below, not this one, but it seems to have been added
 																// automatically to all the methods
-		final int NUM_DAYS = 30; // Number of days of sales
-		String filename; // The name of the file to open
-		double totalSales; // Total sales for period
-		double averageSales; // Average daily sales
+		final int NUM_DAYS = 30; 								// Number of days of sales
+		String filename; 										// The name of the file to open
+		double totalSales; 										// Total sales for period
+		double averageSales; 									// Average daily sales
 
 		// declare a Scanner object for keyboard input
 		Scanner kb = new Scanner(System.in);
@@ -37,7 +37,7 @@ public class SalesReports {
 
 			// Calculate the average.
 			averageSales = totalSales / NUM_DAYS;
-			DecimalFormat formatter = new DecimalFormat("#0.00"); // formats the number
+			DecimalFormat formatter = new DecimalFormat("#,###.00"); // formats the number
 
 			// Display the total and average.
 			System.out.println("The total sales for the period is $" + formatter.format(totalSales)); // System.out.println(formatter.format(number1));
@@ -79,7 +79,9 @@ public class SalesReports {
 		 * # leading zeroes omitted
 		 * % percentage shows
 		 * DecimalFormat formatter = new DecimalFormat("#0.00")
-		 * 
+		 * DecimalFormat formatter = new DecimalFormat("#0.00")
+		 * DecimalFormat formatter = new DecimalFormat("00.00")
+		 * can add a thousands separator - can add a percentage sign
 		 * System.out.println(formatter.format(number1));
 		 */
 
