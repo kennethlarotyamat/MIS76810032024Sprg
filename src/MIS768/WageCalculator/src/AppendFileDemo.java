@@ -1,4 +1,4 @@
-package edu.unlv.mis.kly.w3; // package edu.unlv.mis768.labwork4;
+package WageCalculator.src; // package edu.unlv.mis.kly.w3; // package edu.unlv.mis768.labwork4;
 
 // import java.io.FileNotFoundException;
 // import java.io.IOException;

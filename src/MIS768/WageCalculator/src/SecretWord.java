@@ -1,4 +1,4 @@
-package mis768unlv;
+package WageCalculator.src; // package mis768unlv;
 
 import java.util.Scanner;
 

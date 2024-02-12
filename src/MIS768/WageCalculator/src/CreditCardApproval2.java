@@ -1,4 +1,4 @@
-package edu.unlv.mis768.kly; // edu.unlv.mis768.labwork5 // package edu.unlv.mis768.labwork5;
+package WageCalculator.src; // package edu.unlv.mis768.kly; // edu.unlv.mis768.labwork5 // package edu.unlv.mis768.labwork5;
 
 import java.util.Scanner;
 
