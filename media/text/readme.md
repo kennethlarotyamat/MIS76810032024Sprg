@@ -1,3 +1,10 @@
+6
+
+I moved the location where I keep my local GitHub files. 
+I'm going to commit this and see if this worked out.
+
+...
+
 5
 
 I'm really tired right now.
