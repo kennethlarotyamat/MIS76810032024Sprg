@@ -100,7 +100,8 @@ Exception in thread "main" java.lang.IndexOutOfBoundsException: Index 8 out of b
 	at java.base/java.util.ArrayList.get(ArrayList.java:427)
 	at edu.unlv.mis768.kly.ExpenseSummary.main(ExpenseSummary.java:42)
 
-
+// D:\GitHub\MIS76810032024Sprg\src\MIS768\edu\unlv\mis768\kly\ExpenseSummary.java.asda.txt
+// this is a text version that I used to view my assignment submission
 
 
 

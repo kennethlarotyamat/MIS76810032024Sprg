@@ -1,9 +1,9 @@
-package edu.unlv.mis768.labwork6;
+package edu.unlv.mis768.kly; // package edu.unlv.mis768.labwork6;
 
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class FriendList {
+public class FriendListOriginal {
 	public static void main(String[] args) {
 	      // Create an ArrayList to hold some names.
 	      ArrayList<String> nameList = new ArrayList<String>();
@@ -34,6 +34,7 @@ public class FriendList {
 
 	      
 	      // print the content using a loop and get() method.
+	      // D:\GitHub\MIS76810032024Sprg\ src \MIS768\ edu \ unlv \mis768\ kly\FriendListOriginal.java
 
 
 	      
