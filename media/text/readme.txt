@@ -1,3 +1,11 @@
+9
+
+So basically, I moved the location of my local GitHub repository. 
+I moved it from my lap-top hard drive to my
+external hard drive.
+
+...
+
 8
 
 So this update is being written in Eclipse, I had to change
