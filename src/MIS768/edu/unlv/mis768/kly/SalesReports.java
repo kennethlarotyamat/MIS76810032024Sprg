@@ -47,3 +47,58 @@ public class SalesReports {
 	}
 
 }
+
+//  this creates double brackets 2 dimensional array // double [] [] scores = new double [3] [4]
+
+/**
+ * 	// Declare a reference to an array that will hold integers
+ * 
+ 
+ 
+ rows for a two dimensional array that are that have
+ different lengths is called a ragged array
+ 
+ specific number of rows, but no columns
+ 
+ 
+ for (int row = 0; row < 3; row++) {
+ for (int col = 0; col < 4; col ++){
+ 
+ System.out.print ("Enter a score: ");
+ scores [row] [col] = keyboard.nextDouble();
+ }
+ 
+ }
+ 
+ 
+ float [] temperatures = new float [100];
+ char [] letters = new char [41];
+ long [] letters = new char [41]
+ 
+ int numTests;
+ int [] test;
+ Scanner keyboard = new Scanner (System.in);
+ System.out.print ("how many tests do you have?");
+ numTests = keyboard.nextInt();
+ tests = new int [numTests];
+ 
+ 
+ 
+ 
+ ArrayList object automatically expend when new item is added
+ or automatically shrinks 
+ 
+ import java.util.ArrayList
+ 
+ ArrayList<String> list = new ArrayList<String>(100);
+ 
+ leave it blank
+ nameList.add("James");
+ nameList.add("Catherine");
+ 
+ System.out.println(nameList);
+ 
+ 
+ 
+ * 
+ */

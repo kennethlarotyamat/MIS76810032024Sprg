@@ -111,3 +111,18 @@ public class SalesReports {
 	}
 
 }
+
+/*
+
+
+
+int[] firstArray =
+int[] secondArray = new int[5]
+
+public static void showArray (int[] array) {
+for (int i = o; i< array.length; i++)
+S
+
+
+
+ * */
