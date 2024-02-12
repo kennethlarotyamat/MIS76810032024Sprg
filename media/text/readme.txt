@@ -1,3 +1,12 @@
+8
+
+So this update is being written in Eclipse, I had to change
+the readme file from a .md to a .txt. It might be possible
+to edit a .md file in eclipse, but for whatever reason, it wasn't 
+readily apparent to me how to do so.
+
+...
+
 7
 
 For whatever reason I can't edit a .md file in eclipse.
@@ -21,8 +30,8 @@ I'm really tired right now.
 
 i have to use a different IDE
 
-so workspace save interval in minuts. I think setting it from 5 to 1. 
-from five minutes to 1 minutes is essentially the same as autosave. right?
+so workspace save interval in minutes. I think setting it from 5 to 1. 
+from five minutes to 1 minutes is essentially the same as auto-save. right?
 
 ...
 
