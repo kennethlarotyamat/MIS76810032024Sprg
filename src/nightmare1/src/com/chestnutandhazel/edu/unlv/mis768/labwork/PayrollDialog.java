@@ -39,7 +39,7 @@ public class PayrollDialog {
 }
 
 // so what i did here was try and use the original Employee.java file we created earlier in the class. 
-
+// parse methods
 // string cannot be saved to an input variable int variable
 // yeah, I remember this, I've had to deal with this, or i've come across this
 // where something like a data type or incorrect data type error

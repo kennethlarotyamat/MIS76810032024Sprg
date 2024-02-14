@@ -39,6 +39,30 @@ public class PayrollDialog {
 
 }
 
+/* there was something strange that happened
+ * I wanted to see if, or, well, i wanted to see
+ * what would happen if i used the original employee.java
+ * file to run the payrolldialog.java file
+ * and - i seemed to have had an issue with the import javax.swing. JOptionPane
+ * thing, and, I don't remember what i did, but i selected the second to the last
+ * error resolution option in eclipse, and it seems to have worked, but it wasn't clear to me
+ * what was going on, because I didn't have that error in the - the first time
+ * i did the thing. */
+
+
+// input dialogs always take the user input as a string 
+// Integer.parseInt(str);
+// the are called parse methods because they start with the word parse
+
+// Byte.parseByte("1");
+// you will get an error that says number format exception
+
+
+
+
+
+// import you will see an error, select the error and import it by selecting
+// the error
 // string cannot be saved to an input variable int variable
 // yeah, I remember this, I've had to deal with this, or i've come across this
 // where something like a data type or incorrect data type error
