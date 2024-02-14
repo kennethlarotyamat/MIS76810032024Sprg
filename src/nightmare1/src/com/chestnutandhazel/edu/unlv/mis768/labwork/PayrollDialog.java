@@ -1,4 +1,4 @@
-package edu.unlv.mis768.kly; // package edu.unlv.mis768.labwork7;
+package com.chestnutandhazel.edu.unlv.mis768.labwork; // package com.chestnutandhazel.edu.unlv.mis768.labwork; // package edu.unlv.mis768.labwork7;
 
 import javax.swing.JOptionPane;
 
@@ -23,13 +23,12 @@ public class PayrollDialog {
 		
 
 		
-		// declare an Employee object
+
 		Employee someone = new Employee();
-		someone.setName(empName);
+		someone.setFullName(empName);
 		
-		// Show the result in a message box
-		//
-		JOptionPane.showMessageDialog(null, "Hey, "+someone.getName()+", the pay is $"+someone.calcSalary(hours));
+
+		JOptionPane.showMessageDialog(null, "Hey, "+someone.getFullName()+", the pay is $"+someone.calDailyPay(hours));
 		
 		System.exit(0); // to end the program properly
 		
@@ -39,6 +38,11 @@ public class PayrollDialog {
 
 }
 
+// so what i did here was try and use the original Employee.java file we created earlier in the class. 
+
 // string cannot be saved to an input variable int variable
 // yeah, I remember this, I've had to deal with this, or i've come across this
 // where something like a data type or incorrect data type error
+/* ////////////		// declare an Employee object 8 */
+// Show the result in a message box
+//
