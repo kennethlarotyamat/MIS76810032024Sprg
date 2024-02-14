@@ -54,3 +54,11 @@ public class TestScoreConversion {
 
 
 }
+
+/*
+
+I'm way behind right now, this is a headache.
+The methods are nicely done. Good job! Suggestions: 
+The method names should be verbs/verb phrases, such as processScore(), getLetterGrade() 
+
+ */
