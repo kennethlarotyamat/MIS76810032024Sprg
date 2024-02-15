@@ -1,4 +1,4 @@
-package edu.unlv.mis768.labwork7;
+package edu.unlv.mis768.kly; // package edu.unlv.mis768.labwork7;
 
 import java.util.Scanner;
 
@@ -29,6 +29,15 @@ public class PersonSearch{
       // Display all of the names that begin with the 
       // string entered by the user.
       System.out.println("Here are the names that match:");
+      
+      for(int i=0; i<people.length; i++) {
+    	  if(people[i].toUpperCase().startsWith(lookUp.toUpperCase())) // this makes the string lookup not case sensitive by converting the user input to upper case and the lookup item also upper case 			//[people]  // this is case sensitive - if(people[i].startsWith(lookUp)) //[people]
+    		  System.out.println(people[i]);  // indexOf lastIndexOf
+    		  
+      }
 
    }
 }
+
+// https://unlv.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=2b0ed1c4-5c1f-407d-b521-b10601367a2d&start=0
+// how to search a string will return negative 1

@@ -78,7 +78,8 @@ public class BombGame {
 	    	// read X and Y
 	    	int x = Integer.parseInt(line.substring(0, indexOfComma));
 	    	int y = Integer.parseInt(line.substring(indexOfComma+1));
-	      
+	    	//video where she discusses how these lines work
+// https://unlv.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=2b0ed1c4-5c1f-407d-b521-b10601367a2d&start=0	      
 	    	// set the location for each city
 	    	cities.add(new Point(x,y));// cities[i] = new Point(x,y);   	  
 		  }

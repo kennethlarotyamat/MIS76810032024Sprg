@@ -38,7 +38,18 @@ public class PayrollDialog {
 	}
 
 }
+/*
 
+isLetter
+isDigit
+isLetterorDigit
+
+CustomerNumber
+
+
+
+
+*/
 /* there was something strange that happened
  * I wanted to see if, or, well, i wanted to see
  * what would happen if i used the original employee.java

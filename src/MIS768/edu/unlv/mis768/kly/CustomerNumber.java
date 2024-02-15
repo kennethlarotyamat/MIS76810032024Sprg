@@ -1,4 +1,4 @@
-package edu.unlv.mis768.labwork7;
+package edu.unlv.mis768.kly; // package edu.unlv.mis768.labwork7;
 
 import javax.swing.*;
 
@@ -58,10 +58,12 @@ public class CustomerNumber {
 				}
 				
 				// Test the last four characters for digits.
-				for (                ){
+				for (i=custNumber.length()-4; i<custNumber.length();i++){
 					// get one char
-					
+					char d = custNumber.charAt(i);
 					// if the char is not a digit
+					if(!Character.isDigit(d))
+						goodSoFar=false;
 					
 						// set the flag to false
 						
@@ -71,3 +73,10 @@ public class CustomerNumber {
 			return goodSoFar;
 		}
 }
+
+// Review Video https://unlv.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=30248928-7baf-4e4c-b2e5-b10601367ac8&start=0
+//
+
+// boolean startsWith (String str)
+// boolean endsWith (String str)
+
