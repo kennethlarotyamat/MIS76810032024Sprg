@@ -56,7 +56,8 @@ public class SavingsAccountDemo {
 
 
 
-
+// constructors have the same name as the class, have no return type, not even void
+// public RoulettePocket (int num) {number = num;}
 // package edu.unlv.mis768.labwork8;
 /*
 Lab

@@ -10,9 +10,9 @@ public class RoulettePocketDemo {
 		   int num = rand.nextInt(37);
 	
 		   // instantiate a Roulette Pocket object
-		   RoulettePocket pocket = new RoulettePocket();
+		   RoulettePocket pocket = new RoulettePocket(num);
 		   // set the number
-		   pocket.setNumber(num);
+		   //pocket.setNumber(num);
 		   
 		   // print out the number and color for testing
 		   System.out.println("The number is: "+pocket.getNumber()+" and the color is "+pocket.getColor());
@@ -22,3 +22,5 @@ public class RoulettePocketDemo {
 
 
 // package edu.unlv.mis768.labwork8;
+
+// no-arg Constructor

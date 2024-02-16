@@ -32,3 +32,4 @@ ti
 roulette
 rand
 redo
+num
