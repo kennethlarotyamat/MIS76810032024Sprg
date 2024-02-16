@@ -47,7 +47,7 @@ public class RectangleArea {
 
 }
 
-
+// in·stan·ti·ate - represent with an instance - create an instance of - represented with an actual example - creating an object
 // there is a model class and there is a demo class.
 // I really need to get the week 5 stuff done today, and then go back around to my 764 homework.
 // TODO Auto-generated method stub
