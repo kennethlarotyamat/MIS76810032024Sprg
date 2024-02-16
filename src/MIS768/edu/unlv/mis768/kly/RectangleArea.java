@@ -46,6 +46,10 @@ public class RectangleArea {
 	}
 
 }
+
+
+// there is a model class and there is a demo class.
+// I really need to get the week 5 stuff done today, and then go back around to my 764 homework.
 // TODO Auto-generated method stub
 // I'm going to avoid in-line comments unless I really have to use them - they are so distracting.
 // this wasn't really an assignment or anything, but she was demonstrating something in class that I wanted to try out.
