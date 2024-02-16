@@ -1,4 +1,4 @@
-package edu.unlv.mis768.labwork8;
+package edu.unlv.mis768.kly;
 
 import java.text.DecimalFormat;
 
@@ -51,3 +51,30 @@ public class SavingsAccountDemo {
 		JOptionPane.showMessageDialog(null,"The ending balance is " + ft.format(myAccount.getBalance()));
 	}
 }
+
+
+
+
+
+
+// package edu.unlv.mis768.labwork8;
+/*
+Lab
+- SavingsAccount
+- Based on the class diagram, please implement the class
+Savings Account
+-interestRate : double
+-balance: double
++SavingsAccount()
++SavingsAccount(iRate: double, bal: double) +SavingsAccount(iRateStr: String, balString: String)
++getInterest Rate(): double
++setInterest Rate (interestRate: double): void
++setInterest Rate (iRateStr: String): void
++getBalance(): double
++deposit(amount: double): void
++deposit(amountStr: String): void
++withdraw(amount: double): void
++withdraw(amountStr: String): void
++addInterest(): void
+UNIV
+*/
