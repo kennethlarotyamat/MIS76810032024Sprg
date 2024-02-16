@@ -160,7 +160,7 @@ Exception in thread "main" java.lang.IndexOutOfBoundsException: Index 8 out of b
  */
 /*
  * 
- * 
+ * instantiate object - refers to the creation of an object
  * 
  * 
  * Scanner kb = new Scanner(System.in);

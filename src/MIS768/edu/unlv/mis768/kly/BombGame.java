@@ -8,15 +8,15 @@ public class BombGame {
 	final static int NUM_OF_CITY = 5; 	// number of city is fixed.
 	
 	public static void main(String[] args) throws IOException {
-		// declare the array of points
+																// declare the array of points
 		ArrayList<Point> cities = new ArrayList<Point>(); //  [NUM_OF_CITY] // Point [] cities = new Point [NUM_OF_CITY];
 		 
-		// call the readCities() method to read the coordinates
+															// call the readCities() method to read the coordinates
 		cities = readCities();
 		 
 		
 		try (// Get the X and Y coordinates of the bomb
-		Scanner keyboard = new Scanner(System.in)) {
+				Scanner keyboard = new Scanner(System.in)) {
 			System.out.print("Please enter the x corrdinate of the bomb: ");
 			int bombX = keyboard.nextInt();
 			System.out.print("Please enter the y corrdinate of the bomb: ");
