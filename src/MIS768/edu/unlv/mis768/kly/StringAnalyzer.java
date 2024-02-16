@@ -2,7 +2,7 @@ package edu.unlv.mis768.kly; // package edu.unlv.mis768.labwork7;
 
 import java.util.Scanner;
 
-import javax.swing.JOptionPane;
+// import javax.swing.JOptionPane; // commented out to remove warning, may need to use later
 
 /**
    This program displays the number of letters,

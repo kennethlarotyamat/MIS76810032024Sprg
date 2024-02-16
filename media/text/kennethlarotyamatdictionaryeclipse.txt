@@ -29,3 +29,6 @@ unboxed
 kb
 stan
 ti
+roulette
+rand
+redo

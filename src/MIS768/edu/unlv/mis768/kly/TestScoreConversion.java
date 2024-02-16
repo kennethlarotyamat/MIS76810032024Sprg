@@ -8,7 +8,7 @@ public class TestScoreConversion {
 	      final int ARRAY_SIZE = 4;  // Size of the array; number of scores
 	      
 	      // Create a Scanner objects for keyboard input.
-	      Scanner keyboard = new Scanner(System.in);
+	      Scanner keyboard = new Scanner(System.in); // keyboard.close();
 	      
 	      // Create an array for the scores
 	      int [] scores = new int[ARRAY_SIZE];
@@ -39,6 +39,7 @@ public class TestScoreConversion {
 	      
 	      for(int i=0; i<letters.length;i++) {
 	    	  System.out.print(letters[i] + " "); // Created spaced between the letter grades // System.out.print(letters[i]);
+	    	  keyboard.close();
 	      }
 
 
@@ -76,6 +77,11 @@ public class TestScoreConversion {
 
 }
 
+
+
+
+
+// keyboard.close();
 /*
 
 public static double[] getArray() {
