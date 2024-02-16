@@ -48,6 +48,16 @@ public class RoulettePocket {
 		else
 			number=num; // this.number = num;
 	}
+	
+	public void setNumber(String str) {
+		// convert string to int
+		int num = Integer.parseInt(str);
+		if (num<0 || num>36)
+			number = 0;
+		else
+			number=num; // this.number = num;
+	}
+	
 	public String getColor() {
 		//Static is only used for the controller class 
 		//model class do not use static

@@ -9,8 +9,9 @@ public class RoulettePocketDemo2 {
 		   String num = JOptionPane.showInputDialog("Please enter a number between 0-36: ");
 				   
 		   // instantiate a Roulette Pocket object
-		   
+		   RoulettePocket pocket = new RoulettePocket();
 		   // set the string num to set the number
+		   pocket.setNumber(num);
 		   
 		   
 		   // show the number and color for testing
