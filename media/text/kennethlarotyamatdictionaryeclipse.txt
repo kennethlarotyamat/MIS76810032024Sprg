@@ -33,3 +33,4 @@ roulette
 rand
 redo
 num
+bal
