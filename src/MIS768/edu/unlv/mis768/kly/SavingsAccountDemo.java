@@ -13,6 +13,7 @@ public class SavingsAccountDemo {
 		int numOfMonth; 			//Number of months that have passed since the amount was established.
 		String withdraw;			//The amount of withdraw for each month
 		String deposit;				//The amount of deposit for each month
+		
 		DecimalFormat ft = new DecimalFormat("$###,###.00");
 		
 		//get the user input of starting balance
@@ -27,21 +28,26 @@ public class SavingsAccountDemo {
 		
 		//Create a SavingAccount object
 		//At the same time set the starting balance and the interestRate
-		SavingsAccount myAccount = new SavingsAccount(monthlyInterestRate,startingBalance);
+		SavingsAccount myAccount = new SavingsAccount(monthlyInterestRate,startingBalance); // The constructor SavingsAccount(String, String) is undefined
 		
 		//User a for loop to loop through the months
 		//Starts from 1, ends at the month specified by the user, with an increment of 1 
 		for (int i =1; i <= numOfMonth; i++) {
+			
 			//get the user input of withdraw amount
 			withdraw=JOptionPane.showInputDialog("Please enter the withdraw amount for month " + i +": ");
 			
-			//withdraw the amount using the object's withdraw method
-			myAccount.withdraw(withdraw);
+																																			//			withdraw the amount using the object's withdraw method
+			//String withdrawString = JOptionPane.showInputDialog("Please enter the withdraw amount for month " + i +": ");																		//			String withdrawString = "123.45";
+			double withdrawAmount = Double.parseDouble(withdraw);																			//			double withdrawAmount = Double.parseDouble(withdrawString);
+			myAccount.withdraw(withdrawAmount); 																							// 			The method withdraw(double) in the type SavingsAccount is not applicable for the arguments (String)
 			
 			//get the user input of withdraw amount
 			deposit = JOptionPane.showInputDialog("Please enter the deposit amount for month " +i+": ");
+			//String depositString = JOptionPane.showInputDialog("Please enter the deposit amount for month " +i+": ");
+			double depositAmount = Double.parseDouble(deposit);
 			//deposit the amount using the object's deposit method
-			myAccount.deposit(deposit);
+			myAccount.deposit(depositAmount); // myAccount.deposit(deposit);
 			
 			//add interest for this month using the object's addInterest method
 			myAccount.addInterest();

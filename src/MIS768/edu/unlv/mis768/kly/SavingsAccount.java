@@ -36,7 +36,20 @@ public class SavingsAccount {
 		public SavingsAccount() {
 		
 	}
+		// +SavingsAccount(iRateStr: String, balString: String)
+		// +setInterest Rate(iRateStr: String): void
+		// +deposit amountStr: String): void
+		// +withdraw(amountStr: String): void
+		
+		// I'm already a little lost about what to do. // the garage door is broken , and I can't go out and work today, but this is kind of
+		// a mixed problem blessing because now I HAVE to work on this, since I'm behind, and I can't really leave the house right now.
 	public SavingsAccount(double iRate, double bal) {
+		
+			//		+SavingsAccount()
+			//		+SavingsAccount(iRate: double, bal: double) 
+			//		+SavingsAccount(iRateStr: String, balString: String)
+			// The constructor SavingsAccount(String, String) is undefined
+		
 		if(bal<0)
 			bal=0;
 		
@@ -48,5 +61,25 @@ public class SavingsAccount {
 			iRate /=100;
 		interestRate=iRate;
 	}
+	
+	public SavingsAccount(String iRateString, String balString) { //method overload to string// public SavingsAccount(double iRate, double bal) {
+		
+		//		+SavingsAccount()
+		//		+SavingsAccount(iRate: double, bal: double) 
+		//		+SavingsAccount(iRateStr: String, balString: String)
+		// The constructor SavingsAccount(String, String) is undefined
+	    double iRate = Double.parseDouble(iRateString);
+	    double bal = Double.parseDouble(balString);	
+	if(bal<0)
+		bal=0;
+	
+	balance = bal;
+	
+	if(iRate<0)
+		iRate=0;
+	else if(iRate>.01)
+		iRate /=100;
+	interestRate=iRate; // Type mismatch: cannot convert from String to double
+}
 
 }
