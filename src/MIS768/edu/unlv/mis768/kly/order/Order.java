@@ -1,4 +1,4 @@
-package edu.unlv.mis768.kly; // package edu.unlv.mis768.labwork7;
+package edu.unlv.mis768.kly.order; // package edu.unlv.mis768.labwork7;
 
 import java.util.ArrayList;
 import java.util.Date;

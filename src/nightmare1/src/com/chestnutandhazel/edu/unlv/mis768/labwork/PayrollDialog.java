@@ -9,7 +9,7 @@ public class PayrollDialog {
 		String inputString; // for reading input
 		String empName; // the employee's name
 		int hours; // the employee's working hours
-		double grossPay; // the grossPay to be calculated
+		// double grossPay; // commented out to remove warning // double grossPay; // the grossPay to be calculated
 		
 		// get the name using a input box
 		empName = JOptionPane.showInputDialog ("Please Enter the Name");
