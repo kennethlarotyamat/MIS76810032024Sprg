@@ -1,72 +1,74 @@
 package edu.unlv.mis768.kly.individualassignment2;
 
 public class TestScore {
-	
 
-	
 	private int numQuestions;
 	private int numMissed;
 	private double theScore;
 	private double questionValue;
-	
 
-	public TestScore( int numQ) {
-		
+	public TestScore(int numQ) {
+
 	}
+
+	public TestScore(String numQtyString) {
+		int numQ = Integer.parseInt(numQtyString);
+
+	}
+
 	public int getNumQuestions() {
 		return numQuestions;
 	}
-	public void setNumMissed (int numMissed) {
-		
+
+	public void setNumMissed(int numMissed) {
+
 	}
+
 	public int getNumMissed() {
-	return numMissed;
+		return numMissed;
 	}
-	
 
 	public double getPointsEach() {
-		
 
-	questionValue = (double) numQuestions/100;
-	return questionValue;
+		questionValue = (double) numQuestions / 100;
+		return questionValue;
 	}
+
 	public double getScore() {
-		theScore = ((double) numMissed-(double) numQuestions)/(double) numQuestions; 
+		theScore = ((double) numMissed - (double) numQuestions) / (double) numQuestions;
 		return theScore;
 	}
-	
-	
 
 	public boolean equals(TestScore o2) {
 		if (this.theScore == o2.theScore)
 			return true;
 		else
 			return false;
-		
-	}	
+
+	}
+
 	public String toString() {
 		String theString = null;
-		theString = "The test includes "+ numQuestions+ " question(s).\n" +"Each question is valued at "+questionValue+" points. \n"
-					+ "The test-taker missed "+numMissed+" question(s).\n"	
-					+ "The score is "+theScore+"."															;
-		
+		theString = "The test includes " + numQuestions + " question(s).\n" + "Each question is valued at "
+				+ questionValue + " points. \n"
+				+ "The test-taker missed " + numMissed + " question(s).\n"
+				+ "The score is " + theScore + ".";
+
 		return theString;
 	}
-	
-	
-	
-
-
-
-
-
-	
-	
-
-	
 
 }
 
+
+
+
+
+
+
+
+
+
+// Integer.parseInt(numQtyString)  //		v // double iRate = Double.parseDouble(iRateString);
 // all right - it's all set up - well, i think so.
 
 //The test includes 18 question(s); each question is 5.56 points.

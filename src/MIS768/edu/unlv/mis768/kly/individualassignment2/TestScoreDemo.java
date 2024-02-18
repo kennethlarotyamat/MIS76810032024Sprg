@@ -1,9 +1,18 @@
 package edu.unlv.mis768.kly.individualassignment2;
 
+import javax.swing.JOptionPane;
+
 public class TestScoreDemo {
+
+
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		String enterQuestionQty;
+		
+		enterQuestionQty = JOptionPane.showInputDialog("Please enter the number of test questions on the exam: ");
+		
+		TestScore firstExam = new TestScore (enterQuestionQty); // SavingsAccount myAccount = new SavingsAccount(monthlyInterestRate,startingBalance);
 		
 		
 
@@ -13,7 +22,7 @@ public class TestScoreDemo {
 
 
 
-
+// 			private static 
 //			Create a program to demonstrate this Test class.
 //			In this program, ask the user to enter the number of questions 
 //			for the first test, and also enter the number of questions missed 

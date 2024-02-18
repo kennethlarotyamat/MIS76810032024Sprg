@@ -1,7 +1,7 @@
 package edu.unlv.mis768.kly.individualassignment2;
 
 public class SavingsAccount {
-	
+	// startingBalance
 	private double balance;
 	private double interestRate;
 		
@@ -83,3 +83,5 @@ public class SavingsAccount {
 }
 
 }
+
+// startingBalance

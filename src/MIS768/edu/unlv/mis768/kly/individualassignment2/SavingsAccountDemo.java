@@ -3,8 +3,8 @@ package edu.unlv.mis768.kly.individualassignment2;
 import java.text.DecimalFormat;
 
 import javax.swing.JOptionPane;
-
-
+// startingBalance
+// startingBalance
 public class SavingsAccountDemo {
 
 	public static void main(String[] args) {
