@@ -43,6 +43,9 @@ public class TestScore {
 
 }
 
+// i just took a survey from visual studio code, and it asked me how i liked developing java in visual studio code,
+// and i wrote that i just really don't even use vs code for java because I really don't know how.
+
 // I guess this wasn't too bad, I was worried at first
 
 //	double questionValue = 0;
