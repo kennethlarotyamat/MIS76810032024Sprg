@@ -1,3 +1,11 @@
+10
+
+what a nightmare! i just finished my last class excersize of week 5 
+and it took me 8 hours to complete. and i still have an individual
+assignment due, and usually these are more complex.
+
+...
+
 9
 
 So basically, I moved the location of my local GitHub repository. 
