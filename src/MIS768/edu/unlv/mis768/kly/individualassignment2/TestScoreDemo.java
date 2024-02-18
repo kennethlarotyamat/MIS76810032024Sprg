@@ -24,8 +24,7 @@ public class TestScoreDemo {
 		
 		TestScore firstExam = new TestScore (enterQuestionQty,enterQuestionMissedQty);
 		
-		Double calculateQuestionValue = firstExam.getPointsEach();
-		Double calculateExamScore = firstExam.getScore();
+
 		
 		
 		
@@ -41,8 +40,9 @@ public class TestScoreDemo {
 
 
 
-
-
+//Double calculateQuestionValue = firstExam.getPointsEach();
+//Double calculateExamScore = firstExam.getScore();
+// I can't even believe how long this is taking me.
 // 		String calculateQuestionValue;
 // ,calculateQuestionValue,calculateExamScore
 // // enterQuestionQty //100;
