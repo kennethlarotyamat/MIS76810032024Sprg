@@ -1,4 +1,4 @@
-package edu.unlv.mis768.kly; // package edu.unlv.mis768.labwork6;
+package edu.unlv.mis768.kly.individualassignment2; // package edu.unlv.mis768.labwork6;
 
 import java.util.ArrayList;
 import java.util.Scanner;
