@@ -52,6 +52,15 @@ public class TestScoreDemo {
 	}
 }
 
+
+
+// good lord, this is finally done. for whatever reason this took me forever.
+// ‎Sunday, ‎February ‎18, ‎2024, ‏‎1:07:56 AM is when i started on this - i just finished it - it took me 8 hours to complete this assignment. what a nightmare!
+
+// anyway - it's done, but I still have the individual assignment to do, and who knows how long that will take. jeeze. forever. probably.
+
+
+
 // this was added to remove the warning
 // 		ArrayList<Double> questionValueArray = new ArrayList<Double>();  // this was added to remove the warning
 // expenseDescriptionArray.add(expenseDescription);
