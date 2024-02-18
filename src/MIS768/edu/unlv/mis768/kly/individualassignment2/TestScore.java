@@ -8,6 +8,7 @@ public class TestScore {
 	private double questionValue;
 
 	public TestScore(int numQ) {
+		// int numQ = numQuestions;
 
 	}
 
