@@ -4,11 +4,21 @@ public class TestScoreDemo {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		
+		
 
 	}
 
 }
 
+
+
+//if(compXYZ.equals(compABC))
+//	System.out.print("same");
+//else
+//	System.out.print("not the same");
+//
+//}
 
 // I still don't understand this whole - two different files kind of thing
 // all I know is that I have to put some things in one file, and a bunch of
