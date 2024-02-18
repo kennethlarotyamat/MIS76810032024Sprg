@@ -2,62 +2,52 @@ package edu.unlv.mis768.kly.individualassignment2;
 
 import java.util.ArrayList;
 
-import javax.swing.JOptionPane; 
-
+import javax.swing.JOptionPane;
 
 public class TestScoreDemo {
 
-
-
 	public static void main(String[] args) {
-		
+
 		ArrayList<Double> sequenceOfScores = new ArrayList<Double>();
 		ArrayList<Double> questionValueArray = new ArrayList<Double>();
-		
+
 		for (int i = 0; i < 2; i++) {
-		String enterQuestionQty;
-		String enterQuestionMissedQty;
+			String enterQuestionQty;
+			String enterQuestionMissedQty;
 
- 
-		
-		enterQuestionQty = JOptionPane.showInputDialog("Please enter the number of test questions on the exam # " + (i + 1));
-		
-		
+			enterQuestionQty = JOptionPane
+					.showInputDialog("Please enter the number of test questions on the exam # " + (i + 1));
 
-		enterQuestionMissedQty = JOptionPane.showInputDialog("Please enter the number of missed questions on the exam # " + (i + 1));
-		
-		
-		
-		TestScore examPrintout = new TestScore (enterQuestionQty,enterQuestionMissedQty);
-		
-		Double calculateQuestionValue = examPrintout.getPointsEach();
-		Double calculateExamScore = examPrintout.getScore();
-		
-		
-		System.out.println("These are the details for Exam # " + (i + 1));
-		System.out.println("");
-		System.out.println("Please enter the number of test questions on the exam # " + (i + 1) +" : " + enterQuestionQty);
-		System.out.println("Please enter the number of missed questions on the exam # " + (i + 1) +" : " + enterQuestionMissedQty);
-		
-		System.out.println("");
-		System.out.println(examPrintout.toString());
-		sequenceOfScores.add(calculateExamScore);
-		questionValueArray.add(calculateQuestionValue);
-		System.out.println("");
-		System.out.println("==============================================================");
-		System.out.println("");
-		
+			enterQuestionMissedQty = JOptionPane
+					.showInputDialog("Please enter the number of missed questions on the exam # " + (i + 1));
 
-		
+			TestScore examPrintout = new TestScore(enterQuestionQty, enterQuestionMissedQty);
 
+			Double calculateQuestionValue = examPrintout.getPointsEach();
+			Double calculateExamScore = examPrintout.getScore();
 
-	}
+			System.out.println("These are the details for Exam # " + (i + 1));
+			System.out.println("");
+			System.out.println(
+					"Please enter the number of test questions on the exam # " + (i + 1) + " : " + enterQuestionQty);
+			System.out.println("Please enter the number of missed questions on the exam # " + (i + 1) + " : "
+					+ enterQuestionMissedQty);
+
+			System.out.println("");
+			System.out.println(examPrintout.toString());
+			sequenceOfScores.add(calculateExamScore);
+			questionValueArray.add(calculateQuestionValue);
+			System.out.println("");
+			System.out.println("==============================================================");
+			System.out.println("");
+
+		}
 		Double testOne = sequenceOfScores.get(0);
 		Double testTwo = sequenceOfScores.get(1);
-							if(testOne.equals(testTwo))
-								System.out.print("The scores are the same");
-							else
-								System.out.print("The scores are not the same");
+		if (testOne.equals(testTwo))
+			System.out.print("The scores are the same");
+		else
+			System.out.print("The scores are not the same");
 
 	}
 }
