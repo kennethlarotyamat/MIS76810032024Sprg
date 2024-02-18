@@ -1,18 +1,37 @@
 package edu.unlv.mis768.kly.individualassignment2;
 
-import javax.swing.JOptionPane;
+import javax.swing.JOptionPane; 
+
 
 public class TestScoreDemo {
 
 
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+
 		String enterQuestionQty;
+		String enterQuestionMissedQty;
+
+ 
 		
-		enterQuestionQty = JOptionPane.showInputDialog("Please enter the number of test questions on the exam: ");
+		enterQuestionQty = JOptionPane.showInputDialog("Please enter the number of test questions on the first exam: ");
 		
-		TestScore firstExam = new TestScore (enterQuestionQty); // SavingsAccount myAccount = new SavingsAccount(monthlyInterestRate,startingBalance);
+		
+
+		enterQuestionMissedQty = JOptionPane.showInputDialog("Please enter the number of missed questions on the first exam: ");
+		
+		
+		
+		TestScore firstExam = new TestScore (enterQuestionQty,enterQuestionMissedQty);
+		
+		Double calculateQuestionValue = firstExam.getPointsEach();
+		Double calculateExamScore = firstExam.getScore();
+		
+		
+		
+		System.out.println(firstExam.toString());
+		
+
 		
 		
 
@@ -22,6 +41,27 @@ public class TestScoreDemo {
 
 
 
+
+
+// 		String calculateQuestionValue;
+// ,calculateQuestionValue,calculateExamScore
+// // enterQuestionQty //100;
+
+//public double getPointsEach() {
+//
+//	questionValue = (double) numQuestions / 100;
+//	return questionValue;
+//}
+// double calculateQuestionValue;
+//double calculateExamScore;
+// String calculateFirstExamScore;
+//I might have to do this again using system in keyboard -- but I don't want to do that considering how long I've already taken just getting this far.
+//SavingsAccount myAccount = new SavingsAccount(monthlyInterestRate,startingBalance);
+// TODO Auto-generated method stub
+// SavingsAccount myAccount = new SavingsAccount(monthlyInterestRate,startingBalance); // The constructor SavingsAccount(String, String) is undefined
+
+// TestScore firstExam = new TestScore (enterQuestionQty);
+//SavingsAccount myAccount = new SavingsAccount(monthlyInterestRate,startingBalance);
 // 			private static 
 //			Create a program to demonstrate this Test class.
 //			In this program, ask the user to enter the number of questions 

@@ -1,5 +1,8 @@
 package edu.unlv.mis768.kly.individualassignment2;
 
+import java.text.DecimalFormat;
+
+
 public class TestScore {
 
 	private int numQuestions;
@@ -7,29 +10,36 @@ public class TestScore {
 	private double theScore;
 	private double questionValue;
 
-	public TestScore(int numQ) {
+	public TestScore(int numQ, int numM) {
 		
 		if (numQ < 0)
 			numQ = 0;
 
 		numQuestions = numQ;
+		numMissed = numM;
+		
+		
 
 
 	}
 
-	public TestScore(String numQtyString) {
+	public TestScore(String numQtyString, String numWrongString) {
+		
+		int numM = Integer.parseInt(numWrongString);
+
+		
 		int numQ = Integer.parseInt(numQtyString);
 		if (numQ < 0)
 			numQ = 0;
 
 		numQuestions = numQ;
+		numMissed = numM;
+		
+		
 
 	}
 	
-//					The parameterized constructor accepts an argument representing the number of questions. That is, 
-//					when a Test object is instantiated, the number of questions needs to be specified.
-//					However, if the value passed to this constructor is not a positive number, make numQuestion as 0.
-//					The get method of numQuestions is provided, but not the set method.
+
 
 	public int getNumQuestions() {
 		return numQuestions;
@@ -45,12 +55,12 @@ public class TestScore {
 
 	public double getPointsEach() {
 
-		questionValue = (double) numQuestions / 100;
+		questionValue = (100/(double) numQuestions);
 		return questionValue;
 	}
 
 	public double getScore() {
-		theScore = ((double) numMissed - (double) numQuestions) / (double) numQuestions;
+		theScore = (((double) numQuestions - (double) numMissed) / (double) numQuestions)*100;
 		return theScore;
 	}
 
@@ -61,13 +71,13 @@ public class TestScore {
 			return false;
 
 	}
-
+DecimalFormat ft = new DecimalFormat("0.00");
 	public String toString() {
 		String theString = null;
 		theString = "The test includes " + numQuestions + " question(s).\n" + "Each question is valued at "
-				+ questionValue + " points. \n"
+				+ ft.format(questionValue) + " points. \n"
 				+ "The test-taker missed " + numMissed + " question(s).\n"
-				+ "The score is " + theScore + ".";
+				+ "The score is " + ft.format(theScore) + ".";
 
 		return theString;
 	}
@@ -77,10 +87,14 @@ public class TestScore {
 
 
 
-
-
-
-
+//Double quesVal = Double.parseDouble(quesValString);
+//Double score = Double.parseDouble(scoreString);
+//theScore = score; // questionValue = quesVal; // , String quesValString, String scoreString
+//theScore = score; // questionValue = quesVal; // , double quesVal, double score
+//The parameterized constructor accepts an argument representing the number of questions. That is, 
+//when a Test object is instantiated, the number of questions needs to be specified.
+//However, if the value passed to this constructor is not a positive number, make numQuestion as 0.
+//The get method of numQuestions is provided, but not the set method.
 
 // int numQ = numQuestions;
 // Integer.parseInt(numQtyString)  //		v // double iRate = Double.parseDouble(iRateString);
