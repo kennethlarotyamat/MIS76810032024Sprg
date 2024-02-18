@@ -2,44 +2,12 @@ package edu.unlv.mis768.kly.individualassignment2;
 
 import java.text.DecimalFormat;
 
-
 public class TestScore {
 
 	private int numQuestions;
 	private int numMissed;
 	private double theScore;
 	private double questionValue;
-
-	public TestScore(int numQ, int numM) {
-		
-		if (numQ < 0)
-			numQ = 0;
-
-		numQuestions = numQ;
-		numMissed = numM;
-		
-		
-
-
-	}
-
-	public TestScore(String numQtyString, String numWrongString) {
-		
-		int numM = Integer.parseInt(numWrongString);
-
-		
-		int numQ = Integer.parseInt(numQtyString);
-		if (numQ < 0)
-			numQ = 0;
-
-		numQuestions = numQ;
-		numMissed = numM;
-		
-		
-
-	}
-	
-
 
 	public int getNumQuestions() {
 		return numQuestions;
@@ -54,13 +22,21 @@ public class TestScore {
 	}
 
 	public double getPointsEach() {
-
-		questionValue = (100/(double) numQuestions);
+		if (numQuestions <= 0 || numMissed < 0) {
+			questionValue = 0;
+		} else {
+			questionValue = (100 / (double) numQuestions);
+		}
 		return questionValue;
 	}
 
 	public double getScore() {
-		theScore = (((double) numQuestions - (double) numMissed) / (double) numQuestions)*100;
+		if (numQuestions <= 0 || numMissed < 0) {
+			theScore = 0;
+		} else {
+			theScore = ((double) (numQuestions - numMissed) / numQuestions) * 100;
+		}
+
 		return theScore;
 	}
 
@@ -71,7 +47,9 @@ public class TestScore {
 			return false;
 
 	}
-DecimalFormat ft = new DecimalFormat("0.00");
+
+	DecimalFormat ft = new DecimalFormat("0.00");
+
 	public String toString() {
 		String theString = null;
 		theString = "The test includes " + numQuestions + " question(s).\n" + "Each question is valued at "
@@ -82,9 +60,58 @@ DecimalFormat ft = new DecimalFormat("0.00");
 		return theString;
 	}
 
+	public TestScore(int numQ, int numM) {
+
+		if (numQ < 0 || numM < 0) {
+
+			numQ = 0;
+			numM = 0;
+			theScore = 0;
+			questionValue = 0;
+
+		}
+
+		numQuestions = numQ;
+		numMissed = numM;
+
+	}
+
+	public TestScore(String numQtyString, String numWrongString) {
+
+		int numM = Integer.parseInt(numWrongString);
+
+		int numQ = Integer.parseInt(numQtyString);
+
+		if (numQ < 0 || numM < 0) {
+
+			numQ = 0;
+			numM = 0;
+			theScore = 0;
+			questionValue = 0;
+
+		}
+
+		numQuestions = numQ;
+		numMissed = numM;
+
+	}
+
 }
 
-
+// i think that it's done but this basically took forever.
+//}
+// else {theScore=0;}
+// if ((double)numQuestions < 0 || (double) numMissed < 0) {
+//}
+//questionValue = queVal;
+//questionValue = 0;
+//theScore = 0;
+//questionValue = 0;
+//theScore = 0;
+//if	(numM < 0)
+//
+//	numM = 0;
+//	numQ = 0;
 //I can't even believe how long this is taking me.
 //	String calculateQuestionValue;
 //,calculateQuestionValue,calculateExamScore
