@@ -1,8 +1,17 @@
 10
 
-what a nightmare! i just finished my last class excersize of week 5 
+what a nightmare! i just finished my last class exercise of week 5 
 and it took me 8 hours to complete. and i still have an individual
-assignment due, and usually these are more complex.
+assignment due, and usually these are more complex. I don't even
+want to imagine how many millions of years this individual assignment
+is going to take, and, I still think that I'm going to be behind.
+I don't even want to think about how many millions of billions and
+eternities this assignment is going to take.
+
+When I first signed up for this class, I think that I wanted to
+eventually convert some of whatever Java assignments I anticipated
+completing into JavaScript files, and then displaying them here
+on my landing page, but I just haven't come around to doing that.
 
 ...
 
