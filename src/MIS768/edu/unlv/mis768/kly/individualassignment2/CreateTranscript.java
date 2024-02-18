@@ -4,6 +4,9 @@ public class CreateTranscript {
 
 }
 
+
+// I'm running up against the deadline here. it's 4 PM on the due date.
+
 // make sure parameters don't have the same name as fields because it is called shadowing and it can be confusing
 // template or model class this refer to itself
 
@@ -14,9 +17,9 @@ public class CreateTranscript {
  *public class Stock {
 private String symbol; // Trading symbol of stock private double share Price; // Current price per share /**
 Constructor
-@param sym The stock's trading symbol. @param price The stock's share price.
+@param symbol The stock's trading symbol. @param price The stock's share price.
 */ 
-//publi Stock (String symbol, double sharePrice) { this symbol = symbol; s.sharePrice = sharePrice;
+//public Stock (String symbol, double sharePrice) { this symbol = symbol; s.sharePrice = sharePrice;
 //}
 //symbol here refers to the parameter.
 //this here refers to the object
