@@ -21,7 +21,7 @@ public class Die {
    }
    
    /**
-      The roll method simlates the rolling of
+      The roll method simulates the rolling of
       the die.
    */
    
@@ -30,7 +30,7 @@ public class Die {
       Random rand = new Random();
       
       // Get a random value for the die.
-      value = rand.nextInt(sides) + 1;
+      value = rand.nextInt(sides) + 1; // there is no zero on a die, so 1 is added
    }
    
    /**

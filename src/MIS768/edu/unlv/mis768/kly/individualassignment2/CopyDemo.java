@@ -5,7 +5,7 @@ public class CopyDemo {
 	public static void main(String[] args) {
 		Stock compXYZ = new Stock("TSM",140.96);
 		
-		Stock compABC = compXYZ;
+		Stock compABC = compXYZ.copy();
 		
 		System.out.println("first object "+ compXYZ);
 		System.out.println("second object "+ compABC);
@@ -18,3 +18,5 @@ public class CopyDemo {
 	}
 
 }
+
+// just points to the object

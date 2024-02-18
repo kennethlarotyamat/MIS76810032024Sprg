@@ -15,6 +15,10 @@ public class AverageTestScore {
     <!-- 1 D:\GitHub\MIS76810032024Sprg\media\text\readme.txt -->
     <!-- C:\Users\KLYam\OneDrive\Documents\GitHub\MIS76810032024Sprg\media\text\readme.md -->
 
+// difference between passing values and methods into an argument
+
+
+
 
 Methods
 Page
@@ -38,7 +42,7 @@ computing capacity to firm performance
 storage capacity to firm performance
 number of patents to it investments
 it expertise and firm performance
-patents filed to commercialized products
+patents filed to commercialized products // Commercialized
 moderate competition stimulates innovation
 intense competition depresses innovation
 

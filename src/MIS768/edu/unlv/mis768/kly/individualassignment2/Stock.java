@@ -29,12 +29,28 @@ public class Stock {
 	}
 	
 	// copy method
-	
+	public	Stock copy() {
+		Stock newObject = new Stock(this.symbol, this.sharePrice);
+		return newObject;
+	}
 	
 	// toString method
+	public String toString() {
+		String str="";
+		str="Symbol: "
++this.symbol+" Price: "+ this.sharePrice;
+	return str;	
+	}
 
 	
 	// overwrite the equals method
+	public boolean equals(Stock o2) {
+		if (this.sharePrice == o2.sharePrice && this.symbol.equals(o2.symbol))
+			return true;
+		else
+			return false;
+		
+	}
 	
 
 }

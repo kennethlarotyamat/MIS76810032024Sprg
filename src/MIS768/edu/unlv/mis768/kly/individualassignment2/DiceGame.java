@@ -26,14 +26,14 @@ public class DiceGame {
       
       
       // Create 2 dice.
-      Die die1 =  ;
-      Die die2 =  ;
+      Die die1 =  new Die(numOfSide);
+      Die die2 =  new Die(numOfSide);
       // prompt the user about his/her choice
       JOptionPane.showMessageDialog(null, "You choose to roll two "+numOfSide+"-sided dice."
      								+ "\n Click OK to roll the dice.");
       
       // Roll and get total
-      userTotal =        ;
+      userTotal =rollDice(die1,die2)        ;
       
       // show the result to the user 
       JOptionPane.showMessageDialog(null, "The result is "+die1.getValue()
@@ -41,7 +41,7 @@ public class DiceGame {
                                                   +"\nThe total is "+userTotal
                                                   +"\n Click OK to let the computer roll the dice.");
       // computer's turn
-      computerTotal =           ;
+      computerTotal =   rollDice(die1,die2)        ;
       // result of computer's roll
       JOptionPane.showMessageDialog(null, "The result is "+die1.getValue()
       											  +" and "+die2.getValue()
@@ -62,19 +62,23 @@ public class DiceGame {
     * @param d2 Second Die
     * @return the total value;
     */
-   public static int rollDice(                ) {
+   public static int rollDice(Die d1, Die d2) {
 	   int total=0;
       
       // Roll die 1.
+	   d1.roll();
 	   
 	   
 	  // Roll die 2.
+	   d2.roll();
        
       
        // calculate the total
-       total =           ;
+       total =d1.getValue()   + d2.getValue()        ;
        
       return total;
       
    }
 }
+
+// objects can be passed into a method,

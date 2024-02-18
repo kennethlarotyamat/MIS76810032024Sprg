@@ -44,9 +44,18 @@ public class FullName {
    */
 
    public int getLength()   {
+	   int len =0;
+	   if(lastName!=null)
+		   len+=lastName.length();
+	   if(firstName!=null)
+		   len+=firstName.length();
+	   if(middleName!=null)
+		   len+=middleName.length();
+	   
+	   return len;
 
-      return lastName.length() + firstName.length()
-      + middleName.length();
+//      return lastName.length() + firstName.length()
+//      + middleName.length();
    }
 
    /**

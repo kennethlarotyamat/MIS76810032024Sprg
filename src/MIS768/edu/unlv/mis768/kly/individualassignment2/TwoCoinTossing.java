@@ -2,7 +2,7 @@ package edu.unlv.mis768.kly.individualassignment2; // package edu.unlv.mis768.la
 
 import java.text.DecimalFormat;
 
-import javax.swing.JOptionPane;
+// import javax.swing.JOptionPane; 		// commented out to remove warning // may need to reactivate later
 
 public class TwoCoinTossing {
 	public static void main(String[] args) {
