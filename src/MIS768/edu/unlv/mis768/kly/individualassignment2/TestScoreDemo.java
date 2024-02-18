@@ -1,38 +1,22 @@
 package edu.unlv.mis768.kly.individualassignment2;
 
-import javax.swing.JOptionPane; 
-
+import javax.swing.JOptionPane;
 
 public class TestScoreDemo {
-
-
 
 	public static void main(String[] args) {
 
 		String enterQuestionQty;
 		String enterQuestionMissedQty;
 
- 
-		
 		enterQuestionQty = JOptionPane.showInputDialog("Please enter the number of test questions on the first exam: ");
-		
-		
 
-		enterQuestionMissedQty = JOptionPane.showInputDialog("Please enter the number of missed questions on the first exam: ");
-		
-		
-		
-		TestScore firstExam = new TestScore (enterQuestionQty,enterQuestionMissedQty);
-		
+		enterQuestionMissedQty = JOptionPane
+				.showInputDialog("Please enter the number of missed questions on the first exam: ");
 
-		
-		
-		
+		TestScore firstExam = new TestScore(enterQuestionQty, enterQuestionMissedQty);
+
 		System.out.println(firstExam.toString());
-		
-
-		
-		
 
 	}
 
