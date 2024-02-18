@@ -8,14 +8,28 @@ public class TestScore {
 	private double questionValue;
 
 	public TestScore(int numQ) {
-		// int numQ = numQuestions;
+		
+		if (numQ < 0)
+			numQ = 0;
+
+		numQuestions = numQ;
+
 
 	}
 
 	public TestScore(String numQtyString) {
 		int numQ = Integer.parseInt(numQtyString);
+		if (numQ < 0)
+			numQ = 0;
+
+		numQuestions = numQ;
 
 	}
+	
+//					The parameterized constructor accepts an argument representing the number of questions. That is, 
+//					when a Test object is instantiated, the number of questions needs to be specified.
+//					However, if the value passed to this constructor is not a positive number, make numQuestion as 0.
+//					The get method of numQuestions is provided, but not the set method.
 
 	public int getNumQuestions() {
 		return numQuestions;
@@ -68,7 +82,7 @@ public class TestScore {
 
 
 
-
+// int numQ = numQuestions;
 // Integer.parseInt(numQtyString)  //		v // double iRate = Double.parseDouble(iRateString);
 // all right - it's all set up - well, i think so.
 
