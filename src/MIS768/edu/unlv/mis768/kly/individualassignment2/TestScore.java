@@ -85,7 +85,118 @@ DecimalFormat ft = new DecimalFormat("0.00");
 }
 
 
+//I can't even believe how long this is taking me.
+//	String calculateQuestionValue;
+//,calculateQuestionValue,calculateExamScore
+//// enterQuestionQty //100;
 
+//public double getPointsEach() {
+//
+//questionValue = (double) numQuestions / 100;
+//return questionValue;
+//}
+//double calculateQuestionValue;
+//double calculateExamScore;
+//String calculateFirstExamScore;
+//I might have to do this again using system in keyboard -- but I don't want to do that considering how long I've already taken just getting this far.
+//SavingsAccount myAccount = new SavingsAccount(monthlyInterestRate,startingBalance);
+//TODO Auto-generated method stub
+//SavingsAccount myAccount = new SavingsAccount(monthlyInterestRate,startingBalance); // The constructor SavingsAccount(String, String) is undefined
+
+//TestScore firstExam = new TestScore (enterQuestionQty);
+//SavingsAccount myAccount = new SavingsAccount(monthlyInterestRate,startingBalance);
+//		private static 
+//	Create a program to demonstrate this Test class.
+//	In this program, ask the user to enter the number of questions 
+//	for the first test, and also enter the number of questions missed 
+//	in the first test. After showing the content of the object representing 
+//	the first test, the program asks the user to enter the same information 
+//	for the second test. The program then shows the content of the second Test 
+//	object. Finally, the program should indicate whether the scores of the two 
+//	tests are the same.
+
+//
+//if(compXYZ.equals(compABC))
+//System.out.print("same");
+//else
+//System.out.print("not the same");
+//
+//}
+
+//I still don't understand this whole - two different files kind of thing
+//all I know is that I have to put some things in one file, and a bunch of
+//other things in some other file.
+//so I have a TestScore.java - and a TestScoreDemo.java
+
+//-numQuestions: int
+//-numMissed: int
+//+Test(numQ: int)
+//+getNumQuestions(): int
+//+setNumMissed (numMissed: int): void
+//+getNumMissed(): int
+//+getPoints Each(): double
+//+getScore(): double
+//+equals(test2: Test): boolean
+//+toString(): String
+//System.out.println("");
+//I can't figure out how to do this as a for loop // for (int i = 0; i < 2; i++) {	}
+//I'm tired already and this is taking forever, but I've managed to get the first test to display
+//all i have to do left is have the second test display, and then make them equal.
+//Double calculateQuestionValue = firstExam.getPointsEach();
+//Double calculateExamScore = firstExam.getScore();
+//I can't even believe how long this is taking me.
+//		String calculateQuestionValue;
+//,calculateQuestionValue,calculateExamScore
+//// enterQuestionQty //100;
+
+//public double getPointsEach() {
+//
+//	questionValue = (double) numQuestions / 100;
+//	return questionValue;
+//}
+//double calculateQuestionValue;
+//double calculateExamScore;
+//String calculateFirstExamScore;
+//I might have to do this again using system in keyboard -- but I don't want to do that considering how long I've already taken just getting this far.
+//SavingsAccount myAccount = new SavingsAccount(monthlyInterestRate,startingBalance);
+//TODO Auto-generated method stub
+//SavingsAccount myAccount = new SavingsAccount(monthlyInterestRate,startingBalance); // The constructor SavingsAccount(String, String) is undefined
+
+//TestScore firstExam = new TestScore (enterQuestionQty);
+//SavingsAccount myAccount = new SavingsAccount(monthlyInterestRate,startingBalance);
+//			private static 
+//			Create a program to demonstrate this Test class.
+//			In this program, ask the user to enter the number of questions 
+//			for the first test, and also enter the number of questions missed 
+//			in the first test. After showing the content of the object representing 
+//			the first test, the program asks the user to enter the same information 
+//			for the second test. The program then shows the content of the second Test 
+//			object. Finally, the program should indicate whether the scores of the two 
+//			tests are the same.
+
+//
+//if(compXYZ.equals(compABC))
+//	System.out.print("same");
+//else
+//	System.out.print("not the same");
+//
+//}
+
+//I still don't understand this whole - two different files kind of thing
+//all I know is that I have to put some things in one file, and a bunch of
+//other things in some other file.
+//so I have a TestScore.java - and a TestScoreDemo.java
+
+//	-numQuestions: int
+//	-numMissed: int
+//	+Test(numQ: int)
+//	+getNumQuestions(): int
+//	+setNumMissed (numMissed: int): void
+//	+getNumMissed(): int
+//	+getPoints Each(): double
+//	+getScore(): double
+//	+equals(test2: Test): boolean
+//	+toString(): String
 
 //Double quesVal = Double.parseDouble(quesValString);
 //Double score = Double.parseDouble(scoreString);
