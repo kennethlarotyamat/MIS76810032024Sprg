@@ -7,6 +7,7 @@ public class TestScore {
 	private int numQuestions;
 	private int numMissed;
 	private double theScore;
+	private double questionValue;
 	
 
 	public TestScore( int numQ) {
@@ -26,7 +27,7 @@ public class TestScore {
 	public double getPointsEach() {
 		
 
-	double questionValue = (double) numQuestions/100;
+	questionValue = (double) numQuestions/100;
 	return questionValue;
 	}
 	public double getScore() {
@@ -43,7 +44,14 @@ public class TestScore {
 			return false;
 		
 	}	
-	
+	public String toString() {
+		String theString = null;
+		theString = "The test includes "+ numQuestions+ " question(s).\n" +"Each question is valued at "+questionValue+" points. \n"
+					+ "The test-taker missed "+numMissed+" question(s).\n"	
+					+ "The score is "+theScore+"."															;
+		
+		return theString;
+	}
 	
 	
 	
@@ -51,13 +59,32 @@ public class TestScore {
 
 
 
-//	+toString(): String
+
+	
+	
+
 	
 
 }
 
+// all right - it's all set up - well, i think so.
+
+//The test includes 18 question(s); each question is 5.56 points.
+//The test-taker missed 2 question(s).
+//The score is 88.89
+// I had to create a field again, rather than just a local variable, because it - questionValue - is used later on in toString()
+
+// questionValue = (double) numQuestions/100; // I had to create a field again, 
+//rather than just a local variable, because it - questionValue - is used later on in toString()
+
+//+toString(): String
 
 
+//The toString() method can be used to show the content of an object. 
+//It should return a String indicating the number of questions, points 
+//for each question, number of questions missed, and the score. For example, 
+//with 18 questions in the Test and missed 2 questions, the toString() method 
+//should return the following:
 
 // i was originally going to declare and initialize theScore inside the method, 
 // but since i use theScore in the equals method, i actually had to create a theScore 
