@@ -12,6 +12,7 @@
 package edu.unlv.mis768.kly.individualassignment2;
 
 import java.text.DecimalFormat; // imports the DecimalFormat Class
+import java.util.ArrayList;		// imports the ArrayList Class, used for calculating GPA based on credit hours and the numerical value of a letter grade.
 
 public class CreateTranscript {
 	
@@ -74,7 +75,19 @@ public class CreateTranscript {
 		this.numberGrade = numberGrade;
 	}
 	
-	public double getGradePointAverage() {
+	public double getGradePointAverage(ArrayList<Double> numberGradeArray, ArrayList<Integer> courseHoursArray) {
+		double summationNumberGradeArray = 0;
+		int summationcourseHoursArray = 0;
+		
+		for (double gradeSum : numberGradeArray) {
+            summationNumberGradeArray+= gradeSum;
+        }
+		//
+		for (double gradeSum : courseHoursArray) {
+			summationcourseHoursArray+= gradeSum;
+        }
+		//
+		
 		return gradePointAverage;
 	}
 	public void setGradePointAverage(double gradePointAverage) {
@@ -104,8 +117,12 @@ public class CreateTranscript {
 	
 	
 }
+// well, actually, it does look like summation does refer to adding up a sequence of integers in an array list, so i'm going to change it back
 
-//this.numberGrade = numberGr;
+// sum and summation are different, a summation does add up a sequence of integers, 
+// but it seems like it's a sequence of integers is determined by some formula or algorithm, 
+// it's not a manually entered sequence of integers like a sequence of integers in an arrayList
+//this.numberGrade = numberGr; mation mation
 //this.gradePointAverage = grPointAve;
  // , double numberGr, double grPointAve
 

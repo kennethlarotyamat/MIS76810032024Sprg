@@ -68,7 +68,7 @@ public class CreateTranscriptDemo {
 			keyboard.nextLine();
 		} while (yesOrNoEntry == 'y' || yesOrNoEntry == 'Y'); 
 		
-		// remove when program is finished
+
 		System.out.println(courseNumberArray);
 		System.out.println(courseHoursArray);
 		System.out.println(letterGradeArray);
@@ -78,6 +78,8 @@ public class CreateTranscriptDemo {
 	}
 
 }
+
+// anyway, it looks like the arrays are working // remove when program is finished
 // testing area // it's working
 // testing area // it's working
 //System.out.println(courseNumberArray);
