@@ -21,10 +21,21 @@ public class TestScoreDemo {
 			enterQuestionMissedQty = JOptionPane
 					.showInputDialog("Please enter the number of missed questions on the exam # " + (i + 1));
 
+			
+			
+			
+			
+			
 			TestScore examPrintout = new TestScore(enterQuestionQty, enterQuestionMissedQty);
 
 			Double calculateQuestionValue = examPrintout.getPointsEach();
 			Double calculateExamScore = examPrintout.getScore();
+			
+			
+			
+			
+			
+			
 
 			System.out.println("These are the details for Exam # " + (i + 1));
 			System.out.println("");

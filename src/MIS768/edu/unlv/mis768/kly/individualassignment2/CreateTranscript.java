@@ -1,13 +1,234 @@
+/*		
+		Author's Name: 		    	Kenneth Larot Yamat
+
+     	Purpose of Program:			To create a student transcript file that includes courses
+     								taken, with corresponding credit hour, letter grade, and 
+     								grade point values for each course taken, and a grade point average
+     								calculated and printed at the end of the file                          		
+     						    	 
+  		Date Due:					February 18th, 2024
+*/
+
 package edu.unlv.mis768.kly.individualassignment2;
 
+import java.text.DecimalFormat; // imports the DecimalFormat Class
+
 public class CreateTranscript {
+	
 	private String courseNumber;
 	private int courseHours;
 	private String letterGrade;
 	private double numberGrade;
+	
+	private double gradePointAverage;
+	
+	DecimalFormat formatDouble = new DecimalFormat("0.00"); // Formats doubles to display two decimal points // formatDouble.format( )
+	
 
+// Getter and setter methods	
+	public String getCourseNumber() {
+		return courseNumber;
+	}
+	public void setCourseNumber(String courseNumber) {
+		this.courseNumber = courseNumber;
+	}
+	public int getCourseHours() {
+		return courseHours;
+	}
+	public void setCourseHours(int courseHours) {
+		this.courseHours = courseHours;
+	}
+	public String getLetterGrade() {
+		return letterGrade;
+	}
+	public void setLetterGrade(String letterGrade) {
+		this.letterGrade = letterGrade;
+	}
+	public double getNumberGrade() {
+		if (letterGrade.trim().equalsIgnoreCase("A") || letterGrade.trim().equalsIgnoreCase("A+")) { 		    		// Assigns numerical value to user entered letter grade ignores white spaces and ignores case 
+			numberGrade = 4.00;
+		} else if (letterGrade.trim().equalsIgnoreCase("A-")) { 											    		// Assigns numerical value to user entered letter grade ignores white spaces and ignores case 
+			numberGrade = 3.70;
+		} else if (letterGrade.trim().equalsIgnoreCase("B+")) { 														// Assigns numerical value to user entered letter grade ignores white spaces and ignores case 
+			numberGrade = 3.30;
+		} else if (letterGrade.trim().equalsIgnoreCase("B" )) { 														// Assigns numerical value to user entered letter grade ignores white spaces and ignores case 
+			numberGrade = 3.00;
+		} else if (letterGrade.trim().equalsIgnoreCase("B-")) { 														// Assigns numerical value to user entered letter grade ignores white spaces and ignores case 
+			numberGrade = 2.70;
+		} else if (letterGrade.trim().equalsIgnoreCase("C+")) { 														// Assigns numerical value to user entered letter grade ignores white spaces and ignores case 
+			numberGrade = 2.30;
+		} else if (letterGrade.trim().equalsIgnoreCase("C" )) { 														// Assigns numerical value to user entered letter grade ignores white spaces and ignores case 
+			numberGrade = 2.00;
+		} else if (letterGrade.trim().equalsIgnoreCase("C-")) { 														// Assigns numerical value to user entered letter grade ignores white spaces and ignores case 
+			numberGrade = 1.70;
+		} else if (letterGrade.trim().equalsIgnoreCase("D+")) { 														// Assigns numerical value to user entered letter grade ignores white spaces and ignores case 
+			numberGrade = 1.30;
+		} else if (letterGrade.trim().equalsIgnoreCase("D")) { 															// Assigns numerical value to user entered letter grade ignores white spaces and ignores case 
+			numberGrade = 1.00;
+		} else {  																										// Assigns numerical value to user entered letter grade, anything other than A+ through D is valued at zero grade points
+			numberGrade = 0.00;
+		}
+		return numberGrade;
+	}
+	public void setNumberGrade(double numberGrade) {
+		this.numberGrade = numberGrade;
+	}
+	
+	public double getGradePointAverage() {
+		return gradePointAverage;
+	}
+	public void setGradePointAverage(double gradePointAverage) {
+		this.gradePointAverage = gradePointAverage;
+	}
+// Constructor	method
+	public CreateTranscript(String courseNo, int courseHr, String letterGr) {
+
+		this.courseNumber = courseNo;
+		this.courseHours = courseHr;
+		this.letterGrade = letterGr;
+
+	}
+// Constructor method overload	
+	public CreateTranscript(String courseNo, String courseHr, String letterGr) {
+
+		this.courseNumber = courseNo;
+		this.courseHours = Integer.parseInt(courseHr);
+		this.letterGrade = letterGr;
+
+	}
+	
+
+	
+
+	
+	
+	
 }
 
+//this.numberGrade = numberGr;
+//this.gradePointAverage = grPointAve;
+ // , double numberGr, double grPointAve
+
+//this.numberGrade = Double.parseDouble(numberGr);
+//this.gradePointAverage = Double.parseDouble(grPointAve);
+ // , String numberGr, String grPointAve
+
+//(letterGrade.trim().equalsIgnoreCase("A") || letterGrade.trim().equalsIgnoreCase("A+"))// ignores white spaces and ignores case
+// formatDouble.format(numberGrade) // formatDouble.format( )
+//letterGrade.equalsIgnoreCase("A")
+// (letterGrade.equals("A") || letterGrade.equals("a")// (letterGrade = "A" || letterGrade = "a" )
+/*
+
+Letter Grade
+
+Point Scale
+
+A+ and A
+
+4.0
+
+A-
+
+3.7
+
+B+
+
+3.3
+
+B
+
+3.0
+
+B-
+
+2.7
+
+C+
+
+2.3
+
+C
+
+2.0
+
+C-
+
+1.7
+
+D+
+
+1.3
+
+D
+
+1.0
+
+D- and below
+
+0
+
+*/
+
+// Double.parseDouble(grPointAve);
+// ; // Double.parseDouble(numberGr);
+// Integer.parseInt(courseHr);
+//super(); 		//super();
+//public CreateTranscript() {
+//
+//}
+// I don't know what this is: // super();
+// TODO Auto-generated constructor stub
+//public CreateTranscript(String courseNumber, int courseHours, String letterGrade, double numberGrade,
+//		double gradePointAverage) {
+//	super();
+//	this.courseNumber = courseNumber;
+//	this.courseHours = courseHours;
+//	this.letterGrade = letterGrade;
+//	this.numberGrade = numberGrade;
+//	this.gradePointAverage = gradePointAverage;
+//}
+//public CreateTranscript() {
+//	super();
+//	// TODO Auto-generated constructor stub
+//}
+//private String studentName;			// these aren't required, and I might not get around to implementing them
+//private String studentNumber;
+// i was setting up the getter and setter methods manually, but i remember that there is a button for this.
+// so i'm going to redo them using the button.
+////
+//public void setCourseNumber(String courseNumber) {
+//this.courseNumber = courseNumber;
+//}
+//public String setCourseNumber() {
+//return courseNumber;
+//
+//}
+//
+////
+//public void setcourseHours(int courseHours) {
+//this.courseHours = courseHours;
+//}
+//public int setcourseHours() {
+//return courseHours;
+//
+//}
+////
+//public void setletterGrade(String letterGrade) {
+//this.letterGrade = letterGrade;
+//}
+//public String letterGrade() {
+//return letterGrade;
+//
+//}
+////
+//public void setNumberGrade(double numberGrade) {
+//this.numberGrade = numberGrade;
+//}
+//public double getNumberGrade() {
+//return numberGrade;
+//}
+//
+////
 
 // I'm running up against the deadline here. it's 4 PM on the due date.
 
