@@ -13,7 +13,8 @@ package edu.unlv.mis768.kly.individualassignment2;
 
 import java.util.Scanner;
 import java.util.ArrayList;
-import java.io.PrintWriter;
+import java.text.DecimalFormat;
+import java.io.*;
 
 
 
@@ -23,12 +24,22 @@ import java.io.PrintWriter;
 
 public class CreateTranscriptDemo {
 
+	
+
+	private static int courseHours;
+	private static String letterGrade;
+	private static String courseNumber;
+    private static PrintWriter writer;
+    private static String fileName;
 
 
-	public static void main(String[] args) {
+	public static void main(String[] args)  throws IOException {
 		
 		char yesOrNoEntry;
 		int entryNumber = 1;
+		String enterCourseNo = courseNumber;
+		int enterCourseHr = courseHours;
+		String enterLetterGr = letterGrade;
 		
 		Scanner keyboard = new Scanner(System.in);
 		
@@ -36,6 +47,7 @@ public class CreateTranscriptDemo {
 		ArrayList<Integer> courseHoursArray = new ArrayList<Integer>();
 		ArrayList<String> letterGradeArray = new ArrayList<String>();
 		ArrayList<Double> numberGradeArray = new ArrayList<Double>();
+		ArrayList<Double> pointScaleTimesCreditHoursArray = new ArrayList<Double>();
 
 		do {
 
@@ -52,14 +64,16 @@ public class CreateTranscriptDemo {
 			String letterGrade = keyboard.nextLine();
 			letterGradeArray.add(letterGrade);
 
-			String enterCourseNo = courseNumber;
-			int enterCourseHr = courseHours;
-			String enterLetterGr = letterGrade;
 
-			
-			CreateTranscript transcript = new CreateTranscript(enterCourseNo, enterCourseHr, enterLetterGr);
+
+			CreateTranscript transcript = new CreateTranscript(courseNumber, courseHours, letterGrade);
 			transcript.setLetterGrade(letterGrade);
 			numberGradeArray.add(transcript.getNumberGrade());
+			double pointScale = transcript.getNumberGrade();
+			pointScaleTimesCreditHoursArray.add(pointScale * courseHours);
+			
+
+
 
 			
 			entryNumber++; 
@@ -68,17 +82,122 @@ public class CreateTranscriptDemo {
 			keyboard.nextLine();
 		} while (yesOrNoEntry == 'y' || yesOrNoEntry == 'Y'); 
 		
-
+do {
 		System.out.println(courseNumberArray);
 		System.out.println(courseHoursArray);
 		System.out.println(letterGradeArray);
 		System.out.println(numberGradeArray);
 		
+		
+
+		CreateTranscript transcript = new CreateTranscript(enterCourseNo, enterCourseHr, enterLetterGr);
+		double gradePoAv = transcript.getGradePointAverage(pointScaleTimesCreditHoursArray, courseHoursArray);
+		DecimalFormat formatDouble = new DecimalFormat("0.00");
+        System.out.println("Grade Point Average: " + formatDouble.format(gradePoAv) );
+        
+        System.out.print("Would you like to printout of your transcript? (Y/N): ");
+		yesOrNoEntry = keyboard.next().charAt(0);
+		keyboard.nextLine();
+		if (yesOrNoEntry == 'y' || yesOrNoEntry == 'Y') {
+		    System.out.print("Please enter the file name where you would like to print your transcript: ");
+		    fileName = keyboard.nextLine();
+		    FileWriter fw = new FileWriter(fileName, true);
+		    PrintWriter writer = new PrintWriter(fw);
+
+		    int maxSize = Math.max(Math.max(courseNumberArray.size(), courseHoursArray.size()),
+		            Math.max(letterGradeArray.size(), numberGradeArray.size()));
+		    writer.println("Course Number\tCredit Hours\tLetter Grade\tNumber Grade");
+		    for (int i = 0; i < maxSize; i++) {
+		        writer.print((i < courseNumberArray.size()) ? courseNumberArray.get(i) : "");
+		        writer.print("\t\t\t\t");
+		        writer.print((i < courseHoursArray.size()) ? courseHoursArray.get(i) : "");
+		        writer.print("\t\t\t\t");
+		        writer.print((i < letterGradeArray.size()) ? letterGradeArray.get(i) : "");
+		        writer.print("\t\t\t\t");
+		        writer.println((i < numberGradeArray.size()) ? numberGradeArray.get(i) : "");
+		    }
+		    writer.println("Grade Point Average: " + gradePoAv);
+
+		    // Close and flush the PrintWriter
+		    writer.close();
+		    fw.close();
+
+		    System.out.println("Data has been written to " + fileName + " successfully.");
+		}
+
+
+}  while (yesOrNoEntry == 'y' || yesOrNoEntry == 'Y');
+
+        
+
+        
 
 	}
 
+	
 }
+// D:\GitHub\MIS76810032024Sprg\media\text\transcript.txt
+// D:\GitHub\MIS76810032024Sprg\src\nightmare1\src\edu\ unlv\mis\kly\w3\transcript.txt
+//keyboard.close(); 
+/*  // writer = new PrintWriter(fw);
 
+			writer = new PrintWriter(new FileWriter(fileName, true);
+			
+ = null
+		if (yesOrNoEntry == 'y' || yesOrNoEntry == 'Y') {
+			 PrintWriter writer = new PrintWriter(new File("transcript.txt"));
+
+	            // Determine the maximum size of any ArrayList
+	            int maxSize = Math.max(Math.max(courseNumberArray.size(), courseHoursArray.size()),
+	                                   Math.max(letterGradeArray.size(), numberGradeArray.size()));
+
+	            // Write column headers
+	            writer.println("Course Number\tCredit Hours\tLetter Grade\tNumber Grade");
+
+	            // Write data
+	            for (int i = 0; i < maxSize; i++) {
+	                writer.print((i < courseNumberArray.size()) ? courseNumberArray.get(i) : "");
+	                writer.print("\t\t");
+	                writer.print((i < courseHoursArray.size()) ? courseHoursArray.get(i) : "");
+	                writer.print("\t\t");
+	                writer.print((i < letterGradeArray.size()) ? letterGradeArray.get(i) : "");
+	                writer.print("\t\t");
+	                writer.println((i < numberGradeArray.size()) ? numberGradeArray.get(i) : "");
+	        
+	    }
+
+*/
+/*
+ * 
+ * 
+ * 
+ * 
+ */
+//	private static PrintWriter writer;	
+	 // PrintWriter writer = null;
+//              break;      Continue with any other logic you need inside the loop
+// Exit the loop
+//PrintWriter writer = new PrintWriter(new File("transcript.txt")) { 
+//	int maxSize = Math.max(Math.max(courseNumberArray.size(), courseHoursArray.size()),
+//            Math.max(letterGradeArray.size(), numberGradeArray.size()));
+//	writer.println("Course Number\tCredit Hours\tLetter Grade\tNumber Grade");
+//}
+
+
+// formatDouble.format(gradePoAv) 
+//CreateTranscript transcript = new CreateTranscript(enterCourseNo, enterCourseHr, enterLetterGr);
+//transcript.setLetterGrade(letterGrade);
+//numberGradeArray.add(transcript.getNumberGrade());
+//double pointScale = transcript.getNumberGrade();
+//pointScaleTimesCreditHoursArray.add(pointScale*enterCourseHr);
+
+
+// I don't really even understand math, so I'm going to have to do it this way.
+// new CreateTranscript();
+//		double grPoiAve = transcript.getGradePointAverage(pointScaleTimesCreditHoursArray, courseHoursArray);
+// 			System.out.println("Grade Point Average: " + grPoiAve );
+// ArrayList<Double> pointScaleTimesCreditHoursArray = new ArrayList<Double>(); // I don't really even understand math, so I'm going to have to do it this way.
+// pointScaleTimesCreditHours.add // I'm running out of time 
 // anyway, it looks like the arrays are working // remove when program is finished
 // testing area // it's working
 // testing area // it's working

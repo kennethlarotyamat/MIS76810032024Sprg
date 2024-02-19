@@ -48,23 +48,23 @@ public class CreateTranscript {
 	public double getNumberGrade() {
 		if (letterGrade.trim().equalsIgnoreCase("A") || letterGrade.trim().equalsIgnoreCase("A+")) { 		    		// Assigns numerical value to user entered letter grade ignores white spaces and ignores case 
 			numberGrade = 4.00;
-		} else if (letterGrade.trim().equalsIgnoreCase("A-")) { 											    		// Assigns numerical value to user entered letter grade ignores white spaces and ignores case 
+		} else if (letterGrade.replaceAll("\\s", "").equalsIgnoreCase("A-")) { 											    		// Assigns numerical value to user entered letter grade ignores white spaces and ignores case 
 			numberGrade = 3.70;
-		} else if (letterGrade.trim().equalsIgnoreCase("B+")) { 														// Assigns numerical value to user entered letter grade ignores white spaces and ignores case 
+		} else if (letterGrade.replaceAll("\\s", "").equalsIgnoreCase("B+")) { 														// Assigns numerical value to user entered letter grade ignores white spaces and ignores case 
 			numberGrade = 3.30;
-		} else if (letterGrade.trim().equalsIgnoreCase("B" )) { 														// Assigns numerical value to user entered letter grade ignores white spaces and ignores case 
+		} else if (letterGrade.replaceAll("\\s", "").equalsIgnoreCase("B" )) { 														// Assigns numerical value to user entered letter grade ignores white spaces and ignores case 
 			numberGrade = 3.00;
-		} else if (letterGrade.trim().equalsIgnoreCase("B-")) { 														// Assigns numerical value to user entered letter grade ignores white spaces and ignores case 
+		} else if (letterGrade.replaceAll("\\s", "").equalsIgnoreCase("B-")) { 														// Assigns numerical value to user entered letter grade ignores white spaces and ignores case 
 			numberGrade = 2.70;
-		} else if (letterGrade.trim().equalsIgnoreCase("C+")) { 														// Assigns numerical value to user entered letter grade ignores white spaces and ignores case 
+		} else if (letterGrade.replaceAll("\\s", "").equalsIgnoreCase("C+")) { 														// Assigns numerical value to user entered letter grade ignores white spaces and ignores case 
 			numberGrade = 2.30;
-		} else if (letterGrade.trim().equalsIgnoreCase("C" )) { 														// Assigns numerical value to user entered letter grade ignores white spaces and ignores case 
+		} else if (letterGrade.replaceAll("\\s", "").equalsIgnoreCase("C" )) { 														// Assigns numerical value to user entered letter grade ignores white spaces and ignores case 
 			numberGrade = 2.00;
-		} else if (letterGrade.trim().equalsIgnoreCase("C-")) { 														// Assigns numerical value to user entered letter grade ignores white spaces and ignores case 
+		} else if (letterGrade.replaceAll("\\s", "").equalsIgnoreCase("C-")) { 														// Assigns numerical value to user entered letter grade ignores white spaces and ignores case 
 			numberGrade = 1.70;
-		} else if (letterGrade.trim().equalsIgnoreCase("D+")) { 														// Assigns numerical value to user entered letter grade ignores white spaces and ignores case 
+		} else if (letterGrade.replaceAll("\\s", "").equalsIgnoreCase("D+")) { 														// Assigns numerical value to user entered letter grade ignores white spaces and ignores case 
 			numberGrade = 1.30;
-		} else if (letterGrade.trim().equalsIgnoreCase("D")) { 															// Assigns numerical value to user entered letter grade ignores white spaces and ignores case 
+		} else if (letterGrade.replaceAll("\\s", "").equalsIgnoreCase("D")) { 															// Assigns numerical value to user entered letter grade ignores white spaces and ignores case 
 			numberGrade = 1.00;
 		} else {  																										// Assigns numerical value to user entered letter grade, anything other than A+ through D is valued at zero grade points
 			numberGrade = 0.00;
@@ -75,21 +75,21 @@ public class CreateTranscript {
 		this.numberGrade = numberGrade;
 	}
 	
-	public double getGradePointAverage(ArrayList<Double> numberGradeArray, ArrayList<Integer> courseHoursArray) {
-		double summationNumberGradeArray = 0;
-		int summationcourseHoursArray = 0;
-		
-		for (double gradeSum : numberGradeArray) {
-            summationNumberGradeArray+= gradeSum;
-        }
-		//
-		for (double gradeSum : courseHoursArray) {
-			summationcourseHoursArray+= gradeSum;
-        }
-		//
-		
+	public double getGradePointAverage(ArrayList<Double> pointScaleTimesCreditHoursArray, ArrayList<Integer> courseHoursArray) {
+		double sumPointScaleTimesCreditHours = 0;
+		int sumCourseHours = 0;
+	    for (double value : pointScaleTimesCreditHoursArray) {
+	        sumPointScaleTimesCreditHours += value;
+	    }
+
+
+	    for (int value : courseHoursArray) {
+	        sumCourseHours += value;
+	    }
+		gradePointAverage= ((double) sumPointScaleTimesCreditHours/sumCourseHours);
 		return gradePointAverage;
 	}
+	
 	public void setGradePointAverage(double gradePointAverage) {
 		this.gradePointAverage = gradePointAverage;
 	}
@@ -117,6 +117,61 @@ public class CreateTranscript {
 	
 	
 }
+
+
+
+//keyboard.nextLine();
+//}  while (yesOrNoEntry == 'y' || yesOrNoEntry == 'Y') {
+//if (yesOrNoEntry == 'y' || yesOrNoEntry == 'Y') {
+//    
+//} else {
+//	break;
+//    
+//}
+//}
+//
+//    
+//
+//    
+//
+//}
+//
+//}
+//
+//}  while (yesOrNoEntry == 'y' || yesOrNoEntry == 'Y') {
+//	if (yesOrNoEntry == 'y' || yesOrNoEntry == 'Y') {
+//	    
+//	} else {
+//		break;
+//	    
+//	}
+//}
+//
+//        
+//
+//        
+//
+//	}
+//
+//}
+// while (yesOrNoEntry == 'y' || yesOrNoEntry == 'Y')
+// so trim() only replaces leading and trailing empty white spaces - I've had to use this instead - replaceAll("\\s", "")
+//	        double sumPointScaleTimesCreditHours = 0.0; double  int 
+//    int sumCourseHours = 0;
+// Calculate the sum of the second array
+// Calculate the sum of the second array
+//ArrayList<Double> numberGradeArray, ArrayList<Integer> courseHoursArray
+//double summationNumberGradeArray = 0;
+//int summationCourseHoursArray = 0;
+//
+//for (double gradeSum : numberGradeArray) {
+//    summationNumberGradeArray+= gradeSum;
+//}
+////
+//for (int hoursSum : courseHoursArray) {
+//	summationCourseHoursArray+= hoursSum;
+//}
+////
 // well, actually, it does look like summation does refer to adding up a sequence of integers in an array list, so i'm going to change it back
 
 // sum and summation are different, a summation does add up a sequence of integers, 

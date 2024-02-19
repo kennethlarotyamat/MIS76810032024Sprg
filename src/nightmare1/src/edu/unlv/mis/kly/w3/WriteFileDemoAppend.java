@@ -43,7 +43,7 @@ public class WriteFileDemoAppend {
 		}
 		outputFile.close();
 		System.out.print("The Data is saved to the file " +fileName); // edC:\Users\KLYam\OneDrive\Documents\GitHub\MIS76810032024Sprg\media\text\writefilemo.txt
-        kb.close();
+        kb.close(); // 		outputFile.close();
 		
 	}
 
