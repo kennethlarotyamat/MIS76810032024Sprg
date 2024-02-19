@@ -1,6 +1,10 @@
 package edu.unlv.mis768.kly.individualassignment2;
 
 public class CreateTranscript {
+	private String courseNumber;
+	private int courseHours;
+	private String letterGrade;
+	private double numberGrade;
 
 }
 
