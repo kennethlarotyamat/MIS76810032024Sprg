@@ -123,6 +123,7 @@ do {
 		    fw.close();
 
 		    System.out.println("Data has been written to " + fileName + " successfully.");
+		    break;
 		}
 
 
