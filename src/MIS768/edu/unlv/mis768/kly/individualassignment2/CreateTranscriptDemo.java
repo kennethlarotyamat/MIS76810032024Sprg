@@ -29,7 +29,7 @@ public class CreateTranscriptDemo {
 	private static int courseHours;
 	private static String letterGrade;
 	private static String courseNumber;
-    private static PrintWriter writer;
+    private static PrintWriter writer;				// i'm pretty sure i actually did use this // variable not used warning //  // resource leak // i finally have this finished and i'm 9 minutes away. i can't risk changing the code to closing it.
     private static String fileName;
 
 
@@ -41,52 +41,52 @@ public class CreateTranscriptDemo {
 		int enterCourseHr = courseHours;
 		String enterLetterGr = letterGrade;
 		
-		Scanner keyboard = new Scanner(System.in);
+		Scanner keyboard = new Scanner(System.in); // where user input is made //  // resource leak // i finally have this finished and i'm 9 minutes away. i can't risk changing the code to closing it.
 		
-		ArrayList<String> courseNumberArray = new ArrayList<String>();
-		ArrayList<Integer> courseHoursArray = new ArrayList<Integer>();
-		ArrayList<String> letterGradeArray = new ArrayList<String>();
-		ArrayList<Double> numberGradeArray = new ArrayList<Double>();
-		ArrayList<Double> pointScaleTimesCreditHoursArray = new ArrayList<Double>();
+		ArrayList<String> courseNumberArray = new ArrayList<String>(); // array holding course section number
+		ArrayList<Integer> courseHoursArray = new ArrayList<Integer>(); // array holding course credit unit hours value
+		ArrayList<String> letterGradeArray = new ArrayList<String>(); //  // array holding student letter grade for a given course
+		ArrayList<Double> numberGradeArray = new ArrayList<Double>();//  // array holding a students letter grade represented numerically
+		ArrayList<Double> pointScaleTimesCreditHoursArray = new ArrayList<Double>(); //  // array holding a mathematical calculation basically credit unit hours times point scale
 
 		do {
 
 			System.out.print("Enter a course number for entry # "+entryNumber+": "); 
 			String courseNumber = keyboard.nextLine();
-			courseNumberArray.add(courseNumber);
+			courseNumberArray.add(courseNumber); // enters course number
 			
 			System.out.print("Enter credit hours for entry # "+entryNumber+": "); 
 			int courseHours = keyboard.nextInt();
 			keyboard.nextLine();
-			courseHoursArray.add(courseHours);
+			courseHoursArray.add(courseHours);  // enters course credit hours
 			
 			System.out.print("Enter letter grade earned for entry # "+entryNumber+": "); 
 			String letterGrade = keyboard.nextLine();
-			letterGradeArray.add(letterGrade);
+			letterGradeArray.add(letterGrade);   // enters course letter grade
 
 
 
 			CreateTranscript transcript = new CreateTranscript(courseNumber, courseHours, letterGrade);
 			transcript.setLetterGrade(letterGrade);
-			numberGradeArray.add(transcript.getNumberGrade());
+			numberGradeArray.add(transcript.getNumberGrade()); // letter grade converted to numerical value and added to array 
 			double pointScale = transcript.getNumberGrade();
-			pointScaleTimesCreditHoursArray.add(pointScale * courseHours);
+			pointScaleTimesCreditHoursArray.add(pointScale * courseHours); // preliminary calculation for GPA based on credit unit hours
 			
 
 
 
 			
 			entryNumber++; 
-			System.out.print("Do you have additional course details to enter? (Y/N): ");
+			System.out.print("Do you have additional course details to enter? (Y/N): "); // where additional courses are added
 			yesOrNoEntry = keyboard.next().charAt(0);
 			keyboard.nextLine();
 		} while (yesOrNoEntry == 'y' || yesOrNoEntry == 'Y'); 
 		
 do {
-		System.out.println(courseNumberArray);
-		System.out.println(courseHoursArray);
-		System.out.println(letterGradeArray);
-		System.out.println(numberGradeArray);
+//		System.out.println(courseNumberArray);			// this was for testing it can be reactivated if more testing is needed
+//		System.out.println(courseHoursArray);
+//		System.out.println(letterGradeArray);
+//		System.out.println(numberGradeArray);
 		
 		
 
@@ -95,12 +95,12 @@ do {
 		DecimalFormat formatDouble = new DecimalFormat("0.00");
         System.out.println("Grade Point Average: " + formatDouble.format(gradePoAv) );
         
-        System.out.print("Would you like to printout of your transcript? (Y/N): ");
+        System.out.print("Would you like to printout of your transcript? (Y/N): "); // where a user can ask for a print out
 		yesOrNoEntry = keyboard.next().charAt(0);
 		keyboard.nextLine();
-		if (yesOrNoEntry == 'y' || yesOrNoEntry == 'Y') {
+		if (yesOrNoEntry == 'y' || yesOrNoEntry == 'Y') {  									// user input for if they want a print out
 		    System.out.print("Please enter the file name where you would like to print your transcript: ");
-		    fileName = keyboard.nextLine();
+		    fileName = keyboard.nextLine();				// where a user enters a file name
 		    FileWriter fw = new FileWriter(fileName, true);
 		    PrintWriter writer = new PrintWriter(fw);
 
@@ -123,7 +123,7 @@ do {
 		    fw.close();
 
 		    System.out.println("Data has been written to " + fileName + " successfully.");
-		    break;
+		    break; //  so that it stops asking me over and over again if i want a print out.
 		}
 
 
@@ -140,7 +140,7 @@ do {
 // D:\GitHub\MIS76810032024Sprg\media\text\transcript.txt
 // D:\GitHub\MIS76810032024Sprg\src\nightmare1\src\edu\ unlv\mis\kly\w3\transcript.txt
 //keyboard.close(); 
-/*  // writer = new PrintWriter(fw);
+/*  // writer = new PrintWriter(f w);
 
 			writer = new PrintWriter(new FileWriter(fileName, true);
 			

@@ -16,10 +16,10 @@ import java.util.ArrayList;		// imports the ArrayList Class, used for calculatin
 
 public class CreateTranscript {
 	
-	private String courseNumber;
-	private int courseHours;
-	private String letterGrade;
-	private double numberGrade;
+	private String courseNumber; // course number
+	private int courseHours; // number of credit units per class
+	private String letterGrade; // letter grade
+	private double numberGrade; // the letter grade converted to a numerical value
 	
 	private double gradePointAverage;
 	
@@ -45,6 +45,8 @@ public class CreateTranscript {
 	public void setLetterGrade(String letterGrade) {
 		this.letterGrade = letterGrade;
 	}
+	
+// the above getter and setters are much as they were when created by eclipse	
 	public double getNumberGrade() {
 		if (letterGrade.trim().equalsIgnoreCase("A") || letterGrade.trim().equalsIgnoreCase("A+")) { 		    		// Assigns numerical value to user entered letter grade ignores white spaces and ignores case 
 			numberGrade = 4.00;
@@ -75,7 +77,8 @@ public class CreateTranscript {
 		this.numberGrade = numberGrade;
 	}
 	
-	public double getGradePointAverage(ArrayList<Double> pointScaleTimesCreditHoursArray, ArrayList<Integer> courseHoursArray) {
+	public double getGradePointAverage(ArrayList<Double> pointScaleTimesCreditHoursArray, ArrayList<Integer> courseHoursArray) { // this is where
+		// the grade point average is calculated.
 		double sumPointScaleTimesCreditHours = 0;
 		int sumCourseHours = 0;
 	    for (double value : pointScaleTimesCreditHoursArray) {
@@ -86,7 +89,8 @@ public class CreateTranscript {
 	    for (int value : courseHoursArray) {
 	        sumCourseHours += value;
 	    }
-		gradePointAverage= ((double) sumPointScaleTimesCreditHours/sumCourseHours);
+		gradePointAverage= ((double) sumPointScaleTimesCreditHours/sumCourseHours); //  i don't understand math all that well, so i had to create a special array just to 
+		// multiply credit hours and point scale
 		return gradePointAverage;
 	}
 	
@@ -119,7 +123,7 @@ public class CreateTranscript {
 }
 
 
-
+// talk about 1 minute to midnight - good lord! 
 //keyboard.nextLine();
 //}  while (yesOrNoEntry == 'y' || yesOrNoEntry == 'Y') {
 //if (yesOrNoEntry == 'y' || yesOrNoEntry == 'Y') {
