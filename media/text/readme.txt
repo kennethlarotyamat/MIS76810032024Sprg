@@ -13,6 +13,12 @@ eventually convert some of whatever Java assignments I anticipated
 completing into JavaScript files, and then displaying them here
 on my landing page, but I just haven't come around to doing that.
 
+from readme.md entry # 8
+
+So today I learned that I actually can edit .md files in
+Eclipse. I have to use a - there is something called a generic 
+text editor. I'm writing this in eclipse.
+
 ...
 
 9

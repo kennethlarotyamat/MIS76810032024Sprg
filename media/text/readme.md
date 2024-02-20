@@ -1,3 +1,11 @@
+8
+
+So today I learned that I actually can edit .md files in
+Eclipse. I have to use a - there is something called a generic 
+text editor. I'm writing this in eclipse.
+
+...
+
 7
 
 For whatever reason I can't edit a .md file in eclipse.
