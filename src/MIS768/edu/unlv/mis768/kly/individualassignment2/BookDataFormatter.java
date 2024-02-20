@@ -15,7 +15,7 @@ public class BookDataFormatter {
 		// Get the input from the keyboard and store the String in inputFileName
 		String inputFileName = keyboard.nextLine();
 		
-		// generate the outputfile name
+		// generate the output file name
 		String outputFileName = generateOutputFileName(inputFileName);
 
 		// A file object is created with the inputFileName specified by the user
@@ -25,6 +25,8 @@ public class BookDataFormatter {
 		// A PrintWriter object for writing output to a file, created with outputFileName 
 		//   specified by the user
 		PrintWriter outputFile = new PrintWriter(outputFileName);
+		
+		keyboard.close();
 		
 
 		// read the first line
@@ -100,6 +102,9 @@ public class BookDataFormatter {
 			
 			// read the next line // booktest.xml
 			/*
+			
+			i couldn't see the csv folder that was being created, it was being filtered out
+			so i removed all filters, and now I see everything. 
 			
 			D:\GitHub\MIS76810032024Sprg\src\MIS768\booktest.csv 
 																	// for whatever reason this doesn't seem to be showing up in my eclipse like in the video. in the class.
