@@ -1,4 +1,4 @@
-package edu.unlv.mis768.labwork5;
+package edu.unlv.mis768.kly.indiv; // package edu.unlv.mis768.labwork5;
 
 import java.util.Scanner;
 
