@@ -76,7 +76,7 @@ public class OrderDemo {
 			// quantity
 			System.out.print(tran.getDetailedList().get(i).getQuantity());
 			System.out.print("\t\t");
-			//subtotal
+			//sub-total
 			System.out.print();
 			System.out.print("\t\t");
 			//tax
@@ -99,3 +99,7 @@ public class OrderDemo {
 	}
 
 }
+
+// 	Comma-separated values (CSV) a csv file is a comma separated value file
+//	Extensible Mark up Language (XML) - I don't know what that really means, or why it's important
+// 	Tab delimited or tab separated values (TSV)

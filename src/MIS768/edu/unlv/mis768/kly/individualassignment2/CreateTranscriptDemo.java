@@ -272,3 +272,19 @@ To calculate the amount of tax due
 //		import java.io.*; // this is an alternative, which includes IOException and PrintWriter
 //		import java.util.Scanner;
 //		TO DO Auto-generated method stub
+
+/*
+
+what am I dealing with here?
+nightmare
+so 
+when I wake up, I basically have to start working
+but when I get off work, I don't really
+have the mood to really get anything done.
+nightmare.
+
+ * 
+ 
+ 
+ 
+ */
