@@ -1,3 +1,16 @@
+11
+
+I don't know how that last assignment went. It worked, I wanted to
+spend more time with the comments, but I was one minute away from
+the due date, and I had to just turn in what I had. I didn't even
+want to really mess around with the code. I don't think that there 
+was anything else for me to do. There was something that I wanted to
+do. Oh, it was to remove the resource leak warnings, I remember, they
+weren't errors, just warnings from the IDE that I usually do something
+about, but I figured I didn't want to risk messing anything up.
+
+...
+
 10
 
 what a nightmare! i just finished my last class exercise of week 5 
