@@ -42,3 +42,6 @@ jeeze
 asadasddsa
 csv
 ouput
+hu
+ex
+subtotal

@@ -1,9 +1,9 @@
-package edu.unlv.mis768.kly; // package edu.unlv.mis768.labwork10;
+package edu.unlv.mis768.labwork10;
 
 /**
  * This enum lists all the possible auto jobs to be performed.
  * The price is set for each job.
-// * @author Han-fen Hu
+ * @author Han-fen Hu
  * @version: 1.0 
  */
 

@@ -1,5 +1,5 @@
-package edu.unlv.mis768.kly; // package edu.unlv.mis768.labwork10;
-//* @author Han-fen Hu
+package edu.unlv.mis768.labwork10;
+
 
 
 /**
@@ -46,6 +46,6 @@ public int getShares()  {
 */
 public double getCost()   {
 	// assume that 1% of transaction fee will be charged.
-   return shares * stock.getSharePrice()*1.01; // getSharePrice is implemented in the Stock Class
+   return shares * stock.getSharePrice()*1.01;
 }
 }

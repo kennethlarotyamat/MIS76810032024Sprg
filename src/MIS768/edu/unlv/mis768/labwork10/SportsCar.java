@@ -1,9 +1,8 @@
-package edu.unlv.mis768.kly; // package edu.unlv.mis768.labwork10;
+package edu.unlv.mis768.labwork10;
 import java.text.DecimalFormat;
 
 /**
    SportsCar class
-   // * @author Han-fen Hu
 */
 
 public class SportsCar {
