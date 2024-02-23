@@ -17,7 +17,7 @@ public class GradedActivity {
 
 	/**
 	 * The getScore method returns the score.
-	 * @return The value stored in the score field.
+	 * @return The value stored in the score field. // there are oranges in the field and we ate all the oranges on the trees.
 	 */
 	public double getScore(){
 		return score;
