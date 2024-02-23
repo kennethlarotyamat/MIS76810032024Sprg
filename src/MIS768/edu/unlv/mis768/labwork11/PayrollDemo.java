@@ -17,9 +17,7 @@ public class PayrollDemo {
 			Scanner keyboard = new Scanner(System.in);
 			System.out.print("Is the employee in question classified as Staff or Manager?");
 
-
 			String str = keyboard.nextLine().toLowerCase();
-
 
 			if (str.contains("staff") || str.charAt(0) == 's') {
 				classification = staff;
@@ -39,7 +37,6 @@ public class PayrollDemo {
 		if (classification.equals(staff)) {
 
 		} else if (classification.equals(manager)) {
-
 
 		} else {
 
