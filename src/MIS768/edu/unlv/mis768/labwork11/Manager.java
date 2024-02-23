@@ -42,67 +42,76 @@ public class Manager extends Staff { 																																				// publ
 		this.rawSalary = rawSalary;
 	}
 
-//	public Manager() {
-//		super();
-//		// TODO Auto-generated constructor stub
-//	}
+	public Manager() {
+		
+	}
 
-//	public Manager(double stipendLevel, double rawSalary) {
-//		super();
-//		this.stipendLevel = stipendLevel;
-//		this.rawSalary = rawSalary;
-//	}
+
+
 	
-	
-	
-	
-	
-	
-	
-	/*
-	 
-	
-	 * 
-	 * 
-	 * 
-	 * 
-	 * 
-	 * 
-	 * 
-	 * 
-	 * 
-	 * 
-	 * 
-	 * 
-	 * 
-	    
-	    
-	    
-	    
-	    
-	    
-	    public Manager(double stipendLevel, double rawSalary) {
-        this.stipendLevel = stipendLevel;
-        this.rawSalary = rawSalary;
-    }
-    
-    
-    
-    
-    
-    
-    
-    
-	   public void setScore(double s) {
-	   // the given score will be stored as the raw score
-      rawScore = s;
-       // call the setScore() method of the superclass to set the new score (after curving)
-      super.setScore(rawScore * percentage); // will be the new score in the graded activity will be used to get the new grade
-   }
-	
-	*/
-	/*
-	
+}
+//TO DO Auto-generated constructor stub
+//public Manager() {
+//super();
+//// TODO Auto-generated constructor stub
+//}
+
+//public Manager(double stipendLevel, double rawSalary) {
+//super();
+//this.stipendLevel = stipendLevel;
+//this.rawSalary = rawSalary;
+//}
+
+
+
+
+
+
+
+/*
+
+
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+
+
+
+
+
+
+public Manager(double stipendLevel, double rawSalary) {
+this.stipendLevel = stipendLevel;
+this.rawSalary = rawSalary;
+}
+
+
+
+
+
+
+
+
+public void setScore(double s) {
+// the given score will be stored as the raw score
+rawScore = s;
+// call the setScore() method of the superclass to set the new score (after curving)
+super.setScore(rawScore * percentage); // will be the new score in the graded activity will be used to get the new grade
+}
+
+*/
+/*
+
 Based on the superclass Staff (included in the lab files), please implement Manager class
 
 The field level ranges between 1-5. If the value is not within the range, set the value to 1.
@@ -116,7 +125,5 @@ Please create an application class to test your Manager class.
 
 
 Please submit the .java file (i.e., the source files).
-	
-	*/
-	
-}
+
+*/
