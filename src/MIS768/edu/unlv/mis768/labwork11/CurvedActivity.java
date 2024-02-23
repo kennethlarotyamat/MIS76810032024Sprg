@@ -27,10 +27,10 @@ public class CurvedActivity extends GradedActivity {
    */
 
    public void setScore(double s) {
-	   // the given score will be stored as the raw score
+	   											// the given score will be stored as the raw score
       rawScore = s;
-       // call the setScore() method of the superclass to set the new score (after curving)
-      super.setScore(rawScore * percentage); // will be the new score in the graded activity will be used to get the new grade
+       											// call the setScore() method of the superclass to set the new score (after curving)
+      super.setScore(rawScore * percentage); 	// will be the new score in the graded activity will be used to get the new grade
    }
 
    /**

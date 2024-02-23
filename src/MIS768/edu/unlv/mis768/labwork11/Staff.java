@@ -57,6 +57,7 @@ public class Staff {
 	 * @return Salary for the employee
 	 */
 	public double calcSalary() {
+		
 		// regular pay
 		double salary = hours * payRate;
 		
@@ -69,3 +70,18 @@ public class Staff {
 	}	
 	
 }
+
+/*
+ * 
+Based on the superclass Staff (included in the lab files), please implement Manager class
+
+The field level ranges between 1-5. If the value is not within the range, set the value to 1.
+Getter and setter for the field should also be provided.
+Please override the calcSalary() method. A manager’s salary is calculated as regular salary plus a stipend. 
+The stipend is $150 per level (e.g., $750 for a level 5 manager).
+Please create an application class to test your Manager class.
+
+Please submit the .java file (i.e., the source files).
+ * 
+ * 
+ */

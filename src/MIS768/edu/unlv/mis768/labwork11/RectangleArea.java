@@ -47,6 +47,9 @@ public class RectangleArea {
 
 }
 
+// I'm trying to think about what to do right now. finish up my assignment, or take a nap
+// because I might need to work today.
+
 // in·stan·ti·ate - represent with an instance - create an instance of - represented with an actual example - creating an object
 // there is a model class and there is a demo class.
 // I really need to get the week 5 stuff done today, and then go back around to my 764 homework.

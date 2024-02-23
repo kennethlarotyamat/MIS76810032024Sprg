@@ -27,12 +27,13 @@ public class PassFailExamDemo {
       minPassing = keyboard.nextDouble();
 
       // Create a PassFailExam object.
+      PassFailExam exam = new PassFailExam(questions,missed,minPassing);
       
 
       // Display the exam score.
-      System.out.println("The exam score is: ");
+      System.out.println("The exam score is: "+exam.getScore());
 
       // Display the exam grade.
-      System.out.println("The grade is: ");
+      System.out.println("The grade is: "+exam.getGrade());
    }
 }
