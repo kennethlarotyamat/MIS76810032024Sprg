@@ -24,7 +24,7 @@ public class GradedActivity {
 	}
 
 	/**
-	 * The getGrade method returns a letter grade
+//	 * The getGrade method returns a letter grade
 	 * determined from the score field.
 	 *    @return The letter grade.
 	 */

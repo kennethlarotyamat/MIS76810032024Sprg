@@ -49,10 +49,13 @@ public class InClassExercise extends GradedActivity {
 		completed = c; // assign the given value to the field
 		
 		// if the exercise is completed before due date
-		
+		if(completed && (today.compareTo(dueDate)<=0))
 		// set the score to 100
+			setScore(100);
 		
 		// otherwise set the score to 0
+		else
+			setScore(0);
 
 	}
 	
