@@ -1,49 +1,87 @@
-package edu.unlv.mis768.kly;    // package edu.unlv.mis768.labwork7;
+package edu.unlv.mis768.kly; // package edu.unlv.mis768.labwork10;
+
+import edu.unlv.mis768.labwork10.Product;
 
 public class OrderDetail {
 	// field
-	private int quantity;
 	private Product item;
-	
-	// no-arg constructor
-	public OrderDetail() {}
-	
-	// parameterized constructor
-	public OrderDetail(int qty, Product item) {
-		quantity = qty;
-		this.item = item;
-	}
-
-	public int getQuantity() {
-		return quantity;
-	}
-
-	public void setQuantity(int quantity) {
-		this.quantity = quantity;
-	}
-
+	private int quantity;
 	public Product getItem() {
 		return item;
 	}
-
 	public void setItem(Product item) {
 		this.item = item;
 	}
-	
+	public int getQuantity() {
+		return quantity;
+	}
+	public void setQuantity(int quantity) {
+		this.quantity = quantity;
+	}
+	public OrderDetail(Product item, int quantity) {
+		super(); //  I still don't understand what this line is for
+		this.item = item;
+		this.quantity = quantity;
+	}
+	public OrderDetail() {} // "no-arg constructor" or "no-argument constructor." // no r constructor.
+
 	public double getSubtotal() {
 		return quantity * item.getUnitPrice();
 	}
-	
 	public double calcTax() {
-		double taxAmount=0;
-		
-		if(!item.getType().equalsIgnoreCase("food"))
-			taxAmount = getSubtotal()*0.06;
-		
-		return taxAmount;
-					
+		if (item.getType().replaceAll("\\s", "").equalsIgnoreCase("food")) // while (moreItem.equalsIgnoreCase("y"))
+			return 0;
+		else
+			return getSubtotal() * .06;
 	}
 }
+
+//package edu.unlv.mis768.kly;    // package edu.unlv.mis768.labwork7;
+//
+//public class OrderDetail {
+//	// field
+//	private int quantity;
+//	private Product item;
+//	
+//	// no-arg constructor
+//	public OrderDetail() {}
+//	
+//	// parameterized constructor
+//	public OrderDetail(int qty, Product item) {
+//		quantity = qty;
+//		this.item = item;
+//	}
+//
+//	public int getQuantity() {
+//		return quantity;
+//	}
+//
+//	public void setQuantity(int quantity) {
+//		this.quantity = quantity;
+//	}
+//
+//	public Product getItem() {
+//		return item;
+//	}
+//
+//	public void setItem(Product item) {
+//		this.item = item;
+//	}
+//	
+//	public double getSubtotal() {
+//		return quantity * item.getUnitPrice();
+//	}
+//	
+//	public double calcTax() {
+//		double taxAmount=0;
+//		
+//		if(!item.getType().equalsIgnoreCase("food"))
+//			taxAmount = getSubtotal()*0.06;
+//		
+//		return taxAmount;
+//					
+//	}
+//}
 
 
 /*

@@ -1,4 +1,4 @@
-package edu.unlv.mis768; // package edu.unlv.mis768.labwork9; // Stock.java // * @author Han-fen Hu
+package edu.unlv.mis768; // package edu.unlv.mis768; // package edu.unlv.mis768.labwork9; // Stock.java // * @author Han-fen Hu
 
 public class Stock {
 	//field

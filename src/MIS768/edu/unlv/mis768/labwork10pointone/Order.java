@@ -1,4 +1,4 @@
-package edu.unlv.mis768.labwork7; // package edu.unlv.mis768.labwork7; // package edu.unlv.mis768.labwork7; // package edu.unlv.mis768.kly; // package edu.unlv.mis768.labwork7;
+package edu.unlv.mis768.labwork10pointone;
 
 import java.util.ArrayList;
 import java.util.Date;
@@ -8,7 +8,8 @@ public class Order {
 	private String orderNum;
 	private Date orderDate;
 	private double discountAmount;
-	private ArrayList<OrderDetail> detailedList;
+	private ArrayList <OrderDetail> detailedList;
+
 	
 	// constructor
 	public Order(String orderNum, Date orderDate) {
@@ -43,10 +44,6 @@ public class Order {
 	}
 
 
-	public void setDiscountAmount(double discountAmount) {
-		this.discountAmount = discountAmount;
-	}
-
 	public ArrayList<OrderDetail> getDetailedList() {
 		return detailedList;
 	}
@@ -55,24 +52,25 @@ public class Order {
 		this.detailedList = detailedList;
 	}
 
+	public void setDiscountAmount(double discountAmount) {
+		this.discountAmount = discountAmount;
+	}
 	public void addOrderDetail(OrderDetail line) {
+		
 		detailedList.add(line);
 	}
-	
-	public double getTotal() {
-		double total=0;
-		for(int i=0; i< detailedList.size(); i++) {
-			// add the sub-total of a line
-			total+= detailedList.get(i).getSubtotal();
-			// add the tax
-			total+= detailedList.get(i).calcTax();
+		public double getTotal() {
+			double total =0;
+			for(int i=0; i<detailedList.size(); i++) {
+				total+=detailedList.get(i).getSubtotal();
+					total+=detailedList.get(i).calcTax();
+					}
+			
+			total-= discountAmount;
+			return total;
 		}
-		
-		total -= discountAmount;
-		return total;
-	}
+
+	
+
 	
 }
-
-// tax is calculated as a line item, it applies to some categories, and not others, does not 
-// apply to food.
