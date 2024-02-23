@@ -3,8 +3,8 @@ import java.util.Scanner;
 
 public class CurvedActivityDemo {
 
-	public static void main(String[] args) {
-	      double score;         // Raw score
+	public static  void main(String[] args) {
+	      double score;         // Raw score final
 	      double curvePercent;  // Curve percentage
 
 	      // Create a Scanner object to read keyboard input.
@@ -19,20 +19,24 @@ public class CurvedActivityDemo {
 	      curvePercent = keyboard.nextDouble();
 
 	      // Create a CurvedActivity object
-	      
+	      CurvedActivity exam = new CurvedActivity(curvePercent);
 	      
 	      // Set the exam score
+	      exam.setScore(score);
 	      
 	      
 	      // Display the raw score
-	      System.out.println("The original score is ");
+	      System.out.println("The original score is "+exam.getRawScore());
 	      
 	      // Display the curved score
-	      System.out.println("The curved socre is ");
+	      System.out.println("The curved socre is "+exam.getScore());
 	      
 	      // Display the exam grade
-	      System.out.println("The curved grade is ");
+	      System.out.println("The curved grade is "+exam.getGrade());
+	      
+	      keyboard.close(); // close the scanner after the results are printed
+	      					// to the screen
 	      
 	}
 
-}
+} // public final void message()
