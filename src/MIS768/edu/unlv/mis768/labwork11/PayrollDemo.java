@@ -4,8 +4,10 @@ import java.util.Scanner;
 
 public class PayrollDemo {
 
-	private static String classification;
+	private static String employee;
 	private static String staff;
+	private static String classification = employee;
+
 	private static String manager;
 
 	public static void main(String[] args) {
@@ -38,5 +40,18 @@ public class PayrollDemo {
 			}
 			// break;
 		} while (!validInput);
+		System.out.println("Please enter the number of hours worked by the employee.");
+		if (classification.equals(staff)) {
+			// System.out.println("Please enter the number of hours worked by the
+			// employee.");
+			// if classification = staff {
+		} else if (classification.equals(manager)) {
+			// System.out.println("Please enter the number of hours worked by the
+			// employee.");
+
+		} else { // System.out.println("Please indicate if the employee in question is classified
+					// as either Staff or Manager.");
+
+		}
 	}
 }
