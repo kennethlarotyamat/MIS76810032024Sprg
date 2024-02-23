@@ -1,4 +1,4 @@
-package edu.unlv.mis768.labwork11;
+package edu.unlv.submitting;
 
 public class Manager extends Staff { 
 
@@ -35,7 +35,6 @@ public class Manager extends Staff {
 	public Manager() {
 
 	}
-	
 
 }
 //return calcSalary(hours) + getStipendLevel(stipend);

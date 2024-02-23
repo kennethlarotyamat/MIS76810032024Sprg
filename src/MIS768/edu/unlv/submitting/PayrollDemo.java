@@ -1,4 +1,4 @@
-package edu.unlv.mis768.labwork11;
+package edu.unlv.submitting;
 
 import java.util.Scanner;
 
