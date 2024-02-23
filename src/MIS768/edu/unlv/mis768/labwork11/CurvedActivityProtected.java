@@ -30,7 +30,7 @@ public class CurvedActivityProtected extends GradedActivityProtected {
 	   // the given score will be stored as the raw score
       rawScore = s;
       // update the score as the new score (after curving)
-      
+      score = rawScore * percentage; // I am almost done with my assignments or the modules for week 6 // I don't even know if it's week six, I just know that this is the week that I'm working on right now // 
    }
 
    /**
