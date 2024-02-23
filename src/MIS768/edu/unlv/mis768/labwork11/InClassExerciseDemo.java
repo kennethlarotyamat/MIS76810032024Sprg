@@ -1,4 +1,4 @@
-package edu.unlv.mis768.labwork11;
+package edu.unlv.mis768.labwork11; // application that contains the main method
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -27,21 +27,23 @@ public class InClassExerciseDemo {
 		dueDate = sdf.parse(keyboard.nextLine());
 		
 		// instantiate the object using title and due date
-		
+		InClassExercise ex = new InClassExercise(title, dueDate);
 		
 		// prompt for completion or not
 		System.out.println("Complete? (y/n)");
-		// get the answer, convert to all uppercase letters, and get the first character
-		completion = keyboard.nextLine().toUpperCase().charAt(0);
+		// get the answer, convert to all upper-case letters, and get the first character
+		completion = keyboard.nextLine().toUpperCase().charAt(0); // scanner.next(); // scanner.nextInt(); // scanner.nextDouble(); // scanner.nextLine(); // x
 		
 		// if the answer is Y
 		if(completion=='Y')
 		// mark this exercise as completed
+			ex.setCompleted(true);
 
 		// display the score for this exercise
-		System.out.println("The exercise is due on ");
-		System.out.println("The score for the exercise is: ");
+		System.out.println("The exercise is due on "+ex.getDueDate());
+		System.out.println("The score for the exercise is: "+ex.getScore());
 		
 	}
 
 }
+// not entirely correct - public or private - not inherited by the subclass

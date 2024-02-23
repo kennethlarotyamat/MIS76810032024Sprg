@@ -55,7 +55,7 @@ public class InClassExercise extends GradedActivity {
 		
 		// otherwise set the score to 0
 		else
-			setScore(0);
+			setScore(0); // used directly from the super class
 
 	}
 	
