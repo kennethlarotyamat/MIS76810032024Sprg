@@ -23,4 +23,4 @@ public class ConstructorDemo{
 // extended from one class to another class.
 
 // a subclass must be specific
-// the circle extends from shape
+// the circle extends from shape it is the first statement
