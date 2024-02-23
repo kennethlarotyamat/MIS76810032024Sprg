@@ -53,6 +53,11 @@ public class AppendFileDemo {
 
 /*
 
+I'm frustrated that it took my so long to complete the manager class demo, the good thing is that i finished it before it was due
+but it took me so long to get it done.
+
+Class Exercise (Week 6): Manager Class and Demo
+Class Activities
 
 
 
