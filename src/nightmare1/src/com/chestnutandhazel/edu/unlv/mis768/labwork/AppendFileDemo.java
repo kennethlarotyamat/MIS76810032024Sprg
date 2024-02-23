@@ -27,22 +27,20 @@ public class AppendFileDemo {
 		
 		// get the filename
 		System.out.print("Please enter the file name where you would like to store the data: ");
-		fileName = kb.nextLine(); // C:\Users\KLYam\OneDrive\Documents\GitHub\MIS76810032024Sprg\media\text\writefiledemo.txt
+		fileName = kb.nextLine(); 
 		
 		// open the file
-		FileWriter fw = new FileWriter(fileName, true); // this line has been added to append data, rather than overwrite date
-		PrintWriter outputFile = new PrintWriter(fw); // PrintWriter outputFile = new PrintWriter(fileName); // C:\Users\KLYam\OneDrive\Documents\GitHub\MIS76810032024Sprg\media\text\writefiledemo.txt
+		FileWriter fw = new FileWriter(fileName, true); 
+		PrintWriter outputFile = new PrintWriter(fw); 
 		
-		//for loop
-		
-		for (int i=0; i<numOfFriends; i++) { // integer variable i is initialized at zero, and as long as variable i is less than the number of friends or num of friends variable, the program will continue to prompt user to enter new friend names
+		for (int i=0; i<numOfFriends; i++) { 
 			System.out.print("Please enter the name of friend #"+(i+1)+":");
 			friendName = kb.nextLine();
 			
 			outputFile.println(friendName);
 		}
 		outputFile.close();
-		System.out.print("The Data is saved to the file " +fileName); // edC:\Users\KLYam\OneDrive\Documents\GitHub\MIS76810032024Sprg\media\text\writefilemo.txt
+		System.out.print("The Data is saved to the file " +fileName);
         kb.close();
 		
 	}
@@ -52,6 +50,32 @@ public class AppendFileDemo {
 
 
 /*
+
+
+
+
+
+
+
+// C:\Users\KLYam\OneDrive\Documents\GitHub\MIS76810032024Sprg\media\text\writefiledemo.txt
+
+// this line has been added to append data, rather than overwrite date
+// PrintWriter outputFile = new PrintWriter(fileName); // C:\Users\KLYam\OneDrive\Documents\GitHub\MIS76810032024Sprg\media\text\writefiledemo.txt
+		
+		//for loop
+
+I still can't get over how long it took me to complete my week 6 assignment. forever.
+it always takes me forever.
+everything.
+takes
+forever.
+// integer variable i is initialized at zero, and as long as variable i is less than the number of friends or num of friends variable, the program will continue to prompt user to enter new friend names
+ // edC:\Users\KLYam\OneDrive\Documents\GitHub\MIS76810032024Sprg\media\text\writefilemo.txt
+I think that I know why it takes so long to commit my changes
+I moved my repository to a larger - to my larger external drive
+where I have more space, but it's not an ssd it an hd so
+it just takes longer to do things, and
+i don't know if being external makes it take longer. too.
 
 I'm frustrated that it took my so long to complete the manager class demo, 
 the good thing is that i finished it before it was due
