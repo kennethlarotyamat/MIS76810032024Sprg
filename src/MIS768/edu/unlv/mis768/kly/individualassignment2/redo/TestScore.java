@@ -7,7 +7,6 @@ public class TestScore {
 	private int numQuestions;
 	private int numMissed;
 
-
 	public int getNumQuestions() {
 		return numQuestions;
 	}
@@ -31,9 +30,9 @@ public class TestScore {
 
 	public double getScore() {
 		if (numQuestions <= 0 || numMissed < 0) {
-			return 0; 
+			return 0;
 		} else {
-			return ((double) (numQuestions - numMissed) / numQuestions) * 100; 
+			return ((double) (numQuestions - numMissed) / numQuestions) * 100;
 		}
 
 	}
@@ -42,9 +41,7 @@ public class TestScore {
 		if (this.getScore() == o2.getScore())
 			return true;
 		else
-			return false; 
-		
-
+			return false;
 
 	}
 
@@ -67,7 +64,6 @@ public class TestScore {
 			numQ = 0;
 			numM = 0;
 
-
 		}
 
 		numQuestions = numQ;
@@ -85,7 +81,6 @@ public class TestScore {
 
 			numQ = 0;
 			numM = 0;
-			
 
 		}
 
