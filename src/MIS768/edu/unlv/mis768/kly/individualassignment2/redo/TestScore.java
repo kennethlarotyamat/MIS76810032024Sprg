@@ -6,9 +6,7 @@ public class TestScore {
 
 	private int numQuestions;
 	private int numMissed;
-	private double theScore; // 1. theScore and questionValue should be removed. They are values determined
-								// by other fields. Whenever the two are needed, just call getScore() and
-								// getPointsEach()
+
 
 	public int getNumQuestions() {
 		return numQuestions;
@@ -33,22 +31,20 @@ public class TestScore {
 
 	public double getScore() {
 		if (numQuestions <= 0 || numMissed < 0) {
-			theScore = 0;
+			return 0; 
 		} else {
-			theScore = ((double) (numQuestions - numMissed) / numQuestions) * 100;
+			return ((double) (numQuestions - numMissed) / numQuestions) * 100; 
 		}
 
-		return theScore; // 1. theScore and questionValue should be removed. They are values determined
-							// by other fields. Whenever the two are needed, just call getScore() and
-							// getPointsEach()
 	}
 
 	public boolean equals(TestScore o2) {
-		if (this.theScore == o2.theScore)
+		if (this.getScore() == o2.getScore())
 			return true;
 		else
-			return false; // 2. The equals() method needs to be revise accordingly. Rather than using
-							// theScore, use getScore().
+			return false; 
+		
+
 
 	}
 
@@ -59,7 +55,7 @@ public class TestScore {
 		theString = "The test includes " + numQuestions + " question(s).\n" + "Each question is valued at "
 				+ ft.format(getPointsEach()) + " points. \n"
 				+ "The test-taker missed " + numMissed + " question(s).\n"
-				+ "The score is " + ft.format(theScore) + ".";
+				+ "The score is " + ft.format(getScore()) + ".";
 
 		return theString;
 	}
@@ -70,7 +66,7 @@ public class TestScore {
 
 			numQ = 0;
 			numM = 0;
-			theScore = 0;
+
 
 		}
 
@@ -89,7 +85,7 @@ public class TestScore {
 
 			numQ = 0;
 			numM = 0;
-			theScore = 0;
+			
 
 		}
 
@@ -100,9 +96,23 @@ public class TestScore {
 
 }
 
+// if (this.theScore == o2.theScore) // getScore()
 
 
+// 2. The equals() method needs to be revise accordingly. Rather than using
+					// theScore, use getScore().
+// theScore = ((double) (numQuestions - numMissed) / numQuestions) * 100;
 
+//	return theScore; 
+// theScore = 0;
+					// 1. theScore and questionValue should be removed. They are values determined
+					// by other fields. Whenever the two are needed, just call getScore() and
+					// getPointsEach()
+			//private double theScore; // 1. theScore and questionValue should be removed. They are values determined
+			// by other fields. Whenever the two are needed, just call getScore() and
+			// getPointsEach()
+// theScore = 0;
+//	theScore = 0;
 //getPointsEach()
 // questionValue = 0; // getPointsEach() // questionValue = 0; // getPointsEach()
 
