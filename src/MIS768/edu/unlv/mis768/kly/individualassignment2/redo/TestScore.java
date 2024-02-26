@@ -12,6 +12,12 @@ public class TestScore {
 	}
 
 	public void setNumMissed(int numMissed) {
+		if (numMissed > numQuestions)
+			this.numMissed = numQuestions;
+		else if (numMissed > 0)
+			this.numMissed = numMissed;
+		else
+			this.numMissed = 0;
 
 	}
 
@@ -57,39 +63,85 @@ public class TestScore {
 		return theString;
 	}
 
-	public TestScore(int numQ, int numM) {
+	public TestScore(int numQ) {
 
-		if (numQ < 0 || numM < 0) {
+		if (numQ < 0 || getNumMissed() < 0) {
 
 			numQ = 0;
-			numM = 0;
 
 		}
 
 		numQuestions = numQ;
-		numMissed = numM;
 
 	}
 
-	public TestScore(String numQtyString, String numWrongString) {
-
-		int numM = Integer.parseInt(numWrongString);
+	public TestScore(String numQtyString) {
 
 		int numQ = Integer.parseInt(numQtyString);
 
-		if (numQ < 0 || numM < 0) {
+		if (numQ < 0) {
 
 			numQ = 0;
-			numM = 0;
 
 		}
-
-		numQuestions = numQ;
-		numMissed = numM;
 
 	}
 
 }
+
+//numQuestions = numQ;
+// int numM = getNumMissed();
+// || numM < 0 //			numM = 0;
+//numMissed = numM; // , String numWrongString
+// numMissed = numM; // , int numM
+// 6. According to the class diagram, the constructor should have only one parameter, numQ.
+//		getNumMissed() = 0;
+
+
+
+/*
+ 
+5. setNumMissed() should check the value and assign the value to numMissed.
+6. According to the class diagram, the constructor should have only one parameter, numQ.
+* 
+ 
+ * 
+ * 
+
+You have a very good starting point. I think you overthink the question.
+
+Please revise the program and resubmit. Please let me know if you need me to walk over this with you.
+
+
+A few issues of the program that can be fixed:
+1. theScore and questionValue should be removed. They are values determined by other fields. Whenever the two are needed, just call getScore() and getPointsEach()
+2. The equals() method needs to be revise accordingly. Rather than using theScore, use getScore().
+3. The getScore() should just return the calculation result, instead of assigning the value to theScore.
+4. The getPointsEach() method will just return the calculation result, instead of assignment the value to questionValue.
+
+5. setNumMissed() should check the value and assign the value to numMissed.
+6. According to the class diagram, the constructor should have only one parameter, numQ.
+Han-Fen Hu , Feb 25 at 3:20pm
+
+*/
+
+/*
+
+You have a very good starting point. I think you over-think the question.
+
+Please revise the program and resubmit. Please let me know if you need me to walk over this with you.
+
+
+A few issues of the program that can be fixed:
+1. theScore and questionValue should be removed. They are values determined by other fields. Whenever the two are needed, just call getScore() and getPointsEach()
+2. The equals() method needs to be revise accordingly. Rather than using theScore, use getScore().
+3. The getScore() should just return the calculation result, instead of assigning the value to theScore.
+4. The getPointsEach() method will just return the calculation result, instead of assignment the value to questionValue.
+5. setNumMissed() should check the value and assign the value to numMissed.
+6. According to the class diagram, the constructor should have only one parameter, numQ.
+Han-Fen Hu , Feb 25 at 3:20pm
+
+*/
 
 // if (this.theScore == o2.theScore) // getScore()
 
