@@ -11,6 +11,10 @@ public class TestScore {
 		return numQuestions;
 	}
 
+	public void setNumQuestions(int numQuestions) {
+		this.numQuestions = numQuestions;
+	}
+
 	public void setNumMissed(int numMissed) {
 		if (numMissed > numQuestions)
 			this.numMissed = numQuestions;
@@ -65,30 +69,38 @@ public class TestScore {
 
 	public TestScore(int numQ) {
 
-		if (numQ < 0 || getNumMissed() < 0) {
 
-			numQ = 0;
-
-		}
-
-		numQuestions = numQ;
 
 	}
 
 	public TestScore(String numQtyString) {
 
-		int numQ = Integer.parseInt(numQtyString);
 
-		if (numQ < 0) {
-
-			numQ = 0;
-
-		}
 
 	}
 
 }
 
+
+// I don't even know exactly what's wrong here.
+
+//if (numQ < 0 || getNumMissed() < 0) {
+//
+//	numQ = 0;
+//
+//}
+//
+//numQuestions = numQ;
+//
+
+//
+//int numQ = Integer.parseInt(numQtyString);
+//
+//if (numQ < 0) {
+//
+//	numQ = 0;
+//
+//}
 //numQuestions = numQ;
 // int numM = getNumMissed();
 // || numM < 0 //			numM = 0;

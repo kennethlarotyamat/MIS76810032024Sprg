@@ -17,11 +17,12 @@ public class TestScoreDemo {
 
 			enterQuestionQty = JOptionPane
 					.showInputDialog("Please enter the number of test questions on the exam # " + (i + 1));
-
+			int numQuestions = Integer.parseInt(enterQuestionQty);
+			
 			enterQuestionMissedQty = JOptionPane
 					.showInputDialog("Please enter the number of missed questions on the exam # " + (i + 1));
 
-			TestScore examPrintout = new TestScore(enterQuestionQty, enterQuestionMissedQty);
+			TestScore examPrintout = new TestScore(enterQuestionQty);
 
 			Double calculateQuestionValue = examPrintout.getPointsEach();
 			Double calculateExamScore = examPrintout.getScore();
@@ -52,6 +53,8 @@ public class TestScoreDemo {
 	}
 }
 
+// I don't know what's going on, but it's not working any more.
+// , enterQuestionMissedQty
 //	private double questionValue; 	 // question value Removed // 1. theScore and questionValue should be removed. They are values determined by other fields. Whenever the two are needed, just call getScore() and getPointsEach()
 
 /*
