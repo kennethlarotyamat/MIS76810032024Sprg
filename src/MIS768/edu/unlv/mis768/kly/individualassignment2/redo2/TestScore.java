@@ -39,7 +39,7 @@ public class TestScore {
 	}
 
 	public boolean equals(TestScore o2) {
-		if (this.theScore == o2.theScore)
+		if (this.getScore() == o2.getScore())
 			return true;
 		else
 			return false;
@@ -64,7 +64,7 @@ public class TestScore {
 
 			numQ = 0;
 			numM = 0;
-			theScore = 0;
+
 
 		}
 
@@ -83,7 +83,7 @@ public class TestScore {
 
 			numQ = 0;
 			numM = 0;
-			theScore = 0;
+
 
 		}
 
@@ -95,8 +95,8 @@ public class TestScore {
 }
 
 
-
-
+//theScore = 0;
+//getScore() = 0; // theScore = 0;
 // return theScore;
 // theScore = 0;
 // theScore = ((double) (numQuestions - numMissed) / numQuestions) * 100;
