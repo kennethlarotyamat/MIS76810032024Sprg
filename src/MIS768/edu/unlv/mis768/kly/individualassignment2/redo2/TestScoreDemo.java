@@ -21,10 +21,15 @@ public class TestScoreDemo {
 			enterQuestionMissedQty = JOptionPane
 					.showInputDialog("Please enter the number of missed questions on the exam # " + (i + 1));
 
-			TestScore examPrintout = new TestScore(enterQuestionQty, enterQuestionMissedQty);
+			TestScore examPrintout = new TestScore(enterQuestionQty);
 
 			Double calculateQuestionValue = examPrintout.getPointsEach();
 			Double calculateExamScore = examPrintout.getScore();
+	        int numberOfQuestions = Integer.parseInt(enterQuestionMissedQty);
+
+	        
+	        examPrintout.setNumMissed(numberOfQuestions);
+
 
 			System.out.println("These are the details for Exam # " + (i + 1));
 			System.out.println("");
@@ -55,9 +60,9 @@ public class TestScoreDemo {
 
 
 
-
-
-
+//Set the number of questions using your setNumMissed method (or equivalent)
+//Integer inputQuestionMissedQty = examPrintout.setNumMissed(enterQuestionMissedQty);
+// , enterQuestionMissedQty  // TestScore examPrintout = new TestScore(enterQuestionQty, enterQuestionMissedQty);
 // this was added to remove the warning
 // 		ArrayList<Double> questionValueArray = new ArrayList<Double>();  // this was added to remove the warning
 // expenseDescriptionArray.add(expenseDescription);

@@ -6,16 +6,18 @@ public class TestScore {
 
 	private int numQuestions;
 	private int numMissed;
-	private double theScore;
+
 
 	public int getNumQuestions() {
 		return numQuestions;
 	}
 
-	public void setNumMissed(int numMissed) {
-
+	public Integer setNumMissed(int numMissed) {
+		return this.numMissed = numMissed;
 	}
 
+
+	
 	public int getNumMissed() {
 		return numMissed;
 	}
@@ -73,9 +75,9 @@ public class TestScore {
 
 	}
 
-	public TestScore(String numQtyString, String numWrongString) {
+	public TestScore(String numQtyString) {
 
-		int numM = Integer.parseInt(numWrongString);
+		int numM = numMissed;
 
 		int numQ = Integer.parseInt(numQtyString);
 
@@ -92,9 +94,39 @@ public class TestScore {
 
 	}
 
+
 }
 
+//public void setNumMissed(int numMissed) {
+//this.numMissed = numMissed;
+//
+//}
+//public Integer setNumMissed(int numMissed) {
+//	this.numMissed = numMissed;
+//}
+//it broke around here.	
 
+//	public void setNumMissed(int numMissed) {
+//		if (numMissed<0) {
+//		this.numMissed = 0;
+//		} else {
+//		this.numMissed = numMissed;	
+//		}
+//
+//	}
+	
+//The get and set methods of numMissed is provided.
+//	In the setNumMissed() method, if the value passed to this method is not a positive number, make numMissed as 0.	
+//	5. setNumMissed() should check the value and assign the value to numMissed.
+// 4. The getPointsEach() method will just return the calculation result, instead of assignment the value to questionValue.
+// 3. The getScore() should just return the calculation result, instead of assigning the value to theScore.
+// 1. theScore and questionValue should be removed. They are values determined by other fields. Whenever the two are needed, just call getScore() and getPointsEach()
+// 2. The equals() method needs to be revise accordingly. Rather than using theScore, use getScore().
+
+// 		String numWrongString = numMissed; // , 
+// I removed theScore
+
+//private double theScore;
 //theScore = 0;
 //getScore() = 0; // theScore = 0;
 // return theScore;
