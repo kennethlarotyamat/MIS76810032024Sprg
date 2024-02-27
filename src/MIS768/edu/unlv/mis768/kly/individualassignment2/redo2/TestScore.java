@@ -8,7 +8,6 @@ public class TestScore {
 	private int numMissed;
 	private double theScore;
 
-
 	public int getNumQuestions() {
 		return numQuestions;
 	}
@@ -21,26 +20,22 @@ public class TestScore {
 		return numMissed;
 	}
 
-	
-	
 	public double getPointsEach() {
 		if (numQuestions <= 0 || numMissed < 0) {
-			return 0; 
+			return 0;
 		} else {
-			return (100 / (double) numQuestions); 
+			return (100 / (double) numQuestions);
 		}
-		
-	}
 
+	}
 
 	public double getScore() {
 		if (numQuestions <= 0 || numMissed < 0) {
-			theScore = 0;
+			return 0;
 		} else {
-			theScore = ((double) (numQuestions - numMissed) / numQuestions) * 100;
+			return ((double) (numQuestions - numMissed) / numQuestions) * 100;
 		}
 
-		return theScore;
 	}
 
 	public boolean equals(TestScore o2) {
@@ -58,7 +53,7 @@ public class TestScore {
 		theString = "The test includes " + numQuestions + " question(s).\n" + "Each question is valued at "
 				+ ft.format(getPointsEach()) + " points. \n"
 				+ "The test-taker missed " + numMissed + " question(s).\n"
-				+ "The score is " + ft.format(theScore) + ".";
+				+ "The score is " + ft.format(getScore()) + ".";
 
 		return theString;
 	}
@@ -70,7 +65,6 @@ public class TestScore {
 			numQ = 0;
 			numM = 0;
 			theScore = 0;
-
 
 		}
 
@@ -91,7 +85,6 @@ public class TestScore {
 			numM = 0;
 			theScore = 0;
 
-
 		}
 
 		numQuestions = numQ;
@@ -100,6 +93,69 @@ public class TestScore {
 	}
 
 }
+
+
+
+
+// return theScore;
+// theScore = 0;
+// theScore = ((double) (numQuestions - numMissed) / numQuestions) * 100;
+
+/*
+
+1. theScore and questionValue should be removed. They are values determined by other fields. Whenever the two are needed, just call getScore() and getPointsEach()
+
+questionValue  * 
+
+so i removed questionValue - this is my second attempt at redoing this, meaning this is my third attempt at completing this.
+
+
+You have a very good starting point. I think you overthink the question.
+
+Please revise the program and resubmit. Please let me know if you need me to walk over this with you.
+
+
+A few issues of the program that can be fixed:
+1. theScore and questionValue should be removed. They are values determined by other fields. Whenever the two are needed, just call getScore() and getPointsEach()
+2. The equals() method needs to be revise accordingly. Rather than using theScore, use getScore().
+3. The getScore() should just return the calculation result, instead of assigning the value to theScore.
+4. The getPointsEach() method will just return the calculation result, instead of assignment the value to questionValue.
+5. setNumMissed() should check the value and assign the value to numMissed.
+6. According to the class diagram, the constructor should have only one parameter, numQ.
+Han-Fen Hu , Feb 25 at 3:20pm
+
+
+
+
+
+You have a very good starting point. I think you overthink the question.
+
+Please revise the program and resubmit. Please let me know if you need me to walk over this with you.
+
+
+A few issues of the program that can be fixed:
+1. theScore and questionValue should be removed. They are values determined by other fields. Whenever the two are needed, just call getScore() and getPointsEach()
+2. The equals() method needs to be revise accordingly. Rather than using theScore, use getScore().
+3. The getScore() should just return the calculation result, instead of assigning the value to theScore.
+4. The getPointsEach() method will just return the calculation result, instead of assignment the value to questionValue.
+5. setNumMissed() should check the value and assign the value to numMissed.
+6. According to the class diagram, the constructor should have only one parameter, numQ.
+Han-Fen Hu , Feb 25 at 3:20pm
+
+
+
+
+
+
+*/
+
+
+
+//
+//You have a very good starting point. I think you overthink the question. Please revise the program and resubmit. Please let me know if you need me to walk over this with you. A few issues of the program that can be fixed: 1. theScore and questionValue should be removed. They are values determined by other fields. Whenever the two are needed, just call getScore() and getPointsEach() 2. The equals() method needs to be revise accordingly. Rather than using theScore, use getScore(). 3. The getScore() should just return the calculation result, instead of assigning the value to theScore. 4. The getPointsEach() method will just return the calculation result, instead of assignment the value to questionValue. 5. setNumMissed() should check the value and assign the value to numMissed. 6. According to the class diagram, the constructor should have only one parameter, numQ.
+//Han-Fen Hu, Feb 25 at 3:20pm
+//
+
 
 //
 

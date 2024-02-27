@@ -52,6 +52,12 @@ public class TestScoreDemo {
 	}
 }
 
+
+
+
+
+
+
 // this was added to remove the warning
 // 		ArrayList<Double> questionValueArray = new ArrayList<Double>();  // this was added to remove the warning
 // expenseDescriptionArray.add(expenseDescription);
