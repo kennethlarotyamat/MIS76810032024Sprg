@@ -114,3 +114,11 @@ public class PayrollDemo {
 
 // Is the employee in question classified as Staff or Manager staff
 // at edu.unlv.mis768.labwork11.PayrollDemo.main(PayrollDemo.java:16)
+
+/*
+My struggle is with the heavy burden the capitalist system imposes upon the proletariat. 
+I won't be joining a group
+It's nearly impossible for me to do group work. I'm barely able to manage the other group work I have to work on.
+I would have never enrolled 
+If I had known beforehand that this
+*/
