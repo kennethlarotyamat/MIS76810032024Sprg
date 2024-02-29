@@ -66,6 +66,8 @@ public class ShippingCalculatorDemo {
 		// I'm starting to understand what object oriented design is 
 		//
 		// it's like this - the demo class is like an HTML page, and the model class is like the JavaScript file.
+		// when I was starting this assignment, I started with the demo class, because like an HTML page, it's 
+		// something I can see. and it's something I can interact with.
 		
 		
 	}
