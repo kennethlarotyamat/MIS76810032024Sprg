@@ -14,6 +14,7 @@ import java.util.Scanner;
 public class ShippingCalculatorDemo {
 	
 	private static char yesOrNoEntry;
+	
 
 	public static void main(String[] args) throws IOException {
 		
@@ -21,6 +22,7 @@ public class ShippingCalculatorDemo {
 	    String reset = "\u001B[0m";
 	    String green  = "\u001B[32m";
 		int entryNumber = 1;
+		final String THE_PLACEHOLDER = "PLACEHOLDER"; // this is used for things that I will calculate later,
 		
 		Scanner keyboard = new Scanner(System.in);
 		
@@ -56,11 +58,18 @@ public class ShippingCalculatorDemo {
 		
 		System.out.println(" ");
 		
-		entryNumber++;
+		System.out.println(reset+"The package has an actual weight of: " + THE_PLACEHOLDER);
+		System.out.println(reset+"The package has a dimensional weight of: " + THE_PLACEHOLDER);
+		System.out.println(reset+"The package has the following dimensions: " + THE_PLACEHOLDER);
+		System.out.println(reset+"The package has a shipping cost of: " + THE_PLACEHOLDER);
+		
+		System.out.println(" ");
+		// entryNumber++;
 		System.out.print(reset+"Will you be shipping any additional parcels? (Y/N): "+green);
-		 yesOrNoEntry = keyboard.next().charAt(0); // char yesOrNoEntry = keyboard.next().charAt(0); // allows a Y/N or Yes/No response
+		yesOrNoEntry = keyboard.next().charAt(0); // char yesOrNoEntry = keyboard.next().charAt(0); // allows a Y/N or Yes/No response
 		keyboard.nextLine();
 		System.out.println(" ");
+		entryNumber++;
 		} while (yesOrNoEntry == 'y' || yesOrNoEntry == 'Y'); 
 		
 		// I'm starting to understand what object oriented design is 
