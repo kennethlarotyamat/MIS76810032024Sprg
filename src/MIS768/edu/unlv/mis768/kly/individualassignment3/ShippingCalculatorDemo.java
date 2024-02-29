@@ -20,8 +20,8 @@ public class ShippingCalculatorDemo {
 		
 		Scanner keyboard = new Scanner(System.in);
 		
-		System.out.println(red+ "Greetings:" + reset + " Utilize this terminal to determine the cost to ship your parcel. ");
-		System.out.println("           Please enter the"+ red + " weight"+reset+" and the "+ red +"dimensions "+reset+ "of your parcel: ");
+		System.out.println(red+ "Greetings:  " + reset + " Utilize this terminal to determine the shipping costs of your parcel. ");
+		System.out.println("             Please enter the"+ red + " weight"+reset+" and the "+ red +"dimensions "+reset+ "of your parcel: ");
 		
 	}
 
