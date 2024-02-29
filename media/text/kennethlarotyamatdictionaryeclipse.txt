@@ -53,3 +53,7 @@ zxcvbnm
 overthink
 arraylist
 volumetric
+nectar
+magenta
+cyan
+screwy
