@@ -15,16 +15,23 @@ public class ShippingCalculatorDemo {
 	
 	public static void main(String[] args) throws IOException {
 		
+	    String red = "\u001B[31m";
+	    String reset = "\u001B[0m";
+		
 		Scanner keyboard = new Scanner(System.in);
 		
-		System.out.println("Greetings: Utilize this terminal to determine the cost to ship your parcel. ");
-		System.out.println("           Please enter the weight and the dimensions of your parcel: ");
+		System.out.println(red+ "Greetings:" + reset + " Utilize this terminal to determine the cost to ship your parcel. ");
+		System.out.println("           Please enter the"+ red + " weight"+reset+" and the "+ red +"dimensions "+reset+ "of your parcel: ");
 		
 	}
 
 
 }
 /*
+
+
+		    String red = "\u001B[31m";
+		    String reset = "\u001B[0m";
 
 			ANSI escape codes
 
