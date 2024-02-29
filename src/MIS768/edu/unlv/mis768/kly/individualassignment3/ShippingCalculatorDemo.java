@@ -63,7 +63,9 @@ public class ShippingCalculatorDemo {
 		System.out.println(" ");
 		} while (yesOrNoEntry == 'y' || yesOrNoEntry == 'Y'); 
 		
-		
+		// I'm starting to understand what object oriented design is 
+		//
+		// it's like this - the demo class is like an HTML page, and the model class is like the JavaScript file.
 		
 		
 	}
