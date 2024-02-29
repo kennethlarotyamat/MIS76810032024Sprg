@@ -17,14 +17,15 @@ public class ShippingCalculatorDemo {
 		
 	    String red = "\u001B[31m";
 	    String reset = "\u001B[0m";
+	    String green  = "\u001B[32m";
 		
 		Scanner keyboard = new Scanner(System.in);
 		
-		System.out.println(red+ "Greetings:  " + reset + " Utilize this terminal to determine the shipping costs of your parcel. ");
+		System.out.println(reset+ red+ "Greetings:  " + reset + " Utilize this terminal to determine the shipping costs of your parcel. ");
 		System.out.println("             Please enter the"+ red + " weight"+reset+" and the "+ red +"dimensions "+reset+ "of your parcel: ");
 		System.out.println(" ");
 
-		System.out.println("                                     Data for Package # 1"); // this number needs to increment depending on the number of packages. // this number needs to iterate depending on the number of packages.
+		/**/System.out.println("                                     Data for Package # 1"); // this number needs to increment depending on the number of packages. // this number needs to iterate depending on the number of packages.
 		System.out.println(" ");
 		// this line is being moved down System.out.println("Please enter the"+ red + " weight "+reset+"of your parcel:"); // " and the "+ red +"dimensions "+reset+ 
 		// System.out.println(" "); // I don't know what's going on here, the line won't skip. I know what it is, it's on the wrong line.
@@ -34,23 +35,25 @@ public class ShippingCalculatorDemo {
 //		double packageWeight = keyboard.nextDouble(); // this needs to be a double. // String packageWeight = keyboard.nextLine();  // this needs to be a double. // String packageWeight = keyboard.nextLine();
 //		keyboard.nextLine(); 
 		
-		System.out.print("Please enter the"+ red + " weight "+reset+"of your parcel: "); // System.out.println("Please enter the"+ red + " weight "+reset+"of your parcel: "); // i figured out what it is. I'm using println rather than just print. // there is something screwy going on here, it keeps skipping a line for the user's input and it's driving me nuts. // System.out.println("Please enter the weight of your parcel: "); // System.out.println("Please enter the"+ red + " weight "+reset+"of your parcel: "); // System.out.println(("Please enter the"+ red + " weight "+reset)+("of your parcel: ")); // user enters and sets the weight of the package being shipped.
-		double packageWeight = keyboard.nextDouble();
+		System.out.print("Please enter the"+ red + " weight "+reset+"of your parcel: " +green); // System.out.println("Please enter the"+ red + " weight "+reset+"of your parcel: "); // i figured out what it is. I'm using println rather than just print. // there is something screwy going on here, it keeps skipping a line for the user's input and it's driving me nuts. // System.out.println("Please enter the weight of your parcel: "); // System.out.println("Please enter the"+ red + " weight "+reset+"of your parcel: "); // System.out.println(("Please enter the"+ red + " weight "+reset)+("of your parcel: ")); // user enters and sets the weight of the package being shipped.
+		double packageWeight = keyboard.nextDouble(); // double packageWeight = keyboard.nextDouble();
 		keyboard.nextLine();
 		
-		System.out.print("Please enter the"+ red + " length "+reset+"of your parcel: "); // System.out.println("Please enter the"+ red + " length "+reset+"of your parcel: "); // user enters and sets the length of the package being shipped.
+		System.out.print(reset+"Please enter the"+ red + " length "+reset+"of your parcel: "+green); // System.out.println("Please enter the"+ red + " length "+reset+"of your parcel: "); // user enters and sets the length of the package being shipped.
 		double packageLength = keyboard.nextDouble();
 		keyboard.nextLine();
 		
-		System.out.print("Please enter the"+ red + " width "+reset+" of your parcel: "); // System.out.println("Please enter the"+ red + " width "+reset+"of your parcel: "); // user enters and sets the width of the package being shipped.
-		double packageWidth = keyboard.nextDouble();
+		System.out.print(reset+"Please enter the"+ red + " width "+reset+" of your parcel: "+green); // System.out.println("Please enter the"+ red + " width "+reset+"of your parcel: "); // user enters and sets the width of the package being shipped.
+		double packageWidth = keyboard.nextDouble(); // double packageWidth = keyboard.nextDouble();
 		keyboard.nextLine();
 		
-		System.out.print("Please enter the"+ red + " height "+reset+"of your parcel: "); // System.out.println("Please enter the"+ red + " height "+reset+"of your parcel: "); // user enters and sets the height of the package being shipped.
+		System.out.print(reset+"Please enter the"+ red + " height "+reset+"of your parcel: "+green); // System.out.println("Please enter the"+ red + " height "+reset+"of your parcel: "); // user enters and sets the height of the package being shipped.
 		double packageHeight = keyboard.nextDouble();
 		keyboard.nextLine();
 		
-		System.out.print("Will you be shipping any additional parcels? (Y/N): ");
+		System.out.println(" ");
+		
+		System.out.print(reset+"Will you be shipping any additional parcels? (Y/N): "+green);
 		char yesOrNoEntry = keyboard.next().charAt(0); // allows a Y/N or Yes/No response
 		keyboard.nextLine();
 		
