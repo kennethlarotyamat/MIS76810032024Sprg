@@ -13,19 +13,22 @@ import java.util.Scanner;
 
 public class ShippingCalculatorDemo {
 	
+	private static char yesOrNoEntry;
+
 	public static void main(String[] args) throws IOException {
 		
 	    String red = "\u001B[31m";
 	    String reset = "\u001B[0m";
 	    String green  = "\u001B[32m";
+		int entryNumber = 1;
 		
 		Scanner keyboard = new Scanner(System.in);
 		
 		System.out.println(reset+ red+ "Greetings:  " + reset + " Utilize this terminal to determine the shipping costs of your parcel. ");
 		System.out.println("             Please enter the"+ red + " weight"+reset+" and the "+ red +"dimensions "+reset+ "of your parcel: ");
 		System.out.println(" ");
-
-		/**/System.out.println("                                     Data for Package # 1"); // this number needs to increment depending on the number of packages. // this number needs to iterate depending on the number of packages.
+		do {
+			System.out.println(reset+"                                     Data for Package # " + entryNumber); // /**/System.out.println("                                     Data for Package # 1"); // entryNumber// this number needs to increment depending on the number of packages. // this number needs to iterate depending on the number of packages.
 		System.out.println(" ");
 		// this line is being moved down System.out.println("Please enter the"+ red + " weight "+reset+"of your parcel:"); // " and the "+ red +"dimensions "+reset+ 
 		// System.out.println(" "); // I don't know what's going on here, the line won't skip. I know what it is, it's on the wrong line.
@@ -53,9 +56,12 @@ public class ShippingCalculatorDemo {
 		
 		System.out.println(" ");
 		
+		entryNumber++;
 		System.out.print(reset+"Will you be shipping any additional parcels? (Y/N): "+green);
-		char yesOrNoEntry = keyboard.next().charAt(0); // allows a Y/N or Yes/No response
+		 yesOrNoEntry = keyboard.next().charAt(0); // char yesOrNoEntry = keyboard.next().charAt(0); // allows a Y/N or Yes/No response
 		keyboard.nextLine();
+		System.out.println(" ");
+		} while (yesOrNoEntry == 'y' || yesOrNoEntry == 'Y'); 
 		
 		
 		
