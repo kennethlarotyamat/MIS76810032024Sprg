@@ -102,10 +102,55 @@ public class Package {
 	public void setPackageLength(double packageLength) {
 		this.packageLength = packageLength;
 	}
+	
 
+	
+/*	
 	public double getPackageWidth() {
-		return packageWidth;
+		if (packageWidth > 0 && (packageLength+packageWidth+packageHeight)<=100) {
+			return packageWidth;
+			
+		} else if (packageWidth < 0) { 					// } else if (packageLength > 0) {
+			System.out.println(" ");System.out.println(reset + red + "The width of the parcel has been entered as a negative number. Please re-enter the package width." + reset);
+			return -1;
+			
+		} else if (packageLength+packageWidth+packageHeight >= 100) {
+	    	System.out.println(" ");
+	    	System.out.println(reset + brown + "Chestnut" + red + " + " + green + "Hazel's" + reset + " Parcel Service cannot accept packages exceeding 100 British inches in total outside liner inches." + reset); // System.out.println(reset + brown + "Chestnut" + red + " + " + green + "Hazel's" + reset + " Parcel Service cannot accept packages weighing in excess of 120 American Pounds." + reset); // System.out.println(reset + brown + "Chestnut " + red + " + " + green + " Hazel's" + reset + " Parcel Service cannot accept packages greater than 120 American Pounds." + reset); 
+	    	System.out.println("Please consider shipping a different Package.");
+        return -1;
+		} else {
+	        System.out.println(reset + red + "You have entered invalid information, please review your input, and re-enter." + reset);
+	        return -1;
+	    }
+
 	}
+*/
+	
+	// /*	// } else if (packageLength > 0) {
+	public double getPackageWidth() {
+		if (packageWidth > 0 && (packageLength+packageWidth+packageHeight)<=100) {
+			return packageWidth;
+			
+		} else if (packageWidth < 0) { 					
+			System.out.println(" ");System.out.println(reset + red + "The width of the parcel has been entered as a negative number. Please re-enter the package width." + reset);
+			return -1;
+			
+		} else if (packageLength+packageWidth+packageHeight >= 100) {
+	    	System.out.println(" ");
+	    	System.out.println(reset + brown + "Chestnut" + red + " + " + green + "Hazel's" + reset + " Parcel Service cannot accept packages exceeding 100 British inches in total outside liner inches." + reset); 
+	    	System.out.println("Please consider shipping a different Package.");
+        return -1;
+		} else {
+	        System.out.println(reset + red + "You have entered invalid information, please review your input, and re-enter." + reset);
+	        return -1;
+	    }
+
+	}
+// */	// System.out.println(reset + brown + "Chestnut" + red + " + " + green + "Hazel's" + reset + " Parcel Service cannot accept packages weighing in excess of 120 American Pounds." + reset); // System.out.println(reset + brown + "Chestnut " + red + " + " + green + " Hazel's" + reset + " Parcel Service cannot accept packages greater than 120 American Pounds." + reset); 
+	
+	
+	
 
 	public void setPackageWidth(double packageWidth) {
 		this.packageWidth = packageWidth;

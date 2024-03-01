@@ -180,7 +180,57 @@ keyboard.nextLine();
 		packageWidth = keyboard.nextDouble(); // double packageWidth = keyboard.nextDouble(); // double packageWidth = keyboard.nextDouble();
 		keyboard.nextLine();
 
+...
+
+[0m[31mGreetings:  [0m Utilize this terminal to determine the costs of shipping your parcel(s). 
+             Please enter the[31m weight[0m and the [31mdimensions [0mof your parcel: 
+ 
+[0m                                     Data for Parcel # 1
+ 
+Please enter the[31m weight [0mof your parcel: [32m500
+ 
+[0m[33mChestnut[31m + [32mHazel's[0m Parcel Service cannot accept packages exceeding 120 American Pounds in weight.[0m
+Please consider shipping a different Package.
+ 
+Please enter the[31m weight [0mof your parcel: [32m-1
+ 
+[0m[31mThe weight of the parcel has been entered as a negative number. Please re-enter the package weight.[0m
+ 
+Please enter the[31m weight [0mof your parcel: [32m20
+[0mPlease enter the[31m length [0mof your parcel: [32m500
+ 
+[0m[33mChestnut[31m + [32mHazel's[0m Parcel Service cannot accept packages exceeding 100 British inches in total outside liner inches.[0m
+Please consider shipping a different Package.
+ 
+[0mPlease enter the[31m length [0mof your parcel: [32m-1
+ 
+[0m[31mThe length of the parcel has been entered as a negative number. Please re-enter the package length.[0m
+ 
+[0mPlease enter the[31m length [0mof your parcel: [32m99
+[0mPlease enter the[31m width [0m of your parcel: [32m500
+ 
+[0m[33mChestnut[31m + [32mHazel's[0m Parcel Service cannot accept packages exceeding 100 British inches in total outside liner inches.[0m
+Please consider shipping a different Package.
+ 
+[0mPlease enter the[31m width [0m of your parcel: [32m-1
+ 
+[0m[31mThe width of the parcel has been entered as a negative number. Please re-enter the package width.[0m
+ 
+[0mPlease enter the[31m width [0m of your parcel: [32m3
+ 
+[0m[33mChestnut[31m + [32mHazel's[0m Parcel Service cannot accept packages exceeding 100 British inches in total outside liner inches.[0m
+Please consider shipping a different Package.
+ 
+[0mPlease enter the[31m width [0m of your parcel: [32m1
+[0mPlease enter the[31m width [0m of your parcel: [32m1
+[0mPlease enter the[31m height [0mof your parcel: 
+
+		System.out.print(reset+"Please enter the"+ red + " width "+reset+" of your parcel: "+green); // System.out.println("Please enter the"+ red + " width "+reset+"of your parcel: "); // user enters and sets the width of the package being shipped.
+		packageWidth = keyboard.nextDouble(); // double packageWidth = keyboard.nextDouble(); // double packageWidth = keyboard.nextDouble();
+		keyboard.nextLine();
+
 		*/
+		
 
 		while (true) {
 
@@ -198,9 +248,8 @@ keyboard.nextLine();
 
 		}
 		
-		System.out.print(reset+"Please enter the"+ red + " width "+reset+" of your parcel: "+green); // System.out.println("Please enter the"+ red + " width "+reset+"of your parcel: "); // user enters and sets the width of the package being shipped.
-		packageWidth = keyboard.nextDouble(); // double packageWidth = keyboard.nextDouble(); // double packageWidth = keyboard.nextDouble();
-		keyboard.nextLine();
+		
+
 		
 		System.out.print(reset+"Please enter the"+ red + " height "+reset+"of your parcel: "+green); // System.out.println("Please enter the"+ red + " height "+reset+"of your parcel: "); // user enters and sets the height of the package being shipped.
 		packageHeight = keyboard.nextDouble();// double packageHeight = keyboard.nextDouble();
