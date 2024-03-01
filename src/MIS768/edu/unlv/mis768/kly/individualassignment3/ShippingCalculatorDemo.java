@@ -36,54 +36,56 @@ public class ShippingCalculatorDemo {
 		System.out.println("             Please enter the"+ red + " weight"+reset+" and the "+ red +"dimensions "+reset+ "of your parcel: ");
 		System.out.println(" ");
 		do {
-			System.out.println(reset+"                                     Data for Parcel # " + entryNumber); // /**/System.out.println("                                     Data for Package # 1"); // entryNumber// this number needs to increment depending on the number of packages. // this number needs to iterate depending on the number of packages.
-		System.out.println(" ");
-		// this line is being moved down System.out.println("Please enter the"+ red + " weight "+reset+"of your parcel:"); // " and the "+ red +"dimensions "+reset+ 
-		// System.out.println(" "); // I don't know what's going on here, the line won't skip. I know what it is, it's on the wrong line.
-		//keyboard.nextLine();
-		
-		//		System.out.println("Please enter the"+ red + " weight "+reset+"of your parcel:");
-		//		double packageWeight = keyboard.nextDouble(); // this needs to be a double. // String packageWeight = keyboard.nextLine();  // this needs to be a double. // String packageWeight = keyboard.nextLine();
-		//		keyboard.nextLine();
-		
-		// Package package = new Package(packageWeight, packageLength, packageWidth, packageHeight);
+			System.out.println(reset+"                                     Data for Parcel # " + entryNumber); 
+			System.out.println(" ");
+						// /**/System.out.println("                                     Data for Package # 1"); // entryNumber// this number needs to increment depending on the number of packages. // this number needs to iterate depending on the number of packages.
+									
+						// this line is being moved down System.out.println("Please enter the"+ red + " weight "+reset+"of your parcel:"); // " and the "+ red +"dimensions "+reset+ 
+						// System.out.println(" "); // I don't know what's going on here, the line won't skip. I know what it is, it's on the wrong line.
+						//keyboard.nextLine();
+						
+						//		System.out.println("Please enter the"+ red + " weight "+reset+"of your parcel:");
+						//		double packageWeight = keyboard.nextDouble(); // this needs to be a double. // String packageWeight = keyboard.nextLine();  // this needs to be a double. // String packageWeight = keyboard.nextLine();
+						//		keyboard.nextLine();
+						
+						// Package package = new Package(packageWeight, packageLength, packageWidth, packageHeight);
 		
 		Package parcelPackage = new Package(packageWeight, packageLength, packageWidth, packageHeight); // creates a new instance of parcelPackage
 
 		
 		
 		
-		//					// start while true
-		//					while(true) {
-		//						
-		//					System.out.print("Please enter the"+ red + " weight "+reset+"of your parcel: " +green); // System.out.println("Please enter the"+ red + " weight "+reset+"of your parcel: "); // i figured out what it is. I'm using println rather than just print. // there is something screwy going on here, it keeps skipping a line for the user's input and it's driving me nuts. // System.out.println("Please enter the weight of your parcel: "); // System.out.println("Please enter the"+ red + " weight "+reset+"of your parcel: "); // System.out.println(("Please enter the"+ red + " weight "+reset)+("of your parcel: ")); // user enters and sets the weight of the package being shipped.
-		//					packageWeight = parcelPackage.keyboard.nextDouble(); // setPackageWeight. // parcelPackage.setPackageWeight(keyboard); // .keyboard.nextDouble();// packageWeight = parcelPackage.setPackageWeight.keyboard.nextDouble(); // this.
-		//					parcelPackage.setPackageWeight(packageWeight);
-		//					// System.out.println(" ");
-		//					packageWeight = parcelPackage.getPackageWeight();
-		//				    if (packageWeight == -1) {
-		//				        System.out.println(" ");
-		//				         // this stops the program if the package weight is invalid. // Break out of the loop
-		//				    } else {
-		//				    	break; // // System.out.println("Please enter the"+ red + " weight "+reset+"of your parcel: "); // i figured out what it is. I'm using println rather than just print. // there is something screwy going on here, it keeps skipping a line for the user's input and it's driving me nuts. // System.out.println("Please enter the weight of your parcel: "); // System.out.println("Please enter the"+ red + " weight "+reset+"of your parcel: "); // System.out.println(("Please enter the"+ red + " weight "+reset)+("of your parcel: ")); // user enters and sets the weight of the package being shipped.
-		//				    }
-		//				    
-		//					} // end while true // System.out.println(" "); // this stops the program if the package weight is invalid. // Break out of the loop // setPackageWeight. // parcelPackage.setPackageWeight(keyboard); // .keyboard.nextDouble();// packageWeight = parcelPackage.setPackageWeight.keyboard.nextDouble(); // this.
-
-		// The Original version is above, I need a clean one without comments for the other user input steps. // refresh
-		
-				//	    if (packageWeight == -1) {
-		//	        System.out.println(" ");
-		//	        System.out.print("Please enter the"+ red + " weight "+reset+"of your parcel: " +green);
-		//	        parcelPackage.setPackageWeight(packageWeight);
-		//	        packageWeight = parcelPackage.getPackageWeight();
-		//	        // break; // this stops the program if the package weight is invalid. // Break out of the loop
-		//	    }
-		// packageWeight = parcelPackage.getPackageWeight();
-		// packageWeight = pacelPackage.setPackageWeight;// double packageWeight = keyboard.nextDouble(); 
-		// double packageWeight = keyboard.nextDouble();
-		
-		// keyboard.nextLine();
+						//					// start while true
+						//					while(true) {
+						//						
+						//					System.out.print("Please enter the"+ red + " weight "+reset+"of your parcel: " +green); // System.out.println("Please enter the"+ red + " weight "+reset+"of your parcel: "); // i figured out what it is. I'm using println rather than just print. // there is something screwy going on here, it keeps skipping a line for the user's input and it's driving me nuts. // System.out.println("Please enter the weight of your parcel: "); // System.out.println("Please enter the"+ red + " weight "+reset+"of your parcel: "); // System.out.println(("Please enter the"+ red + " weight "+reset)+("of your parcel: ")); // user enters and sets the weight of the package being shipped.
+						//					packageWeight = parcelPackage.keyboard.nextDouble(); // setPackageWeight. // parcelPackage.setPackageWeight(keyboard); // .keyboard.nextDouble();// packageWeight = parcelPackage.setPackageWeight.keyboard.nextDouble(); // this.
+						//					parcelPackage.setPackageWeight(packageWeight);
+						//					// System.out.println(" ");
+						//					packageWeight = parcelPackage.getPackageWeight();
+						//				    if (packageWeight == -1) {
+						//				        System.out.println(" ");
+						//				         // this stops the program if the package weight is invalid. // Break out of the loop
+						//				    } else {
+						//				    	break; // // System.out.println("Please enter the"+ red + " weight "+reset+"of your parcel: "); // i figured out what it is. I'm using println rather than just print. // there is something screwy going on here, it keeps skipping a line for the user's input and it's driving me nuts. // System.out.println("Please enter the weight of your parcel: "); // System.out.println("Please enter the"+ red + " weight "+reset+"of your parcel: "); // System.out.println(("Please enter the"+ red + " weight "+reset)+("of your parcel: ")); // user enters and sets the weight of the package being shipped.
+						//				    }
+						//				    
+						//					} // end while true // System.out.println(" "); // this stops the program if the package weight is invalid. // Break out of the loop // setPackageWeight. // parcelPackage.setPackageWeight(keyboard); // .keyboard.nextDouble();// packageWeight = parcelPackage.setPackageWeight.keyboard.nextDouble(); // this.
+				
+						// The Original version is above, I need a clean one without comments for the other user input steps. // refresh
+						
+								//	    if (packageWeight == -1) {
+						//	        System.out.println(" ");
+						//	        System.out.print("Please enter the"+ red + " weight "+reset+"of your parcel: " +green);
+						//	        parcelPackage.setPackageWeight(packageWeight);
+						//	        packageWeight = parcelPackage.getPackageWeight();
+						//	        // break; // this stops the program if the package weight is invalid. // Break out of the loop
+						//	    }
+						// packageWeight = parcelPackage.getPackageWeight();
+						// packageWeight = pacelPackage.setPackageWeight;// double packageWeight = keyboard.nextDouble(); 
+						// double packageWeight = keyboard.nextDouble();
+						
+						// keyboard.nextLine();
 
 		while (true) {
 
