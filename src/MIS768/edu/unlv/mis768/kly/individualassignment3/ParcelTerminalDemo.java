@@ -13,7 +13,7 @@ import java.util.Scanner;
 
 import edu.unlv.mis768.kly.individualassignment2.CreateTranscript;
 
-public class ShippingCalculatorDemo {
+public class ParcelTerminalDemo { // public class ShippingCalculatorDemo {
 	
 	private static char yesOrNoEntry;
 	
@@ -25,10 +25,13 @@ public class ShippingCalculatorDemo {
 	    String green  = "\u001B[32m";
 		int entryNumber = 1;
 		final String THE_PLACEHOLDER = "PLACEHOLDER"; // this is used for things that I will calculate later,
-		double packageWeight = 0;
-		double packageLength = 0;
-		double packageWidth = 0;
+		double packageWeight = 0; // the weight of the parcel
+		double packageLength = 0; // the length of the parcel
+		double packageWidth = 0; // the width of the parcel
 		double packageHeight = 0; //  = keyboard.nextDouble();
+		
+		// double theNumberOfOutsideLinerInches = 0;
+		// double theDimensionalWeight = 0;
 		
 		Scanner keyboard = new Scanner(System.in);
 		
