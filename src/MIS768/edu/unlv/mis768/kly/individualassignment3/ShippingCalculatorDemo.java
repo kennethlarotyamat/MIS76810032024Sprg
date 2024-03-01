@@ -38,6 +38,7 @@ public class ShippingCalculatorDemo {
 		do {
 			System.out.println(reset+"                                     Data for Parcel # " + entryNumber); 
 			System.out.println(" ");
+						
 						// /**/System.out.println("                                     Data for Package # 1"); // entryNumber// this number needs to increment depending on the number of packages. // this number needs to iterate depending on the number of packages.
 									
 						// this line is being moved down System.out.println("Please enter the"+ red + " weight "+reset+"of your parcel:"); // " and the "+ red +"dimensions "+reset+ 
@@ -102,15 +103,57 @@ public class ShippingCalculatorDemo {
 			}
 
 		}
+		// that took forever, and I'm only done dealing with the package weight.
+		
+		/*
+		 		while (true) {
+
+			System.out.print(reset+"Please enter the"+ red + " length "+reset+"of your parcel: "+green);
+			packageLength = parcelPackage.keyboard.nextDouble();
+			parcelPackage.setPackageLength(packageLength);
+
+			packageLength = parcelPackage.getPackageLength();
+			if (packageLength == -1) {
+				System.out.println(" ");
+
+			} else {
+				break;
+			}
+
+		}
+		
+		
+		System.out.print(reset+"Please enter the"+ red + " length "+reset+"of your parcel: "+green); // System.out.println("Please enter the"+ red + " length "+reset+"of your parcel: "); // user enters and sets the length of the package being shipped.
+packageLength = keyboard.nextDouble();// double packageLength = keyboard.nextDouble();
+keyboard.nextLine();
+		
+		
+		*/
 		
 		
 		
 
 		
 		
-		System.out.print(reset+"Please enter the"+ red + " length "+reset+"of your parcel: "+green); // System.out.println("Please enter the"+ red + " length "+reset+"of your parcel: "); // user enters and sets the length of the package being shipped.
-		packageLength = keyboard.nextDouble();// double packageLength = keyboard.nextDouble();
-		keyboard.nextLine();
+//		System.out.print(reset+"Please enter the"+ red + " length "+reset+"of your parcel: "+green); // System.out.println("Please enter the"+ red + " length "+reset+"of your parcel: "); // user enters and sets the length of the package being shipped.
+//		packageLength = keyboard.nextDouble();// double packageLength = keyboard.nextDouble();
+//		keyboard.nextLine();
+		
+				while (true) {
+			
+			System.out.print(reset+"Please enter the"+ red + " length "+reset+"of your parcel: "+green);
+			packageLength = parcelPackage.keyboard.nextDouble();
+			parcelPackage.setPackageLength(packageLength);
+			
+			packageLength = parcelPackage.getPackageLength();
+			if (packageLength == -1) {
+				System.out.println(" ");
+			
+				} else {
+					break;
+				}
+			
+			}
 		
 		System.out.print(reset+"Please enter the"+ red + " width "+reset+" of your parcel: "+green); // System.out.println("Please enter the"+ red + " width "+reset+"of your parcel: "); // user enters and sets the width of the package being shipped.
 		packageWidth = keyboard.nextDouble(); // double packageWidth = keyboard.nextDouble(); // double packageWidth = keyboard.nextDouble();
