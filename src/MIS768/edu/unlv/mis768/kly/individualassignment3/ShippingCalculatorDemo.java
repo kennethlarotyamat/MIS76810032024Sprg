@@ -88,21 +88,23 @@ public class ShippingCalculatorDemo {
 						
 						// keyboard.nextLine();
 
-		while (true) {
+						while (true) {
 
-			System.out.print("Please enter the" + red + " weight " + reset + "of your parcel: " + green);
-			packageWeight = parcelPackage.keyboard.nextDouble();
-			parcelPackage.setPackageWeight(packageWeight);
+							System.out
+									.print("Please enter the" + red + " weight " + reset + "of your parcel: " + green);
+							packageWeight = parcelPackage.keyboard.nextDouble();
+							parcelPackage.setPackageWeight(packageWeight);
 
-			packageWeight = parcelPackage.getPackageWeight();
-			if (packageWeight == -1) {
-				System.out.println(" ");
+							packageWeight = parcelPackage.getPackageWeight();
+							if (packageWeight == -1) {
+								System.out.println(" ");
 
-			} else {
-				break;
-			}
+							} else {
+								break;
+							}
 
-		}
+						}
+
 		// that took forever, and I'm only done dealing with the package weight.
 		
 		/*
@@ -139,21 +141,62 @@ keyboard.nextLine();
 //		packageLength = keyboard.nextDouble();// double packageLength = keyboard.nextDouble();
 //		keyboard.nextLine();
 		
-				while (true) {
-			
-			System.out.print(reset+"Please enter the"+ red + " length "+reset+"of your parcel: "+green);
+		while (true) {
+
+			System.out.print(reset + "Please enter the" + red + " length " + reset + "of your parcel: " + green);
 			packageLength = parcelPackage.keyboard.nextDouble();
 			parcelPackage.setPackageLength(packageLength);
-			
+
 			packageLength = parcelPackage.getPackageLength();
 			if (packageLength == -1) {
 				System.out.println(" ");
-			
-				} else {
-					break;
-				}
-			
+
+			} else {
+				break;
 			}
+
+		}
+		/* 
+			
+		while (true) {
+
+			System.out.print(reset+"Please enter the"+ red + " width "+reset+" of your parcel: "+green);
+			packageWidth = parcelPackage.keyboard.nextDouble();
+			parcelPackage.setPackageWidth(packageWidth);
+
+			packageWidth = parcelPackage.getPackageWidth();
+			if (packageWidth == -1) {
+				System.out.println(" ");
+
+			} else {
+				break;
+			}
+
+		}
+
+		...
+
+		System.out.print(reset+"Please enter the"+ red + " width "+reset+" of your parcel: "+green); // System.out.println("Please enter the"+ red + " width "+reset+"of your parcel: "); // user enters and sets the width of the package being shipped.
+		packageWidth = keyboard.nextDouble(); // double packageWidth = keyboard.nextDouble(); // double packageWidth = keyboard.nextDouble();
+		keyboard.nextLine();
+
+		*/
+
+		while (true) {
+
+			System.out.print(reset+"Please enter the"+ red + " width "+reset+" of your parcel: "+green);
+			packageWidth = parcelPackage.keyboard.nextDouble();
+			parcelPackage.setPackageWidth(packageWidth);
+
+			packageWidth = parcelPackage.getPackageWidth();
+			if (packageWidth == -1) {
+				System.out.println(" ");
+
+			} else {
+				break;
+			}
+
+		}
 		
 		System.out.print(reset+"Please enter the"+ red + " width "+reset+" of your parcel: "+green); // System.out.println("Please enter the"+ red + " width "+reset+"of your parcel: "); // user enters and sets the width of the package being shipped.
 		packageWidth = keyboard.nextDouble(); // double packageWidth = keyboard.nextDouble(); // double packageWidth = keyboard.nextDouble();

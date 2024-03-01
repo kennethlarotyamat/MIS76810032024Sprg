@@ -83,7 +83,7 @@ public class Package {
 		if (packageLength > 0 && (packageLength+packageWidth+packageHeight)<=100) {
 			return packageLength;
 			
-		} else if (packageLength > 0) {
+		} else if (packageLength < 0) { 					// } else if (packageLength > 0) {
 			System.out.println(" ");System.out.println(reset + red + "The length of the parcel has been entered as a negative number. Please re-enter the package length." + reset);
 			return -1;
 			
