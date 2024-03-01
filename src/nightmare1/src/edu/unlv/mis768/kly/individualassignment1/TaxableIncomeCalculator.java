@@ -77,7 +77,7 @@ public class TaxableIncomeCalculator {
             System.out.print("The information entered is invalid.");
         }
 
-        else { // this is where the taxes due calculations take place, after throwing out differnt types of invalid inputs, 
+        else { // this is where the taxes due calculations take place, after throwing out different types of invalid inputs, 
                // like negative numbers, letters, or characters
             taxDue =
                         // start brackets

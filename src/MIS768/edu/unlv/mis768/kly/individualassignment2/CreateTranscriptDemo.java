@@ -10,7 +10,7 @@
 */
 
 package edu.unlv.mis768.kly.individualassignment2;
-
+// CreateTranscript
 import java.util.Scanner;
 import java.util.ArrayList;
 import java.text.DecimalFormat;
@@ -29,7 +29,7 @@ public class CreateTranscriptDemo {
 	private static int courseHours;
 	private static String letterGrade;
 	private static String courseNumber;
-    private static PrintWriter writer;				// i'm pretty sure i actually did use this // variable not used warning //  // resource leak // i finally have this finished and i'm 9 minutes away. i can't risk changing the code to closing it.
+    // private static PrintWriter writer;				// i'm pretty sure i actually did use this // variable not used warning //  // resource leak // i finally have this finished and i'm 9 minutes away. i can't risk changing the code to closing it.
     private static String fileName;
 
 
@@ -132,10 +132,10 @@ do {
         
 
         
-
+keyboard.close();
 	}
 
-	
+		
 }
 // D:\GitHub\MIS76810032024Sprg\media\text\transcript.txt
 // D:\GitHub\MIS76810032024Sprg\src\nightmare1\src\edu\ unlv\mis\kly\w3\transcript.txt

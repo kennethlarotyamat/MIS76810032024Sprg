@@ -11,6 +11,8 @@ package edu.unlv.mis768.kly.individualassignment3;
 import java.io.IOException;
 import java.util.Scanner;
 
+import edu.unlv.mis768.kly.individualassignment2.CreateTranscript;
+
 public class ShippingCalculatorDemo {
 	
 	private static char yesOrNoEntry;
@@ -23,45 +25,112 @@ public class ShippingCalculatorDemo {
 	    String green  = "\u001B[32m";
 		int entryNumber = 1;
 		final String THE_PLACEHOLDER = "PLACEHOLDER"; // this is used for things that I will calculate later,
+		double packageWeight = 0;
+		double packageLength = 0;
+		double packageWidth = 0;
+		double packageHeight = 0; //  = keyboard.nextDouble();
 		
 		Scanner keyboard = new Scanner(System.in);
 		
-		System.out.println(reset+ red+ "Greetings:  " + reset + " Utilize this terminal to determine the shipping costs of your parcel. ");
+		System.out.println(reset+ red+ "Greetings:  " + reset + " Utilize this terminal to determine the costs of shipping your parcel(s). ");
 		System.out.println("             Please enter the"+ red + " weight"+reset+" and the "+ red +"dimensions "+reset+ "of your parcel: ");
 		System.out.println(" ");
 		do {
-			System.out.println(reset+"                                     Data for Package # " + entryNumber); // /**/System.out.println("                                     Data for Package # 1"); // entryNumber// this number needs to increment depending on the number of packages. // this number needs to iterate depending on the number of packages.
+			System.out.println(reset+"                                     Data for Parcel # " + entryNumber); // /**/System.out.println("                                     Data for Package # 1"); // entryNumber// this number needs to increment depending on the number of packages. // this number needs to iterate depending on the number of packages.
 		System.out.println(" ");
 		// this line is being moved down System.out.println("Please enter the"+ red + " weight "+reset+"of your parcel:"); // " and the "+ red +"dimensions "+reset+ 
 		// System.out.println(" "); // I don't know what's going on here, the line won't skip. I know what it is, it's on the wrong line.
 		//keyboard.nextLine();
 		
-//		System.out.println("Please enter the"+ red + " weight "+reset+"of your parcel:");
-//		double packageWeight = keyboard.nextDouble(); // this needs to be a double. // String packageWeight = keyboard.nextLine();  // this needs to be a double. // String packageWeight = keyboard.nextLine();
-//		keyboard.nextLine(); 
+		//		System.out.println("Please enter the"+ red + " weight "+reset+"of your parcel:");
+		//		double packageWeight = keyboard.nextDouble(); // this needs to be a double. // String packageWeight = keyboard.nextLine();  // this needs to be a double. // String packageWeight = keyboard.nextLine();
+		//		keyboard.nextLine();
 		
-		System.out.print("Please enter the"+ red + " weight "+reset+"of your parcel: " +green); // System.out.println("Please enter the"+ red + " weight "+reset+"of your parcel: "); // i figured out what it is. I'm using println rather than just print. // there is something screwy going on here, it keeps skipping a line for the user's input and it's driving me nuts. // System.out.println("Please enter the weight of your parcel: "); // System.out.println("Please enter the"+ red + " weight "+reset+"of your parcel: "); // System.out.println(("Please enter the"+ red + " weight "+reset)+("of your parcel: ")); // user enters and sets the weight of the package being shipped.
-		double packageWeight = keyboard.nextDouble(); // double packageWeight = keyboard.nextDouble();
-		keyboard.nextLine();
+		// Package package = new Package(packageWeight, packageLength, packageWidth, packageHeight);
+		
+		Package parcelPackage = new Package(packageWeight, packageLength, packageWidth, packageHeight); // creates a new instance of parcelPackage
+
+		
+		
+		
+		//					// start while true
+		//					while(true) {
+		//						
+		//					System.out.print("Please enter the"+ red + " weight "+reset+"of your parcel: " +green); // System.out.println("Please enter the"+ red + " weight "+reset+"of your parcel: "); // i figured out what it is. I'm using println rather than just print. // there is something screwy going on here, it keeps skipping a line for the user's input and it's driving me nuts. // System.out.println("Please enter the weight of your parcel: "); // System.out.println("Please enter the"+ red + " weight "+reset+"of your parcel: "); // System.out.println(("Please enter the"+ red + " weight "+reset)+("of your parcel: ")); // user enters and sets the weight of the package being shipped.
+		//					packageWeight = parcelPackage.keyboard.nextDouble(); // setPackageWeight. // parcelPackage.setPackageWeight(keyboard); // .keyboard.nextDouble();// packageWeight = parcelPackage.setPackageWeight.keyboard.nextDouble(); // this.
+		//					parcelPackage.setPackageWeight(packageWeight);
+		//					// System.out.println(" ");
+		//					packageWeight = parcelPackage.getPackageWeight();
+		//				    if (packageWeight == -1) {
+		//				        System.out.println(" ");
+		//				         // this stops the program if the package weight is invalid. // Break out of the loop
+		//				    } else {
+		//				    	break; // // System.out.println("Please enter the"+ red + " weight "+reset+"of your parcel: "); // i figured out what it is. I'm using println rather than just print. // there is something screwy going on here, it keeps skipping a line for the user's input and it's driving me nuts. // System.out.println("Please enter the weight of your parcel: "); // System.out.println("Please enter the"+ red + " weight "+reset+"of your parcel: "); // System.out.println(("Please enter the"+ red + " weight "+reset)+("of your parcel: ")); // user enters and sets the weight of the package being shipped.
+		//				    }
+		//				    
+		//					} // end while true // System.out.println(" "); // this stops the program if the package weight is invalid. // Break out of the loop // setPackageWeight. // parcelPackage.setPackageWeight(keyboard); // .keyboard.nextDouble();// packageWeight = parcelPackage.setPackageWeight.keyboard.nextDouble(); // this.
+
+		// The Original version is above, I need a clean one without comments for the other user input steps. // refresh
+		
+				//	    if (packageWeight == -1) {
+		//	        System.out.println(" ");
+		//	        System.out.print("Please enter the"+ red + " weight "+reset+"of your parcel: " +green);
+		//	        parcelPackage.setPackageWeight(packageWeight);
+		//	        packageWeight = parcelPackage.getPackageWeight();
+		//	        // break; // this stops the program if the package weight is invalid. // Break out of the loop
+		//	    }
+		// packageWeight = parcelPackage.getPackageWeight();
+		// packageWeight = pacelPackage.setPackageWeight;// double packageWeight = keyboard.nextDouble(); 
+		// double packageWeight = keyboard.nextDouble();
+		
+		// keyboard.nextLine();
+
+		while (true) {
+
+			System.out.print("Please enter the" + red + " weight " + reset + "of your parcel: " + green);
+			packageWeight = parcelPackage.keyboard.nextDouble();
+			parcelPackage.setPackageWeight(packageWeight);
+
+			packageWeight = parcelPackage.getPackageWeight();
+			if (packageWeight == -1) {
+				System.out.println(" ");
+
+			} else {
+				break;
+			}
+
+		}
+		
+		
+		
+
+		
 		
 		System.out.print(reset+"Please enter the"+ red + " length "+reset+"of your parcel: "+green); // System.out.println("Please enter the"+ red + " length "+reset+"of your parcel: "); // user enters and sets the length of the package being shipped.
-		double packageLength = keyboard.nextDouble();
+		packageLength = keyboard.nextDouble();// double packageLength = keyboard.nextDouble();
 		keyboard.nextLine();
 		
 		System.out.print(reset+"Please enter the"+ red + " width "+reset+" of your parcel: "+green); // System.out.println("Please enter the"+ red + " width "+reset+"of your parcel: "); // user enters and sets the width of the package being shipped.
-		double packageWidth = keyboard.nextDouble(); // double packageWidth = keyboard.nextDouble();
+		packageWidth = keyboard.nextDouble(); // double packageWidth = keyboard.nextDouble(); // double packageWidth = keyboard.nextDouble();
 		keyboard.nextLine();
 		
 		System.out.print(reset+"Please enter the"+ red + " height "+reset+"of your parcel: "+green); // System.out.println("Please enter the"+ red + " height "+reset+"of your parcel: "); // user enters and sets the height of the package being shipped.
-		double packageHeight = keyboard.nextDouble();
+		packageHeight = keyboard.nextDouble();// double packageHeight = keyboard.nextDouble();
 		keyboard.nextLine();
+		
+		// Package pacelPackage = new Package(packageWeight, packageLength, packageWidth, packageHeight);
+		// parcelPackage.setPackageWeight(packageWeight);
+		
+		// CreateTranscript transcript = new CreateTranscript(courseNumber, courseHours, letterGrade);
+		// transcript.setLetterGrade(letterGrade);
 		
 		System.out.println(" ");
 		
-		System.out.println(reset+"The package has an actual weight of: " + THE_PLACEHOLDER);
-		System.out.println(reset+"The package has a dimensional weight of: " + THE_PLACEHOLDER);
-		System.out.println(reset+"The package has the following dimensions: " + THE_PLACEHOLDER);
-		System.out.println(reset+"The package has a shipping cost of: " + THE_PLACEHOLDER);
+		/*packageWeight = parcelPackage.getPackageWeight();*/ 
+		System.out.println(reset+"The parcel has an actual weight of: " + packageWeight); // System.out.println(reset+"The parcel has an actual weight of: " + getPackageWeight()); // System.out.println(reset+"The parcel has an actual weight of: " + THE_PLACEHOLDER); // getPackageWeight()
+		System.out.println(reset+"The parcel has a dimensional weight of: " + THE_PLACEHOLDER);
+		System.out.println(reset+"The parcel has the following dimensions: " + THE_PLACEHOLDER);
+		System.out.println(reset+"The parcel has a shipping cost of: " + THE_PLACEHOLDER);
 		
 		System.out.println(" ");
 		// entryNumber++;
@@ -83,6 +152,90 @@ public class ShippingCalculatorDemo {
 
 
 }
+
+/* 
+ [0m[31mGreetings:  [0m Utilize this terminal to determine the cost to ship your parcel. 
+             Please enter the[31m weight[0m and the [31mdimensions [0mof your parcel: 
+ 
+[0m                                     Data for Parcel # 1
+ 
+Please enter the[31m weight [0mof your parcel: [32m50
+[0mPlease enter the[31m length [0mof your parcel: [32m50
+[0mPlease enter the[31m width [0m of your parcel: [32m50
+[0mPlease enter the[31m height [0mof your parcel: [32m50
+ 
+[0mThe parcel has an actual weight of: PLACEHOLDER
+[0mThe parcel has a dimensional weight of: PLACEHOLDER
+[0mThe parcel has the following dimensions: PLACEHOLDER
+[0mThe parcel has a shipping cost of: PLACEHOLDER
+ 
+[0mWill you be shipping any additional parcels? (Y/N): [32my
+ 
+[0m                                     Data for Parcel # 2
+ 
+Please enter the[31m weight [0mof your parcel: [32m50
+[0mPlease enter the[31m length [0mof your parcel: [32m50
+[0mPlease enter the[31m width [0m of your parcel: [32m50
+[0mPlease enter the[31m height [0mof your parcel: [32m50
+ 
+[0mThe parcel has an actual weight of: PLACEHOLDER
+[0mThe parcel has a dimensional weight of: PLACEHOLDER
+[0mThe parcel has the following dimensions: PLACEHOLDER
+[0mThe parcel has a shipping cost of: PLACEHOLDER
+ 
+[0mWill you be shipping any additional parcels? (Y/N): [32my
+ 
+[0m                                     Data for Parcel # 3
+ 
+Please enter the[31m weight [0mof your parcel: [32m50
+[0mPlease enter the[31m length [0mof your parcel: [32m50
+[0mPlease enter the[31m width [0m of your parcel: [32m50
+[0mPlease enter the[31m height [0mof your parcel: [32m50
+ 
+[0mThe parcel has an actual weight of: PLACEHOLDER
+[0mThe parcel has a dimensional weight of: PLACEHOLDER
+[0mThe parcel has the following dimensions: PLACEHOLDER
+[0mThe parcel has a shipping cost of: PLACEHOLDER
+ 
+[0mWill you be shipping any additional parcels? (Y/N): [32my
+ 
+[0m                                     Data for Parcel # 4
+ 
+Please enter the[31m weight [0mof your parcel: [32m50
+[0mPlease enter the[31m length [0mof your parcel: [32m50
+[0mPlease enter the[31m width [0m of your parcel: [32m50
+[0mPlease enter the[31m height [0mof your parcel: [32m50
+ 
+[0mThe parcel has an actual weight of: PLACEHOLDER
+[0mThe parcel has a dimensional weight of: PLACEHOLDER
+[0mThe parcel has the following dimensions: PLACEHOLDER
+[0mThe parcel has a shipping cost of: PLACEHOLDER
+ 
+[0mWill you be shipping any additional parcels? (Y/N): [32my
+ 
+[0m                                     Data for Parcel # 5
+ 
+Please enter the[31m weight [0mof your parcel: [32m50
+[0mPlease enter the[31m length [0mof your parcel: [32m50
+[0mPlease enter the[31m width [0m of your parcel: [32m50
+[0mPlease enter the[31m height [0mof your parcel: [32m50
+ 
+[0mThe parcel has an actual weight of: PLACEHOLDER
+[0mThe parcel has a dimensional weight of: PLACEHOLDER
+[0mThe parcel has the following dimensions: PLACEHOLDER
+[0mThe parcel has a shipping cost of: PLACEHOLDER
+ 
+[0mWill you be shipping any additional parcels? (Y/N): [32my
+ 
+[0m                                     Data for Parcel # 6
+ 
+Please enter the[31m weight [0mof your parcel: [32mchickens
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:947)
+	at java.base/java.util.Scanner.next(Scanner.java:1602)
+	at java.base/java.util.Scanner.nextDouble(Scanner.java:2573)
+	at edu.unlv.mis768.kly.individualassignment3.ShippingCalculatorDemo.main(ShippingCalculatorDemo.java:44)
+	*/
 
 //Please enter the file name where you would like to print your transcript: D:\GitHub\MIS76810032024Sprg\src\MIS768\edu\ unlv\mis768\kly\individualassignment2\transcript02292024.txt
 //Data has been written to D:\GitHub\MIS76810032024Sprg\src\MIS768\edu\ unlv\mis768\kly\individualassignment2\transcript02292024.txt successfully.
