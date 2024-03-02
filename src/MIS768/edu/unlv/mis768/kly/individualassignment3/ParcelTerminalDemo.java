@@ -335,6 +335,38 @@ Please consider shipping a different Package.
 
 }
 
+/*
+ 
+
+Design a program that computes the cost of shipping packages at a parcel service store. 
+A customer can ship multiple packages at the store. 
+The program should prompt the users to enter the weight and the package dimension for each package. 
+
+However, each package should not exceed 120 pounds (actual weight) and 100 outside linear inches (length plus width plus height). 
+
+Overweight or over-sized packages are not accepted. 
+
+If the user enters a zero or a negative number, the program should show an error message and request input again until a positive number is entered. 
+
+
+
+For the actual weight, any fraction of the measurement should be increased to the nearest whole number (for example, 20.1 will be considered 21).
+
+For each package that can be shipped, the dimensional weight should be calculated. Dimensional weight reflects the amount of space a package occupies; dimensional weight is calculated by the following steps: (1) Determine the package dimensions in inches. For each dimension, any fraction of the measurement should be increased to the nearest whole number (for example, 1.3 will be considered 2). (2) Multiply the package length by the width by the height. The result is the cubic size in inches. (3) Divide the cubic size in inches by 166 to determine dimensional weight in pounds. (4) Increase any fraction to the next whole pound.
+
+The shipping cost of each package is calculated by comparing the actual weight to the dimensional weight. The greater of the two is the billable weight and should be used to calculate the rate. The final cost of the shipment is calculated by multiplying the price per pound ($3.12) by the billable weight. 
+
+For each accepted package, the program should show the actual weight, calculated dimensional weight, and the shipping cost for the package.
+
+After all the packages are entered, the program will prompt the users to enter if they have “frequent-shipper” numbers; if so, a 5% discount will be applied to the shipping cost. If the total amount after the frequent-shipper discount is greater than $300, an additional “bulk package” discount of $20 off would be applied. The program shows the total number of packages to ship, subtotal before discount, frequent-shipper discount if applied, bulk package discount if applied, and the grand total.
+
+Please use the object-oriented approach to design the program. Specifically, a Package class and a Shipment class should be designed and implemented. The Package class represents the data and behavior for each individual package. The Shipment class represents the entire transaction made by a user.
+
+
+
+ */
+
+
 /* 
  [0m[31mGreetings:  [0m Utilize this terminal to determine the cost to ship your parcel. 
              Please enter the[31m weight[0m and the [31mdimensions [0mof your parcel: 

@@ -46,7 +46,7 @@ public class Package {
 	    	System.out.println("Please consider shipping a different Package.");
 	        return -1;
 	    } else {
-	        System.out.println(reset + red + "You have entered invalid information, please review your input, and re-enter." + reset);
+	    	System.out.println(" ");System.out.println(reset + red + "You have entered invalid information, please review your input, and re-enter." + reset);
 	        return -1;
 	    }
 	}
@@ -93,7 +93,7 @@ public class Package {
 	    	System.out.println("Please consider shipping a different Package.");
         return -1;
 		} else {
-	        System.out.println(reset + red + "You have entered invalid information, please review your input, and re-enter." + reset);
+			System.out.println(" ");System.out.println(reset + red + "You have entered invalid information, please review your input, and re-enter." + reset);
 	        return -1;
 	    }
 
@@ -142,7 +142,7 @@ public class Package {
 	    	System.out.println("Please consider shipping a different Package.");
         return -1;
 		} else {
-	        System.out.println(reset + red + "You have entered invalid information, please review your input, and re-enter." + reset);
+			System.out.println(" ");System.out.println(reset + red + "You have entered invalid information, please review your input, and re-enter." + reset);
 	        return -1;
 	    }
 
@@ -199,7 +199,7 @@ public class Package {
 	    	System.out.println("Please consider shipping a different Package.");
         return -1;
 		} else {
-	        System.out.println(reset + red + "You have entered invalid information, please review your input, and re-enter." + reset);
+			System.out.println(" ");System.out.println(reset + red + "You have entered invalid information, please review your input, and re-enter." + reset);
 	        return -1;
 	    }
 
