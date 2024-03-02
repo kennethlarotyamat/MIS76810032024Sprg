@@ -11,6 +11,27 @@ public class Package {
 	private double packageLength;
 	private double packageWidth;
 	private double packageHeight;
+	// private double theDimensionalWeight;
+	
+	/*
+	 
+"For each package that can be shipped, the dimensional weight should be calculated. 
+Dimensional weight reflects the amount of space a package occupies; dimensional weight 
+is calculated by the following steps: (1) Determine the package dimensions in inches. 
+For each dimension, any fraction of the measurement should be increased to the nearest 
+whole number (for example, 1.3 will be considered 2). (2) Multiply the package length by 
+the width by the height. The result is the cubic size in inches. (3) Divide the cubic size 
+in inches by 166 to determine dimensional weight in pounds. (4) Increase any fraction to 
+the next whole pound."
+
+Individual Assignment 3, Han-fen Hu, Ph.D. (2024)
+
+"numberGrade is determined by letterGrade. Therefore numberGrade should not be a field of the class. The getNumberGrade() is sufficient!"
+
+"Rather than using theScore, use getScore(). 3. The getScore() should just return the calculation result, 
+"instead of assigning the value to theScore. 4. The getPointsEach() method will just return the calculation result, instead of assignment the value to questionValue."
+
+	 */
 	
 	Scanner keyboard = new Scanner(System.in);
 	
