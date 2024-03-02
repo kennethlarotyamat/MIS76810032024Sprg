@@ -20,9 +20,9 @@ public class ParcelTerminalDemo { // public class ShippingCalculatorDemo {
 
 	public static void main(String[] args) throws IOException {
 		
-	    String red = "\u001B[31m";
+	    String red = "\u001B[31m" + "\u001B[1m";
 	    String reset = "\u001B[0m";
-	    String green  = "\u001B[32m";
+	    String green  = "\u001B[32m" + "\u001B[1m";
 		int entryNumber = 1;
 		final String THE_PLACEHOLDER = "PLACEHOLDER"; // this is used for things that I will calculate later,
 		double packageWeight = 0; // the weight of the parcel
@@ -95,7 +95,7 @@ public class ParcelTerminalDemo { // public class ShippingCalculatorDemo {
 
 							System.out
 									.print("Please enter the" + red + " weight " + reset + "of your parcel: " + green);
-							packageWeight = parcelPackage.keyboard.nextDouble();
+							packageWeight = Math.ceil(parcelPackage.keyboard.nextDouble()); // Math.ceil(
 							parcelPackage.setPackageWeight(packageWeight);
 
 							packageWeight = parcelPackage.getPackageWeight();
@@ -147,10 +147,10 @@ keyboard.nextLine();
 		while (true) {
 
 			System.out.print(reset + "Please enter the" + red + " length " + reset + "of your parcel: " + green);
-			packageLength = parcelPackage.keyboard.nextDouble();
-			parcelPackage.setPackageLength(packageLength);
+			packageLength = Math.ceil(parcelPackage.keyboard.nextDouble());
+			parcelPackage.setPackageLength(packageLength); // Math.ceil()
 
-			packageLength = parcelPackage.getPackageLength();
+			packageLength = parcelPackage.getPackageLength(); // packageLength + packageWidth + packageHeight
 			if (packageLength == -1) {
 				System.out.println(" ");
 
@@ -238,11 +238,28 @@ Please consider shipping a different Package.
 		while (true) {
 
 			System.out.print(reset+"Please enter the"+ red + " width "+reset+" of your parcel: "+green);
-			packageWidth = parcelPackage.keyboard.nextDouble();
+			packageWidth = Math.ceil(parcelPackage.keyboard.nextDouble());
 			parcelPackage.setPackageWidth(packageWidth);
 
-			packageWidth = parcelPackage.getPackageWidth();
+			packageWidth = parcelPackage.getPackageWidth(); // packageWidth + packageHeight
 			if (packageWidth == -1) {
+				System.out.println(" ");
+
+			} else {
+				break;
+			}
+
+		}
+		/*
+		
+				while (true) {
+
+			System.out.print(reset+"Please enter the"+ red + " height "+reset+"of your parcel: "+green);
+			packageHeight = parcelPackage.keyboard.nextDouble();
+			parcelPackage.setPackageHeight(packageHeight);
+
+			packageHeight = parcelPackage.getPackageHeight();
+			if (packageHeight == -1) {
 				System.out.println(" ");
 
 			} else {
@@ -252,11 +269,19 @@ Please consider shipping a different Package.
 		}
 		
 		
-
-		
 		System.out.print(reset+"Please enter the"+ red + " height "+reset+"of your parcel: "+green); // System.out.println("Please enter the"+ red + " height "+reset+"of your parcel: "); // user enters and sets the height of the package being shipped.
 		packageHeight = keyboard.nextDouble();// double packageHeight = keyboard.nextDouble();
 		keyboard.nextLine();
+		
+		*/
+
+		
+		/*
+		System.out.print(reset+"Please enter the"+ red + " height "+reset+"of your parcel: "+green); // System.out.println("Please enter the"+ red + " height "+reset+"of your parcel: "); // user enters and sets the height of the package being shipped.
+		packageHeight = keyboard.nextDouble();// double packageHeight = keyboard.nextDouble();
+		keyboard.nextLine();
+		*/
+		
 		
 		// Package pacelPackage = new Package(packageWeight, packageLength, packageWidth, packageHeight);
 		// parcelPackage.setPackageWeight(packageWeight);
@@ -264,12 +289,29 @@ Please consider shipping a different Package.
 		// CreateTranscript transcript = new CreateTranscript(courseNumber, courseHours, letterGrade);
 		// transcript.setLetterGrade(letterGrade);
 		
+					while (true) {
+				
+					System.out.print(reset+"Please enter the"+ red + " height "+reset+"of your parcel: "+green);
+					packageHeight = Math.ceil(parcelPackage.keyboard.nextDouble());
+					parcelPackage.setPackageHeight(packageHeight);
+				
+					packageHeight = parcelPackage.getPackageHeight();
+					if (packageHeight == -1) {
+						System.out.println(" ");
+				
+					} else {
+						break;
+					}
+				
+								}
+					// not I need to set the getters and setters
+		
 		System.out.println(" ");
 		
 		/*packageWeight = parcelPackage.getPackageWeight();*/ 
 		System.out.println(reset+"The parcel has an actual weight of: " + packageWeight); // System.out.println(reset+"The parcel has an actual weight of: " + getPackageWeight()); // System.out.println(reset+"The parcel has an actual weight of: " + THE_PLACEHOLDER); // getPackageWeight()
 		System.out.println(reset+"The parcel has a dimensional weight of: " + THE_PLACEHOLDER);
-		System.out.println(reset+"The parcel has the following dimensions: " + THE_PLACEHOLDER);
+		System.out.println(reset+"The parcel has the following dimensions: " + "("+packageLength +" X"+ " "+packageWidth +" X"+" " +packageHeight+")"); // System.out.println(reset+"The parcel has the following dimensions: " + THE_PLACEHOLDER); // packageLength + packageWidth + packageHeight // use get height get length get width
 		System.out.println(reset+"The parcel has a shipping cost of: " + THE_PLACEHOLDER);
 		
 		System.out.println(" ");

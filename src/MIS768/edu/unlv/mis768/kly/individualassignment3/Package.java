@@ -3,10 +3,10 @@ package edu.unlv.mis768.kly.individualassignment3;
 import java.util.Scanner;
 
 public class Package {
-    String red = "\u001B[31m";
+    String red = "\u001B[31m" + "\u001B[1m";
     String reset = "\u001B[0m";
-    String green  = "\u001B[32m";
-    String brown  = "\u001B[33m";
+    String green  = "\u001B[32m" + "\u001B[1m";
+    String brown  = "\u001B[33m" + "\u001B[1m";
 	private double packageWeight;
 	private double packageLength;
 	private double packageWidth;
@@ -156,8 +156,53 @@ public class Package {
 		this.packageWidth = packageWidth;
 	}
 
+	/*
+
+	public double getPackageHeight() {
+		if (packageHeight > 0 && (packageLength+packageWidth+packageHeight)<=100) {
+			return packageHeight;
+			
+		} else if (packageHeight < 0) { 					
+			System.out.println(" ");System.out.println(reset + red + "The Height of the parcel has been entered as a negative number. Please re-enter the package Height." + reset);
+			return -1;
+			
+		} else if (packageLength+packageWidth+packageHeight >= 100) {
+	    	System.out.println(" ");
+	    	System.out.println(reset + brown + "Chestnut" + red + " + " + green + "Hazel's" + reset + " Parcel Service cannot accept packages exceeding 100 British inches in total outside liner inches." + reset); 
+	    	System.out.println("Please consider shipping a different Package.");
+        return -1;
+		} else {
+	        System.out.println(reset + red + "You have entered invalid information, please review your input, and re-enter." + reset);
+	        return -1;
+	    }
+
+	}
+
+	 */
+	
+	/*
 	public double getPackageHeight() {
 		return packageHeight;
+	}
+	*/
+	public double getPackageHeight() {
+		if (packageHeight > 0 && (packageLength+packageWidth+packageHeight)<=100) {
+			return packageHeight;
+			
+		} else if (packageHeight < 0) { 					
+			System.out.println(" ");System.out.println(reset + red + "The Height of the parcel has been entered as a negative number. Please re-enter the package Height." + reset);
+			return -1;
+			
+		} else if (packageLength+packageWidth+packageHeight >= 100) {
+	    	System.out.println(" ");
+	    	System.out.println(reset + brown + "Chestnut" + red + " + " + green + "Hazel's" + reset + " Parcel Service cannot accept packages exceeding 100 British inches in total outside liner inches." + reset); 
+	    	System.out.println("Please consider shipping a different Package.");
+        return -1;
+		} else {
+	        System.out.println(reset + red + "You have entered invalid information, please review your input, and re-enter." + reset);
+	        return -1;
+	    }
+
 	}
 
 	public void setPackageHeight(double packageHeight) {
