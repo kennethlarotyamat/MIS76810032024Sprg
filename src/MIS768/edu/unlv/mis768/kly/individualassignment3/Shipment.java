@@ -13,7 +13,7 @@ package edu.unlv.mis768.kly.individualassignment3;
 import java.util.ArrayList;
 
 public class Shipment {
-	private int 	theFrequentShipperIdentificationNumber;
+	private String 	theFrequentShipperIdentificationNumber;
 	private int 	theTotalNumberOfPackages;
 	final double 	THE_FREQUENT_SHIPPER_DISCOUNT = 0.05; 						// "if so, a 5% discount will be applied to the shipping cost."
 	final double 	THE_BULK_PACKAGE_DISCOUNT = 0.05;							// additional “bulk package” discount of $20 off would be applied. // width // i wasn't sure if that was spelled correctly.
@@ -54,17 +54,17 @@ public class Shipment {
 	public void setPackageShippingChargeArray(ArrayList<Double> packageShippingChargeArray) {
 		this.packageShippingChargeArray = packageShippingChargeArray;
 	}
-	public int getTheFrequentShipperIdentificationNumber() {
+	public String getTheFrequentShipperIdentificationNumber() {
 		return theFrequentShipperIdentificationNumber;
 	}
-	public void setTheFrequentShipperIdentificationNumber(int theFrequentShipperIdentificationNumber) {
-		this.theFrequentShipperIdentificationNumber = theFrequentShipperIdentificationNumber;
+	public void setTheFrequentShipperIdentificationNumber(String theFrequentShipperIdentificationNo) {
+		this.theFrequentShipperIdentificationNumber = theFrequentShipperIdentificationNo;            // theFrequentShipperIdentificationNo // theFrequentShipperIdentificationNumber;
 	}
 	public int getTheTotalNumberOfPackages() {
 		return theTotalNumberOfPackages;
 	}
-	public void setTheTotalNumberOfPackages(int theTotalNumberOfPackages) {
-		this.theTotalNumberOfPackages = theTotalNumberOfPackages;
+	public void setTheTotalNumberOfPackages(int theTotalNumberOfPkgs) {
+		this.theTotalNumberOfPackages = theTotalNumberOfPkgs; // theTotalNumberOfPackages;                    // theTotalNumberOfPkgs;// theTotalNumberOfPackages;
 	}
 	public double getTheGrandTotal() {
 		return theGrandTotal;

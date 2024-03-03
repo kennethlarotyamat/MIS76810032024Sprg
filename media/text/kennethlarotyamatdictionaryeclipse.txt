@@ -60,3 +60,5 @@ screwy
 billable
 detour
 london
+hahahaha
+eurodollars

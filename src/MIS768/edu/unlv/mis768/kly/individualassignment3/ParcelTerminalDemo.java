@@ -438,33 +438,47 @@ Please consider shipping a different Package.
 //		int packageShippingChargeArrayLength = packageShippingChargeArray.length;
 //		System.out.println("You are shipping a total of "+ +); // packageShippingChargeArray.length; packageShippingChargeArray.length
 			String 	theFrequentShipperIdentificationNumber; // i changed this to string to make it easier to process, there kept being an integer error, so i figured, a shipper number is really more like a numberName rather than // it's basically a numerical name, not a real number.
-			System.out.print(reset+"Please enter your frequent shipper identification number: " + green);
-			theFrequentShipperIdentificationNumber = keyboard.next();// Integer.parseInt(keyboard.nextLine());// keyboard.nextInt(); // Integer.parseInt(keyboard.nextInt())
-							// int // packageShippingChargeArrayLength =0;
-					//			int packageShippingChargeArrayLength = packageShippingChargeArray.size(); // what a nightmare, .length is for an array, for an array list, you use .size()
-			System.out.println(reset+"You are shipping a total of: "+ packageShippingChargeArray.size() + green+" package(s)"+reset); // packageShippingChargeArray.length; packageShippingChargeArray.length
-			
-//		    for (double value : pointScaleTimesCreditHoursArray) {
-//		        sumPointScaleTimesCreditHours += value;
-			
-//		    for (double value : packageShippingChargeArray) {
-//		    	packageShippingChargeArray += value;
-			
+			System.out.print(reset+"Please enter your frequent shipper identification number, or 0 if you do not have one: " + green);
+			theFrequentShipperIdentificationNumber = keyboard.next();
+			keyboard.close();// Integer.parseInt(keyboard.nextLine());// keyboard.nextInt(); // Integer.parseInt(keyboard.nextInt())
+			shipment.setTheFrequentShipperIdentificationNumber(theFrequentShipperIdentificationNumber);
+																																		// int // packageShippingChargeArrayLength =0;
+																																		//			int packageShippingChargeArrayLength = packageShippingChargeArray.size(); // what a nightmare, .length is for an array, for an array list, you use .size()
+																																		// I don't know why I have to do this, but I have -- and i mean, it's required by the assignment that I do this.
+																																		// when i say: i have to do this, I have to make a distinction between my own issues, and the assignment requirements,
+																																		// but i basically have to push the customer ID into the shipment class.
+																																		// and pull it right back out. hahahaha - nightmare.
+																																		
+																																		// actually I don't think I have to pull it back out, i just have to push it in.
+																																		// i'll pull it out, in the sense that it factors into the discounts, but it's not otherwise being pulled back out in it's original form.
+			System.out.println(reset+"You are shipping a total of: "+ packageShippingChargeArray.size() + green+" package(s)"+reset);   // packageShippingChargeArray.length; packageShippingChargeArray.length
+			shipment.setTheTotalNumberOfPackages(packageShippingChargeArray.size());													//this pushes the number of packages into the Shipment.java class // shipment.// setTheTotalNumberOfPackages(int theTotalNumberOfPkgs)
+																																		//		    for (double value : pointScaleTimesCreditHoursArray) {
+																																		//		        sumPointScaleTimesCreditHours += value;
+																																					
+																																		//		    for (double value : packageShippingChargeArray) {
+																																		//		    	packageShippingChargeArray += value;
+																																					
 			double preliminaryCost = 0.00;
 			for (double value : packageShippingChargeArray) {
 		    	preliminaryCost += value; //
 			}
 			
-			System.out.println(reset+"The preliminary cost of shipping your "+ packageShippingChargeArray.size() + " package(s) amounts to: "+ preliminaryCost +green+" British Eurodollars"+reset); // "British Euro Dollars");
+			System.out.println(reset+"The preliminary cost of shipping your "+ packageShippingChargeArray.size() + " package(s) amounts to: "+ green+preliminaryCost +" USD"+reset); // "British Euro Dollars");
+			shipment.setTheGrandTotal(preliminaryCost); //  this pushes the preliminary cost of the transaction into the Shipment.java
+			// but this is actually wrong, so i actually have to do this in the Shipment class.
+			// it's a simple move, but i'm already tired of this.
+			
+			
 			
 			// British Eurodollars // this is actually supposed to be extremely funny!
-			// because, at first is seems wrong, the british don't use euros, or dollars, but British Eurodollars are real, like, they're US dollars held in bank in London, or something.
+			// because, at first is seems wrong, the British don't use euro(s), or dollars, but British Eurodollars are real, like, they're US dollars held in bank in London, or something.
 			// but yeah, that's supposed to be really funny.
 			
 			// this alone took forever. the preliminary cost.
 			// this is taking forever. not only. am not going to get anything higher than a C, - what a nightmare.
 		
-		
+			// I really just want to put the discounts here, but they have to go. inside the shipment class. - this is a nightmare -
 		
 		
 		
