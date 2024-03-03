@@ -27,9 +27,12 @@ B  		Passing (3.0)
 C   	Average (2.0)
 D		Below Average (1.0)
 F		Failing
+
 AD		Audit (not graded, no credit toward GPA)
 I   	Incomplete (expires after one year; if not grade is submitted in that time-frame, the ‘I’ will default to an ‘F’ grade)
+
 S  		Satisfactory
+
 X		Hold: Grade is submitted upon completion of Thesis or Dissertation or Professional Paper
 		Note: Faculty members have the option of using plus (+) and minus (-) for grades of A, B, C, and D. Exception: A+ grades are not given. 
 		At the graduate level, grades below a B are generally considered unacceptable. Graduate students must have a 3.0 GPA in order to qualify for graduation.
