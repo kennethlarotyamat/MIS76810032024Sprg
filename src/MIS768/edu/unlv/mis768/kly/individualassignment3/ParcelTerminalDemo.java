@@ -442,7 +442,7 @@ Please consider shipping a different Package.
 			theFrequentShipperIdentificationNumber = keyboard.next();// Integer.parseInt(keyboard.nextLine());// keyboard.nextInt(); // Integer.parseInt(keyboard.nextInt())
 							// int // packageShippingChargeArrayLength =0;
 					//			int packageShippingChargeArrayLength = packageShippingChargeArray.size(); // what a nightmare, .length is for an array, for an array list, you use .size()
-			System.out.println(reset+"You are shipping a total of "+ packageShippingChargeArray.size() + " package(s)"); // packageShippingChargeArray.length; packageShippingChargeArray.length
+			System.out.println(reset+"You are shipping a total of: "+ packageShippingChargeArray.size() + green+" package(s)"+reset); // packageShippingChargeArray.length; packageShippingChargeArray.length
 			
 //		    for (double value : pointScaleTimesCreditHoursArray) {
 //		        sumPointScaleTimesCreditHours += value;
@@ -455,7 +455,7 @@ Please consider shipping a different Package.
 		    	preliminaryCost += value; //
 			}
 			
-			System.out.println(reset+"The preliminary cost of shipping your "+ packageShippingChargeArray.size() + " package(s) amounts to: "+ preliminaryCost +" British Eurodollars"); // "British Euro Dollars");
+			System.out.println(reset+"The preliminary cost of shipping your "+ packageShippingChargeArray.size() + " package(s) amounts to: "+ preliminaryCost +green+" British Eurodollars"+reset); // "British Euro Dollars");
 			
 			// British Eurodollars // this is actually supposed to be extremely funny!
 			// because, at first is seems wrong, the british don't use euros, or dollars, but British Eurodollars are real, like, they're US dollars held in bank in London, or something.
