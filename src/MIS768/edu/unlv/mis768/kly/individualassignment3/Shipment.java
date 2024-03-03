@@ -10,7 +10,18 @@
 package edu.unlv.mis768.kly.individualassignment3;
 
 public class Shipment {
-
+	private int 	theFrequentShipperIdentificationNumber;
+	private int 	theTotalNumberOfPackages;
+	final double 	THE_FREQUENT_SHIPPER_DISCOUNT = 0.05; 		// "if so, a 5% discount will be applied to the shipping cost."
+	final double 	THE_BULK_PACKAGE_DISCOUNT = 0.05;			// additional “bulk package” discount of $20 off would be applied. // width // i wasn't sure if that was spelled correctly.
+	private double  theGrandTotal;
+	
+	
+	
+	
+	
+	
+	
 }
 
 // Frequent shipper
