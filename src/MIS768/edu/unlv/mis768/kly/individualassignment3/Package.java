@@ -12,6 +12,7 @@ public class Package {
 	private double packageWidth;
 	private double packageHeight;
 	// private double theDimensionalWeight;
+	private double dimensionalWeight; // the
 	
 	/*
 	 
@@ -31,6 +32,8 @@ Individual Assignment 3, Han-fen Hu, Ph.D. (2024)
 "Rather than using theScore, use getScore(). 3. The getScore() should just return the calculation result, 
 "instead of assigning the value to theScore. 4. The getPointsEach() method will just return the calculation result, instead of assignment the value to questionValue."
 
+	 I'm really tired.
+	 what a nightmare.
 	 */
 	
 	Scanner keyboard = new Scanner(System.in);
@@ -40,7 +43,21 @@ Individual Assignment 3, Han-fen Hu, Ph.D. (2024)
 											// https://gist.github.com/mgumiero9/665ab5f0e5e7e46cb049c1544a00e29f
 											// Yellow: \u001B[33m // 43: Yellow or brown
 										
-											//	public double getPackageWeight() {
+		public double getDimensionalWeight() { // Math.ceil(
+			dimensionalWeight = Math.ceil((Math.ceil(getPackageLength()) * Math.ceil(getPackageWidth()) * Math.ceil(getPackageHeight()))/166); 
+//																		Please enter the[31m[1m weight [0mof your parcel: [32m[1m14.6
+//			                                                            [0mPlease enter the[31m[1m length [0mof your parcel: [32m[1m23.4
+//			                                                            [0mPlease enter the[31m[1m width [0m of your parcel: [32m[1m18.6
+//			                                                            [0mPlease enter the[31m[1m height [0mof your parcel: [32m[1m20.1			
+//			should be 58
+			return dimensionalWeight;
+	}
+
+	public void setDimensionalWeight(double dimensionalWeight) {
+		this.dimensionalWeight = dimensionalWeight;
+	}
+
+											//		public double getPackageWeight() {
 											//		if (0 < packageWeight && packageWeight <= 120) {
 											//	        return packageWeight;
 											//	    } else if (packageWeight < 0) {
@@ -49,11 +66,11 @@ Individual Assignment 3, Han-fen Hu, Ph.D. (2024)
 											//	    } /* else if (packageWeight > 120) {
 											//	        System.out.println(reset + brown + "Chestnut" + red + "+" + green + "Hazel's" + reset + " Parcel Service cannot accept packages greater than 120 American Pounds." + reset);
 											//	        return -1;
-											////	    }*/ else if (packageWeight > 120) /*(packageWeight > 120)*/ {
-											////	        System.out.println(reset + brown + "Chestnut" + red + "+" + green + "Hazel's" + reset + " Parcel Service cannot accept packages greater than 120 American Pounds." + reset);
-											////	        return -2.00; // return -1;
+											// 		//	    }*/ else if (packageWeight > 120) /*(packageWeight > 120)*/ {
+											// 		//	        System.out.println(reset + brown + "Chestnut" + red + "+" + green + "Hazel's" + reset + " Parcel Service cannot accept packages greater than 120 American Pounds." + reset);
+											// 		//	        return -2.00; // return -1;
 											//	    }
-											//	}
+											//		}
 	public double getPackageWeight() {
 	    if (packageWeight > 0 && packageWeight <= 120) {
 	        return packageWeight;

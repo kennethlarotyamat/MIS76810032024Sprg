@@ -16,6 +16,7 @@ import edu.unlv.mis768.kly.individualassignment2.CreateTranscript;
 public class ParcelTerminalDemo { // public class ShippingCalculatorDemo {
 	
 	private static char yesOrNoEntry;
+
 	
 
 	public static void main(String[] args) throws IOException {
@@ -29,6 +30,7 @@ public class ParcelTerminalDemo { // public class ShippingCalculatorDemo {
 		double packageLength = 0; // the length of the parcel
 		double packageWidth = 0; // the width of the parcel
 		double packageHeight = 0; //  = keyboard.nextDouble();
+		double dimensionalWeight;
 		
 		// double theNumberOfOutsideLinerInches = 0;
 		// double theDimensionalWeight = 0;
@@ -310,7 +312,8 @@ Please consider shipping a different Package.
 		
 		/*packageWeight = parcelPackage.getPackageWeight();*/ 
 		System.out.println(reset+"The parcel has an actual weight of: " + packageWeight); // System.out.println(reset+"The parcel has an actual weight of: " + getPackageWeight()); // System.out.println(reset+"The parcel has an actual weight of: " + THE_PLACEHOLDER); // getPackageWeight()
-		System.out.println(reset+"The parcel has a dimensional weight of: " + THE_PLACEHOLDER);
+		dimensionalWeight = parcelPackage.getDimensionalWeight(); // this pulls the calculated dimensional weight from the Package model class.
+		System.out.println(reset+"The parcel has a dimensional weight of: " + dimensionalWeight);
 		System.out.println(reset+"The parcel has the following dimensions: " + "("+packageLength +" X"+ " "+packageWidth +" X"+" " +packageHeight+")"); // System.out.println(reset+"The parcel has the following dimensions: " + THE_PLACEHOLDER); // packageLength + packageWidth + packageHeight // use get height get length get width
 		System.out.println(reset+"The parcel has a shipping cost of: " + THE_PLACEHOLDER);
 		
