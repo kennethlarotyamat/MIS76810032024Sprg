@@ -11,9 +11,9 @@ package edu.unlv.mis768.kly.individualassignment3;
 import java.io.IOException;
 import java.util.Scanner;
 
-import edu.unlv.mis768.kly.individualassignment2.CreateTranscript;
+// I have no idea why this is here. 		// import edu.unlv.mis768.kly.individualassignment2.CreateTranscript;
 
-public class ParcelTerminalDemo { // public class ShippingCalculatorDemo {
+public class ParcelTerminalDemo { 			// public class ShippingCalculatorDemo {
 	
 	private static char yesOrNoEntry;
 
@@ -25,7 +25,7 @@ public class ParcelTerminalDemo { // public class ShippingCalculatorDemo {
 	    String reset = "\u001B[0m";
 	    String green  = "\u001B[32m" + "\u001B[1m";
 		int entryNumber = 1;
-		final String THE_PLACEHOLDER = "PLACEHOLDER"; // this is used for things that I will calculate later,
+		// This is no longer being used now that the calculated items are calculated. // final String THE_PLACEHOLDER = "PLACEHOLDER"; // this is used for things that I will calculate later,
 		double packageWeight = 0; // the weight of the parcel
 		double packageLength = 0; // the length of the parcel
 		double packageWidth = 0; // the width of the parcel
@@ -310,12 +310,41 @@ Please consider shipping a different Package.
 		
 		System.out.println(" ");
 		
-		/*packageWeight = parcelPackage.getPackageWeight();*/ 
-		System.out.println(reset+"The parcel has an actual weight of: " + packageWeight); // System.out.println(reset+"The parcel has an actual weight of: " + getPackageWeight()); // System.out.println(reset+"The parcel has an actual weight of: " + THE_PLACEHOLDER); // getPackageWeight()
-		dimensionalWeight = parcelPackage.getDimensionalWeight(); // this pulls the calculated dimensional weight from the Package model class.
+																																			/*packageWeight = parcelPackage.getPackageWeight();*/ 
+		System.out.println(reset+"The parcel has an actual weight of: " + packageWeight); 													// System.out.println(reset+"The parcel has an actual weight of: " + getPackageWeight()); // System.out.println(reset+"The parcel has an actual weight of: " + THE_PLACEHOLDER); // getPackageWeight()
+		dimensionalWeight = Math.ceil((Math.ceil(packageLength) * Math.ceil(packageWidth) * Math.ceil(packageHeight))/166);					// dimensionalWeight = Math.ceil((Math.ceil(getPackageLength()) * Math.ceil(getPackageWidth()) * Math.ceil(getPackageHeight()))/166); // parcelPackage.getDimensionalWeight(); // this pulls the calculated dimensional weight from the Package model class.
+																																			// this works - I didn't need a dimensionalWeight with get and set methods in my Package class.
+																																			/*
+		
+																																			[0m[31m[1mGreetings:  [0m Utilize this terminal to determine the costs of shipping your parcel(s). 
+             																																Please enter the[31m[1m weight[0m and the [31m[1mdimensions [0mof your parcel: 
+ 
+																																			[0m                                     Data for Parcel # 1
+ 
+																																			Please enter the[31m[1m weight [0mof your parcel: [32m[1m			14.6
+																																			[0mPlease enter the[31m[1m length [0mof your parcel: [32m[1m		23.4
+																																			[0mPlease enter the[31m[1m width [0m of your parcel: [32m[1m		18.6
+																																			[0mPlease enter the[31m[1m height [0mof your parcel: [32m[1m		20.1
+																																			 
+																																			[0mThe parcel has an actual weight of: 								15.0
+																																			[0mThe parcel has a dimensional weight of: 							58.0
+																																			[0mThe parcel has the following dimensions: (24.0 X 19.0 X 21.0)
+																																			[0mThe parcel has a shipping cost of: PLACEHOLDER
+																																			 
+																																			[0mWill you be shipping any additional parcels? (Y/N): 
+		
+																																			 */
 		System.out.println(reset+"The parcel has a dimensional weight of: " + dimensionalWeight);
 		System.out.println(reset+"The parcel has the following dimensions: " + "("+packageLength +" X"+ " "+packageWidth +" X"+" " +packageHeight+")"); // System.out.println(reset+"The parcel has the following dimensions: " + THE_PLACEHOLDER); // packageLength + packageWidth + packageHeight // use get height get length get width
-		System.out.println(reset+"The parcel has a shipping cost of: " + THE_PLACEHOLDER);
+		
+		// so I guess I also don't need a variable like theShippingCost
+		// it looks like it's Math.max ()
+		// The final cost of the shipment is calculated by multiplying the price per pound ($3.12) by the billable weight. 
+		final double THREE_DOLLARS_AND_TWELVE_CENTS = 3.12; // I guess it doesn't have to go at the top. // THIS MIGHT HAVE TO GO AT THE TOP// final double THREE_DOLLARS_AND_TWELVE_CENTS = 3.12; // final double TEN_PERCENT = 0.10; // double
+		double billableWeight=0;
+		billableWeight = Math.max (dimensionalWeight*THREE_DOLLARS_AND_TWELVE_CENTS,packageWeight*THREE_DOLLARS_AND_TWELVE_CENTS);
+		// you know. I might not even need something like theBillableWeight.
+		System.out.println(reset+"The parcel has a shipping cost of: " + billableWeight);
 		
 		System.out.println(" ");
 		// entryNumber++;
@@ -332,7 +361,9 @@ Please consider shipping a different Package.
 		// when I was starting this assignment, I started with the demo class, because like an HTML page, it's 
 		// something I can see. and it's something I can interact with.
 		
-		
+		// I'm trying to think. I think that the package class is done, but I need something to happen once this while loop ends. or.
+		// I think that it just goes after the end of the while loop, so once a person enters N, then the next part of the program starts.
+		// this is almost done.
 	}
 
 

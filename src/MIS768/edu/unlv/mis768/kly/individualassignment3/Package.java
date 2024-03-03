@@ -11,30 +11,40 @@ public class Package {
 	private double packageLength;
 	private double packageWidth;
 	private double packageHeight;
-	// private double theDimensionalWeight;
-	private double dimensionalWeight; // the
+	// These were not needed. // private double theDimensionalWeight;
+	// private double dimensionalWeight; // the
 	
 	/*
 	 
-"For each package that can be shipped, the dimensional weight should be calculated. 
-Dimensional weight reflects the amount of space a package occupies; dimensional weight 
-is calculated by the following steps: (1) Determine the package dimensions in inches. 
-For each dimension, any fraction of the measurement should be increased to the nearest 
-whole number (for example, 1.3 will be considered 2). (2) Multiply the package length by 
-the width by the height. The result is the cubic size in inches. (3) Divide the cubic size 
-in inches by 166 to determine dimensional weight in pounds. (4) Increase any fraction to 
-the next whole pound."
-
-Individual Assignment 3, Han-fen Hu, Ph.D. (2024)
-
-"numberGrade is determined by letterGrade. Therefore numberGrade should not be a field of the class. The getNumberGrade() is sufficient!"
-
-"Rather than using theScore, use getScore(). 3. The getScore() should just return the calculation result, 
-"instead of assigning the value to theScore. 4. The getPointsEach() method will just return the calculation result, instead of assignment the value to questionValue."
+	"For each package that can be shipped, the dimensional weight should be calculated. 
+	Dimensional weight reflects the amount of space a package occupies; dimensional weight 
+	is calculated by the following steps: (1) Determine the package dimensions in inches. 
+	For each dimension, any fraction of the measurement should be increased to the nearest 
+	whole number (for example, 1.3 will be considered 2). (2) Multiply the package length by 
+	the width by the height. The result is the cubic size in inches. (3) Divide the cubic size 
+	in inches by 166 to determine dimensional weight in pounds. (4) Increase any fraction to 
+	the next whole pound."
+	
+	Individual Assignment 3, Han-fen Hu, Ph.D. (2024)
+	
+	"numberGrade is determined by letterGrade. Therefore numberGrade should not be a field of the class. The getNumberGrade() is sufficient!"
+	
+	"Rather than using theScore, use getScore(). 3. The getScore() should just return the calculation result, 
+	"instead of assigning the value to theScore. 4. The getPointsEach() method will just return the calculation result, instead of assignment the value to questionValue."
 
 	 I'm really tired.
 	 what a nightmare.
 	 */
+	
+	/*
+	
+	For each accepted package, the program should show the 
+	actual weight, 
+	calculated dimensional weight, and the 
+	shipping cost for 
+	the package.
+	
+	*/
 	
 	Scanner keyboard = new Scanner(System.in);
 	
@@ -43,19 +53,19 @@ Individual Assignment 3, Han-fen Hu, Ph.D. (2024)
 											// https://gist.github.com/mgumiero9/665ab5f0e5e7e46cb049c1544a00e29f
 											// Yellow: \u001B[33m // 43: Yellow or brown
 										
-		public double getDimensionalWeight() { // Math.ceil(
-			dimensionalWeight = Math.ceil((Math.ceil(getPackageLength()) * Math.ceil(getPackageWidth()) * Math.ceil(getPackageHeight()))/166); 
-//																		Please enter the[31m[1m weight [0mof your parcel: [32m[1m14.6
-//			                                                            [0mPlease enter the[31m[1m length [0mof your parcel: [32m[1m23.4
-//			                                                            [0mPlease enter the[31m[1m width [0m of your parcel: [32m[1m18.6
-//			                                                            [0mPlease enter the[31m[1m height [0mof your parcel: [32m[1m20.1			
-//			should be 58
-			return dimensionalWeight;
-	}
-
-	public void setDimensionalWeight(double dimensionalWeight) {
-		this.dimensionalWeight = dimensionalWeight;
-	}
+//		public double getDimensionalWeight() { // Math.ceil(
+//			dimensionalWeight = Math.ceil((Math.ceil(getPackageLength()) * Math.ceil(getPackageWidth()) * Math.ceil(getPackageHeight()))/166); 
+////																		Please enter the[31m[1m weight [0mof your parcel: [32m[1m14.6
+////			                                                            [0mPlease enter the[31m[1m length [0mof your parcel: [32m[1m23.4
+////			                                                            [0mPlease enter the[31m[1m width [0m of your parcel: [32m[1m18.6
+////			                                                            [0mPlease enter the[31m[1m height [0mof your parcel: [32m[1m20.1			
+////			should be 58
+//			return dimensionalWeight;
+//	}
+//
+//	public void setDimensionalWeight(double dimensionalWeight) {
+//		this.dimensionalWeight = dimensionalWeight;
+//	} // I might not need a method called dimensionalWeight because I can calculate this in the model class.
 
 											//		public double getPackageWeight() {
 											//		if (0 < packageWeight && packageWeight <= 120) {
