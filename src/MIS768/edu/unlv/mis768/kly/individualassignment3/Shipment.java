@@ -119,12 +119,13 @@ public class Shipment {
 			return getThePreliminaryGrandTotal() * THE_FREQUENT_SHIPPER_DISCOUNT; 
 			
 			
-		} else if (theFreqShipIdenNum != 0 && getThePreliminaryGrandTotal() >= 300 ){
+		} else if ((theFreqShipIdenNum != 0) && (getThePreliminaryGrandTotal() * THE_FREQUENT_SHIPPER_DISCOUNT >= 300) ) {	//		} else if (theFreqShipIdenNum != 0 && getThePreliminaryGrandTotal() >= 300 ) {
 			return ((getThePreliminaryGrandTotal() * THE_FREQUENT_SHIPPER_DISCOUNT) - THE_BULK_PACKAGE_DISCOUNT);
 			
 			
 		}	else {
-			return getThePreliminaryGrandTotal();
+			theGrandTotal = getThePreliminaryGrandTotal();
+			return theGrandTotal;
 		}
 		
 		

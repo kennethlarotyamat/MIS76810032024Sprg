@@ -25,7 +25,7 @@ public class ParcelTerminalDemo { 			// public class ShippingCalculatorDemo {
 	
 
 	public static void main(String[] args) throws IOException {
-		
+		DecimalFormat formatDoubleDollars = new DecimalFormat("0.00");
 	    String red = "\u001B[31m" + "\u001B[1m";
 	    String reset = "\u001B[0m";
 	    String green  = "\u001B[32m" + "\u001B[1m";
@@ -357,7 +357,7 @@ Please consider shipping a different Package.
 		// The final cost of the shipment is calculated by multiplying the price per pound ($3.12) by the billable weight. 
 		final double THREE_DOLLARS_AND_TWELVE_CENTS = 3.12; // I guess it doesn't have to go at the top. // THIS MIGHT HAVE TO GO AT THE TOP// final double THREE_DOLLARS_AND_TWELVE_CENTS = 3.12; // final double TEN_PERCENT = 0.10; // double
 		// double billableWeight=0;
-		DecimalFormat formatDoubleDollars = new DecimalFormat("0.00");
+//		DecimalFormat formatDoubleDollars = new DecimalFormat("0.00");
 		billableWeight = Math.max (dimensionalWeight*THREE_DOLLARS_AND_TWELVE_CENTS,packageWeight*THREE_DOLLARS_AND_TWELVE_CENTS);
 		// you know. I might not even need something like theBillableWeight.
 		// billableWeight = formatDoubleDollars.format(billableWeight)
@@ -467,9 +467,23 @@ Please consider shipping a different Package.
 			
 			double thePreliminaryGrandTotal = shipment.getThePreliminaryGrandTotal();
 			// private double thePreliminaryGrandTotal
-			System.out.println(reset+"The preliminary cost of shipping your "+ packageShippingChargeArray.size() + " package(s) amounts to: "+ green+ thePreliminaryGrandTotal +" USD"+reset); // getTheGrandTotal()// v// "British Euro Dollars");
+			System.out.println(reset+"The preliminary cost of shipping your "+ packageShippingChargeArray.size() + " package(s) amounts to: "+ green+ formatDoubleDollars.format(thePreliminaryGrandTotal) +" USD"+reset); // getTheGrandTotal()// v// "British Euro Dollars");
 			
-			shipment.setThePreliminaryGrandTotal(thePreliminaryGrandTotal); 
+			shipment.setThePreliminaryGrandTotal(thePreliminaryGrandTotal);
+			String tFsIn = shipment.getTheFrequentShipperIdentificationNumber();
+			double frequentShipperDiscount = shipment.THE_FREQUENT_SHIPPER_DISCOUNT;
+			double theBulkDiscountAmount = shipment.THE_BULK_PACKAGE_DISCOUNT;
+			
+			if (Integer.parseInt(tFsIn) !=0) { // THE_FREQUENT_SHIPPER_DISCOUNT * thePreliminaryGrandTotal
+				
+				System.out.println(reset+"You will be recieving a frequent shipper discount in the amount of: "+ green+ formatDoubleDollars.format((frequentShipperDiscount * thePreliminaryGrandTotal)) +" USD"+reset);
+			} else if (Integer.parseInt(tFsIn) !=0 && thePreliminaryGrandTotal * frequentShipperDiscount >= 300) {
+				System.out.println(reset+"You will be recieving a frequent shipper discount in the amount of: "+ green+ formatDoubleDollars.format((frequentShipperDiscount * thePreliminaryGrandTotal)) +" USD"+reset);
+				System.out.println(reset+"You will also be recieving a frequent shipper bulk shipment discount in the amount of: "+ green+ (theBulkDiscountAmount) +" USD"+reset);
+			} else {
+				System.out.println(reset+" "+reset);
+			}
+			
 			
 			// [0mThe preliminary cost of shipping your 1 package(s) amounts to: [32m[1m3.12 USD
 			//  this pushes the preliminary cost of the transaction into the Shipment.java
