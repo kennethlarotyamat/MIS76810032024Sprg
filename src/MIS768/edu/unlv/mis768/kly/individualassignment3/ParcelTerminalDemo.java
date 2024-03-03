@@ -9,14 +9,18 @@
 package edu.unlv.mis768.kly.individualassignment3;
 
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.Scanner;
+
+
+
 import java.text.DecimalFormat;
 
-// I have no idea why this is here. 		// import edu.unlv.mis768.kly.individualassignment2.CreateTranscript;
+// I have no idea why this is here. 		// import edu.unlv.mis768.kly.individualassignment2.CreateTranscript; import edu.unlv.mis768.kly.individualassignment2.CreateTranscript;
 
 public class ParcelTerminalDemo { 			// public class ShippingCalculatorDemo {
 	
-	private static char yesOrNoEntry;
+
 
 	
 
@@ -32,6 +36,9 @@ public class ParcelTerminalDemo { 			// public class ShippingCalculatorDemo {
 		double packageWidth = 0; // the width of the parcel
 		double packageHeight = 0; //  = keyboard.nextDouble();
 		double dimensionalWeight;
+		char yesOrNoEntry;
+	    double billableWeight = 0;
+		Shipment shipment = new Shipment(billableWeight);
 		
 		// double theNumberOfOutsideLinerInches = 0;
 		// double theDimensionalWeight = 0;
@@ -348,18 +355,55 @@ Please consider shipping a different Package.
 		// it looks like it's Math.max ()
 		// The final cost of the shipment is calculated by multiplying the price per pound ($3.12) by the billable weight. 
 		final double THREE_DOLLARS_AND_TWELVE_CENTS = 3.12; // I guess it doesn't have to go at the top. // THIS MIGHT HAVE TO GO AT THE TOP// final double THREE_DOLLARS_AND_TWELVE_CENTS = 3.12; // final double TEN_PERCENT = 0.10; // double
-		double billableWeight=0;
+		// double billableWeight=0;
+		DecimalFormat formatDoubleDollars = new DecimalFormat("0.00");
 		billableWeight = Math.max (dimensionalWeight*THREE_DOLLARS_AND_TWELVE_CENTS,packageWeight*THREE_DOLLARS_AND_TWELVE_CENTS);
 		// you know. I might not even need something like theBillableWeight.
-		
+		// billableWeight = formatDoubleDollars.format(billableWeight)
+		// i don't understand what is  wrong here. one million decimal places. // billableWeight = formatDoubleDollars.format(billableWeight)
 		
 //		  DecimalFormat formatDouble = new DecimalFormat("0.00");
 //        System.out.println("Grade Point Average: " + formatDouble.format(gradePoAv) );
 		
 		
 		
-		DecimalFormat formatDoubleDollars = new DecimalFormat("0.00");	
+		// DecimalFormat formatDoubleDollars = new DecimalFormat("0.00");	
 		System.out.println(reset+"The parcel has a shipping cost of:          " + formatDoubleDollars.format(billableWeight));
+		
+		
+		// Shipment shipment = new Shipment();
+		
+		
+		
+		
+		
+		// Shipment shipment = new Shipment(billableWeight);
+		shipment.packageShippingChargeArray.add(billableWeight); // i really don't know how to resolve this issue. (formatDoubleDollars.format)
+		
+		
+		
+		
+		
+		
+		// DecimalFormat formatDoubleDollars = new DecimalFormat("0.00");
+		// i don't know what to do here
+		// I think that I got this thing to work. let's see if it actually does work or not.
+		
+		
+		
+		
+		// System.out.println(packageShippingChargeArray);
+		// packageShippingChargeArray
+		// I know what the issue is: I changed the name of the array earlier // shipment.packageShippingCostsArray.add(billableWeight);
+		
+//		CreateTranscript transcript = new CreateTranscript(courseNumber, courseHours, letterGrade);
+//		transcript.setLetterGrade(letterGrade);
+//		numberGradeArray.add(transcript.getNumberGrade());
+		
+		// shipment.packageShippingCostsArray.add(billableWeight)
+		// numberGradeArray.add(transcript.getNumberGrade()); // letter grade converted to numerical value and added to array
+		// shipment.addShippingCost(billableWeight); // packageShippingCostsArray.add(shippingCost);
+		
 //		System.out.println(reset+"The parcel has a dimensional weight of:     " + formatDouble.format(dimensionalWeight));		
 		
 		
@@ -375,7 +419,24 @@ Please consider shipping a different Package.
 		keyboard.nextLine();
 		System.out.println(" ");
 		entryNumber++;
-		} while (yesOrNoEntry == 'y' || yesOrNoEntry == 'Y'); 
+		} while (yesOrNoEntry == 'y' || yesOrNoEntry == 'Y');
+		
+		
+		ArrayList<Double> packageShippingChargeArray = shipment.getPackageShippingChargeArray();
+		System.out.println(packageShippingChargeArray);
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		// I think that this is where I would put it.
+		// packageWidth = parcelPackage.getPackageWidth();
+		
+		//		System.out.println(packageShippingChargeArray);  // ArrayList<Double> packageShippingChargeArray = new ArrayList<Double>();
 		
 		// I'm starting to understand what object oriented design is 
 		//
@@ -387,6 +448,7 @@ Please consider shipping a different Package.
 		// I think that it just goes after the end of the while loop, so once a person enters N, then the next part of the program starts.
 		// this is almost done.
 	}
+//	System.out.println(packageShippingChargeArray);
 
 
 }

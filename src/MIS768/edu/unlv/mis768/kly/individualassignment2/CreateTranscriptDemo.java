@@ -29,7 +29,7 @@ public class CreateTranscriptDemo {
 	private static int courseHours;
 	private static String letterGrade;
 	private static String courseNumber;
-    // private static PrintWriter writer;				// i'm pretty sure i actually did use this // variable not used warning //  // resource leak // i finally have this finished and i'm 9 minutes away. i can't risk changing the code to closing it.
+    										// private static PrintWriter writer;				// i'm pretty sure i actually did use this // variable not used warning //  // resource leak // i finally have this finished and i'm 9 minutes away. i can't risk changing the code to closing it.
     private static String fileName;
 
 

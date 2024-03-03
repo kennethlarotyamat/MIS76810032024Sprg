@@ -58,3 +58,4 @@ magenta
 cyan
 screwy
 billable
+detour
