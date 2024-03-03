@@ -9,7 +9,7 @@
 
 package edu.unlv.mis768.kly.individualassignment3;
 
-import java.text.DecimalFormat;
+// import java.text.DecimalFormat;
 import java.util.ArrayList;
 
 public class Shipment {
@@ -18,7 +18,8 @@ public class Shipment {
 	final double 	THE_FREQUENT_SHIPPER_DISCOUNT = 0.05; 						// "if so, a 5% discount will be applied to the shipping cost."
 	final double 	THE_BULK_PACKAGE_DISCOUNT = 0.05;							// additional “bulk package” discount of $20 off would be applied. // width // i wasn't sure if that was spelled correctly.
 	private double  theGrandTotal;
-	public double billableWeight;												// I'm trying to think. In the transcript assignment I put and updated the array in the demo class, but assignment
+	public double 	billableWeight;
+	public String 	theInvoiceStatement;													// I'm trying to think. In the transcript assignment I put and updated the array in the demo class, but assignment
 																				// 3 requires that the array list is in the shipment model class. I don't know how this is going to work.
 	                                                                            // Here is goes.
 	ArrayList<Double> packageShippingChargeArray = new ArrayList<Double>();		// private ArrayList<Double> packageShippingChargeArray = new ArrayList<Double>(); // private ArrayList<Double> packageShippingChargeArray = new ArrayList<Double>();     // ArrayList<Double> packageShippingChargesArray = new ArrayList<Double>(); // ArrayList<Double> packageShippingCostsArray = new ArrayList<Double>();  // ArrayList<Double> pointScaleTimesCreditHoursArray = new ArrayList<Double>();
@@ -42,6 +43,8 @@ public class Shipment {
 																	// super();
 																	// TO DO Auto-generated constructor stub
 																	// let us see if this worked // System.out.println(packageShippingChargeArray); // what a nightmare.
+		 															// this is for testing .length
+																	// what else do I need?
 	}
 	public ArrayList<Double> getPackageShippingChargeArray() {
 		return packageShippingChargeArray;
@@ -51,6 +54,44 @@ public class Shipment {
 	public void setPackageShippingChargeArray(ArrayList<Double> packageShippingChargeArray) {
 		this.packageShippingChargeArray = packageShippingChargeArray;
 	}
+	public int getTheFrequentShipperIdentificationNumber() {
+		return theFrequentShipperIdentificationNumber;
+	}
+	public void setTheFrequentShipperIdentificationNumber(int theFrequentShipperIdentificationNumber) {
+		this.theFrequentShipperIdentificationNumber = theFrequentShipperIdentificationNumber;
+	}
+	public int getTheTotalNumberOfPackages() {
+		return theTotalNumberOfPackages;
+	}
+	public void setTheTotalNumberOfPackages(int theTotalNumberOfPackages) {
+		this.theTotalNumberOfPackages = theTotalNumberOfPackages;
+	}
+	public double getTheGrandTotal() {
+		return theGrandTotal;
+	}
+	public void setTheGrandTotal(double theGrandTotal) {
+		this.theGrandTotal = theGrandTotal;
+	}
+	public String getTheInvoiceStatement() {
+		
+//		int 	theFrequentShipperIdentificationNumber;
+//		System.out.print(reset+"Please enter your frequent shipper identification number: " + green);
+//		theFrequentShipperIdentificationNumber = keyboard.nextInt();
+//		// int // packageShippingChargeArrayLength =0;
+//		int packageShippingChargeArrayLength = packageShippingChargeArray.Length;
+//		System.out.println("You are shipping a total of "+ +); // packageShippingChargeArray.length; packageShippingChargeArray.length
+		
+		return theInvoiceStatement;
+		// return theInvoiceStatement;
+		// if (theFrequentShipperIdentificationNumber !=0) {
+			
+		// good lord. i thought that I was almost done here, but. I really feel like this is going to take
+		// yet another eternity.}
+		// return theInvoiceStatement;
+	}
+//	public void setTheInvoiceStatement(String theInvoice) {
+//		this.theInvoiceStatement = theInvoiceStatement;
+//	}
 	
 	
 	

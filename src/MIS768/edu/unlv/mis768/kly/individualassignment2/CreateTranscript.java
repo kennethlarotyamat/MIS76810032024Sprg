@@ -77,8 +77,8 @@ public class CreateTranscript {
 		this.numberGrade = numberGrade;
 	}
 	
-	public double getGradePointAverage(ArrayList<Double> pointScaleTimesCreditHoursArray, ArrayList<Integer> courseHoursArray) { // this is where
-		// the grade point average is calculated.
+	public double getGradePointAverage(ArrayList<Double> pointScaleTimesCreditHoursArray, ArrayList<Integer> courseHoursArray) { 	// this is where
+																																	// the grade point average is calculated.
 		double sumPointScaleTimesCreditHours = 0;
 		int sumCourseHours = 0;
 	    for (double value : pointScaleTimesCreditHoursArray) {

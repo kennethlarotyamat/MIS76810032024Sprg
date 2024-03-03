@@ -39,6 +39,7 @@ public class ParcelTerminalDemo { 			// public class ShippingCalculatorDemo {
 		char yesOrNoEntry;
 	    double billableWeight = 0;
 		Shipment shipment = new Shipment(billableWeight);
+//		int 	theFrequentShipperIdentificationNumber;
 		
 		// double theNumberOfOutsideLinerInches = 0;
 		// double theDimensionalWeight = 0;
@@ -416,14 +417,52 @@ Please consider shipping a different Package.
 		// System.out.print(reset+"Will you be shipping any additional parcels? ("+ green +"Y"+reset+"/"+reset+red+"N"+reset+"): "+green); // this was a headache just to make the Y and N green and red
 		// I really want to remove these parentheses // let's see if it works.
 		yesOrNoEntry = keyboard.next().charAt(0); // char yesOrNoEntry = keyboard.next().charAt(0); // allows a Y/N or Yes/No response
+		//keyboard.next
 		keyboard.nextLine();
 		System.out.println(" ");
 		entryNumber++;
 		} while (yesOrNoEntry == 'y' || yesOrNoEntry == 'Y');
 		
-		
+		// keyboard.nextLine(); // what a nightmare.
 		ArrayList<Double> packageShippingChargeArray = shipment.getPackageShippingChargeArray();
-		System.out.println(packageShippingChargeArray);
+		
+		
+			System.out.println(packageShippingChargeArray);
+			// keyboard.nextLine();							// this is for testing .length // packageHeight = Math.ceil(parcelPackage.keyboard.nextDouble());
+															// public int 	theFrequentShipperIdentificationNumber;
+// 		I might have to move this into the Shipment class		
+//		int 	theFrequentShipperIdentificationNumber;
+//		System.out.print(reset+"Please enter your frequent shipper identification number: " + green);
+//		theFrequentShipperIdentificationNumber = keyboard.nextInt();
+//		// int // packageShippingChargeArrayLength =0;
+//		int packageShippingChargeArrayLength = packageShippingChargeArray.length;
+//		System.out.println("You are shipping a total of "+ +); // packageShippingChargeArray.length; packageShippingChargeArray.length
+			int 	theFrequentShipperIdentificationNumber;
+			System.out.print(reset+"Please enter your frequent shipper identification number: " + green);
+			theFrequentShipperIdentificationNumber = keyboard.nextInt();
+							// int // packageShippingChargeArrayLength =0;
+					//			int packageShippingChargeArrayLength = packageShippingChargeArray.size(); // what a nightmare, .length is for an array, for an array list, you use .size()
+			System.out.println(reset+"You are shipping a total of "+ packageShippingChargeArray.size() + " package(s)"); // packageShippingChargeArray.length; packageShippingChargeArray.length
+			
+//		    for (double value : pointScaleTimesCreditHoursArray) {
+//		        sumPointScaleTimesCreditHours += value;
+			
+//		    for (double value : packageShippingChargeArray) {
+//		    	packageShippingChargeArray += value;
+			
+			double preliminaryCost = 0.00;
+			for (double value : packageShippingChargeArray) {
+		    	preliminaryCost += value; //
+			}
+			
+			System.out.println(reset+"The preliminary cost of shipping your "+ packageShippingChargeArray.size() + " package(s) amounts to: "+ preliminaryCost +"British Eurodollars"); // "British Euro Dollars");
+			
+			// British Eurodollars // this is actually supposed to be extremely funny!
+			// because, at first is seems wrong, the british don't use euros, or dollars, but British Eurodollars are real, like, they're US dollars held in bank in London, or something.
+			// but yeah, that's supposed to be really funny.
+			
+			// this alone took forever. the preliminary cost.
+			// this is taking forever. not only. am not going to get anything higher than a C, - what a nightmare.
 		
 		
 		
@@ -454,6 +493,11 @@ Please consider shipping a different Package.
 }
 
 /*
+
+
+							System.out.print("Please enter your frequent shipper identification number:" + green);
+							packageWeight = Math.ceil(parcelPackage.keyboard.nextDouble()); // Math.ceil(
+							parcelPackage.setPackageWeight(packageWeight);
  
 
 Design a program that computes the cost of shipping packages at a parcel service store. 
