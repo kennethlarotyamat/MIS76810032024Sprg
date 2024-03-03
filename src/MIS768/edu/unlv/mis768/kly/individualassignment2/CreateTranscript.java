@@ -16,14 +16,14 @@ import java.util.ArrayList;		// imports the ArrayList Class, used for calculatin
 
 public class CreateTranscript {
 	
-	private String courseNumber; // course number
-	private int courseHours; // number of credit units per class
-	private String letterGrade; // letter grade
-	private double numberGrade; // the letter grade converted to a numerical value
+	private String  courseNumber; 									// course number
+	private int 	courseHours; 									// number of credit units per class
+	private String  letterGrade; 									// letter grade
+	private double  numberGrade; 									// the letter grade converted to a numerical value
 	
-	private double gradePointAverage;
+	private double  gradePointAverage;
 	
-	DecimalFormat formatDouble = new DecimalFormat("0.00"); // Formats doubles to display two decimal points // formatDouble.format( )
+	DecimalFormat formatDouble = new DecimalFormat("0.00"); 		// Formats doubles to display two decimal points // formatDouble.format( )
 	
 
 // Getter and setter methods	
@@ -89,8 +89,8 @@ public class CreateTranscript {
 	    for (int value : courseHoursArray) {
 	        sumCourseHours += value;
 	    }
-		gradePointAverage= ((double) sumPointScaleTimesCreditHours/sumCourseHours); //  i don't understand math all that well, so i had to create a special array just to 
-		// multiply credit hours and point scale
+		gradePointAverage= ((double) sumPointScaleTimesCreditHours/sumCourseHours); 	//  i don't understand math all that well, so i had to create a special array just to 
+																						// multiply credit hours and point scale
 		return gradePointAverage;
 	}
 	

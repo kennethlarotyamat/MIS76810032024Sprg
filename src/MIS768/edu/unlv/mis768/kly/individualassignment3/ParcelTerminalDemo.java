@@ -10,6 +10,7 @@ package edu.unlv.mis768.kly.individualassignment3;
 
 import java.io.IOException;
 import java.util.Scanner;
+import java.text.DecimalFormat;
 
 // I have no idea why this is here. 		// import edu.unlv.mis768.kly.individualassignment2.CreateTranscript;
 
@@ -310,8 +311,13 @@ Please consider shipping a different Package.
 		
 		System.out.println(" ");
 		
-																																			/*packageWeight = parcelPackage.getPackageWeight();*/ 
-		System.out.println(reset+"The parcel has an actual weight of: " + packageWeight); 													// System.out.println(reset+"The parcel has an actual weight of: " + getPackageWeight()); // System.out.println(reset+"The parcel has an actual weight of: " + THE_PLACEHOLDER); // getPackageWeight()
+		// 																																	/*packageWeight = parcelPackage.getPackageWeight();*/ 
+		
+		  DecimalFormat formatDouble = new DecimalFormat("0");
+		  // System.out.println("Grade Point Average: " + formatDouble.format(gradePoAv) );		
+//		  DecimalFormat formatDouble = new DecimalFormat("0.00");
+//        System.out.println("Grade Point Average: " + formatDouble.format(gradePoAv) );
+		System.out.println(reset+"The parcel has an actual weight of: " + formatDouble.format(packageWeight)); 													// System.out.println(reset+"The parcel has an actual weight of: " + getPackageWeight()); // System.out.println(reset+"The parcel has an actual weight of: " + THE_PLACEHOLDER); // getPackageWeight()
 		dimensionalWeight = Math.ceil((Math.ceil(packageLength) * Math.ceil(packageWidth) * Math.ceil(packageHeight))/166);					// dimensionalWeight = Math.ceil((Math.ceil(getPackageLength()) * Math.ceil(getPackageWidth()) * Math.ceil(getPackageHeight()))/166); // parcelPackage.getDimensionalWeight(); // this pulls the calculated dimensional weight from the Package model class.
 																																			// this works - I didn't need a dimensionalWeight with get and set methods in my Package class.
 																																			/*
@@ -334,8 +340,8 @@ Please consider shipping a different Package.
 																																			[0mWill you be shipping any additional parcels? (Y/N): 
 		
 																																			 */
-		System.out.println(reset+"The parcel has a dimensional weight of: " + dimensionalWeight);
-		System.out.println(reset+"The parcel has the following dimensions: " + "("+packageLength +" X"+ " "+packageWidth +" X"+" " +packageHeight+")"); // System.out.println(reset+"The parcel has the following dimensions: " + THE_PLACEHOLDER); // packageLength + packageWidth + packageHeight // use get height get length get width
+		System.out.println(reset+"The parcel has a dimensional weight of: " + formatDouble.format(dimensionalWeight));
+		System.out.println(reset+"The parcel has the following dimensions: " + "("+formatDouble.format(packageLength) +" X"+ " "+formatDouble.format(packageWidth) +" X"+" " +formatDouble.format(packageHeight)+")"); // System.out.println(reset+"The parcel has the following dimensions: " + THE_PLACEHOLDER); // packageLength + packageWidth + packageHeight // use get height get length get width
 		
 		// so I guess I also don't need a variable like theShippingCost
 		// it looks like it's Math.max ()
@@ -344,11 +350,25 @@ Please consider shipping a different Package.
 		double billableWeight=0;
 		billableWeight = Math.max (dimensionalWeight*THREE_DOLLARS_AND_TWELVE_CENTS,packageWeight*THREE_DOLLARS_AND_TWELVE_CENTS);
 		// you know. I might not even need something like theBillableWeight.
-		System.out.println(reset+"The parcel has a shipping cost of: " + billableWeight);
+		
+		
+//		  DecimalFormat formatDouble = new DecimalFormat("0.00");
+//        System.out.println("Grade Point Average: " + formatDouble.format(gradePoAv) );
+		
+		
+		
+		DecimalFormat formatDoubleDollars = new DecimalFormat("0.00");	
+		System.out.println(reset+"The parcel has a shipping cost of: " + formatDoubleDollars.format(billableWeight));
+		
+		
+		
+		
 		
 		System.out.println(" ");
 		// entryNumber++;
-		System.out.print(reset+"Will you be shipping any additional parcels? (Y/N): "+green);
+		System.out.print(reset+"Will you be shipping any additional parcels? "+ green +"Yes"+reset+" or "+reset+red+"No"+reset+": "+green);
+		// System.out.print(reset+"Will you be shipping any additional parcels? ("+ green +"Y"+reset+"/"+reset+red+"N"+reset+"): "+green); // this was a headache just to make the Y and N green and red
+		// I really want to remove these parentheses // let's see if it works.
 		yesOrNoEntry = keyboard.next().charAt(0); // char yesOrNoEntry = keyboard.next().charAt(0); // allows a Y/N or Yes/No response
 		keyboard.nextLine();
 		System.out.println(" ");

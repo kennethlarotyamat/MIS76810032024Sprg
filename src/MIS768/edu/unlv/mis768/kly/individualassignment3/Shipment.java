@@ -9,12 +9,18 @@
 
 package edu.unlv.mis768.kly.individualassignment3;
 
+import java.util.ArrayList;
+
 public class Shipment {
 	private int 	theFrequentShipperIdentificationNumber;
 	private int 	theTotalNumberOfPackages;
 	final double 	THE_FREQUENT_SHIPPER_DISCOUNT = 0.05; 		// "if so, a 5% discount will be applied to the shipping cost."
 	final double 	THE_BULK_PACKAGE_DISCOUNT = 0.05;			// additional “bulk package” discount of $20 off would be applied. // width // i wasn't sure if that was spelled correctly.
-	private double  theGrandTotal;
+	private double  theGrandTotal;								// I'm trying to think. In the transcript assignment I put and updated the array in the demo class, but assignment
+																// 3 requires that the array list is in the shipment model class. I don't know how this is going to work.
+	// Here is goes.
+	ArrayList<Double> packageShippingChargeArray = new ArrayList<Double>(); // ArrayList<Double> packageShippingChargesArray = new ArrayList<Double>(); // ArrayList<Double> packageShippingCostsArray = new ArrayList<Double>();  // ArrayList<Double> pointScaleTimesCreditHoursArray = new ArrayList<Double>();
+																			 // System.out.println(packageShippingCostsArray);  // I will need this for testing later. //	System.out.println(courseNumberArray);			// this was for testing it can be reactivated if more testing is needed
 	
 	
 	
