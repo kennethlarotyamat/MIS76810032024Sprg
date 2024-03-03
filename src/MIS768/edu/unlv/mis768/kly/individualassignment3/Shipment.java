@@ -16,8 +16,9 @@ public class Shipment {
 	private String 	theFrequentShipperIdentificationNumber;
 	private int 	theTotalNumberOfPackages;
 	final double 	THE_FREQUENT_SHIPPER_DISCOUNT = 0.05; 						// "if so, a 5% discount will be applied to the shipping cost."
-	final double 	THE_BULK_PACKAGE_DISCOUNT = 0.05;							// additional “bulk package” discount of $20 off would be applied. // width // i wasn't sure if that was spelled correctly.
-	private double  theGrandTotal;
+	final double 	THE_BULK_PACKAGE_DISCOUNT = 20.00;							// additional “bulk package” discount of $20 off would be applied. // width // i wasn't sure if that was spelled correctly.
+	private double  theGrandTotal = 0.00;
+	private double  thePreliminaryGrandTotal =0.00;
 	public double 	billableWeight;
 	public String 	theInvoiceStatement;													// I'm trying to think. In the transcript assignment I put and updated the array in the demo class, but assignment
 																				// 3 requires that the array list is in the shipment model class. I don't know how this is going to work.
@@ -50,45 +51,142 @@ public class Shipment {
 		return packageShippingChargeArray;
 	}
 	
-	// I'm not sure if the setter is going to be used.
-	public void setPackageShippingChargeArray(ArrayList<Double> packageShippingChargeArray) {
+																											// I'm not sure if the setter is going to be used.
+	public void setPackageShippingChargeArray(ArrayList<Double> packageShippingChargeArray) { 				// this is set by the user in the ParcelTerminalDemo.java class
 		this.packageShippingChargeArray = packageShippingChargeArray;
 	}
 	public String getTheFrequentShipperIdentificationNumber() {
 		return theFrequentShipperIdentificationNumber;
 	}
 	public void setTheFrequentShipperIdentificationNumber(String theFrequentShipperIdentificationNo) {
-		this.theFrequentShipperIdentificationNumber = theFrequentShipperIdentificationNo;            // theFrequentShipperIdentificationNo // theFrequentShipperIdentificationNumber;
+		this.theFrequentShipperIdentificationNumber = theFrequentShipperIdentificationNo;            		// theFrequentShipperIdentificationNo // theFrequentShipperIdentificationNumber;
 	}
+							//	public double getTheFrequentShipperIdentificationNumberDouble() {
+							//		return theFrequentShipperIdentificationNumber;
+							//	}
+							//	public void setTheFrequentShipperIdentificationNumber(double theFrequentShipperIdentificationNo) {
+							//		this.theFrequentShipperIdentificationNumber = double.parsedouble(theFrequentShipperIdentificationNo);            		// theFrequentShipperIdentificationNo // theFrequentShipperIdentificationNumber;
+							//	}
 	public int getTheTotalNumberOfPackages() {
 		return theTotalNumberOfPackages;
 	}
 	public void setTheTotalNumberOfPackages(int theTotalNumberOfPkgs) {
 		this.theTotalNumberOfPackages = theTotalNumberOfPkgs; // theTotalNumberOfPackages;                    // theTotalNumberOfPkgs;// theTotalNumberOfPackages;
 	}
-	public double getTheGrandTotal() {
-		return theGrandTotal;
+	
+	
+	
+//	public double getTheGrandTotal() {													
+//		
+//									
+//		for (double value : packageShippingChargeArray) {
+//			theGrandTotal += value; 									
+//		}
+//		return theGrandTotal;
+//	} 	
+	
+	// double theGrandTotal = 0.00;
+	// theGrandTotal	
+	//
+	//double preliminaryCost = 0.00;
+	// double t o t // public double getTheGrandTotal(double t o t) {
+	
+	public double getThePreliminaryGrandTotal() {													
+		
+		
+		for (double value : packageShippingChargeArray) {
+			thePreliminaryGrandTotal += value; 									
+		}
+		return thePreliminaryGrandTotal;
+	} 	
+	
+	
+	
+	public void setThePreliminaryGrandTotal(double thePrelimGrandTotal) {
+		this.theGrandTotal = thePrelimGrandTotal;
 	}
+	
+	
+	// return thePreliminaryGrandTotal * THE_FREQUENT_SHIPPER_DISCOUNT; // theGrandTotal // if theFreqShipIdenNum != 0; { 	// return theGrandTotal; 							// if theFrequentShipperIdentificationNumber != 0; return theGrandTotal; 																			// I might not need this.  v
+	
+	
+	
+	
+	
+	public double getTheGrandTotal() {
+		int theFreqShipIdenNum = Integer.parseInt(theFrequentShipperIdentificationNumber);
+		if (theFreqShipIdenNum != 0) {
+			return getThePreliminaryGrandTotal() * THE_FREQUENT_SHIPPER_DISCOUNT; 
+			
+			
+		} else if (theFreqShipIdenNum != 0 && getThePreliminaryGrandTotal() >= 300 ){
+			return ((getThePreliminaryGrandTotal() * THE_FREQUENT_SHIPPER_DISCOUNT) - THE_BULK_PACKAGE_DISCOUNT);
+			
+			
+		}	else {
+			return getThePreliminaryGrandTotal();
+		}
+		
+		
+														
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	public void setTheGrandTotal(double theGrandTotal) {
 		this.theGrandTotal = theGrandTotal;
 	}
+	
 	public String getTheInvoiceStatement() {
 		
-//		int 	theFrequentShipperIdentificationNumber;
-//		System.out.print(reset+"Please enter your frequent shipper identification number: " + green);
-//		theFrequentShipperIdentificationNumber = keyboard.nextInt();
-//		// int // packageShippingChargeArrayLength =0;
-//		int packageShippingChargeArrayLength = packageShippingChargeArray.Length;
-//		System.out.println("You are shipping a total of "+ +); // packageShippingChargeArray.length; packageShippingChargeArray.length
+
 		
 		return theInvoiceStatement;
-		// return theInvoiceStatement;
-		// if (theFrequentShipperIdentificationNumber !=0) {
-			
-		// good lord. i thought that I was almost done here, but. I really feel like this is going to take
-		// yet another eternity.}
-		// return theInvoiceStatement;
+
 	}
+	
+//	int 	theFrequentShipperIdentificationNumber;
+//	System.out.print(reset+"Please enter your frequent shipper identification number: " + green);
+//	theFrequentShipperIdentificationNumber = keyboard.nextInt();
+//	// int // packageShippingChargeArrayLength =0;
+//	int packageShippingChargeArrayLength = packageShippingChargeArray.Length;
+//	System.out.println("You are shipping a total of "+ +); // packageShippingChargeArray.length; packageShippingChargeArray.length
+	// return theInvoiceStatement;
+	// if (theFrequentShipperIdentificationNumber !=0) {
+		
+	// good lord. i thought that I was almost done here, but. I really feel like this is going to take
+	// yet another eternity.}
+	// return theInvoiceStatement;
+//	public String getTheInvoiceStatement() {
+//		
+////		int 	theFrequentShipperIdentificationNumber;
+////		System.out.print(reset+"Please enter your frequent shipper identification number: " + green);
+////		theFrequentShipperIdentificationNumber = keyboard.nextInt();
+////		// int // packageShippingChargeArrayLength =0;
+////		int packageShippingChargeArrayLength = packageShippingChargeArray.Length;
+////		System.out.println("You are shipping a total of "+ +); // packageShippingChargeArray.length; packageShippingChargeArray.length
+//		
+//		return theInvoiceStatement;
+//		// return theInvoiceStatement;
+//		// if (theFrequentShipperIdentificationNumber !=0) {
+//			
+//		// good lord. i thought that I was almost done here, but. I really feel like this is going to take
+//		// yet another eternity.}
+//		// return theInvoiceStatement;
+//	}
 //	public void setTheInvoiceStatement(String theInvoice) {
 //		this.theInvoiceStatement = theInvoiceStatement;
 //	}
