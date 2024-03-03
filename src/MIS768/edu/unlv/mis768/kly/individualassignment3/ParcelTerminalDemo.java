@@ -427,7 +427,7 @@ Please consider shipping a different Package.
 		ArrayList<Double> packageShippingChargeArray = shipment.getPackageShippingChargeArray();
 		
 		
-			System.out.println(packageShippingChargeArray);
+			// I no longer need this, it works, and I know that // System.out.println(packageShippingChargeArray);
 			// keyboard.nextLine();							// this is for testing .length // packageHeight = Math.ceil(parcelPackage.keyboard.nextDouble());
 															// public int 	theFrequentShipperIdentificationNumber;
 // 		I might have to move this into the Shipment class		
@@ -437,9 +437,9 @@ Please consider shipping a different Package.
 //		// int // packageShippingChargeArrayLength =0;
 //		int packageShippingChargeArrayLength = packageShippingChargeArray.length;
 //		System.out.println("You are shipping a total of "+ +); // packageShippingChargeArray.length; packageShippingChargeArray.length
-			int 	theFrequentShipperIdentificationNumber;
+			String 	theFrequentShipperIdentificationNumber; // i changed this to string to make it easier to process, there kept being an integer error, so i figured, a shipper number is really more like a numberName rather than // it's basically a numerical name, not a real number.
 			System.out.print(reset+"Please enter your frequent shipper identification number: " + green);
-			theFrequentShipperIdentificationNumber = keyboard.nextInt();
+			theFrequentShipperIdentificationNumber = keyboard.next();// Integer.parseInt(keyboard.nextLine());// keyboard.nextInt(); // Integer.parseInt(keyboard.nextInt())
 							// int // packageShippingChargeArrayLength =0;
 					//			int packageShippingChargeArrayLength = packageShippingChargeArray.size(); // what a nightmare, .length is for an array, for an array list, you use .size()
 			System.out.println(reset+"You are shipping a total of "+ packageShippingChargeArray.size() + " package(s)"); // packageShippingChargeArray.length; packageShippingChargeArray.length
@@ -455,7 +455,7 @@ Please consider shipping a different Package.
 		    	preliminaryCost += value; //
 			}
 			
-			System.out.println(reset+"The preliminary cost of shipping your "+ packageShippingChargeArray.size() + " package(s) amounts to: "+ preliminaryCost +"British Eurodollars"); // "British Euro Dollars");
+			System.out.println(reset+"The preliminary cost of shipping your "+ packageShippingChargeArray.size() + " package(s) amounts to: "+ preliminaryCost +" British Eurodollars"); // "British Euro Dollars");
 			
 			// British Eurodollars // this is actually supposed to be extremely funny!
 			// because, at first is seems wrong, the british don't use euros, or dollars, but British Eurodollars are real, like, they're US dollars held in bank in London, or something.
