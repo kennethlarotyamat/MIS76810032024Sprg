@@ -317,7 +317,8 @@ Please consider shipping a different Package.
 		  // System.out.println("Grade Point Average: " + formatDouble.format(gradePoAv) );		
 //		  DecimalFormat formatDouble = new DecimalFormat("0.00");
 //        System.out.println("Grade Point Average: " + formatDouble.format(gradePoAv) );
-		System.out.println(reset+"The parcel has an actual weight of: " + formatDouble.format(packageWeight)); 													// System.out.println(reset+"The parcel has an actual weight of: " + getPackageWeight()); // System.out.println(reset+"The parcel has an actual weight of: " + THE_PLACEHOLDER); // getPackageWeight()
+//		System.out.println(reset+"The parcel has a dimensional weight of:     " + formatDouble.format(dimensionalWeight));
+		System.out.println(reset+"The parcel has an actual weight of:         " + formatDouble.format(packageWeight)); 													// System.out.println(reset+"The parcel has an actual weight of: " + getPackageWeight()); // System.out.println(reset+"The parcel has an actual weight of: " + THE_PLACEHOLDER); // getPackageWeight()
 		dimensionalWeight = Math.ceil((Math.ceil(packageLength) * Math.ceil(packageWidth) * Math.ceil(packageHeight))/166);					// dimensionalWeight = Math.ceil((Math.ceil(getPackageLength()) * Math.ceil(getPackageWidth()) * Math.ceil(getPackageHeight()))/166); // parcelPackage.getDimensionalWeight(); // this pulls the calculated dimensional weight from the Package model class.
 																																			// this works - I didn't need a dimensionalWeight with get and set methods in my Package class.
 																																			/*
@@ -340,8 +341,8 @@ Please consider shipping a different Package.
 																																			[0mWill you be shipping any additional parcels? (Y/N): 
 		
 																																			 */
-		System.out.println(reset+"The parcel has a dimensional weight of: " + formatDouble.format(dimensionalWeight));
-		System.out.println(reset+"The parcel has the following dimensions: " + "("+formatDouble.format(packageLength) +" X"+ " "+formatDouble.format(packageWidth) +" X"+" " +formatDouble.format(packageHeight)+")"); // System.out.println(reset+"The parcel has the following dimensions: " + THE_PLACEHOLDER); // packageLength + packageWidth + packageHeight // use get height get length get width
+		System.out.println(reset+"The parcel has a dimensional weight of:     " + formatDouble.format(dimensionalWeight));
+		System.out.println(reset+"The parcel has the following dimensions:    " + ""+formatDouble.format(packageLength) +" X"+ " "+formatDouble.format(packageWidth) +" X"+" " +formatDouble.format(packageHeight)+""); // System.out.println(reset+"The parcel has the following dimensions: " + THE_PLACEHOLDER); // packageLength + packageWidth + packageHeight // use get height get length get width
 		
 		// so I guess I also don't need a variable like theShippingCost
 		// it looks like it's Math.max ()
@@ -358,7 +359,8 @@ Please consider shipping a different Package.
 		
 		
 		DecimalFormat formatDoubleDollars = new DecimalFormat("0.00");	
-		System.out.println(reset+"The parcel has a shipping cost of: " + formatDoubleDollars.format(billableWeight));
+		System.out.println(reset+"The parcel has a shipping cost of:          " + formatDoubleDollars.format(billableWeight));
+//		System.out.println(reset+"The parcel has a dimensional weight of:     " + formatDouble.format(dimensionalWeight));		
 		
 		
 		
