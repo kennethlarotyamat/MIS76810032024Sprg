@@ -1089,4 +1089,4 @@ public class ParcelTerminalDemo { // this is the demo class// public class Shipp
 
 // here is one of the major challenges I'm facing right now.
 // I won't get any credit for turning in a group project because I would have to be part of a group
-// in order to recieve any credit for doing a group project. and it's due. later today. this is a nightmare.
+// in order to receive any credit for doing a group project. and it's due. later today. this is a nightmare.
