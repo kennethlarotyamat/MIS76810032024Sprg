@@ -1083,3 +1083,6 @@ public class ParcelTerminalDemo { // this is the demo class// public class Shipp
 // capacity
 // of a package, rather than its weight.""
 // */
+
+// I'm really stressed out right now. such a nightmare - I filed a software copyright for the computer program for
+// individual assignment # 3.
