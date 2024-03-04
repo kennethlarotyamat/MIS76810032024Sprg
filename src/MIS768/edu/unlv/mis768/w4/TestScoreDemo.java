@@ -1,4 +1,4 @@
-package edu.unlv.mis768.kly.individualassignment2;
+package edu.unlv.mis768.w4; // package edu.unlv.mis768.kly.individualassignment2;
 
 import java.util.ArrayList;
 
@@ -85,5 +85,15 @@ public class TestScoreDemo {
 // and 
 // Double calculateExamScore = firstExam.getScore();
 // because eclipse says that I'm not using them, but I actually am using them.
+
+/*
+ 
+good lord. I'm having a hard time.
+I'm sure it's all of my own doing. my own fault.
+
+group work is nearly impossible for me and.
+it's probably. a challenge that I won't be able to overcome.
+
+ */
 
 
