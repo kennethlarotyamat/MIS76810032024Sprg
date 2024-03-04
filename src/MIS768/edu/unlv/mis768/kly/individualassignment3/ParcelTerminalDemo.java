@@ -1094,3 +1094,7 @@ public class ParcelTerminalDemo { // this is the demo class// public class Shipp
 // I don't know what to do - life is such a nightmare
 // a real nightmare.
 // a headache beyond anything anyone can imagine.
+
+// there is a strong chance that I will have to audit this course MIS 768 // and
+// that's a nightmare // and a disappointment
+// a real disappointment for me.
