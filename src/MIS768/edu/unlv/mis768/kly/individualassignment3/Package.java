@@ -97,7 +97,7 @@ public class Package {
 	    	System.out.println(" ");System.out.println(reset + red + "You have entered invalid information, please review your input, and re-enter." + reset);
 	        return -1;
 	    }
-	}
+	} //  = "Thank you for shipping your packages with"brown+ "Chestnut" + Hazel's Parcel Services"  	    	System.out.println(reset + brown + "Chestnut" + red + " + " + green + "Hazel's" + reset + " Parcel Service cannot accept packages exceeding 120 American Pounds in weight." + reset);
 
 	public void setPackageWeight(double packageWeight) {
 		this.packageWeight = packageWeight; 	

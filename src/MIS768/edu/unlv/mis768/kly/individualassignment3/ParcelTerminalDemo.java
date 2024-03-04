@@ -29,6 +29,7 @@ public class ParcelTerminalDemo { 			// public class ShippingCalculatorDemo {
 	    String red = "\u001B[31m" + "\u001B[1m";
 	    String reset = "\u001B[0m";
 	    String green  = "\u001B[32m" + "\u001B[1m";
+	    // String invisible ="\u001b[38;5; + n + m  + n";
 		int entryNumber = 1;
 		// This is no longer being used now that the calculated items are calculated. // final String THE_PLACEHOLDER = "PLACEHOLDER"; // this is used for things that I will calculate later,
 		double packageWeight = 0; // the weight of the parcel
@@ -45,6 +46,9 @@ public class ParcelTerminalDemo { 			// public class ShippingCalculatorDemo {
 		// double theDimensionalWeight = 0;
 		
 		Scanner keyboard = new Scanner(System.in);
+		
+		
+		// System.out.println(invisible+"test area");
 		
 		System.out.println(reset+ red+ "Greetings:  " + reset + " Utilize this terminal to determine the costs of shipping your parcel(s). ");
 		System.out.println("             Please enter the"+ red + " weight"+reset+" and the "+ red +"dimensions "+reset+ "of your parcel: ");
@@ -437,8 +441,9 @@ Please consider shipping a different Package.
 //		// int // packageShippingChargeArrayLength =0;
 //		int packageShippingChargeArrayLength = packageShippingChargeArray.length;
 //		System.out.println("You are shipping a total of "+ +); // packageShippingChargeArray.length; packageShippingChargeArray.length
+			// This is finally done. I'm not even really ready to read about whatever shortcomings it has.
 			String 	theFrequentShipperIdentificationNumber; 																			// i changed this to string to make it easier to process, there kept being an integer error, so i figured, a shipper number is really more like a numberName rather than // it's basically a numerical name, not a real number.
-			System.out.print(reset+"Please enter your frequent shipper identification number, or"+reset+red +" 0 "+reset+ "if you do not have one: " + green);
+			System.out.print(reset+"Please enter your" + reset+green+" 8 "+reset+ "digit frequent shipper identification number, or enter"+reset+red +" 0 "+reset+ "if you do not have one: " + green);
 			theFrequentShipperIdentificationNumber = keyboard.next();
 			keyboard.close();																											// Integer.parseInt(keyboard.nextLine());// keyboard.nextInt(); // Integer.parseInt(keyboard.nextInt())
 			shipment.setTheFrequentShipperIdentificationNumber(theFrequentShipperIdentificationNumber);
@@ -451,15 +456,18 @@ Please consider shipping a different Package.
 																																		
 																																		// actually I don't think I have to pull it back out, i just have to push it in.
 																																		// i'll pull it out, in the sense that it factors into the discounts, but it's not otherwise being pulled back out in it's original form.
+			System.out.println(reset+" "+reset);
 			System.out.println(reset+"You are shipping a total of: "+ green+packageShippingChargeArray.size() + " package(s)"+reset);   // packageShippingChargeArray.length; packageShippingChargeArray.length
-			shipment.setTheTotalNumberOfPackages(packageShippingChargeArray.size());													//this pushes the number of packages into the Shipment.java class // shipment.// setTheTotalNumberOfPackages(int theTotalNumberOfPkgs)
+			shipment.setTheTotalNumberOfPackages(packageShippingChargeArray.size());
+			String closingRemarks = shipment.getTheGrandTotal();
+			System.out.print(closingRemarks);																				//this pushes the number of packages into the Shipment.java class // shipment.// setTheTotalNumberOfPackages(int theTotalNumberOfPkgs)
 
 
 	}
 
 }
 
-// everything always takes twice as long as I anticipate it will.
+// 			everything always takes twice as long as I anticipate it will.
 //			
 //			
 //			

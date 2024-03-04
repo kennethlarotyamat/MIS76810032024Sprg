@@ -18,11 +18,13 @@ public class Shipment {
     String red = "\u001B[31m" + "\u001B[1m";
     String reset = "\u001B[0m";
     String green  = "\u001B[32m" + "\u001B[1m";
+    String brown  = "\u001B[33m" + "\u001B[1m";
+   //  String invisible ="\u001B[37m";
 	private String 	theFrequentShipperIdentificationNumber;
 	private int 	theTotalNumberOfPackages;
-	final double 	THE_FREQUENT_SHIPPER_DISCOUNT = 0.05; 						// "if so, a 5% discount will be applied to the shipping cost."
+	final double 	THE_FREQUENT_SHIPPER_DISCOUNT = 0.05; 						// "if so, a 5% discount will be applied to the shipping cost."  /*// //  = ""; //  = 0.00*/
 	final double 	THE_BULK_PACKAGE_DISCOUNT = 20.00;							// additional “bulk package” discount of $20 off would be applied. // width // i wasn't sure if that was spelled correctly.
-	private double  theGrandTotal = 0.00;
+	private String  theGrandTotal = "";
 	private double  thePreliminaryGrandTotal = 0.00;
 	public double 	billableWeight;
 	public String 	theInvoiceStatement;													// I'm trying to think. In the transcript assignment I put and updated the array in the demo class, but assignment
@@ -96,19 +98,28 @@ public class Shipment {
 	//double preliminaryCost = 0.00;
 	// double t o t // public double getTheGrandTotal(double t o t) {
 	
-	public double getThePreliminaryGrandTotal() {													
-		
-		
-		for (double value : packageShippingChargeArray) {
-			thePreliminaryGrandTotal += value; 									
-		}
-		return thePreliminaryGrandTotal;
-	} 	
+//	public double getThePreliminaryGrandTotal() {													
+//		
+//		
+//		for (double value : packageShippingChargeArray) {
+//			thePreliminaryGrandTotal += value; 									
+//		}
+//		return thePreliminaryGrandTotal;
+//	} 	
+	public double getThePreliminaryGrandTotal() {
+	    // double thePreliminaryGrandTotal = 0.0; // Declare local variable here
+
+	    for (double value : packageShippingChargeArray) {
+	    	thePreliminaryGrandTotal += value;
+	    }
+
+	    return thePreliminaryGrandTotal;
+	}
 	
 	
 	
 	public void setThePreliminaryGrandTotal(double thePrelimGrandTotal) {
-		this.theGrandTotal = thePrelimGrandTotal;
+		this.thePreliminaryGrandTotal = thePrelimGrandTotal;
 	}
 	
 	
@@ -118,31 +129,36 @@ public class Shipment {
 	
 	
 	
-	public double getTheGrandTotal() {
+	public String getTheGrandTotal() {
+		
 		int theFreqShipIdenNum = Integer.parseInt(theFrequentShipperIdentificationNumber);
-		if (     (theFreqShipIdenNum != 0) && (thePreliminaryGrandTotal - (thePreliminaryGrandTotal * THE_FREQUENT_SHIPPER_DISCOUNT)  ) <= 300)  { // thePreliminaryGrandTotal
+		double thePrelim = getThePreliminaryGrandTotal();
+		// String grandTotal;
+		if (     (theFreqShipIdenNum != 0) && (thePrelim - (thePrelim * THE_FREQUENT_SHIPPER_DISCOUNT)  ) <= 300)  { // thePreliminaryGrandTotal
 
 			
-			System.out.println(   reset+"The preliminary cost of shipping your "+ packageShippingChargeArray.size() + " package(s) amounts to: "+ green+ formatDoubleDollars.format(   thePreliminaryGrandTotal   ) +" USD"+reset   );
-			System.out.println(   reset+"You will be receiving a frequent shipper discount in the amount of: "+ green+ formatDoubleDollars.format(   (   THE_FREQUENT_SHIPPER_DISCOUNT * thePreliminaryGrandTotal   )   ) +" USD"+reset   );
+			System.out.println(   reset+"The preliminary cost of shipping your "+ packageShippingChargeArray.size() + " package(s) amounts to: "+ green+ formatDoubleDollars.format(   thePrelim   ) +" USD"+reset   );
+			System.out.println(   reset+"You will be receiving a frequent shipper discount in the amount of: "+ green+ formatDoubleDollars.format(   (   THE_FREQUENT_SHIPPER_DISCOUNT * thePrelim   )   ) +" USD"+reset   );
 			System.out.println(reset+" "+reset);
 			// double theFinalGrandTotalAggregateShipmentExpenses = getTheGrandTotal();
-			System.out.println(   reset+"The total final cost of shipping your "+ packageShippingChargeArray.size() + " package(s) amounts to a Grand Total of: "+ green+ formatDoubleDollars.format(     thePreliminaryGrandTotal-(   thePreliminaryGrandTotal*THE_FREQUENT_SHIPPER_DISCOUNT   )      ) +" USD"+reset     );
-			System.out.println(reset+" "+reset);
-			return theGrandTotal;
+			System.out.println(   reset+"The total final cost of shipping your "+ packageShippingChargeArray.size() + " package(s) amounts to a Grand Total of: "+ green+ formatDoubleDollars.format(     thePrelim-(   thePrelim*THE_FREQUENT_SHIPPER_DISCOUNT   )      ) +" USD" +reset+ "deliverable as pounds of British Eurodollars"+reset); // Pounds of +invisible
+			// So it's actually this line that was driving me crazy // System.out.println(reset+" "+reset);
+			//return theGrandTotal;
+			// String grandTotal = this.grandTotal = theGrandTotal
 			
 			
-		} else if ((theFreqShipIdenNum != 0) && ((thePreliminaryGrandTotal - (thePreliminaryGrandTotal * THE_FREQUENT_SHIPPER_DISCOUNT)) >= 300) ) {
+		} else if ((theFreqShipIdenNum != 0) && ((thePrelim - (thePrelim * THE_FREQUENT_SHIPPER_DISCOUNT)) >= 300) ) {
 
-			System.out.println(   reset+"The preliminary cost of shipping your "+ packageShippingChargeArray.size() + " package(s) amounts to: "+ green+ formatDoubleDollars.format(   thePreliminaryGrandTotal   ) +" USD"+reset)   ;
-			System.out.println(    reset+"You will be receiving a frequent shipper discount in the amount of: "+ green+ formatDoubleDollars.format(        THE_FREQUENT_SHIPPER_DISCOUNT * thePreliminaryGrandTotal        ) +" USD"+reset     );
+			System.out.println(   reset+"The preliminary cost of shipping your "+ packageShippingChargeArray.size() + " package(s) amounts to: "+ green+ formatDoubleDollars.format(   thePrelim   ) +" USD"+reset)   ;
+			System.out.println(    reset+"You will be receiving a frequent shipper discount in the amount of: "+ green+ formatDoubleDollars.format(        THE_FREQUENT_SHIPPER_DISCOUNT * thePrelim        ) +" USD"+reset     );
 			// double theBulkDiscountAmount = THE_BULK_PACKAGE_DISCOUNT;
-			System.out.println(reset+"You will also be receiving a frequent shipper bulk shipment discount in the amount of: "+ green+ (THE_BULK_PACKAGE_DISCOUNT) +" USD"+reset);
+			System.out.println(reset+"You will also be receiving a frequent shipper bulk shipment discount in the amount of: "+ green+ (THE_BULK_PACKAGE_DISCOUNT) +" USD"+reset); // Pounds of 
 			System.out.println(reset+" "+reset);
 			// double theFinalGrandTotalAggregateShipmentExpenses = getTheGrandTotal();
-			System.out.println(reset+"The total final cost of shipping your "+ packageShippingChargeArray.size() + " package(s) amounts to a Grand Total of: "+ green+ formatDoubleDollars.format(   (thePreliminaryGrandTotal-(thePreliminaryGrandTotal*THE_FREQUENT_SHIPPER_DISCOUNT))-THE_BULK_PACKAGE_DISCOUNT   ) +" USD"+reset);
-			System.out.println(reset+" "+reset);
-			return theGrandTotal;
+			System.out.println(reset+"The total final cost of shipping your "+ packageShippingChargeArray.size() + " package(s) amounts to a Grand Total of: "+ green+ formatDoubleDollars.format(   (thePrelim-(thePrelim*THE_FREQUENT_SHIPPER_DISCOUNT))-THE_BULK_PACKAGE_DISCOUNT   ) +" USD" +reset+ "deliverable as pounds of British Eurodollars"+reset); // +invisible
+			// So it's actually this line that was driving me crazy // System.out.println(reset+" "+reset);// System.out.println(reset+" "+reset);
+			//return theGrandTotal;
+
 			
 			
 		}	else {
@@ -150,14 +166,24 @@ public class Shipment {
 
 			System.out.println(reset+" "+reset);
 			// double theFinalGrandTotalAggregateShipmentExpenses = getTheGrandTotal();
-			System.out.println(reset+"The total final cost of shipping your "+ packageShippingChargeArray.size() + " package(s) amounts to a Grand Total of: "+ green+ formatDoubleDollars.format(   thePreliminaryGrandTotal   ) +" USD"+reset);
-			System.out.println(reset+" "+reset);
-			return theGrandTotal;
+			System.out.println(reset+"The total final cost of shipping your "+ packageShippingChargeArray.size() + " package(s) amounts to a Grand Total of: "+ green+ formatDoubleDollars.format(   thePrelim   ) +" USD" +reset+ "deliverable as pounds of British Eurodollars"+reset); // +invisible // Pounds of 
+			// So it's actually this line that was driving me crazy // System.out.println(reset+" "+reset);// System.out.println(reset+" "+reset);
+			//return theGrandTotal;
+			
+			// I'm a little irritated. It finally works. but it's taken forever.
+			// thankYou = "thank You for shipping"
+			// theGrandTotal = theGrandTotal;
+
 		}
-		
-		
+
+		return theGrandTotal;
+		// System.out.println(reset + brown + "Chestnut" + red + " + " + green + "Hazel's" + reset + " Parcel Service cannot accept packages exceeding 120 American Pounds in weight." + reset);
+		//  = "Thank you for shipping your packages with"brown+ "Chestnut" + Hazel's Parcel Services"  	    	
+		// System.out.println(reset + brown + "Chestnut" + red + " + " + green + "Hazel's" + reset + 
+		// " Parcel Service cannot accept packages exceeding 120 American Pounds in weight." + reset);		
 														
 	}
+	// public double getTheGrandTotal() {}
 	// it didn't work after - i basically moved it from ParcelTerminalDemo to Shipment.java, it didn't work the first time 
 	// I'm going to try it again.
 	
@@ -180,7 +206,8 @@ public class Shipment {
 	
 	
 	
-	public void setTheGrandTotal(double theGrandTotal) {
+	public void setTheGrandTotal(String theGrandTotal) {
+
 		this.theGrandTotal = theGrandTotal;
 	}
 	
