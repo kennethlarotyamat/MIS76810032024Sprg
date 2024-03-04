@@ -438,7 +438,7 @@ Please consider shipping a different Package.
 //		int packageShippingChargeArrayLength = packageShippingChargeArray.length;
 //		System.out.println("You are shipping a total of "+ +); // packageShippingChargeArray.length; packageShippingChargeArray.length
 			String 	theFrequentShipperIdentificationNumber; 																			// i changed this to string to make it easier to process, there kept being an integer error, so i figured, a shipper number is really more like a numberName rather than // it's basically a numerical name, not a real number.
-			System.out.print(reset+"Please enter your frequent shipper identification number, or 0 if you do not have one: " + green);
+			System.out.print(reset+"Please enter your frequent shipper identification number, or"+reset+red +" 0 "+reset+ "if you do not have one: " + green);
 			theFrequentShipperIdentificationNumber = keyboard.next();
 			keyboard.close();																											// Integer.parseInt(keyboard.nextLine());// keyboard.nextInt(); // Integer.parseInt(keyboard.nextInt())
 			shipment.setTheFrequentShipperIdentificationNumber(theFrequentShipperIdentificationNumber);
@@ -451,7 +451,7 @@ Please consider shipping a different Package.
 																																		
 																																		// actually I don't think I have to pull it back out, i just have to push it in.
 																																		// i'll pull it out, in the sense that it factors into the discounts, but it's not otherwise being pulled back out in it's original form.
-			System.out.println(reset+"You are shipping a total of: "+ packageShippingChargeArray.size() + green+" package(s)"+reset);   // packageShippingChargeArray.length; packageShippingChargeArray.length
+			System.out.println(reset+"You are shipping a total of: "+ green+packageShippingChargeArray.size() + " package(s)"+reset);   // packageShippingChargeArray.length; packageShippingChargeArray.length
 			shipment.setTheTotalNumberOfPackages(packageShippingChargeArray.size());													//this pushes the number of packages into the Shipment.java class // shipment.// setTheTotalNumberOfPackages(int theTotalNumberOfPkgs)
 																																		//		    for (double value : pointScaleTimesCreditHoursArray) {
 																																		//		        sumPointScaleTimesCreditHours += value;
@@ -465,26 +465,51 @@ Please consider shipping a different Package.
 			//			}
 			// 			i eliminated preliminaryCost and replaced it with theGrandTotal
 			
-			double thePreliminaryGrandTotal = shipment.getThePreliminaryGrandTotal();
+			// double thePreliminaryGrandTotal = shipment.getThePreliminaryGrandTotal();
 			// private double thePreliminaryGrandTotal
-			System.out.println(reset+"The preliminary cost of shipping your "+ packageShippingChargeArray.size() + " package(s) amounts to: "+ green+ formatDoubleDollars.format(thePreliminaryGrandTotal) +" USD"+reset); // getTheGrandTotal()// v// "British Euro Dollars");
+			// System.out.println(reset+"The preliminary cost of shipping your "+ packageShippingChargeArray.size() + " package(s) amounts to: "+ green+ formatDoubleDollars.format(thePreliminaryGrandTotal) +" USD"+reset); // getTheGrandTotal()// v// "British Euro Dollars");
+		// START - turned out to be a huge waste of time			
+											//			shipment.setThePreliminaryGrandTotal(thePreliminaryGrandTotal);
+											//			String tFsIn = shipment.getTheFrequentShipperIdentificationNumber();
+											//			double frequentShipperDiscount = shipment.THE_FREQUENT_SHIPPER_DISCOUNT;
+											//			double theBulkDiscountAmount = shipment.THE_BULK_PACKAGE_DISCOUNT;
+											/*			
+														if (Integer.parseInt(tFsIn) !=0 && (thePreliminaryGrandTotal-(thePreliminaryGrandTotal * frequentShipperDiscount)) <= 300) { 
+															
+															System.out.println(reset+"The preliminary cost of shipping your "+ packageShippingChargeArray.size() + " package(s) amounts to: "+ green+ formatDoubleDollars.format(thePreliminaryGrandTotal) +" USD"+reset);
+															System.out.println(reset+"You will be receiving a frequent shipper discount in the amount of: "+ green+ formatDoubleDollars.format((frequentShipperDiscount * thePreliminaryGrandTotal)) +" USD"+reset);
+															System.out.println(reset+" "+reset);
+															double theFinalGrandTotalAggregateShipmentExpenses = shipment.getTheGrandTotal();
+															System.out.println(reset+"The total final cost of shipping your "+ packageShippingChargeArray.size() + " package(s) amounts to a Grand Total of: "+ green+ formatDoubleDollars.format(theFinalGrandTotalAggregateShipmentExpenses) +" USD"+reset);
+															System.out.println(reset+" "+reset);
+															
+														} else if (Integer.parseInt(tFsIn) !=0 && (thePreliminaryGrandTotal-(thePreliminaryGrandTotal * frequentShipperDiscount)) >= 300) { 
+															System.out.println(reset+"The preliminary cost of shipping your "+ packageShippingChargeArray.size() + " package(s) amounts to: "+ green+ formatDoubleDollars.format(thePreliminaryGrandTotal) +" USD"+reset);
+															System.out.println(reset+"You will be receiving a frequent shipper discount in the amount of: "+ green+ formatDoubleDollars.format((frequentShipperDiscount * thePreliminaryGrandTotal)) +" USD"+reset);
+															System.out.println(reset+"You will also be receiving a frequent shipper bulk shipment discount in the amount of: "+ green+ (theBulkDiscountAmount) +" USD"+reset);
+															System.out.println(reset+" "+reset);
+															double theFinalGrandTotalAggregateShipmentExpenses = shipment.getTheGrandTotal();
+															System.out.println(reset+"The total final cost of shipping your "+ packageShippingChargeArray.size() + " package(s) amounts to a Grand Total of: "+ green+ formatDoubleDollars.format(theFinalGrandTotalAggregateShipmentExpenses) +" USD"+reset);
+															System.out.println(reset+" "+reset);
+															
+														} else {
+															System.out.println(reset+" "+reset);
+															double theFinalGrandTotalAggregateShipmentExpenses = shipment.getTheGrandTotal();
+															System.out.println(reset+"The total final cost of shipping your "+ packageShippingChargeArray.size() + " package(s) amounts to a Grand Total of: "+ green+ formatDoubleDollars.format(theFinalGrandTotalAggregateShipmentExpenses) +" USD"+reset);
+															System.out.println(reset+" "+reset);
+														}
+											*/
+			// END - turned out to be a huge waste of time
+			// START - Let's see if this works
+			System.out.print(shipment.getTheGrandTotal());
 			
-			shipment.setThePreliminaryGrandTotal(thePreliminaryGrandTotal);
-			String tFsIn = shipment.getTheFrequentShipperIdentificationNumber();
-			double frequentShipperDiscount = shipment.THE_FREQUENT_SHIPPER_DISCOUNT;
-			double theBulkDiscountAmount = shipment.THE_BULK_PACKAGE_DISCOUNT;
-			
-			if (Integer.parseInt(tFsIn) !=0) { // THE_FREQUENT_SHIPPER_DISCOUNT * thePreliminaryGrandTotal
-				
-				System.out.println(reset+"You will be recieving a frequent shipper discount in the amount of: "+ green+ formatDoubleDollars.format((frequentShipperDiscount * thePreliminaryGrandTotal)) +" USD"+reset);
-			} else if (Integer.parseInt(tFsIn) !=0 && thePreliminaryGrandTotal * frequentShipperDiscount >= 300) {
-				System.out.println(reset+"You will be recieving a frequent shipper discount in the amount of: "+ green+ formatDoubleDollars.format((frequentShipperDiscount * thePreliminaryGrandTotal)) +" USD"+reset);
-				System.out.println(reset+"You will also be recieving a frequent shipper bulk shipment discount in the amount of: "+ green+ (theBulkDiscountAmount) +" USD"+reset);
-			} else {
-				System.out.println(reset+" "+reset);
-			}
 			
 			
+			// System.out.println(reset+(thePreliminaryGrandTotal-(thePreliminaryGrandTotal * frequentShipperDiscount))+reset); // for testing
+			
+			// Integer.parseInt(tFsIn) !=0 && // } else if (Integer.parseInt(tFsIn) !=0 && (thePreliminaryGrandTotal-(thePreliminaryGrandTotal * frequentShipperDiscount)) >= 300) {
+			
+			// THE_FREQUENT_SHIPPER_DISCOUNT * thePreliminaryGrandTotal
 			// [0mThe preliminary cost of shipping your 1 package(s) amounts to: [32m[1m3.12 USD
 			//  this pushes the preliminary cost of the transaction into the Shipment.java
 			// but this is actually wrong, so i actually have to do this in the Shipment class.

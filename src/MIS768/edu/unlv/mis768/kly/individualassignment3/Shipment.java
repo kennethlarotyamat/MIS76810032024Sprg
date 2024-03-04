@@ -9,10 +9,15 @@
 
 package edu.unlv.mis768.kly.individualassignment3;
 
+import java.text.DecimalFormat;
 // import java.text.DecimalFormat;
 import java.util.ArrayList;
 
 public class Shipment {
+	DecimalFormat formatDoubleDollars = new DecimalFormat("0.00");
+    String red = "\u001B[31m" + "\u001B[1m";
+    String reset = "\u001B[0m";
+    String green  = "\u001B[32m" + "\u001B[1m";
 	private String 	theFrequentShipperIdentificationNumber;
 	private int 	theTotalNumberOfPackages;
 	final double 	THE_FREQUENT_SHIPPER_DISCOUNT = 0.05; 						// "if so, a 5% discount will be applied to the shipping cost."
@@ -115,23 +120,48 @@ public class Shipment {
 	
 	public double getTheGrandTotal() {
 		int theFreqShipIdenNum = Integer.parseInt(theFrequentShipperIdentificationNumber);
-		if (theFreqShipIdenNum != 0) {
-			return getThePreliminaryGrandTotal() * THE_FREQUENT_SHIPPER_DISCOUNT; 
+		if ((theFreqShipIdenNum != 0) && ((getThePreliminaryGrandTotal() - (getThePreliminaryGrandTotal() * THE_FREQUENT_SHIPPER_DISCOUNT)) <= 300) ) {
+
+			
+			System.out.println(reset+"The preliminary cost of shipping your "+ packageShippingChargeArray.size() + " package(s) amounts to: "+ green+ formatDoubleDollars.format(getThePreliminaryGrandTotal()) +" USD"+reset);
+			System.out.println(reset+"You will be receiving a frequent shipper discount in the amount of: "+ green+ formatDoubleDollars.format((THE_FREQUENT_SHIPPER_DISCOUNT * thePreliminaryGrandTotal)) +" USD"+reset);
+			System.out.println(reset+" "+reset);
+			double theFinalGrandTotalAggregateShipmentExpenses = getTheGrandTotal();
+			System.out.println(reset+"The total final cost of shipping your "+ packageShippingChargeArray.size() + " package(s) amounts to a Grand Total of: "+ green+ formatDoubleDollars.format(theFinalGrandTotalAggregateShipmentExpenses) +" USD"+reset);
+			System.out.println(reset+" "+reset);
+			return theGrandTotal;
 			
 			
-		} else if ((theFreqShipIdenNum != 0) && (getThePreliminaryGrandTotal() * THE_FREQUENT_SHIPPER_DISCOUNT >= 300) ) {	//		} else if (theFreqShipIdenNum != 0 && getThePreliminaryGrandTotal() >= 300 ) {
-			return ((getThePreliminaryGrandTotal() * THE_FREQUENT_SHIPPER_DISCOUNT) - THE_BULK_PACKAGE_DISCOUNT);
+		} else if ((theFreqShipIdenNum != 0) && ((getThePreliminaryGrandTotal() - (getThePreliminaryGrandTotal() * THE_FREQUENT_SHIPPER_DISCOUNT)) >= 300) ) {
+
+			System.out.println(reset+"The preliminary cost of shipping your "+ packageShippingChargeArray.size() + " package(s) amounts to: "+ green+ formatDoubleDollars.format(thePreliminaryGrandTotal) +" USD"+reset);
+			System.out.println(reset+"You will be receiving a frequent shipper discount in the amount of: "+ green+ formatDoubleDollars.format((THE_FREQUENT_SHIPPER_DISCOUNT * thePreliminaryGrandTotal)) +" USD"+reset);
+			double theBulkDiscountAmount = THE_BULK_PACKAGE_DISCOUNT;
+			System.out.println(reset+"You will also be receiving a frequent shipper bulk shipment discount in the amount of: "+ green+ (theBulkDiscountAmount) +" USD"+reset);
+			System.out.println(reset+" "+reset);
+			double theFinalGrandTotalAggregateShipmentExpenses = getTheGrandTotal();
+			System.out.println(reset+"The total final cost of shipping your "+ packageShippingChargeArray.size() + " package(s) amounts to a Grand Total of: "+ green+ formatDoubleDollars.format(theFinalGrandTotalAggregateShipmentExpenses) +" USD"+reset);
+			System.out.println(reset+" "+reset);
+			return theGrandTotal;
 			
 			
 		}	else {
 			theGrandTotal = getThePreliminaryGrandTotal();
+
+			System.out.println(reset+" "+reset);
+			double theFinalGrandTotalAggregateShipmentExpenses = getTheGrandTotal();
+			System.out.println(reset+"The total final cost of shipping your "+ packageShippingChargeArray.size() + " package(s) amounts to a Grand Total of: "+ green+ formatDoubleDollars.format(theFinalGrandTotalAggregateShipmentExpenses) +" USD"+reset);
+			System.out.println(reset+" "+reset);
 			return theGrandTotal;
 		}
 		
 		
 														
 	}
-	
+	// return getThePreliminaryGrandTotal()-(getThePreliminaryGrandTotal() * THE_FREQUENT_SHIPPER_DISCOUNT);
+	// return ((getThePreliminaryGrandTotal()- (getThePreliminaryGrandTotal() * THE_FREQUENT_SHIPPER_DISCOUNT)) - THE_BULK_PACKAGE_DISCOUNT);
+	// return theGrandTotal;
+	//		} else if (theFreqShipIdenNum != 0 && getThePreliminaryGrandTotal() >= 300 ) {
 	
 	
 	
