@@ -23,7 +23,7 @@ public class Shipment {
 	final double 	THE_FREQUENT_SHIPPER_DISCOUNT = 0.05; 						// "if so, a 5% discount will be applied to the shipping cost."
 	final double 	THE_BULK_PACKAGE_DISCOUNT = 20.00;							// additional “bulk package” discount of $20 off would be applied. // width // i wasn't sure if that was spelled correctly.
 	private double  theGrandTotal = 0.00;
-	private double  thePreliminaryGrandTotal =0.00;
+	private double  thePreliminaryGrandTotal = 0.00;
 	public double 	billableWeight;
 	public String 	theInvoiceStatement;													// I'm trying to think. In the transcript assignment I put and updated the array in the demo class, but assignment
 																				// 3 requires that the array list is in the shipment model class. I don't know how this is going to work.
@@ -120,37 +120,37 @@ public class Shipment {
 	
 	public double getTheGrandTotal() {
 		int theFreqShipIdenNum = Integer.parseInt(theFrequentShipperIdentificationNumber);
-		if ((theFreqShipIdenNum != 0) && ((getThePreliminaryGrandTotal() - (getThePreliminaryGrandTotal() * THE_FREQUENT_SHIPPER_DISCOUNT)) <= 300) ) {
+		if (     (theFreqShipIdenNum != 0) && (thePreliminaryGrandTotal - (thePreliminaryGrandTotal * THE_FREQUENT_SHIPPER_DISCOUNT)  ) <= 300)  { // thePreliminaryGrandTotal
 
 			
-			System.out.println(reset+"The preliminary cost of shipping your "+ packageShippingChargeArray.size() + " package(s) amounts to: "+ green+ formatDoubleDollars.format(getThePreliminaryGrandTotal()) +" USD"+reset);
-			System.out.println(reset+"You will be receiving a frequent shipper discount in the amount of: "+ green+ formatDoubleDollars.format((THE_FREQUENT_SHIPPER_DISCOUNT * thePreliminaryGrandTotal)) +" USD"+reset);
+			System.out.println(   reset+"The preliminary cost of shipping your "+ packageShippingChargeArray.size() + " package(s) amounts to: "+ green+ formatDoubleDollars.format(   thePreliminaryGrandTotal   ) +" USD"+reset   );
+			System.out.println(   reset+"You will be receiving a frequent shipper discount in the amount of: "+ green+ formatDoubleDollars.format(   (   THE_FREQUENT_SHIPPER_DISCOUNT * thePreliminaryGrandTotal   )   ) +" USD"+reset   );
 			System.out.println(reset+" "+reset);
-			double theFinalGrandTotalAggregateShipmentExpenses = getTheGrandTotal();
-			System.out.println(reset+"The total final cost of shipping your "+ packageShippingChargeArray.size() + " package(s) amounts to a Grand Total of: "+ green+ formatDoubleDollars.format(theFinalGrandTotalAggregateShipmentExpenses) +" USD"+reset);
+			// double theFinalGrandTotalAggregateShipmentExpenses = getTheGrandTotal();
+			System.out.println(   reset+"The total final cost of shipping your "+ packageShippingChargeArray.size() + " package(s) amounts to a Grand Total of: "+ green+ formatDoubleDollars.format(     thePreliminaryGrandTotal-(   thePreliminaryGrandTotal*THE_FREQUENT_SHIPPER_DISCOUNT   )      ) +" USD"+reset     );
 			System.out.println(reset+" "+reset);
 			return theGrandTotal;
 			
 			
-		} else if ((theFreqShipIdenNum != 0) && ((getThePreliminaryGrandTotal() - (getThePreliminaryGrandTotal() * THE_FREQUENT_SHIPPER_DISCOUNT)) >= 300) ) {
+		} else if ((theFreqShipIdenNum != 0) && ((thePreliminaryGrandTotal - (thePreliminaryGrandTotal * THE_FREQUENT_SHIPPER_DISCOUNT)) >= 300) ) {
 
-			System.out.println(reset+"The preliminary cost of shipping your "+ packageShippingChargeArray.size() + " package(s) amounts to: "+ green+ formatDoubleDollars.format(thePreliminaryGrandTotal) +" USD"+reset);
-			System.out.println(reset+"You will be receiving a frequent shipper discount in the amount of: "+ green+ formatDoubleDollars.format((THE_FREQUENT_SHIPPER_DISCOUNT * thePreliminaryGrandTotal)) +" USD"+reset);
-			double theBulkDiscountAmount = THE_BULK_PACKAGE_DISCOUNT;
-			System.out.println(reset+"You will also be receiving a frequent shipper bulk shipment discount in the amount of: "+ green+ (theBulkDiscountAmount) +" USD"+reset);
+			System.out.println(   reset+"The preliminary cost of shipping your "+ packageShippingChargeArray.size() + " package(s) amounts to: "+ green+ formatDoubleDollars.format(   thePreliminaryGrandTotal   ) +" USD"+reset)   ;
+			System.out.println(    reset+"You will be receiving a frequent shipper discount in the amount of: "+ green+ formatDoubleDollars.format(        THE_FREQUENT_SHIPPER_DISCOUNT * thePreliminaryGrandTotal        ) +" USD"+reset     );
+			// double theBulkDiscountAmount = THE_BULK_PACKAGE_DISCOUNT;
+			System.out.println(reset+"You will also be receiving a frequent shipper bulk shipment discount in the amount of: "+ green+ (THE_BULK_PACKAGE_DISCOUNT) +" USD"+reset);
 			System.out.println(reset+" "+reset);
-			double theFinalGrandTotalAggregateShipmentExpenses = getTheGrandTotal();
-			System.out.println(reset+"The total final cost of shipping your "+ packageShippingChargeArray.size() + " package(s) amounts to a Grand Total of: "+ green+ formatDoubleDollars.format(theFinalGrandTotalAggregateShipmentExpenses) +" USD"+reset);
+			// double theFinalGrandTotalAggregateShipmentExpenses = getTheGrandTotal();
+			System.out.println(reset+"The total final cost of shipping your "+ packageShippingChargeArray.size() + " package(s) amounts to a Grand Total of: "+ green+ formatDoubleDollars.format(   (thePreliminaryGrandTotal-(thePreliminaryGrandTotal*THE_FREQUENT_SHIPPER_DISCOUNT))-THE_BULK_PACKAGE_DISCOUNT   ) +" USD"+reset);
 			System.out.println(reset+" "+reset);
 			return theGrandTotal;
 			
 			
 		}	else {
-			theGrandTotal = getThePreliminaryGrandTotal();
+			// theGrandTotal = getThePreliminaryGrandTotal();
 
 			System.out.println(reset+" "+reset);
-			double theFinalGrandTotalAggregateShipmentExpenses = getTheGrandTotal();
-			System.out.println(reset+"The total final cost of shipping your "+ packageShippingChargeArray.size() + " package(s) amounts to a Grand Total of: "+ green+ formatDoubleDollars.format(theFinalGrandTotalAggregateShipmentExpenses) +" USD"+reset);
+			// double theFinalGrandTotalAggregateShipmentExpenses = getTheGrandTotal();
+			System.out.println(reset+"The total final cost of shipping your "+ packageShippingChargeArray.size() + " package(s) amounts to a Grand Total of: "+ green+ formatDoubleDollars.format(   thePreliminaryGrandTotal   ) +" USD"+reset);
 			System.out.println(reset+" "+reset);
 			return theGrandTotal;
 		}
@@ -158,6 +158,9 @@ public class Shipment {
 		
 														
 	}
+	// it didn't work after - i basically moved it from ParcelTerminalDemo to Shipment.java, it didn't work the first time 
+	// I'm going to try it again.
+	
 	// return getThePreliminaryGrandTotal()-(getThePreliminaryGrandTotal() * THE_FREQUENT_SHIPPER_DISCOUNT);
 	// return ((getThePreliminaryGrandTotal()- (getThePreliminaryGrandTotal() * THE_FREQUENT_SHIPPER_DISCOUNT)) - THE_BULK_PACKAGE_DISCOUNT);
 	// return theGrandTotal;

@@ -453,314 +453,322 @@ Please consider shipping a different Package.
 																																		// i'll pull it out, in the sense that it factors into the discounts, but it's not otherwise being pulled back out in it's original form.
 			System.out.println(reset+"You are shipping a total of: "+ green+packageShippingChargeArray.size() + " package(s)"+reset);   // packageShippingChargeArray.length; packageShippingChargeArray.length
 			shipment.setTheTotalNumberOfPackages(packageShippingChargeArray.size());													//this pushes the number of packages into the Shipment.java class // shipment.// setTheTotalNumberOfPackages(int theTotalNumberOfPkgs)
-																																		//		    for (double value : pointScaleTimesCreditHoursArray) {
-																																		//		        sumPointScaleTimesCreditHours += value;
-																																					
-																																		//		    for (double value : packageShippingChargeArray) {
-																																		//		    	packageShippingChargeArray += value;
-																																					
-			//			double preliminaryCost = 0.00;
-			//			for (double value : packageShippingChargeArray) {
-			//		    	preliminaryCost += value; //
-			//			}
-			// 			i eliminated preliminaryCost and replaced it with theGrandTotal
-			
-			// double thePreliminaryGrandTotal = shipment.getThePreliminaryGrandTotal();
-			// private double thePreliminaryGrandTotal
-			// System.out.println(reset+"The preliminary cost of shipping your "+ packageShippingChargeArray.size() + " package(s) amounts to: "+ green+ formatDoubleDollars.format(thePreliminaryGrandTotal) +" USD"+reset); // getTheGrandTotal()// v// "British Euro Dollars");
-		// START - turned out to be a huge waste of time			
-											//			shipment.setThePreliminaryGrandTotal(thePreliminaryGrandTotal);
-											//			String tFsIn = shipment.getTheFrequentShipperIdentificationNumber();
-											//			double frequentShipperDiscount = shipment.THE_FREQUENT_SHIPPER_DISCOUNT;
-											//			double theBulkDiscountAmount = shipment.THE_BULK_PACKAGE_DISCOUNT;
-											/*			
-														if (Integer.parseInt(tFsIn) !=0 && (thePreliminaryGrandTotal-(thePreliminaryGrandTotal * frequentShipperDiscount)) <= 300) { 
-															
-															System.out.println(reset+"The preliminary cost of shipping your "+ packageShippingChargeArray.size() + " package(s) amounts to: "+ green+ formatDoubleDollars.format(thePreliminaryGrandTotal) +" USD"+reset);
-															System.out.println(reset+"You will be receiving a frequent shipper discount in the amount of: "+ green+ formatDoubleDollars.format((frequentShipperDiscount * thePreliminaryGrandTotal)) +" USD"+reset);
-															System.out.println(reset+" "+reset);
-															double theFinalGrandTotalAggregateShipmentExpenses = shipment.getTheGrandTotal();
-															System.out.println(reset+"The total final cost of shipping your "+ packageShippingChargeArray.size() + " package(s) amounts to a Grand Total of: "+ green+ formatDoubleDollars.format(theFinalGrandTotalAggregateShipmentExpenses) +" USD"+reset);
-															System.out.println(reset+" "+reset);
-															
-														} else if (Integer.parseInt(tFsIn) !=0 && (thePreliminaryGrandTotal-(thePreliminaryGrandTotal * frequentShipperDiscount)) >= 300) { 
-															System.out.println(reset+"The preliminary cost of shipping your "+ packageShippingChargeArray.size() + " package(s) amounts to: "+ green+ formatDoubleDollars.format(thePreliminaryGrandTotal) +" USD"+reset);
-															System.out.println(reset+"You will be receiving a frequent shipper discount in the amount of: "+ green+ formatDoubleDollars.format((frequentShipperDiscount * thePreliminaryGrandTotal)) +" USD"+reset);
-															System.out.println(reset+"You will also be receiving a frequent shipper bulk shipment discount in the amount of: "+ green+ (theBulkDiscountAmount) +" USD"+reset);
-															System.out.println(reset+" "+reset);
-															double theFinalGrandTotalAggregateShipmentExpenses = shipment.getTheGrandTotal();
-															System.out.println(reset+"The total final cost of shipping your "+ packageShippingChargeArray.size() + " package(s) amounts to a Grand Total of: "+ green+ formatDoubleDollars.format(theFinalGrandTotalAggregateShipmentExpenses) +" USD"+reset);
-															System.out.println(reset+" "+reset);
-															
-														} else {
-															System.out.println(reset+" "+reset);
-															double theFinalGrandTotalAggregateShipmentExpenses = shipment.getTheGrandTotal();
-															System.out.println(reset+"The total final cost of shipping your "+ packageShippingChargeArray.size() + " package(s) amounts to a Grand Total of: "+ green+ formatDoubleDollars.format(theFinalGrandTotalAggregateShipmentExpenses) +" USD"+reset);
-															System.out.println(reset+" "+reset);
-														}
-											*/
-			// END - turned out to be a huge waste of time
-			// START - Let's see if this works
-			System.out.print(shipment.getTheGrandTotal());
-			
-			
-			
-			// System.out.println(reset+(thePreliminaryGrandTotal-(thePreliminaryGrandTotal * frequentShipperDiscount))+reset); // for testing
-			
-			// Integer.parseInt(tFsIn) !=0 && // } else if (Integer.parseInt(tFsIn) !=0 && (thePreliminaryGrandTotal-(thePreliminaryGrandTotal * frequentShipperDiscount)) >= 300) {
-			
-			// THE_FREQUENT_SHIPPER_DISCOUNT * thePreliminaryGrandTotal
-			// [0mThe preliminary cost of shipping your 1 package(s) amounts to: [32m[1m3.12 USD
-			//  this pushes the preliminary cost of the transaction into the Shipment.java
-			// but this is actually wrong, so i actually have to do this in the Shipment class.
-			// it's a simple move, but i'm already tired of this.
-			
-			
-			
-			// British Eurodollars // this is actually supposed to be extremely funny!
-			// because, at first is seems wrong, the British don't use euro(s), or dollars, but British Eurodollars are real, like, they're US dollars held in bank in London, or something.
-			// but yeah, that's supposed to be really funny.
-			
-			// this alone took forever. the preliminary cost.
-			// this is taking forever. not only. am not going to get anything higher than a C, - what a nightmare.
-		
-			// I really just want to put the discounts here, but they have to go. inside the shipment class. - this is a nightmare -
-		
-		
-		
-		
-		
-		
-		
-		// I think that this is where I would put it.
-		// packageWidth = parcelPackage.getPackageWidth();
-		
-		//		System.out.println(packageShippingChargeArray);  // ArrayList<Double> packageShippingChargeArray = new ArrayList<Double>();
-		
-		// I'm starting to understand what object oriented design is 
-		//
-		// it's like this - the demo class is like an HTML page, and the model class is like the JavaScript file.
-		// when I was starting this assignment, I started with the demo class, because like an HTML page, it's 
-		// something I can see. and it's something I can interact with.
-		
-		// I'm trying to think. I think that the package class is done, but I need something to happen once this while loop ends. or.
-		// I think that it just goes after the end of the while loop, so once a person enters N, then the next part of the program starts.
-		// this is almost done.
-	}
-//	System.out.println(packageShippingChargeArray);
 
+
+	}
 
 }
 
-/*
+// everything always takes twice as long as I anticipate it will.
+//			
+//			
+//			
+//			//		    for (double value : pointScaleTimesCreditHoursArray) {
+//			//		        sumPointScaleTimesCreditHours += value;
+//						
+//			//		    for (double value : packageShippingChargeArray) {
+//			//		    	packageShippingChargeArray += value;
+//						
+//			//			double preliminaryCost = 0.00;
+//			//			for (double value : packageShippingChargeArray) {
+//			//		    	preliminaryCost += value; //
+//			//			}
+//			// 			i eliminated preliminaryCost and replaced it with theGrandTotal
+//			
+//			// double thePreliminaryGrandTotal = shipment.getThePreliminaryGrandTotal();
+//			// private double thePreliminaryGrandTotal
+//			// System.out.println(reset+"The preliminary cost of shipping your "+ packageShippingChargeArray.size() + " package(s) amounts to: "+ green+ formatDoubleDollars.format(thePreliminaryGrandTotal) +" USD"+reset); // getTheGrandTotal()// v// "British Euro Dollars");
+//			// START - turned out to be a huge waste of time			
+//			//			shipment.setThePreliminaryGrandTotal(thePreliminaryGrandTotal);
+//			//			String tFsIn = shipment.getTheFrequentShipperIdentificationNumber();
+//			//			double frequentShipperDiscount = shipment.THE_FREQUENT_SHIPPER_DISCOUNT;
+//			//			double theBulkDiscountAmount = shipment.THE_BULK_PACKAGE_DISCOUNT;
+//			/*			
+//			if (Integer.parseInt(tFsIn) !=0 && (thePreliminaryGrandTotal-(thePreliminaryGrandTotal * frequentShipperDiscount)) <= 300) { 
+//			
+//			System.out.println(reset+"The preliminary cost of shipping your "+ packageShippingChargeArray.size() + " package(s) amounts to: "+ green+ formatDoubleDollars.format(thePreliminaryGrandTotal) +" USD"+reset);
+//			System.out.println(reset+"You will be receiving a frequent shipper discount in the amount of: "+ green+ formatDoubleDollars.format((frequentShipperDiscount * thePreliminaryGrandTotal)) +" USD"+reset);
+//			System.out.println(reset+" "+reset);
+//			double theFinalGrandTotalAggregateShipmentExpenses = shipment.getTheGrandTotal();
+//			System.out.println(reset+"The total final cost of shipping your "+ packageShippingChargeArray.size() + " package(s) amounts to a Grand Total of: "+ green+ formatDoubleDollars.format(theFinalGrandTotalAggregateShipmentExpenses) +" USD"+reset);
+//			System.out.println(reset+" "+reset);
+//			
+//			} else if (Integer.parseInt(tFsIn) !=0 && (thePreliminaryGrandTotal-(thePreliminaryGrandTotal * frequentShipperDiscount)) >= 300) { 
+//			System.out.println(reset+"The preliminary cost of shipping your "+ packageShippingChargeArray.size() + " package(s) amounts to: "+ green+ formatDoubleDollars.format(thePreliminaryGrandTotal) +" USD"+reset);
+//			System.out.println(reset+"You will be receiving a frequent shipper discount in the amount of: "+ green+ formatDoubleDollars.format((frequentShipperDiscount * thePreliminaryGrandTotal)) +" USD"+reset);
+//			System.out.println(reset+"You will also be receiving a frequent shipper bulk shipment discount in the amount of: "+ green+ (theBulkDiscountAmount) +" USD"+reset);
+//			System.out.println(reset+" "+reset);
+//			double theFinalGrandTotalAggregateShipmentExpenses = shipment.getTheGrandTotal();
+//			System.out.println(reset+"The total final cost of shipping your "+ packageShippingChargeArray.size() + " package(s) amounts to a Grand Total of: "+ green+ formatDoubleDollars.format(theFinalGrandTotalAggregateShipmentExpenses) +" USD"+reset);
+//			System.out.println(reset+" "+reset);
+//			
+//			} else {
+//			System.out.println(reset+" "+reset);
+//			double theFinalGrandTotalAggregateShipmentExpenses = shipment.getTheGrandTotal();
+//			System.out.println(reset+"The total final cost of shipping your "+ packageShippingChargeArray.size() + " package(s) amounts to a Grand Total of: "+ green+ formatDoubleDollars.format(theFinalGrandTotalAggregateShipmentExpenses) +" USD"+reset);
+//			System.out.println(reset+" "+reset);
+//			}
+//			*/
+//			// END - turned out to be a huge waste of time
+//			// START - Let's see if this works
+//			// I found it this thing was annoying the hell out of me. // System.out.print(shipment.getTheGrandTotal());
+
+// System.out.println(reset+(thePreliminaryGrandTotal-(thePreliminaryGrandTotal * frequentShipperDiscount))+reset); // for testing
+
+// Integer.parseInt(tFsIn) !=0 && // } else if (Integer.parseInt(tFsIn) !=0 && (thePreliminaryGrandTotal-(thePreliminaryGrandTotal * frequentShipperDiscount)) >= 300) {
+
+// THE_FREQUENT_SHIPPER_DISCOUNT * thePreliminaryGrandTotal
+// [0mThe preliminary cost of shipping your 1 package(s) amounts to: [32m[1m3.12 USD
+//  this pushes the preliminary cost of the transaction into the Shipment.java
+// but this is actually wrong, so i actually have to do this in the Shipment class.
+// it's a simple move, but i'm already tired of this.
 
 
-							System.out.print("Please enter your frequent shipper identification number:" + green);
-							packageWeight = Math.ceil(parcelPackage.keyboard.nextDouble()); // Math.ceil(
-							parcelPackage.setPackageWeight(packageWeight);
- 
 
-Design a program that computes the cost of shipping packages at a parcel service store. 
-A customer can ship multiple packages at the store. 
-The program should prompt the users to enter the weight and the package dimension for each package. 
+// British Eurodollars // this is actually supposed to be extremely funny!
+// because, at first is seems wrong, the British don't use euro(s), or dollars, but British Eurodollars are real, like, they're US dollars held in bank in London, or something.
+// but yeah, that's supposed to be really funny.
 
-However, each package should not exceed 120 pounds (actual weight) and 100 outside linear inches (length plus width plus height). 
+// this alone took forever. the preliminary cost.
+// this is taking forever. not only. am not going to get anything higher than a C, - what a nightmare.
 
-Overweight or over-sized packages are not accepted. 
-
-If the user enters a zero or a negative number, the program should show an error message and request input again until a positive number is entered. 
+// I really just want to put the discounts here, but they have to go. inside the shipment class. - this is a nightmare -
 
 
 
-For the actual weight, any fraction of the measurement should be increased to the nearest whole number (for example, 20.1 will be considered 21).
-
-For each package that can be shipped, the dimensional weight should be calculated. Dimensional weight reflects the amount of space a package occupies; dimensional weight is calculated by the following steps: (1) Determine the package dimensions in inches. For each dimension, any fraction of the measurement should be increased to the nearest whole number (for example, 1.3 will be considered 2). (2) Multiply the package length by the width by the height. The result is the cubic size in inches. (3) Divide the cubic size in inches by 166 to determine dimensional weight in pounds. (4) Increase any fraction to the next whole pound.
-
-The shipping cost of each package is calculated by comparing the actual weight to the dimensional weight. The greater of the two is the billable weight and should be used to calculate the rate. The final cost of the shipment is calculated by multiplying the price per pound ($3.12) by the billable weight. 
-
-For each accepted package, the program should show the actual weight, calculated dimensional weight, and the shipping cost for the package.
-
-After all the packages are entered, the program will prompt the users to enter if they have “frequent-shipper” numbers; if so, a 5% discount will be applied to the shipping cost. If the total amount after the frequent-shipper discount is greater than $300, an additional “bulk package” discount of $20 off would be applied. The program shows the total number of packages to ship, subtotal before discount, frequent-shipper discount if applied, bulk package discount if applied, and the grand total.
-
-Please use the object-oriented approach to design the program. Specifically, a Package class and a Shipment class should be designed and implemented. The Package class represents the data and behavior for each individual package. The Shipment class represents the entire transaction made by a user.
 
 
 
- */
 
 
-/* 
- [0m[31mGreetings:  [0m Utilize this terminal to determine the cost to ship your parcel. 
-             Please enter the[31m weight[0m and the [31mdimensions [0mof your parcel: 
- 
-[0m                                     Data for Parcel # 1
- 
-Please enter the[31m weight [0mof your parcel: [32m50
-[0mPlease enter the[31m length [0mof your parcel: [32m50
-[0mPlease enter the[31m width [0m of your parcel: [32m50
-[0mPlease enter the[31m height [0mof your parcel: [32m50
- 
-[0mThe parcel has an actual weight of: PLACEHOLDER
-[0mThe parcel has a dimensional weight of: PLACEHOLDER
-[0mThe parcel has the following dimensions: PLACEHOLDER
-[0mThe parcel has a shipping cost of: PLACEHOLDER
- 
-[0mWill you be shipping any additional parcels? (Y/N): [32my
- 
-[0m                                     Data for Parcel # 2
- 
-Please enter the[31m weight [0mof your parcel: [32m50
-[0mPlease enter the[31m length [0mof your parcel: [32m50
-[0mPlease enter the[31m width [0m of your parcel: [32m50
-[0mPlease enter the[31m height [0mof your parcel: [32m50
- 
-[0mThe parcel has an actual weight of: PLACEHOLDER
-[0mThe parcel has a dimensional weight of: PLACEHOLDER
-[0mThe parcel has the following dimensions: PLACEHOLDER
-[0mThe parcel has a shipping cost of: PLACEHOLDER
- 
-[0mWill you be shipping any additional parcels? (Y/N): [32my
- 
-[0m                                     Data for Parcel # 3
- 
-Please enter the[31m weight [0mof your parcel: [32m50
-[0mPlease enter the[31m length [0mof your parcel: [32m50
-[0mPlease enter the[31m width [0m of your parcel: [32m50
-[0mPlease enter the[31m height [0mof your parcel: [32m50
- 
-[0mThe parcel has an actual weight of: PLACEHOLDER
-[0mThe parcel has a dimensional weight of: PLACEHOLDER
-[0mThe parcel has the following dimensions: PLACEHOLDER
-[0mThe parcel has a shipping cost of: PLACEHOLDER
- 
-[0mWill you be shipping any additional parcels? (Y/N): [32my
- 
-[0m                                     Data for Parcel # 4
- 
-Please enter the[31m weight [0mof your parcel: [32m50
-[0mPlease enter the[31m length [0mof your parcel: [32m50
-[0mPlease enter the[31m width [0m of your parcel: [32m50
-[0mPlease enter the[31m height [0mof your parcel: [32m50
- 
-[0mThe parcel has an actual weight of: PLACEHOLDER
-[0mThe parcel has a dimensional weight of: PLACEHOLDER
-[0mThe parcel has the following dimensions: PLACEHOLDER
-[0mThe parcel has a shipping cost of: PLACEHOLDER
- 
-[0mWill you be shipping any additional parcels? (Y/N): [32my
- 
-[0m                                     Data for Parcel # 5
- 
-Please enter the[31m weight [0mof your parcel: [32m50
-[0mPlease enter the[31m length [0mof your parcel: [32m50
-[0mPlease enter the[31m width [0m of your parcel: [32m50
-[0mPlease enter the[31m height [0mof your parcel: [32m50
- 
-[0mThe parcel has an actual weight of: PLACEHOLDER
-[0mThe parcel has a dimensional weight of: PLACEHOLDER
-[0mThe parcel has the following dimensions: PLACEHOLDER
-[0mThe parcel has a shipping cost of: PLACEHOLDER
- 
-[0mWill you be shipping any additional parcels? (Y/N): [32my
- 
-[0m                                     Data for Parcel # 6
- 
-Please enter the[31m weight [0mof your parcel: [32mchickens
-Exception in thread "main" java.util.InputMismatchException
-	at java.base/java.util.Scanner.throwFor(Scanner.java:947)
-	at java.base/java.util.Scanner.next(Scanner.java:1602)
-	at java.base/java.util.Scanner.nextDouble(Scanner.java:2573)
-	at edu.unlv.mis768.kly.individualassignment3.ShippingCalculatorDemo.main(ShippingCalculatorDemo.java:44)
-	*/
 
-//Please enter the file name where you would like to print your transcript: D:\GitHub\MIS76810032024Sprg\src\MIS768\edu\ unlv\mis768\kly\individualassignment2\transcript02292024.txt
-//Data has been written to D:\GitHub\MIS76810032024Sprg\src\MIS768\edu\ unlv\mis768\kly\individualassignment2\transcript02292024.txt successfully.
-//
-//Enter a course number for entry # 1: Advanced Studies in Chickens 101
-//Enter credit hours for entry # 1: 3
-//Enter letter grade earned for entry # 1: a
-//Do you have additional course details to enter? (Y/N): y
-//Enter a course number for entry # 2: advanced studies in geese 102
-//Enter credit hours for entry # 2: 3
-//Enter letter grade earned for entry # 2: a
-//Do you have additional course details to enter? (Y/N): y
-//Enter a course number for entry # 3: intermediate duck related conspiracy theories 103
-//Enter credit hours for entry # 3: a
-//Exception in thread "main" java.util.InputMismatchException
-//	at java.base/java.util.Scanner.throwFor(Scanner.java:947)
-//	at java.base/java.util.Scanner.next(Scanner.java:1602)
-//	at java.base/java.util.Scanner.nextInt(Scanner.java:2267)
-//	at java.base/java.util.Scanner.nextInt(Scanner.java:2221)
-//	at edu.unlv.mis768.kly.individualassignment2.CreateTranscriptDemo.main(CreateTranscriptDemo.java:59)
-// 
-// 
-// Enter a course number for entry # 1: Advanced Studies in Chickens 232
-//Enter credit hours for entry # 1: 4
-//Enter letter grade earned for entry # 1: a
-//Do you have additional course details to enter? (Y/N): y
-//Enter a course number for entry # 2: Advanced Studies in Orange Juice 443
-//Enter credit hours for entry # 2: 3.5
-//Exception in thread "main" java.util.InputMismatchException
-//	at java.base/java.util.Scanner.throwFor(Scanner.java:947)
-//	at java.base/java.util.Scanner.next(Scanner.java:1602)
-//	at java.base/java.util.Scanner.nextInt(Scanner.java:2267)
-//	at java.base/java.util.Scanner.nextInt(Scanner.java:2221)
-//	at edu.unlv.mis768.kly.individualassignment2.CreateTranscriptDemo.main(CreateTranscriptDemo.java:59)
 //
 //
-//		    String red = "\u001B[31m";
-//		    String reset = "\u001B[0m";
+
+// I think that this is where I would put it.
+// packageWidth = parcelPackage.getPackageWidth();
+
+//		System.out.println(packageShippingChargeArray);  // ArrayList<Double> packageShippingChargeArray = new ArrayList<Double>();
+
+// I'm starting to understand what object oriented design is 
 //
-//			ANSI escape codes
-//
-//		    String black = "\u001B[30m";
-//		    String red = "\u001B[31m";
-//		    String green = "\u001B[32m";
-//		    String reset = "\u001B[0m";
-//		    
-//		    Black: \u001B[30m
-//			Red: \u001B[31m
-//			Green: \u001B[32m
-//			Yellow: \u001B[33m
-//			Blue: \u001B[34m
-//			Magenta: \u001B[35m
-//			Cyan: \u001B[36m
-//			White: \u001B[37m
+// it's like this - the demo class is like an HTML page, and the model class is like the JavaScript file.
+// when I was starting this assignment, I started with the demo class, because like an HTML page, it's 
+// something I can see. and it's something I can interact with.
 
-//System.out.println("[31mGreetings:  [0m Utilize this terminal to determine the shipping costs of your parcel.");		
-/*
-Nectar
-Enter a course number for entry # 1: Orange Juice 232
-Enter credit hours for entry # 1: 3
-Enter letter grade earned for entry # 1: a
-Do you have additional course details to enter? (Y/N): y
-Enter a course number for entry # 2: Lemonade 443
-Enter credit hours for entry # 2: 3
-Enter letter grade earned for entry # 2: a
-Do you have additional course details to enter? (Y/N): y
-Enter a course number for entry # 3: Milk 868
-Enter credit hours for entry # 3: 3
-Enter letter grade earned for entry # 3: c
-Do you have additional course details to enter? (Y/N): y
-Enter a course number for entry # 4: Nectar
-Enter credit hours for entry # 4: 3
-Enter letter grade earned for entry # 4: a
-Do you have additional course details to enter? (Y/N): n
-Grade Point Average: 3.50
-Would you like to printout of your transcript? (Y/N): y
-
-
-
-
- */
-// public class ShippingCalculatorDemo {
-// The name of a class should be a noun/noun-phrase.
-// I'm frustrated right now. everything is a disaster, and nothing is going right.'
-// and I don't anticipate things getting better. this is a nightmare.'
-
-
-/*
-"Dimensional weight, also known as volumetric weight, is a pricing technique used 
-by postal services and commercial freight companies. It's based on the cubic capacity 
-of a package, rather than its weight.""
-*/
+// I'm trying to think. I think that the package class is done, but I need something to happen once this while loop ends. or.
+// I think that it just goes after the end of the while loop, so once a person enters N, then the next part of the program starts.
+// this is almost done.
+//System.out.println(packageShippingChargeArray);
+//				/*
+//				
+//				
+//											System.out.print("Please enter your frequent shipper identification number:" + green);
+//											packageWeight = Math.ceil(parcelPackage.keyboard.nextDouble()); // Math.ceil(
+//											parcelPackage.setPackageWeight(packageWeight);
+//				 
+//				
+//				Design a program that computes the cost of shipping packages at a parcel service store. 
+//				A customer can ship multiple packages at the store. 
+//				The program should prompt the users to enter the weight and the package dimension for each package. 
+//				
+//				However, each package should not exceed 120 pounds (actual weight) and 100 outside linear inches (length plus width plus height). 
+//				
+//				Overweight or over-sized packages are not accepted. 
+//				
+//				If the user enters a zero or a negative number, the program should show an error message and request input again until a positive number is entered. 
+//				
+//				
+//				
+//				For the actual weight, any fraction of the measurement should be increased to the nearest whole number (for example, 20.1 will be considered 21).
+//				
+//				For each package that can be shipped, the dimensional weight should be calculated. Dimensional weight reflects the amount of space a package occupies; dimensional weight is calculated by the following steps: (1) Determine the package dimensions in inches. For each dimension, any fraction of the measurement should be increased to the nearest whole number (for example, 1.3 will be considered 2). (2) Multiply the package length by the width by the height. The result is the cubic size in inches. (3) Divide the cubic size in inches by 166 to determine dimensional weight in pounds. (4) Increase any fraction to the next whole pound.
+//				
+//				The shipping cost of each package is calculated by comparing the actual weight to the dimensional weight. The greater of the two is the billable weight and should be used to calculate the rate. The final cost of the shipment is calculated by multiplying the price per pound ($3.12) by the billable weight. 
+//				
+//				For each accepted package, the program should show the actual weight, calculated dimensional weight, and the shipping cost for the package.
+//				
+//				After all the packages are entered, the program will prompt the users to enter if they have “frequent-shipper” numbers; if so, a 5% discount will be applied to the shipping cost. If the total amount after the frequent-shipper discount is greater than $300, an additional “bulk package” discount of $20 off would be applied. The program shows the total number of packages to ship, subtotal before discount, frequent-shipper discount if applied, bulk package discount if applied, and the grand total.
+//				
+//				Please use the object-oriented approach to design the program. Specifically, a Package class and a Shipment class should be designed and implemented. The Package class represents the data and behavior for each individual package. The Shipment class represents the entire transaction made by a user.
+//				
+//				
+//				
+//				 */
+//				
+//				
+//				/* 
+//				 [0m[31mGreetings:  [0m Utilize this terminal to determine the cost to ship your parcel. 
+//				             Please enter the[31m weight[0m and the [31mdimensions [0mof your parcel: 
+//				 
+//				[0m                                     Data for Parcel # 1
+//				 
+//				Please enter the[31m weight [0mof your parcel: [32m50
+//				[0mPlease enter the[31m length [0mof your parcel: [32m50
+//				[0mPlease enter the[31m width [0m of your parcel: [32m50
+//				[0mPlease enter the[31m height [0mof your parcel: [32m50
+//				 
+//				[0mThe parcel has an actual weight of: PLACEHOLDER
+//				[0mThe parcel has a dimensional weight of: PLACEHOLDER
+//				[0mThe parcel has the following dimensions: PLACEHOLDER
+//				[0mThe parcel has a shipping cost of: PLACEHOLDER
+//				 
+//				[0mWill you be shipping any additional parcels? (Y/N): [32my
+//				 
+//				[0m                                     Data for Parcel # 2
+//				 
+//				Please enter the[31m weight [0mof your parcel: [32m50
+//				[0mPlease enter the[31m length [0mof your parcel: [32m50
+//				[0mPlease enter the[31m width [0m of your parcel: [32m50
+//				[0mPlease enter the[31m height [0mof your parcel: [32m50
+//				 
+//				[0mThe parcel has an actual weight of: PLACEHOLDER
+//				[0mThe parcel has a dimensional weight of: PLACEHOLDER
+//				[0mThe parcel has the following dimensions: PLACEHOLDER
+//				[0mThe parcel has a shipping cost of: PLACEHOLDER
+//				 
+//				[0mWill you be shipping any additional parcels? (Y/N): [32my
+//				 
+//				[0m                                     Data for Parcel # 3
+//				 
+//				Please enter the[31m weight [0mof your parcel: [32m50
+//				[0mPlease enter the[31m length [0mof your parcel: [32m50
+//				[0mPlease enter the[31m width [0m of your parcel: [32m50
+//				[0mPlease enter the[31m height [0mof your parcel: [32m50
+//				 
+//				[0mThe parcel has an actual weight of: PLACEHOLDER
+//				[0mThe parcel has a dimensional weight of: PLACEHOLDER
+//				[0mThe parcel has the following dimensions: PLACEHOLDER
+//				[0mThe parcel has a shipping cost of: PLACEHOLDER
+//				 
+//				[0mWill you be shipping any additional parcels? (Y/N): [32my
+//				 
+//				[0m                                     Data for Parcel # 4
+//				 
+//				Please enter the[31m weight [0mof your parcel: [32m50
+//				[0mPlease enter the[31m length [0mof your parcel: [32m50
+//				[0mPlease enter the[31m width [0m of your parcel: [32m50
+//				[0mPlease enter the[31m height [0mof your parcel: [32m50
+//				 
+//				[0mThe parcel has an actual weight of: PLACEHOLDER
+//				[0mThe parcel has a dimensional weight of: PLACEHOLDER
+//				[0mThe parcel has the following dimensions: PLACEHOLDER
+//				[0mThe parcel has a shipping cost of: PLACEHOLDER
+//				 
+//				[0mWill you be shipping any additional parcels? (Y/N): [32my
+//				 
+//				[0m                                     Data for Parcel # 5
+//				 
+//				Please enter the[31m weight [0mof your parcel: [32m50
+//				[0mPlease enter the[31m length [0mof your parcel: [32m50
+//				[0mPlease enter the[31m width [0m of your parcel: [32m50
+//				[0mPlease enter the[31m height [0mof your parcel: [32m50
+//				 
+//				[0mThe parcel has an actual weight of: PLACEHOLDER
+//				[0mThe parcel has a dimensional weight of: PLACEHOLDER
+//				[0mThe parcel has the following dimensions: PLACEHOLDER
+//				[0mThe parcel has a shipping cost of: PLACEHOLDER
+//				 
+//				[0mWill you be shipping any additional parcels? (Y/N): [32my
+//				 
+//				[0m                                     Data for Parcel # 6
+//				 
+//				Please enter the[31m weight [0mof your parcel: [32mchickens
+//				Exception in thread "main" java.util.InputMismatchException
+//					at java.base/java.util.Scanner.throwFor(Scanner.java:947)
+//					at java.base/java.util.Scanner.next(Scanner.java:1602)
+//					at java.base/java.util.Scanner.nextDouble(Scanner.java:2573)
+//					at edu.unlv.mis768.kly.individualassignment3.ShippingCalculatorDemo.main(ShippingCalculatorDemo.java:44)
+//					*/
+//				
+//				//Please enter the file name where you would like to print your transcript: D:\GitHub\MIS76810032024Sprg\src\MIS768\edu\ unlv\mis768\kly\individualassignment2\transcript02292024.txt
+//				//Data has been written to D:\GitHub\MIS76810032024Sprg\src\MIS768\edu\ unlv\mis768\kly\individualassignment2\transcript02292024.txt successfully.
+//				//
+//				//Enter a course number for entry # 1: Advanced Studies in Chickens 101
+//				//Enter credit hours for entry # 1: 3
+//				//Enter letter grade earned for entry # 1: a
+//				//Do you have additional course details to enter? (Y/N): y
+//				//Enter a course number for entry # 2: advanced studies in geese 102
+//				//Enter credit hours for entry # 2: 3
+//				//Enter letter grade earned for entry # 2: a
+//				//Do you have additional course details to enter? (Y/N): y
+//				//Enter a course number for entry # 3: intermediate duck related conspiracy theories 103
+//				//Enter credit hours for entry # 3: a
+//				//Exception in thread "main" java.util.InputMismatchException
+//				//	at java.base/java.util.Scanner.throwFor(Scanner.java:947)
+//				//	at java.base/java.util.Scanner.next(Scanner.java:1602)
+//				//	at java.base/java.util.Scanner.nextInt(Scanner.java:2267)
+//				//	at java.base/java.util.Scanner.nextInt(Scanner.java:2221)
+//				//	at edu.unlv.mis768.kly.individualassignment2.CreateTranscriptDemo.main(CreateTranscriptDemo.java:59)
+//				// 
+//				// 
+//				// Enter a course number for entry # 1: Advanced Studies in Chickens 232
+//				//Enter credit hours for entry # 1: 4
+//				//Enter letter grade earned for entry # 1: a
+//				//Do you have additional course details to enter? (Y/N): y
+//				//Enter a course number for entry # 2: Advanced Studies in Orange Juice 443
+//				//Enter credit hours for entry # 2: 3.5
+//				//Exception in thread "main" java.util.InputMismatchException
+//				//	at java.base/java.util.Scanner.throwFor(Scanner.java:947)
+//				//	at java.base/java.util.Scanner.next(Scanner.java:1602)
+//				//	at java.base/java.util.Scanner.nextInt(Scanner.java:2267)
+//				//	at java.base/java.util.Scanner.nextInt(Scanner.java:2221)
+//				//	at edu.unlv.mis768.kly.individualassignment2.CreateTranscriptDemo.main(CreateTranscriptDemo.java:59)
+//				//
+//				//
+//				//		    String red = "\u001B[31m";
+//				//		    String reset = "\u001B[0m";
+//				//
+//				//			ANSI escape codes
+//				//
+//				//		    String black = "\u001B[30m";
+//				//		    String red = "\u001B[31m";
+//				//		    String green = "\u001B[32m";
+//				//		    String reset = "\u001B[0m";
+//				//		    
+//				//		    Black: \u001B[30m
+//				//			Red: \u001B[31m
+//				//			Green: \u001B[32m
+//				//			Yellow: \u001B[33m
+//				//			Blue: \u001B[34m
+//				//			Magenta: \u001B[35m
+//				//			Cyan: \u001B[36m
+//				//			White: \u001B[37m
+//				
+//				//System.out.println("[31mGreetings:  [0m Utilize this terminal to determine the shipping costs of your parcel.");		
+//				/*
+//				Nectar
+//				Enter a course number for entry # 1: Orange Juice 232
+//				Enter credit hours for entry # 1: 3
+//				Enter letter grade earned for entry # 1: a
+//				Do you have additional course details to enter? (Y/N): y
+//				Enter a course number for entry # 2: Lemonade 443
+//				Enter credit hours for entry # 2: 3
+//				Enter letter grade earned for entry # 2: a
+//				Do you have additional course details to enter? (Y/N): y
+//				Enter a course number for entry # 3: Milk 868
+//				Enter credit hours for entry # 3: 3
+//				Enter letter grade earned for entry # 3: c
+//				Do you have additional course details to enter? (Y/N): y
+//				Enter a course number for entry # 4: Nectar
+//				Enter credit hours for entry # 4: 3
+//				Enter letter grade earned for entry # 4: a
+//				Do you have additional course details to enter? (Y/N): n
+//				Grade Point Average: 3.50
+//				Would you like to printout of your transcript? (Y/N): y
+//				
+//				
+//				
+//				
+//				 */
+//				// public class ShippingCalculatorDemo {
+//				// The name of a class should be a noun/noun-phrase.
+//				// I'm frustrated right now. everything is a disaster, and nothing is going right.'
+//				// and I don't anticipate things getting better. this is a nightmare.'
+//				
+//				
+//				/*
+//				"Dimensional weight, also known as volumetric weight, is a pricing technique used 
+//				by postal services and commercial freight companies. It's based on the cubic capacity 
+//				of a package, rather than its weight.""
+//				*/
