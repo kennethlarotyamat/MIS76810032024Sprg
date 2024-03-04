@@ -1086,3 +1086,7 @@ public class ParcelTerminalDemo { // this is the demo class// public class Shipp
 
 // I'm really stressed out right now. such a nightmare - I filed a software copyright for the computer program for
 // individual assignment # 3.
+
+// here is one of the major challenges I'm facing right now.
+// I won't get any credit for turning in a group project because I would have to be part of a group
+// in order to recieve any credit for doing a group project. and it's due. later today. this is a nightmare.
