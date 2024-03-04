@@ -23,8 +23,8 @@ public class Shipment {
    //  String invisible ="\u001B[37m";
 	private String 	theFrequentShipperIdentificationNumber;
 	private int 	theTotalNumberOfPackages;
-	final double 	THE_FREQUENT_SHIPPER_DISCOUNT = 0.05; 						// "if so, a 5% discount will be applied to the shipping cost."  /*// //  = ""; //  = 0.00*/
-	final double 	THE_BULK_PACKAGE_DISCOUNT = 20.00;							// additional “bulk package” discount of $20 off would be applied. // width // i wasn't sure if that was spelled correctly.
+	final double 	THE_FREQUENT_SHIPPER_DISCOUNT = 0.05; 						// "if so, a 5% discount will be applied to the shipping cost." - Han-fen Hu, Ph.D  /*// //  = ""; //  = 0.00*/
+	final double 	THE_BULK_PACKAGE_DISCOUNT = 20.00;							// "additional “bulk package” discount of $20 off would be applied." - Han-fen Hu, Ph.D // width // i wasn't sure if that was spelled correctly.
 	private String  theGrandTotal = "";
 	private double  thePreliminaryGrandTotal = 0.00;
 	public double 	billableWeight;
@@ -279,22 +279,22 @@ public class Shipment {
 // Bulk shipment discount
 /*
 
-The following symbols are used in reporting and recording graduate student grades:
-
-A		Superior (4.0)
-B  		Passing (3.0)
-C   	Average (2.0)
-D		Below Average (1.0)
-F		Failing
-
-AD		Audit (not graded, no credit toward GPA)
-I   	Incomplete (expires after one year; if not grade is submitted in that time-frame, the ‘I’ will default to an ‘F’ grade)
-
-S  		Satisfactory
-
-X		Hold: Grade is submitted upon completion of Thesis or Dissertation or Professional Paper
-		Note: Faculty members have the option of using plus (+) and minus (-) for grades of A, B, C, and D. Exception: A+ grades are not given. 
-		At the graduate level, grades below a B are generally considered unacceptable. Graduate students must have a 3.0 GPA in order to qualify for graduation.
+				"The following symbols are used in reporting and recording graduate student grades:
+				
+				A		Superior (4.0)
+				B  		Passing (3.0)
+				C   	Average (2.0)
+				D		Below Average (1.0)
+				F		Failing
+				
+				AD		Audit (not graded, no credit toward GPA)
+				I   	Incomplete (expires after one year; if not grade is submitted in that time-frame, the ‘I’ will default to an ‘F’ grade)
+				
+				S  		Satisfactory
+				
+				X		Hold: Grade is submitted upon completion of Thesis or Dissertation or Professional Paper
+						Note: Faculty members have the option of using plus (+) and minus (-) for grades of A, B, C, and D. Exception: A+ grades are not given. 
+						At the graduate level, grades below a B are generally considered unacceptable. Graduate students must have a 3.0 GPA in order to qualify for graduation." - UNLV
 		
 		What a nightmare. So the highest possible grade I can obtain in the course is a C, but it's not clear to me. As a graduate student, if I would get a 2, or a 0.
 		I would rather get a C than audit the class.

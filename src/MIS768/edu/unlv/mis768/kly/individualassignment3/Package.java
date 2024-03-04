@@ -1,3 +1,12 @@
+/*		
+		Author's Name: 		    	Kenneth Larot Yamat
+
+     	Purpose of Program:			To calculate the shipping cost of a parcel at a 
+     	                          	parcel service store
+     						    	 
+  		Date Due:					March 3rd, 2024
+*/
+
 package edu.unlv.mis768.kly.individualassignment3;
 
 import java.util.Scanner;
@@ -13,7 +22,11 @@ public class Package {
 	private double packageHeight;
 	// These were not needed. // private double theDimensionalWeight;
 	// private double dimensionalWeight; // the
-	
+	// "Design a program that computes the cost of shipping packages at a parcel
+	// service store.
+	// A customer can ship multiple packages at the store.
+	// The program should prompt the users to enter the weight and the package
+	// dimension for each package."  - Han-fen Hu, Ph.D
 	/*
 	 
 	"For each package that can be shipped, the dimensional weight should be calculated. 
