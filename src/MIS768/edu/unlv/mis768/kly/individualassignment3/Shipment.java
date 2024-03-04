@@ -133,8 +133,19 @@ public class Shipment {
 	public String getTheGrandTotal() {
 		
 		int theFreqShipIdenNum = Integer.parseInt(theFrequentShipperIdentificationNumber);
-		double thePrelim = getThePreliminaryGrandTotal();
+		double thePrelim = getThePreliminaryGrandTotal(); 
+		
+		// this was something I actually had a hard time with. I was trying to use the method getThePreliminaryGrandTotal(), but I think
+		// that it kept calling it over and over in my calculations, so I had to set. i had to create a variable that called the method 
+		// the variable is thePrelim, which is where the method getThePreliminaryGrandTotal() is called and the value of the variable is set and used for calculations in the getTheGrandTotal method.
+		
+		// this method alone took me a really long time to deal with. 
+		// I think I started it earlier today and allocated one hour to get it done, it took me six or so.
+		// it started off in the ParcelTerminalDemo class, but I had to move it to the Shipment class as a requirement of the assignment.
+		// adjusting it took a while because. there's a slightly different process that goes on when it's done in the ParcelTerminalDemo
+		
 		// String grandTotal;
+		
 		if (     (theFreqShipIdenNum != 0) && (thePrelim - (thePrelim * THE_FREQUENT_SHIPPER_DISCOUNT)  ) <= 300)  { // thePreliminaryGrandTotal
 
 			
