@@ -10,15 +10,16 @@
 package edu.unlv.mis768.kly.individualassignment3;
 
 import java.text.DecimalFormat;
-// import java.text.DecimalFormat;
+// for the ParcelTerminalDemo class I used the selection formatter to clearn up the 
+// apperance of my program, but the code looks funny so I won't be doing that here. // import java.text.DecimalFormat;
 import java.util.ArrayList;
 
 public class Shipment {
 	DecimalFormat formatDoubleDollars = new DecimalFormat("0.00");
-    String red = "\u001B[31m" + "\u001B[1m";
-    String reset = "\u001B[0m";
-    String green  = "\u001B[32m" + "\u001B[1m";
-    String brown  = "\u001B[33m" + "\u001B[1m";
+    String red = "\u001B[31m" + "\u001B[1m"; // set text color to red and bold.
+    String reset = "\u001B[0m"; // resets the text color to default text color
+    String green  = "\u001B[32m" + "\u001B[1m";// set text color to green and bold.
+    String brown  = "\u001B[33m" + "\u001B[1m";// set text color to brown and bold.
    //  String invisible ="\u001B[37m";
 	private String 	theFrequentShipperIdentificationNumber;
 	private int 	theTotalNumberOfPackages;
