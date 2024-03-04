@@ -94,6 +94,8 @@ I'm sure it's all of my own doing. my own fault.
 group work is nearly impossible for me and.
 it's probably. a challenge that I won't be able to overcome.
 
+I'm going to do something right now.
+
  */
 
 
