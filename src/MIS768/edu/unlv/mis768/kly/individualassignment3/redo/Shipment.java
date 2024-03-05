@@ -181,7 +181,7 @@ public class Shipment {
 			// So it's actually this line that was driving me crazy // System.out.println(reset+" "+reset);// System.out.println(reset+" "+reset);
 			//return theGrandTotal;
 			
-			/* 
+			 /* 
 					I'm having a hard time. I'm always having a hard time. when does that ever change?
 			 */
 
