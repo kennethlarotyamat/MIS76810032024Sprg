@@ -17,7 +17,7 @@ import java.util.ArrayList;
 /*
 	Revision Notes:
 	
-"Take getPackageWeight() for example, it should just 
+	"Take getPackageWeight() for example, it should just 
 	return packageWeight while setPackageWeight() is taking 
 	the value given by the user and set it to the field packageWeight."
 		- Han-fen Hu, Ph.D (2024)
