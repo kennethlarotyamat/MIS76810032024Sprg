@@ -134,8 +134,12 @@
 															↓
 															↓
 															↓
-												[UserTicketBuySellDistance] ======>		[Ticket]	================>	[AutoTicket]
-		
+[ExistingBidAskSpread] =========================> [UserTicketBuySellDistance] ===================> [Ticket]	==================>	[AutoTicket]
+															↑
+															↑
+															↑
+															↑
+[Current Volume] ==========================================>↑		
 		
 		
 		
