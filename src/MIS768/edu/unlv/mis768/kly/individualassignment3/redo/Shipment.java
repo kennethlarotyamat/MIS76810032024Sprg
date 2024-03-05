@@ -211,7 +211,7 @@ public class Shipment {
 			
 			
 		}	else {
-			// theGrandTotal = getThePreliminaryGrandTotal();
+			// theGrandTotal = getThePreliminaryGrandTotal(); // .xml
 
 			System.out.println(reset+" "+reset);
 			// double theFinalGrandTotalAggregateShipmentExpenses = getTheGrandTotal();
