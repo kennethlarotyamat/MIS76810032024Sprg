@@ -46,7 +46,7 @@ it was the stuff related to the grand total, and the discounts. i moved it from 
 ...
 	
 */
-// illiquid // laborious // bollinger band // Bollinger Band // fulfillment
+// illiquid // laborious // bollinger band // Bollinger Band // fulfillment // preferred // miscellaneous
 public class Shipment {
 	DecimalFormat formatDoubleDollars = new DecimalFormat("0.00");
     String red = "\u001B[31m" + "\u001B[1m"; 		// set text color to red and bold.
@@ -186,7 +186,7 @@ public class Shipment {
 			System.out.println(   reset+"You will be receiving a frequent shipper discount in the amount of: "+ green+ formatDoubleDollars.format(   (   THE_FREQUENT_SHIPPER_DISCOUNT * thePrelim   )   ) +" USD"+reset   );
 			System.out.println(reset+" "+reset);
 			// double theFinalGrandTotalAggregateShipmentExpenses = getTheGrandTotal();
-			System.out.println(   reset+"The total final cost of shipping your "+ packageShippingChargeArray.size() + " package(s) amounts to a Grand Total of: "+ green+ formatDoubleDollars.format(     thePrelim-(   thePrelim*THE_FREQUENT_SHIPPER_DISCOUNT   )      ) +" USD" +reset+ " deliverable in pounds of British Eurodollars"+reset); // Pounds of +invisible
+			System.out.println(   reset+"The total final cost of shipping your "+ packageShippingChargeArray.size() + " package(s) amounts to a Grand Total of: "+ green+ formatDoubleDollars.format(     thePrelim-(   thePrelim*THE_FREQUENT_SHIPPER_DISCOUNT   )      ) +" USD" +reset+ " deliverable as pounds of British Eurodollars"+reset); // Pounds of +invisible
 			// So it's actually this line that was driving me crazy // System.out.println(reset+" "+reset);
 			//return theGrandTotal;
 			// String grandTotal = this.grandTotal = theGrandTotal
@@ -200,7 +200,7 @@ public class Shipment {
 			System.out.println(reset+"You will also be receiving a frequent shipper bulk shipment discount in the amount of: "+ green+ formatDoubleDollars.format(THE_BULK_PACKAGE_DISCOUNT) +" USD"+reset); // Pounds of 
 			System.out.println(reset+" "+reset);
 			// double theFinalGrandTotalAggregateShipmentExpenses = getTheGrandTotal();
-			System.out.println(reset+"The total final cost of shipping your "+ packageShippingChargeArray.size() + " package(s) amounts to a Grand Total of: "+ green+ formatDoubleDollars.format(   (thePrelim-(thePrelim*THE_FREQUENT_SHIPPER_DISCOUNT))-THE_BULK_PACKAGE_DISCOUNT   ) +" USD" +reset+ " deliverable in pounds of British Eurodollars"+reset); // +invisible
+			System.out.println(reset+"The total final cost of shipping your "+ packageShippingChargeArray.size() + " package(s) amounts to a Grand Total of: "+ green+ formatDoubleDollars.format(   (thePrelim-(thePrelim*THE_FREQUENT_SHIPPER_DISCOUNT))-THE_BULK_PACKAGE_DISCOUNT   ) +" USD" +reset+ " deliverable as pounds of British Eurodollars"+reset); // +invisible
 			// So it's actually this line that was driving me crazy // System.out.println(reset+" "+reset);// System.out.println(reset+" "+reset);
 			//return theGrandTotal;
 			
@@ -215,7 +215,7 @@ public class Shipment {
 
 			System.out.println(reset+" "+reset);
 			// double theFinalGrandTotalAggregateShipmentExpenses = getTheGrandTotal();
-			System.out.println(reset+"The total final cost of shipping your "+ packageShippingChargeArray.size() + " package(s) amounts to a Grand Total of: "+ green+ formatDoubleDollars.format(   thePrelim   ) +" USD" +reset+ " deliverable in pounds of British Eurodollars"+reset); // +invisible // Pounds of 
+			System.out.println(reset+"The total final cost of shipping your "+ packageShippingChargeArray.size() + " package(s) amounts to a Grand Total of: "+ green+ formatDoubleDollars.format(   thePrelim   ) +" USD" +reset+ " deliverable as pounds of British Eurodollars"+reset); // +invisible // Pounds of deliverable in vs deliverable as
 			// So it's actually this line that was driving me crazy // System.out.println(reset+" "+reset);// System.out.println(reset+" "+reset);
 			//return theGrandTotal;
 			
