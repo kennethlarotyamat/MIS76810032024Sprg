@@ -21,6 +21,14 @@ import java.util.ArrayList;
 	return packageWeight while setPackageWeight() is taking 
 	the value given by the user and set it to the field packageWeight."
 		- Han-fen Hu, Ph.D (2024)
+
+I find this rather annoying. not the comment, but
+I spent all that time moving all that stuff from ParcelTerminalDemo into
+the Shipment class, and I was actually just supposed to keep it in the ParcelTerminalDemo class.
+
+nightmare
+
+it was the stuff related to the grand total, and the discounts. i moved it from ParcelTerminalDemo into shipment.java
 	
 */
 
@@ -174,7 +182,7 @@ public class Shipment {
 			System.out.println(   reset+"The preliminary cost of shipping your "+ packageShippingChargeArray.size() + " package(s) amounts to: "+ green+ formatDoubleDollars.format(   thePrelim   ) +" USD"+reset)   ;
 			System.out.println(    reset+"You will be receiving a frequent shipper discount in the amount of: "+ green+ formatDoubleDollars.format(        THE_FREQUENT_SHIPPER_DISCOUNT * thePrelim        ) +" USD"+reset     );
 			// double theBulkDiscountAmount = THE_BULK_PACKAGE_DISCOUNT;
-			System.out.println(reset+"You will also be receiving a frequent shipper bulk shipment discount in the amount of: "+ green+ (THE_BULK_PACKAGE_DISCOUNT) +" USD"+reset); // Pounds of 
+			System.out.println(reset+"You will also be receiving a frequent shipper bulk shipment discount in the amount of: "+ green+ formatDoubleDollars.format(THE_BULK_PACKAGE_DISCOUNT) +" USD"+reset); // Pounds of 
 			System.out.println(reset+" "+reset);
 			// double theFinalGrandTotalAggregateShipmentExpenses = getTheGrandTotal();
 			System.out.println(reset+"The total final cost of shipping your "+ packageShippingChargeArray.size() + " package(s) amounts to a Grand Total of: "+ green+ formatDoubleDollars.format(   (thePrelim-(thePrelim*THE_FREQUENT_SHIPPER_DISCOUNT))-THE_BULK_PACKAGE_DISCOUNT   ) +" USD" +reset+ " deliverable in pounds of British Eurodollars"+reset); // +invisible
