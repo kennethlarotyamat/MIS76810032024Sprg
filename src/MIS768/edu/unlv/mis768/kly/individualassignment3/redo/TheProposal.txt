@@ -1,0 +1,40 @@
+/*		
+		Author's Name: 		    	Kenneth Larot Yamat
+
+     	Purpose of Program:			To create a program that automatically creates
+									trading tickets for a security, for example, buy 
+									and sell orders for shares of an exchange traded fund.
+     						    	 
+  		Date Due:					March 4rd, 2024
+*/
+
+Project Proposal:		To create a program that automatically creates
+						trading tickets for a security, for example, buy 
+						and sell orders for shares of an exchange traded fund.
+
+A) Background and the needs:
+
+						This program is needed because there are many securities
+						that are difficult to trade because they are illiquid as
+						a result of large bid and ask spreads, or because they lack 
+						volume.
+						
+
+B) Function list:
+
+C) User interface (UI) design:
+
+D) Class diagram
+
+E) File and database design:
+
+F) Expectations of project fulfillment:
+	
+	a.
+	b.
+	c.
+	d.
+	e.
+	f.
+	g.
+	
