@@ -5,7 +5,7 @@
 									trading tickets for a security, for example, buy 
 									and sell orders for shares of an exchange traded fund.
      						    	 
-  		Date Due:					March 4rd, 2024
+  		Date Due:					11:59 PM on March 4rd, 2024
 */
 
 Project Proposal:		To create a program that automatically creates
