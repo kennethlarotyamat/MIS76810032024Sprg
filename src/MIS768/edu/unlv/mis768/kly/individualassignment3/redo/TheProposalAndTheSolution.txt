@@ -135,16 +135,17 @@
 															↓
 															↓
 [ExistingBidAskSpread] =========================> [UserTicketBuySellDistance] ===================> [Ticket]	==================>	[AutoTicket]
-															↑
-															↑
-															↑
-															↑
-[Current Volume] ==========================================>↑		
+															↑			↑
+															↑			↑
+															↑			↑
+															↑			↑
+[CurrentVolume] ==========================================>↑			↑
+																		↑
+																		↑
+[TimeHorizon] ===========================================================		
 		
-		
-		
-		
-		
+
+
 		
 		E) File and database design:
 		
@@ -186,7 +187,19 @@
 			
 				[AutoTicket] 			instantiates based on fulfillment of previous ticket.
 				
-			b.  [Controller Classes]
+			b.  [Controller Classes]		The Ticket.java class is the view class
+			
+											UserTicketBuySellDistance.java is the controller class, it sets
+												the limits for automatically generated tickets
+												these automatically generated distances are only suggestions,
+												and can ultimately be overridden by the user in the Ticket.java
+												class.
+												
+											AverageTrueRange.java BollingerBandWidth.java	AverageDirectionalIndex.java	 
+											ExistingBidAskSpread.java CurrentVolume.java TimeHorizon.java
+											are model classes that feed into the UserTicketBuySellDistance.java
+											controller class. these will be calculated, but the user will have the
+											ability to override these values.
 			
 			c. 	[GUI applications]
 			
