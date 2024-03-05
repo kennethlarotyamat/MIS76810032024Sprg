@@ -135,15 +135,15 @@
 															↓
 															↓
 [ExistingBidAskSpread] =========================> [UserTicketBuySellDistance] ===================> [Ticket]	==================>	[AutoTicket]
+	- bidAskSpread double									↑			↑					- ticketQuantity int			- sequenceMaximum 			int
+															↑			↑													- acquisitionPriceLimits	double
+															↑			↑													- disposalPriceLimits		double	
 															↑			↑
-															↑			↑
-															↑			↑
-															↑			↑
-[CurrentVolume] ==========================================>↑			↑
-																		↑
+[CurrentVolume] ===========================================>↑			↑
+	- currentVolume int 												↑
 																		↑
 [TimeHorizon] ===========================================================		
-		
+	- amountOfTime int	
 
 
 		
