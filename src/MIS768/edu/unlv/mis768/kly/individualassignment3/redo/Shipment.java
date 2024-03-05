@@ -15,12 +15,17 @@ import java.text.DecimalFormat;
 import java.util.ArrayList;
 
 /*
+	
+...
+	
 	Revision Notes:
 	
 	"Take getPackageWeight() for example, it should just 
 	return packageWeight while setPackageWeight() is taking 
 	the value given by the user and set it to the field packageWeight."
 		- Han-fen Hu, Ph.D (2024)
+
+...
 
 I find this rather annoying. not the comment, but
 I spent all that time moving all that stuff from ParcelTerminalDemo into
@@ -29,6 +34,16 @@ the Shipment class, and I was actually just supposed to keep it in the ParcelTer
 nightmare
 
 it was the stuff related to the grand total, and the discounts. i moved it from ParcelTerminalDemo into shipment.java
+
+...
+
+	"Everything I had done has to be done 
+	over; I was on the wrong track entirely, 
+	and after working hard most of that time: 
+	I'm still only at the beginning." 
+		- Gustave Flaubert
+
+...
 	
 */
 
