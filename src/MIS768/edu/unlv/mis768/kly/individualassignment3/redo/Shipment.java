@@ -46,7 +46,7 @@ it was the stuff related to the grand total, and the discounts. i moved it from 
 ...
 	
 */
-
+// illiquid // laborious // bollinger band // Bollinger Band // fulfillment
 public class Shipment {
 	DecimalFormat formatDoubleDollars = new DecimalFormat("0.00");
     String red = "\u001B[31m" + "\u001B[1m"; 		// set text color to red and bold.
