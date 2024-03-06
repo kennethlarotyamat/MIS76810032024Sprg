@@ -496,6 +496,90 @@ Type III - core business processes
 
 3: Artificial Intelligence (AI): Multidisciplinary Perspectives 
 
+			Two Types or goals
+				to perform specific tasks
+				to think like a human
+				
+			deep neural networks to improve AI, may not improve these tools.
+			realistic limits of AI, the - it's to serve as a tool, and move up the value chain - while using AI - 
+			the concept of AI replacing humans is a dated concept.
+			
+			Application domains 
+			The AI literature has identified several separate domains in which the technology can be applied: 
+			
+			Digital Imaging, 
+			Education, 
+				improve teacher effectiveness
+					tutoring systems
+					library users
+					library processes
+					intelligent narrative technologies 
+					staffing requirements
+				student engagement
+					game-based learning environments
+
+			Government, 
+			Healthcare,
+				medical informatics 
+				loopthink - limitation of medical AI-loopthink
+					type of implicit bias
+					which does not  perform correct reappraisal of information or revision
+					
+					Weak loopthink refers to the intrinsic inability of computer 
+						intelligence to redirect executive data flow because of its fixed internal 
+						hard writing, un-editable sectors of its operating system, or unalterable 
+						lines of its programme code. 
+
+					Strong loopthink refers to AI suppression 
+						due to internalisation of the ethical framework. 
+					
+				This is interesting - it seems to refer when the AI tool which should train itself in a way that improves itself
+			Manufacturing, 
+			Robotics and 
+			Supply Chain. 
+			
+			Data Visualizations
+			
+			Data Challenges
+				Disagreements about data standards creates challenges 
+					a cardiac imaging - there were - there was a need to standardize data across institutions
+				issues about transparency and reliability
+				interpretations of imagery proved to be an obstacle
+				the dimensionality obstacle
+			
+			Social Challenges
+				Unrealistic expectations
+				not
+				fear of job losses
+				fear of loss of participation in society
+				
+			Human cognitive flexibility
+				the ability to interpret unstructured data
+				
+				
+			SME - Society of Manufacturing Engineers
+			Small and midsize enterprises (SMEs)  
+				are businesses that have revenues, assets, or a number of employees below a certain 
+				threshold. Each country has its own definition of what constitutes a small and midsize enterprise.
+					- investopedia(2024)
+					
+			Critically, in subsets of these components, the data science may be handled independently,
+			for example by 
+			product or cloud suppliers, with different 
+			viewpoints. So the following question arises: how can the inferences 
+			delivered by different AI components be 
+			
+			integrated coherently when they may 
+			be based on 
+				different data, and subject to 
+				different ecosystem conventions 
+								(and the associated 
+				quality differences) (Walton, 2018a; Walton, 2018b)? 
+				
+			This question can be retitled as the discrimination problem
+				
+				
+
 
 
 

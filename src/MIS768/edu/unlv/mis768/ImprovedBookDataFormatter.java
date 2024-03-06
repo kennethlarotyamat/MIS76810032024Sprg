@@ -11,7 +11,7 @@ public class ImprovedBookDataFormatter {
 
 		// A Scanner object for getting input from the keyboard // Isomers
 		// exploitative // tweets // blog posts // devalue their // Artificial // Professionals // Multidisciplinary // Illnesses // "Isomers refer to compounds that have the same molecular formula but are structurally different."
-		// Inaccurate // interoperability
+		// independently // Monomers // internalisation // programme // loopthink // Loopthink // informatics // Healthcare // Inaccurate // interoperability // imagery
 		Scanner keyboard = new Scanner(System.in);
 		
 		// Prompt the user to enter the input file name
