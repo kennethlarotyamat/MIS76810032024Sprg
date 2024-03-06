@@ -151,6 +151,27 @@ public class Shipment {
 
 }
 
+
+
+
+/*
+
+Spira // Sloan // Duan et al. // regulatory // Regulatory
+
+
+
+
+
+
+
+
+
+
+
+*/
+
+
+
 // I'm going to perform a re-write of this program. I think that I might do a re-write of this program.
 // i don't know . it kind of depends on what time constrains I have to deal with these next few weeks.
 // right now I'm working on my MIS 764 paper, and this one article is taking basically an eternity

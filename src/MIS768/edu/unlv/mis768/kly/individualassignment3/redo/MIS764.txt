@@ -647,6 +647,19 @@ Type III - core business processes
 					"Gerbert, P., Reeves, M., Ransbotham, S., Kiron, D., & Spira, M. (2018). Global 
 					competition with AI in business: How China differs. MIT Sloan Management Review 
 					(July)." 					 
+					
+					
+		Legal and Regulatory Implications
+		
+				how to determine liability and accountability issues.
+				
+				fake news and misleading information
+				
+				Human Rights implications
+					the right not to be measured
+					not to participate or be used to train the AI models in question
+				
+				
 
 
 
