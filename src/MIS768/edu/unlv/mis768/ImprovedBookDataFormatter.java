@@ -90,80 +90,118 @@ public class ImprovedBookDataFormatter {
 						// the content of the data field is set to the price field
 						 aBook.setPrice(Double.parseDouble(content)); // to set the process
 					
-					// read the next line
+
 					line=inputFile.nextLine();
 				}
-				// write the content of the Book object
-				outputFile.println(aBook); // .getId() // outputFile.print(aBook.getId());
+
+				outputFile.println(aBook);
 				
 				
-// 				the backslash is called an escape character needs to add a backslash / I remember that there was something about file paths here, when there has to be double backslashes.				
-//							outputFile.print(",");
-//							outputFile.print(aBook.getAuthor());
-//							outputFile.print(",");
-//							outputFile.print(aBook.getTitle());
-//							outputFile.print(",");
-//							outputFile.print(aBook.getGenre());
-//							outputFile.print(",");
-//							outputFile.print(aBook.getPrice());
-//							outputFile.print("\n");
-				// I'm following along with the video, but rather than
-				// deleting the code, I'm just going to comment it out for now. D:\GitHub\MIS76810032024Sprg\src\MIS768\edu\improvedbooktestparttwo.csv
-				// I don't know why it's not showing up in eclipse, or not showing up right away.
-				// something about the file paths. I found them.
+
 			
 			
 			
 			}
 			
-			// read the next line // booktest.xml
-			/*
-			
-			i couldn't see the csv folder that was being created, it was being filtered out
-			so i removed all filters, and now I see everything. 
-			
-			D:\GitHub\MIS76810032024Sprg\src\MIS768\booktest.csv 
-																	// for whatever reason this doesn't seem to be showing up in my eclipse like in the video. in the class.
-																    // https://unlv.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=c65b75ac-c935-4946-bc8d-b117002f504a&start=0
-			
-			Please enter the name of the input file: booktest.xml
-			Exception in thread "main" java.io.FileNotFoundException: booktest.xml (The system cannot find the file specified)
-				at java.base/java.io.FileInputStream.open0(Native Method)
-				at java.base/java.io.FileInputStream.open(FileInputStream.java:213)
-				at java.base/java.io.FileInputStream.<init>(FileInputStream.java:152)
-				at java.base/java.util.Scanner.<init>(Scanner.java:645)
-				at edu.unlv.mis768.kly.individualassignment2.BookDataFormatter.main(BookDataFormatter.java:24)
-			
-			*/
+
 			line = inputFile.nextLine();
 
 			
 	}
-		// close the input file
+
 		inputFile.close();
-		// close the ouput file // whether // Walton // ecosystem
+
 		outputFile.close();
 	}
 
 
 	private static String generateOutputFileName(String inputFileName) {
-		String filename; // the resulting filename
-		
-		// find the position of period "."
+		String filename; 
 		int index = inputFileName.indexOf(".");
 		
-		// substring the file name, but add the file extension as csv
-		filename = inputFileName.substring(0, index+1)+"csv"; // index, // filename = inputFileName.substring(0,index, index+1)+"csv";
-		/*
-					Multiple markers at this line
-					- The method substring(int, int) in the type String is not applicable for the arguments (int, int, int)
-					- The method substring(int, int) in the type String is not applicable for the arguments (int, int, int)
-		*/
+
+		filename = inputFileName.substring(0, index+1)+"csv";
+
 		
 		return filename;
 	}
 
 }
+
+
+
+// read the next line
+
+// write the content of the Book object
+
+// .getId() // outputFile.print(aBook.getId());
+//	the backslash is called an escape character needs to add a backslash / I remember that there was something about file paths here, when there has to be double backslashes.				
+//outputFile.print(",");
+//outputFile.print(aBook.getAuthor());
+//outputFile.print(",");
+//outputFile.print(aBook.getTitle());
+//outputFile.print(",");
+//outputFile.print(aBook.getGenre());
+//outputFile.print(",");
+//outputFile.print(aBook.getPrice());
+//outputFile.print("\n");
+// I'm following along with the video, but rather than
+// deleting the code, I'm just going to comment it out for now. D:\GitHub\MIS76810032024Sprg\src\MIS768\edu\improvedbooktestparttwo.csv
+// I don't know why it's not showing up in eclipse, or not showing up right away.
+// something about the file paths. I found them.
+
+// read the next line // booktest.xml
+/*
+
+Uber
+
+Module 1 													Vicky
+Module 2													Kelly
+Module 3 													Kenneth
+Module 4 													Group Paper
+
+i couldn't see the csv folder that was being created, it was being filtered out
+so i removed all filters, and now I see everything. 
+
+D:\GitHub\MIS76810032024Sprg\src\MIS768\booktest.csv 
+														// for whatever reason this doesn't seem to be showing up in my eclipse like in the video. in the class.
+													    // https://unlv.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=c65b75ac-c935-4946-bc8d-b117002f504a&start=0
+
+Please enter the name of the input file: booktest.xml
+Exception in thread "main" java.io.FileNotFoundException: booktest.xml (The system cannot find the file specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:213)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:152)
+	at java.base/java.util.Scanner.<init>(Scanner.java:645) // init
+	at edu.unlv.mis768.kly.individualassignment2.BookDataFormatter.main(BookDataFormatter.java:24) // init
+	
+	Patnaik, D. (2024, February 11). Why Microtribes Are Wrecking Company Growth Plans. Forbes. https://www.forbes.com/sites/devpatnaik/2024/02/11/why-microtribes-are-wrecking-company-growth-plans/?sh=3307ddba509c
+
+
+	Norfolk Southern Corporation. (2024). Form 10-K Annual Report. U.S. Securities and Exchange Commission. https://www.sec.gov/ixviewer/ix.html?doc=/Archives/edgar/ data/702165/000070216524000005/nsc-20231231.htm
+
+
+	The Boeing Company. (2024). Form 10-K Annual Report. U.S. Securities and Exchange Commission. https://www.sec.gov/ixviewer/ix.html?doc=/Archives/edgar/data/12927/000001292724000010/ba-20231231.htm
+
+
+
+*/
+
+// close the input file
+// close the ouput file // whether // Walton // ecosystem
+// the resulting filename
+
+// find the position of period "."
+
+
+// substring the file name, but add the file extension as csv
+// index, // filename = inputFileName.substring(0,index, index+1)+"csv";
+/*
+Multiple markers at this line
+- The method substring(int, int) in the type String is not applicable for the arguments (int, int, int)
+- The method substring(int, int) in the type String is not applicable for the arguments (int, int, int)
+*/
+
 
 
 /* 
