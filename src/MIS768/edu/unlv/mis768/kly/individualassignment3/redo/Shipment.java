@@ -154,7 +154,8 @@ public class Shipment {
 // I'm going to perform a re-write of this program. I think that I might do a re-write of this program.
 // i don't know . it kind of depends on what time constrains I have to deal with these next few weeks.
 // right now I'm working on my MIS 764 paper, and this one article is taking basically an eternity
-// to get through.
+// to get through. I don't even want to think about how many hours I've been listening to the browser read
+// this article to me. Forever. forever. it has taken forever. it is taking forever. I'm tired.
 
 // set text color to red and bold.
 // resets the text color to default text color
