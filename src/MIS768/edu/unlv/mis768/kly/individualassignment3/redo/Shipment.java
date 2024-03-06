@@ -155,9 +155,7 @@ public class Shipment {
 			System.out.println(reset+" "+reset);
 			// double theFinalGrandTotalAggregateShipmentExpenses = getTheGrandTotal();
 			System.out.println(   reset+"The total final cost of shipping your "+ packageShippingChargeArray.size() + " package(s) amounts to a Grand Total of: "+ green+ formatDoubleDollars.format(     thePrelim-(   thePrelim*THE_FREQUENT_SHIPPER_DISCOUNT   )      ) +" USD" +reset+ " deliverable as pounds of British Eurodollars"+reset);
-			// So it's actually this line that was driving me crazy // System.out.println(reset+" "+reset);
-			//return theGrandTotal;
-			// String grandTotal = this.grandTotal = theGrandTotal
+
 			
 			
 		} else if ((theFreqShipIdenNum != 0) && ((thePrelim - (thePrelim * THE_FREQUENT_SHIPPER_DISCOUNT)) >= 300)) {
@@ -169,8 +167,7 @@ public class Shipment {
 
 			System.out.println(
 					reset + "You will also be receiving a frequent shipper bulk shipment discount in the amount of: "
-							+ green + formatDoubleDollars.format(THE_BULK_PACKAGE_DISCOUNT) + " USD" + reset); // Pounds
-																												// of
+							+ green + formatDoubleDollars.format(THE_BULK_PACKAGE_DISCOUNT) + " USD" + reset); 
 			System.out.println(reset + " " + reset);
 
 			System.out.println(reset + "The total final cost of shipping your " + packageShippingChargeArray.size()
@@ -205,84 +202,100 @@ public class Shipment {
 	}
 
 }
+// So it's actually this line that was driving me crazy //
+// System.out.println(reset+" "+reset);
+// return theGrandTotal;
+// String grandTotal = this.grandTotal = theGrandTotal
 
-// Pounds of +invisible // +invisible // Pounds of deliverable in vs deliverable as  // +invisible
+// Pounds
+// of
+// Pounds of +invisible // +invisible // Pounds of deliverable in vs deliverable
+// as // +invisible
 
 // double theBulkDiscountAmount = THE_BULK_PACKAGE_DISCOUNT;
 // double theFinalGrandTotalAggregateShipmentExpenses = getTheGrandTotal();
-// So it's actually this line that was driving me crazy // System.out.println(reset+" "+reset);// System.out.println(reset+" "+reset);
-//return theGrandTotal;
+// So it's actually this line that was driving me crazy //
+// System.out.println(reset+" "+reset);// System.out.println(reset+" "+reset);
+// return theGrandTotal;
 
- /* 
-		I'm having a hard time. I'm always having a hard time. when does that ever change?
+/*
+ * I'm having a hard time. I'm always having a hard time. when does that ever
+ * change?
  */
 
 // theGrandTotal = getThePreliminaryGrandTotal(); // .xml
 
 // double theFinalGrandTotalAggregateShipmentExpenses = getTheGrandTotal();
 
-// So it's actually this line that was driving me crazy // System.out.println(reset+" "+reset);// System.out.println(reset+" "+reset);
-//return theGrandTotal;
+// So it's actually this line that was driving me crazy //
+// System.out.println(reset+" "+reset);// System.out.println(reset+" "+reset);
+// return theGrandTotal;
 
 // I'm a little irritated. It finally works. but it's taken forever.
 // thankYou = "thank You for shipping"
 // theGrandTotal = theGrandTotal;
 
-
-// System.out.println(reset + brown + "Chestnut" + red + " + " + green + "Hazel's" + reset + " Parcel Service cannot accept packages exceeding 120 American Pounds in weight." + reset);
-//  = "Thank you for shipping your packages with"brown+ "Chestnut" + Hazel's Parcel Services"  	    	
-// System.out.println(reset + brown + "Chestnut" + red + " + " + green + "Hazel's" + reset + 
-// " Parcel Service cannot accept packages exceeding 120 American Pounds in weight." + reset);
-
+// System.out.println(reset + brown + "Chestnut" + red + " + " + green +
+// "Hazel's" + reset + " Parcel Service cannot accept packages exceeding 120
+// American Pounds in weight." + reset);
+// = "Thank you for shipping your packages with"brown+ "Chestnut" + Hazel's
+// Parcel Services"
+// System.out.println(reset + brown + "Chestnut" + red + " + " + green +
+// "Hazel's" + reset +
+// " Parcel Service cannot accept packages exceeding 120 American Pounds in
+// weight." + reset);
 
 // public double getTheGrandTotal() {}
-// it didn't work after - i basically moved it from ParcelTerminalDemo to Shipment.java, it didn't work the first time 
+// it didn't work after - i basically moved it from ParcelTerminalDemo to
+// Shipment.java, it didn't work the first time
 // I'm going to try it again.
 
-// return getThePreliminaryGrandTotal()-(getThePreliminaryGrandTotal() * THE_FREQUENT_SHIPPER_DISCOUNT);
-// return ((getThePreliminaryGrandTotal()- (getThePreliminaryGrandTotal() * THE_FREQUENT_SHIPPER_DISCOUNT)) - THE_BULK_PACKAGE_DISCOUNT);
+// return getThePreliminaryGrandTotal()-(getThePreliminaryGrandTotal() *
+// THE_FREQUENT_SHIPPER_DISCOUNT);
+// return ((getThePreliminaryGrandTotal()- (getThePreliminaryGrandTotal() *
+// THE_FREQUENT_SHIPPER_DISCOUNT)) - THE_BULK_PACKAGE_DISCOUNT);
 // return theGrandTotal;
-//		} else if (theFreqShipIdenNum != 0 && getThePreliminaryGrandTotal() >= 300 ) {
+// } else if (theFreqShipIdenNum != 0 && getThePreliminaryGrandTotal() >= 300 )
+// {
 
-
-
-
-
-//int 	theFrequentShipperIdentificationNumber;
-//System.out.print(reset+"Please enter your frequent shipper identification number: " + green);
-//theFrequentShipperIdentificationNumber = keyboard.nextInt();
+// int theFrequentShipperIdentificationNumber;
+// System.out.print(reset+"Please enter your frequent shipper identification
+// number: " + green);
+// theFrequentShipperIdentificationNumber = keyboard.nextInt();
 //// int // packageShippingChargeArrayLength =0;
-//int packageShippingChargeArrayLength = packageShippingChargeArray.Length;
-//System.out.println("You are shipping a total of "+ +); // packageShippingChargeArray.length; packageShippingChargeArray.length
+// int packageShippingChargeArrayLength = packageShippingChargeArray.Length;
+// System.out.println("You are shipping a total of "+ +); //
+// packageShippingChargeArray.length; packageShippingChargeArray.length
 // return theInvoiceStatement;
 // if (theFrequentShipperIdentificationNumber !=0) {
-	
-// good lord. i thought that I was almost done here, but. I really feel like this is going to take
+
+// good lord. i thought that I was almost done here, but. I really feel like
+// this is going to take
 // yet another eternity.}
 // return theInvoiceStatement;
-//public String getTheInvoiceStatement() {
-//	
-////	int 	theFrequentShipperIdentificationNumber;
-////	System.out.print(reset+"Please enter your frequent shipper identification number: " + green);
-////	theFrequentShipperIdentificationNumber = keyboard.nextInt();
-////	// int // packageShippingChargeArrayLength =0;
-////	int packageShippingChargeArrayLength = packageShippingChargeArray.Length;
-////	System.out.println("You are shipping a total of "+ +); // packageShippingChargeArray.length; packageShippingChargeArray.length
-//	
-//	return theInvoiceStatement;
-//	// return theInvoiceStatement;
-//	// if (theFrequentShipperIdentificationNumber !=0) {
-//		
-//	// good lord. i thought that I was almost done here, but. I really feel like this is going to take
-//	// yet another eternity.}
-//	// return theInvoiceStatement;
-//}
-//public void setTheInvoiceStatement(String theInvoice) {
-//	this.theInvoiceStatement = theInvoiceStatement;
-//}
-
-
-
+// public String getTheInvoiceStatement() {
+//
+//// int theFrequentShipperIdentificationNumber;
+//// System.out.print(reset+"Please enter your frequent shipper identification
+// number: " + green);
+//// theFrequentShipperIdentificationNumber = keyboard.nextInt();
+//// // int // packageShippingChargeArrayLength =0;
+//// int packageShippingChargeArrayLength = packageShippingChargeArray.Length;
+//// System.out.println("You are shipping a total of "+ +); //
+// packageShippingChargeArray.length; packageShippingChargeArray.length
+//
+// return theInvoiceStatement;
+// // return theInvoiceStatement;
+// // if (theFrequentShipperIdentificationNumber !=0) {
+//
+// // good lord. i thought that I was almost done here, but. I really feel like
+// this is going to take
+// // yet another eternity.}
+// // return theInvoiceStatement;
+// }
+// public void setTheInvoiceStatement(String theInvoice) {
+// this.theInvoiceStatement = theInvoiceStatement;
+// }
 
 // Frequent shipper
 // Total package(s) being shipped
@@ -290,98 +303,113 @@ public class Shipment {
 // Frequent shipper discount
 // Bulk shipment discount
 /*
-
-				"The following symbols are used in reporting and recording graduate student grades:
-				
-				A		Superior (4.0)
-				B  		Passing (3.0)
-				C   	Average (2.0)
-				D		Below Average (1.0)
-				F		Failing
-				
-				AD		Audit (not graded, no credit toward GPA)
-				I   	Incomplete (expires after one year; if not grade is submitted in that time-frame, the ‘I’ will default to an ‘F’ grade)
-				
-				S  		Satisfactory
-				
-				X		Hold: Grade is submitted upon completion of Thesis or Dissertation or Professional Paper
-						Note: Faculty members have the option of using plus (+) and minus (-) for grades of A, B, C, and D. Exception: A+ grades are not given. 
-						At the graduate level, grades below a B are generally considered unacceptable. Graduate students must have a 3.0 GPA in order to qualify for graduation." - UNLV
-		
-		What a nightmare. So the highest possible grade I can obtain in the course is a C, but it's not clear to me. As a graduate student, if I would get a 2, or a 0.
-		I would rather get a C than audit the class.
-
-
-
-*/
+ * 
+ * "The following symbols are used in reporting and recording graduate student
+ * grades:
+ * 
+ * A Superior (4.0)
+ * B Passing (3.0)
+ * C Average (2.0)
+ * D Below Average (1.0)
+ * F Failing
+ * 
+ * AD Audit (not graded, no credit toward GPA)
+ * I Incomplete (expires after one year; if not grade is submitted in that
+ * time-frame, the ‘I’ will default to an ‘F’ grade)
+ * 
+ * S Satisfactory
+ * 
+ * X Hold: Grade is submitted upon completion of Thesis or Dissertation or
+ * Professional Paper
+ * Note: Faculty members have the option of using plus (+) and minus (-) for
+ * grades of A, B, C, and D. Exception: A+ grades are not given.
+ * At the graduate level, grades below a B are generally considered
+ * unacceptable. Graduate students must have a 3.0 GPA in order to qualify for
+ * graduation." - UNLV
+ * 
+ * What a nightmare. So the highest possible grade I can obtain in the course is
+ * a C, but it's not clear to me. As a graduate student, if I would get a 2, or
+ * a 0.
+ * I would rather get a C than audit the class.
+ * 
+ * 
+ * 
+ */
 /*
-
-After all the packages are entered, the program will prompt the users to enter if they have “frequent-shipper” numbers; 
-if so, a 5% discount will be applied to the shipping cost. If the total amount after the frequent-shipper discount is greater than $300, 
-an additional “bulk package” discount of $20 off would be applied. The program shows the total number of packages to ship, subtotal 
-before discount, frequent-shipper discount if applied, bulk package discount if applied, and the grand total.
-
-
-*/
-
-/*
-
-...
-	
-	Revision Notes:
-	
-	"Take getPackageWeight() for example, it should just 
-	return packageWeight while setPackageWeight() is taking 
-	the value given by the user and set it to the field packageWeight."
-		- Han-fen Hu, Ph.D (2024)
-
-...
-
-I find this rather annoying. not the comment, but
-I spent all that time moving all that stuff from ParcelTerminalDemo into
-the Shipment class, and I was actually just supposed to keep it in the ParcelTerminalDemo class.
-
-nightmare
-
-it was the stuff related to the grand total, and the discounts. i moved it from ParcelTerminalDemo into shipment.java
-
-...
-
-	"Everything I had done has to be done 
-	over; I was on the wrong track entirely, 
-	and after working hard most of that time: 
-	I'm still only at the beginning." 
-		- Gustave Flaubert
-
-...
-	
-*/
-// illiquid // laborious // bollinger band // Bollinger Band // fulfillment // preferred // miscellaneous
+ * 
+ * After all the packages are entered, the program will prompt the users to
+ * enter if they have “frequent-shipper” numbers;
+ * if so, a 5% discount will be applied to the shipping cost. If the total
+ * amount after the frequent-shipper discount is greater than $300,
+ * an additional “bulk package” discount of $20 off would be applied. The
+ * program shows the total number of packages to ship, subtotal
+ * before discount, frequent-shipper discount if applied, bulk package discount
+ * if applied, and the grand total.
+ * 
+ * 
+ */
 
 /*
-   
-kennethsAvailability
+ * 
+ * ...
+ * 
+ * Revision Notes:
+ * 
+ * "Take getPackageWeight() for example, it should just
+ * return packageWeight while setPackageWeight() is taking
+ * the value given by the user and set it to the field packageWeight."
+ * - Han-fen Hu, Ph.D (2024)
+ * 
+ * ...
+ * 
+ * I find this rather annoying. not the comment, but
+ * I spent all that time moving all that stuff from ParcelTerminalDemo into
+ * the Shipment class, and I was actually just supposed to keep it in the
+ * ParcelTerminalDemo class.
+ * 
+ * nightmare
+ * 
+ * it was the stuff related to the grand total, and the discounts. i moved it
+ * from ParcelTerminalDemo into shipment.java
+ * 
+ * ...
+ * 
+ * "Everything I had done has to be done
+ * over; I was on the wrong track entirely,
+ * and after working hard most of that time:
+ * I'm still only at the beginning."
+ * - Gustave Flaubert
+ * 
+ * ...
+ * 
+ */
+// illiquid // laborious // bollinger band // Bollinger Band // fulfillment //
+// preferred // miscellaneous
 
-	if (  1200AM =< time  && time =< 600PM ) {
-	system.out.println(the meeting can take place in person)
-	} else if (time =< 1200AM && time =< 600AM) {
-	System.out.println (the meeting can take place virtually or online)
-	} else {
-	System.out.prinntline (the meeting cannot take place)
-	}
-
-hanfenHuPhdsAvailability
-
-	if (time == officeHours && location == online) {
-	system.out.println( the meeting can take place)
-	} else {
-	System.out.println ( the meeting cannot take place)
-	}
-
-willKennethMeetHanfenHu {
-	System.out.println ( the meeting cannot take place)
-	}
-
-*/
+/*
+ * 
+ * kennethsAvailability
+ * 
+ * if ( 1200AM =< time && time =< 600PM ) {
+ * system.out.println(the meeting can take place in person)
+ * } else if (time =< 1200AM && time =< 600AM) {
+ * System.out.println (the meeting can take place virtually or online)
+ * } else {
+ * System.out.prinntline (the meeting cannot take place)
+ * }
+ * 
+ * hanfenHuPhdsAvailability
+ * 
+ * if (time == officeHours && location == online) {
+ * system.out.println( the meeting can take place)
+ * } else {
+ * System.out.println ( the meeting cannot take place)
+ * }
+ * 
+ * willKennethMeetHanfenHu {
+ * System.out.println ( the meeting cannot take place)
+ * }
+ * 
+ */
 
 // investopedia // midsize
