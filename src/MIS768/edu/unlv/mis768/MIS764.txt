@@ -600,6 +600,8 @@ Type III - core business processes
 			Amazon
 			
 			Uber
+			
+		Value of AI should be highest when it reaches maturity - unlikely to be comoditized - meaning standardized product or indistinguishable from other AI products.
 
 
 

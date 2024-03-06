@@ -67,6 +67,7 @@ public class ImprovedBookDataFormatter {
 				while (!line.contains("</book>")){
 					
 					//find the position of > the indicates the beginning of the data field
+					// unlikley // Value of AI should be highest when it reaches maturity - unlikely to be comoditized - meaning standardized product or indistinguishable from other AI products.
 					startPosition =line.indexOf(">")+1;
 					//find the position of < the indicates the beginning of the data field
 					endPosition = line.lastIndexOf("<");
