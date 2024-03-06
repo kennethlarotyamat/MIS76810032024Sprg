@@ -678,82 +678,23 @@ Carlo, J. L., Gaskin, J., Lyytinen, K., & Rose, G. M. (2014). Early vs. late ado
 
 Lyytinen, K., & Rose, G. M. (2003). The disruptive nature of information technology innovations: The case of internet computing in systems development organizations. MIS Quarterly, 27(4), 557-595. https://doi.org/10.2307/30036549
 
-
 Benbya, H., Pachidi, S., & Jarvenpaa, S. (2021). Special Issue Editorial: Artificial Intelligence in Organizations: Implications for Information Systems Research. Journal of the Association for Information Systems, 22(2), 281-303. https://doi.org/10.17705/1jais.00662
-
 
 Paschen, U., Pitt, C., & Kietzmann, J. (2020). Artificial intelligence: Building blocks and an innovation typology. Business Horizons, 63, 147-155. https://doi.org/10.1016/j.bushor.2019.10.004
 
-
 Dwivedi, Y. K., Hughes, L., Ismagilova, E., Aarts, G., Coombs, C., Crick, T., ... Williams, M. D. (2021). Artificial Intelligence (AI): Multidisciplinary perspectives on emerging challenges, opportunities, and agenda for research, practice and policy. International Journal of Information Management, 57, 101994. https://doi.org/10.1016/j.ijinfomgt.2019.08.002
-
 
 Borges, A. F. S., Laurindo, F. J. B., Spínola, M. M., Gonçalves, R. F., & Mattos, C. A. (2021). The strategic use of artificial intelligence in the digital era: Systematic literature review and future research directions. International Journal of Information Management, 57, 102225. https://doi.org/10.1016/j.ijinfomgt.2020.102225
 
 Anderson, C., & Robey, D. (2017). Affordance potency: Explaining the actualization of technology affordances. Information and Organization, 27(2), 100-115. https://doi.org/10.1016/j.infoandorg.2017.03.002
+
 Jablonka, K. M., Schwaller, P., Ortega-Guerrero, A., & Smit, B. (2024). Leveraging large language models for predictive chemistry. Nature Machine Intelligence. https://doi.org/10.1038/s42256-023-00788-1
-
-
 
 Patnaik, D. (2024, February 11). Why Microtribes Are Wrecking Company Growth Plans. Forbes. https://www.forbes.com/sites/devpatnaik/2024/02/11/why-microtribes-are-wrecking-company-growth-plans/?sh=3307ddba509c
 
-
-
 Norfolk Southern Corporation. (2024). Form 10-K Annual Report. U.S. Securities and Exchange Commission. https://www.sec.gov/ixviewer/ix.html?doc=/Archives/edgar/ data/702165/000070216524000005/nsc-20231231.htm
 
-
-
 The Boeing Company. (2024). Form 10-K Annual Report. U.S. Securities and Exchange Commission. https://www.sec.gov/ixviewer/ix.html?doc=/Archives/edgar/data/12927/000001292724000010/ba-20231231.htm
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Annotations
-
-Testing the presentation - tested inserting videos - creating charts - creating diagrams - 
-
-Created slides 21 - 24 - subsequently deleted.
-
-
-Updated Module paper 3, just the references page
-
-I came across an interesting scholarly article that I want to read, and cite in this paper
-So i am skipping to 3.3 of the module 3 paper
-
-
-
-Article Read Aloud Set up Area
-
-– this was basically useless, you can’t print a pdf that has read aloud enabled, a document has to be downloaded, not printed – as a pdf in order for it to be read aloud enabled
-
-
-
-
-
-
-
-
-
 
 
 

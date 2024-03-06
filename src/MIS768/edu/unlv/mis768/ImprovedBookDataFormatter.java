@@ -145,12 +145,7 @@ public class ImprovedBookDataFormatter {
 		outputFile.close();
 	}
 
-	/**
-	 * This method receives a file name, take the file extension out and 
-	 * add csv as the file extension
-	 * @param inputFileName 
-	 * @return outputFileName with csv file extension
-	 */
+
 	private static String generateOutputFileName(String inputFileName) {
 		String filename; // the resulting filename
 		
@@ -170,14 +165,43 @@ public class ImprovedBookDataFormatter {
 
 }
 
-// int index = inputFileName.indexof(".");
-// filename = inputFile.substring(0,index, index+1)+"csv";
 
-/**
- * 
- Day workDay = Day.WEDNESDAY;
+/* 
+   
+   This method receives a file name, take the file extension out and 
+   add csv as the file extension
+   @param inputFileName 
+  
+   @return outputFileName with csv file extension
  
- Day.SUNDAY
+  
+ */
+
+
+/*
+ 
+Article Read Aloud Set up Area
+
+– this was basically useless, you can’t print a pdf that has read aloud enabled, a document has to be downloaded, not printed – as a pdf in order for it to be read aloud enabled
+
+Annotations
+
+Testing the presentation - tested inserting videos - creating charts - creating diagrams - 
+
+Created slides 21 - 24 - subsequently deleted.
+
+
+Updated Module paper 3, just the references page
+
+I came across an interesting scholarly article that I want to read, and cite in this paper
+So i am skipping to 3.3 of the module 3 paper
+
+int index = inputFileName.indexof(".");
+filename = inputFile.substring(0,index, index+1)+"csv"; 
+ 
+Day workDay = Day.WEDNESDAY;
+ 
+Day.SUNDAY
 Day.MONDAY
 A The workDay variable holds the address of the Day. WEDNESDAY object
 address
@@ -187,16 +211,14 @@ Day. THURSDAY
 Day. FRIDAY
 Day.SATURDAY
 
- *
- */
-//*/
+ 
 /*  
  
 This is from an email from TradingView
 
 <img src="https://ci3.googleusercontent.com/meips/ADKq_NYkzQRDTKogy9d9UFq5TYpDUPR5oK8Hdp7VA7JsO8H4LheyWokeiKTv8WDZTOjML5-L4of7gdZjWsg-vWhaiCB5smZGa9zX9HudEA9RAnL0ISpVd4BIZb_s-g17-JO8_WhMdMtJAg=s0-d-e1-ft#https://mpics.tradingview.com/pics/welcome%20funnel/welcome_funnel2023_03_01.gif" width="600" alt="Multi chart function" style="border:1px solid #e0e3eb;border-radius:12px;width:600px" class="CToWUd a6T" data-bit="iit" tabindex="0">
 
-
+what a nightmare. it's already Wednesday, a nightmare. 03/06/2024
 
  */
 
