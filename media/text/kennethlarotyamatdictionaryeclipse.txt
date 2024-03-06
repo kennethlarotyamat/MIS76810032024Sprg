@@ -98,3 +98,7 @@ uber
 commoditized
 investopedia
 midsize
+Typology
+Amazon Alexa
+Alexa
+alexa

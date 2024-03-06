@@ -27,7 +27,8 @@ public class ImprovedBookDataFormatter {
 	    // A Scanner object for getting input from the file
 		Scanner inputFile = new Scanner(file);
 		// A PrintWriter object for writing output to a file, created with outputFileName 
-		//   specified by the user
+		// Commoditized  // commoditized // Commoditized  //   specified by the user // commoditized 
+
 		PrintWriter outputFile = new PrintWriter(outputFileName);
 		
 		keyboard.close();
