@@ -47,6 +47,33 @@ it was the stuff related to the grand total, and the discounts. i moved it from 
 	
 */
 // illiquid // laborious // bollinger band // Bollinger Band // fulfillment // preferred // miscellaneous
+
+/*
+   
+kennethsAvailability
+
+	if (  1200AM =< time  && time =< 600PM ) {
+	system.out.println(the meeting can take place in person)
+	} else if (time =< 1200AM && time =< 600AM) {
+	System.out.println (the meeting can take place virtually or online)
+	} else {
+	System.out.prinntline (the meeting cannot take place)
+	}
+
+hanfenHuPhdsAvailability
+
+	if (time == officeHours && location == online) {
+	system.out.println( the meeting can take place)
+	} else {
+	System.out.println ( the meeting cannot take place)
+	}
+
+willKennethMeetHanfenHu {
+	System.out.println ( the meeting cannot take place)
+	}
+
+*/
+
 public class Shipment {
 	DecimalFormat formatDoubleDollars = new DecimalFormat("0.00");
     String red = "\u001B[31m" + "\u001B[1m"; 		// set text color to red and bold.
