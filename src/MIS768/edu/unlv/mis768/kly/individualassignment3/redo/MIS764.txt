@@ -751,10 +751,10 @@ Type III - core business processes
 				a certain way, rather than verbally. Existing machine learning models simulate 
 				molecular structures in an abstract way, rather than verbally, the approach used in 
 				this paper, by these researchers, describes chemicals verbally
-				The GPT 3 LLM was compared with a gaussian process regression mlm
+				The GPT 3 LLM was compared with a gaussian process regression MLM
 				
 				Reflections:	this was a really interesting article - one of the things that I’m wondering is: if copyright 
-				protection isn’t or cannot be granted to ai generated text or ai generated artwork, will patents also not be granted to ai generated chemicals? Or AI generated medicines or Pharmaceuticals? Or ai generated chemical compounds.
+				protection isn’t or cannot be granted to AI generated text or ai generated artwork, will patents also not be granted to ai generated chemicals? Or AI generated medicines or Pharmaceuticals? Or ai generated chemical compounds.
 				AI is already used to create novel chemical structures, however, the prevailing AI tools 
 				used for the purpose of generating novel chemical structures are Machine learning 
 				models, rather than large language models, this research paper approaches 
@@ -769,6 +769,10 @@ Type III - core business processes
 	
 	
 4: Strategic Use Of AI
+
+				Analytical tools for business strategy
+					used a tool to review customer reviews on Yelp and similar websites
+					and drafted a business strategy or business proposals
 				
 				
 

@@ -156,8 +156,10 @@ public class Shipment {
 
 /*
 
-// gpt // gaussian // Gaussian // pretrained // dispersant // Artificial // Blockchain // Han-fen Hu // Spira // Sloan // Duan et al. // regulatory // Regulatory // Affordances // paradigms
+I'm using this area to add words to the dictionary.
 
+// website // websites // gpt // gaussian // Gaussian // pretrained // dispersant // Artificial // Blockchain // Han-fen Hu // Spira // Sloan // Duan et al. // regulatory // Regulatory // Affordances // paradigms
+// Jablonka, K. M., Schwaller, P., Ortega-Guerrero, A., & Smit, B. (2024).
 
 
 
