@@ -9,7 +9,7 @@ public class ImprovedBookDataFormatter {
 
 	public static void main(String[] args) throws IOException {
 
-		// A Scanner object for getting input from the keyboard // Isomers
+		// incumbents // incumbents // incumbents // encroachment // A Scanner object for getting input from the keyboard // Isomers
 		// exploitative // tweets // blog posts // devalue their // Artificial // Professionals // Multidisciplinary // Illnesses // "Isomers refer to compounds that have the same molecular formula but are structurally different."
 		// independently // Monomers // internalisation // programme // loopthink // Loopthink // informatics // Healthcare // Inaccurate // interoperability // imagery
 		Scanner keyboard = new Scanner(System.in);
@@ -27,7 +27,7 @@ public class ImprovedBookDataFormatter {
 	    // A Scanner object for getting input from the file
 		Scanner inputFile = new Scanner(file);
 		// A PrintWriter object for writing output to a file, created with outputFileName 
-		// Commoditized  // commoditized // Commoditized  //   specified by the user // commoditized 
+		// Commoditized  // commoditized // Commoditized  //   specified by the user // commoditized // incumbents
 
 		PrintWriter outputFile = new PrintWriter(outputFileName);
 		
