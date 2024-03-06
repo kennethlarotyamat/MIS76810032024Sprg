@@ -110,3 +110,5 @@ overused
 ransbotham
 kiron
 gerbert
+midsize
+investopedia

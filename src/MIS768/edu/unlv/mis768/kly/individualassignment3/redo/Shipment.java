@@ -14,65 +14,6 @@ import java.text.DecimalFormat;
 // apperance of my program, but the code looks funny so I won't be doing that here. // import java.text.DecimalFormat;
 import java.util.ArrayList;
 
-/*
-	
-...
-	
-	Revision Notes:
-	
-	"Take getPackageWeight() for example, it should just 
-	return packageWeight while setPackageWeight() is taking 
-	the value given by the user and set it to the field packageWeight."
-		- Han-fen Hu, Ph.D (2024)
-
-...
-
-I find this rather annoying. not the comment, but
-I spent all that time moving all that stuff from ParcelTerminalDemo into
-the Shipment class, and I was actually just supposed to keep it in the ParcelTerminalDemo class.
-
-nightmare
-
-it was the stuff related to the grand total, and the discounts. i moved it from ParcelTerminalDemo into shipment.java
-
-...
-
-	"Everything I had done has to be done 
-	over; I was on the wrong track entirely, 
-	and after working hard most of that time: 
-	I'm still only at the beginning." 
-		- Gustave Flaubert
-
-...
-	
-*/
-// illiquid // laborious // bollinger band // Bollinger Band // fulfillment // preferred // miscellaneous
-
-/*
-   
-kennethsAvailability
-
-	if (  1200AM =< time  && time =< 600PM ) {
-	system.out.println(the meeting can take place in person)
-	} else if (time =< 1200AM && time =< 600AM) {
-	System.out.println (the meeting can take place virtually or online)
-	} else {
-	System.out.prinntline (the meeting cannot take place)
-	}
-
-hanfenHuPhdsAvailability
-
-	if (time == officeHours && location == online) {
-	system.out.println( the meeting can take place)
-	} else {
-	System.out.println ( the meeting cannot take place)
-	}
-
-willKennethMeetHanfenHu {
-	System.out.println ( the meeting cannot take place)
-	}
-
-*/
 
 public class Shipment {
 	DecimalFormat formatDoubleDollars = new DecimalFormat("0.00");
@@ -257,84 +198,72 @@ public class Shipment {
 		//  = "Thank you for shipping your packages with"brown+ "Chestnut" + Hazel's Parcel Services"  	    	
 		// System.out.println(reset + brown + "Chestnut" + red + " + " + green + "Hazel's" + reset + 
 		// " Parcel Service cannot accept packages exceeding 120 American Pounds in weight." + reset);		
-														
+
 	}
-	// public double getTheGrandTotal() {}
-	// it didn't work after - i basically moved it from ParcelTerminalDemo to Shipment.java, it didn't work the first time 
-	// I'm going to try it again.
-	
-	// return getThePreliminaryGrandTotal()-(getThePreliminaryGrandTotal() * THE_FREQUENT_SHIPPER_DISCOUNT);
-	// return ((getThePreliminaryGrandTotal()- (getThePreliminaryGrandTotal() * THE_FREQUENT_SHIPPER_DISCOUNT)) - THE_BULK_PACKAGE_DISCOUNT);
-	// return theGrandTotal;
-	//		} else if (theFreqShipIdenNum != 0 && getThePreliminaryGrandTotal() >= 300 ) {
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+
 	public void setTheGrandTotal(String theGrandTotal) {
 
 		this.theGrandTotal = theGrandTotal;
 	}
-	
-	public String getTheInvoiceStatement() {
-		
 
-		
+	public String getTheInvoiceStatement() {
+
 		return theInvoiceStatement;
 
 	}
-	
-//	int 	theFrequentShipperIdentificationNumber;
-//	System.out.print(reset+"Please enter your frequent shipper identification number: " + green);
-//	theFrequentShipperIdentificationNumber = keyboard.nextInt();
-//	// int // packageShippingChargeArrayLength =0;
-//	int packageShippingChargeArrayLength = packageShippingChargeArray.Length;
-//	System.out.println("You are shipping a total of "+ +); // packageShippingChargeArray.length; packageShippingChargeArray.length
-	// return theInvoiceStatement;
-	// if (theFrequentShipperIdentificationNumber !=0) {
-		
-	// good lord. i thought that I was almost done here, but. I really feel like this is going to take
-	// yet another eternity.}
-	// return theInvoiceStatement;
-//	public String getTheInvoiceStatement() {
-//		
-////		int 	theFrequentShipperIdentificationNumber;
-////		System.out.print(reset+"Please enter your frequent shipper identification number: " + green);
-////		theFrequentShipperIdentificationNumber = keyboard.nextInt();
-////		// int // packageShippingChargeArrayLength =0;
-////		int packageShippingChargeArrayLength = packageShippingChargeArray.Length;
-////		System.out.println("You are shipping a total of "+ +); // packageShippingChargeArray.length; packageShippingChargeArray.length
-//		
-//		return theInvoiceStatement;
-//		// return theInvoiceStatement;
-//		// if (theFrequentShipperIdentificationNumber !=0) {
-//			
-//		// good lord. i thought that I was almost done here, but. I really feel like this is going to take
-//		// yet another eternity.}
-//		// return theInvoiceStatement;
-//	}
-//	public void setTheInvoiceStatement(String theInvoice) {
-//		this.theInvoiceStatement = theInvoiceStatement;
-//	}
-	
-	
-	
-	
-	
-	
-	
+
 }
+
+
+
+// public double getTheGrandTotal() {}
+// it didn't work after - i basically moved it from ParcelTerminalDemo to Shipment.java, it didn't work the first time 
+// I'm going to try it again.
+
+// return getThePreliminaryGrandTotal()-(getThePreliminaryGrandTotal() * THE_FREQUENT_SHIPPER_DISCOUNT);
+// return ((getThePreliminaryGrandTotal()- (getThePreliminaryGrandTotal() * THE_FREQUENT_SHIPPER_DISCOUNT)) - THE_BULK_PACKAGE_DISCOUNT);
+// return theGrandTotal;
+//		} else if (theFreqShipIdenNum != 0 && getThePreliminaryGrandTotal() >= 300 ) {
+
+
+
+
+
+//int 	theFrequentShipperIdentificationNumber;
+//System.out.print(reset+"Please enter your frequent shipper identification number: " + green);
+//theFrequentShipperIdentificationNumber = keyboard.nextInt();
+//// int // packageShippingChargeArrayLength =0;
+//int packageShippingChargeArrayLength = packageShippingChargeArray.Length;
+//System.out.println("You are shipping a total of "+ +); // packageShippingChargeArray.length; packageShippingChargeArray.length
+// return theInvoiceStatement;
+// if (theFrequentShipperIdentificationNumber !=0) {
+	
+// good lord. i thought that I was almost done here, but. I really feel like this is going to take
+// yet another eternity.}
+// return theInvoiceStatement;
+//public String getTheInvoiceStatement() {
+//	
+////	int 	theFrequentShipperIdentificationNumber;
+////	System.out.print(reset+"Please enter your frequent shipper identification number: " + green);
+////	theFrequentShipperIdentificationNumber = keyboard.nextInt();
+////	// int // packageShippingChargeArrayLength =0;
+////	int packageShippingChargeArrayLength = packageShippingChargeArray.Length;
+////	System.out.println("You are shipping a total of "+ +); // packageShippingChargeArray.length; packageShippingChargeArray.length
+//	
+//	return theInvoiceStatement;
+//	// return theInvoiceStatement;
+//	// if (theFrequentShipperIdentificationNumber !=0) {
+//		
+//	// good lord. i thought that I was almost done here, but. I really feel like this is going to take
+//	// yet another eternity.}
+//	// return theInvoiceStatement;
+//}
+//public void setTheInvoiceStatement(String theInvoice) {
+//	this.theInvoiceStatement = theInvoiceStatement;
+//}
+
+
+
 
 // Frequent shipper
 // Total package(s) being shipped
@@ -375,3 +304,65 @@ before discount, frequent-shipper discount if applied, bulk package discount if 
 
 
 */
+
+/*
+
+...
+	
+	Revision Notes:
+	
+	"Take getPackageWeight() for example, it should just 
+	return packageWeight while setPackageWeight() is taking 
+	the value given by the user and set it to the field packageWeight."
+		- Han-fen Hu, Ph.D (2024)
+
+...
+
+I find this rather annoying. not the comment, but
+I spent all that time moving all that stuff from ParcelTerminalDemo into
+the Shipment class, and I was actually just supposed to keep it in the ParcelTerminalDemo class.
+
+nightmare
+
+it was the stuff related to the grand total, and the discounts. i moved it from ParcelTerminalDemo into shipment.java
+
+...
+
+	"Everything I had done has to be done 
+	over; I was on the wrong track entirely, 
+	and after working hard most of that time: 
+	I'm still only at the beginning." 
+		- Gustave Flaubert
+
+...
+	
+*/
+// illiquid // laborious // bollinger band // Bollinger Band // fulfillment // preferred // miscellaneous
+
+/*
+   
+kennethsAvailability
+
+	if (  1200AM =< time  && time =< 600PM ) {
+	system.out.println(the meeting can take place in person)
+	} else if (time =< 1200AM && time =< 600AM) {
+	System.out.println (the meeting can take place virtually or online)
+	} else {
+	System.out.prinntline (the meeting cannot take place)
+	}
+
+hanfenHuPhdsAvailability
+
+	if (time == officeHours && location == online) {
+	system.out.println( the meeting can take place)
+	} else {
+	System.out.println ( the meeting cannot take place)
+	}
+
+willKennethMeetHanfenHu {
+	System.out.println ( the meeting cannot take place)
+	}
+
+*/
+
+// investopedia // midsize

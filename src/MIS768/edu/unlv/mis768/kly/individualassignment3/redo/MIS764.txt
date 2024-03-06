@@ -564,7 +564,7 @@ Type III - core business processes
 			Small and midsize enterprises (SMEs)  
 				are businesses that have revenues, assets, or a number of employees below a certain 
 				threshold. Each country has its own definition of what constitutes a small and midsize enterprise.
-					- investopedia(2024)
+					- investopedia (2024)
 					
 			Critically, in subsets of these components, the data science may be handled independently,
 			for example by 
