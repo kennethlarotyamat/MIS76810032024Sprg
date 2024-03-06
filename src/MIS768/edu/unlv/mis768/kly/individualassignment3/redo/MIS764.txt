@@ -726,7 +726,7 @@ Type III - core business processes
 				Polymers- This is chemistry related
 				Monomers - This is chemistry related
 						Gaussian process regression - GPR
-						Generative pretrained transformer - gpt
+						Generative pre-trained transformer - gpt
 				
 				Applications:	Large Language Models and machine learning to chemistry, and physical sciences
 							Computing, programming, AI, ML, LLM on Physical sciences, chemistry, and predictive
@@ -769,6 +769,8 @@ Type III - core business processes
 	
 	
 4: Strategic Use Of AI
+				
+				
 
 
 
