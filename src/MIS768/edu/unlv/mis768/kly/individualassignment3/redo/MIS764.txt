@@ -658,6 +658,15 @@ Type III - core business processes
 				Human Rights implications
 					the right not to be measured
 					not to participate or be used to train the AI models in question
+					
+				Government Adoption of AI tools and applications
+					efficiencies
+					public hospitals using analytics tools to determine outbreaks
+					algorithmic opacity - when it's not known, or disclosed how a system works.
+					public opinion formation through tools like social media
+						influences public policy directions
+					
+		Social Science Implications
 				
 				
 
