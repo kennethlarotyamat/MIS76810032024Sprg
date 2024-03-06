@@ -189,3 +189,16 @@ Day.SATURDAY
 
  *
  */
+
+/*
+ 
+This is from an email from TradingView
+
+<img src="https://ci3.googleusercontent.com/meips/ADKq_NYkzQRDTKogy9d9UFq5TYpDUPR5oK8Hdp7VA7JsO8H4LheyWokeiKTv8WDZTOjML5-L4of7gdZjWsg-vWhaiCB5smZGa9zX9HudEA9RAnL0ISpVd4BIZb_s-g17-JO8_WhMdMtJAg=s0-d-e1-ft#https://mpics.tradingview.com/pics/welcome%20funnel/welcome_funnel2023_03_01.gif" width="600" alt="Multi chart function" style="border:1px solid #e0e3eb;border-radius:12px;width:600px" class="CToWUd a6T" data-bit="iit" tabindex="0">
+
+
+
+ */
+
+ */
+
