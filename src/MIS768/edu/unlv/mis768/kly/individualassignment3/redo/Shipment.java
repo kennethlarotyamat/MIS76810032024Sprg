@@ -156,7 +156,7 @@ public class Shipment {
 
 /*
 
-Han-fen Hu // Spira // Sloan // Duan et al. // regulatory // Regulatory // Affordances
+// Artificial // Blockchain // Han-fen Hu // Spira // Sloan // Duan et al. // regulatory // Regulatory // Affordances // paradigms
 
 
 

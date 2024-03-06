@@ -667,10 +667,30 @@ Type III - core business processes
 						influences public policy directions
 					
 		Social Science Implications
+		
+				Digital haves and have-nots
+				
+				disrupts can create new social paradigms
+					exposes people lower on the social rung to exploitation
+					
+				Digital inequity, and digital divide
+				
+				profiling and law enforcement issues. biases may be reinforced
 				
 				
 
-
+		I really can't believe how long this article is. I've been listening to this for I even don't  how many
+		hours. Lord.
+		
+		Reinforcement Learning
+				Referenced during GPT 2 development and Meta chat-bot experiments
+				can have unpredictable results
+				
+		Deep Max Scores
+			
+				Framework 
+				
+		Blockchain and Artificial Intelligence
 
 
 	3.1 Leveraging large language models for predictive chemistry
