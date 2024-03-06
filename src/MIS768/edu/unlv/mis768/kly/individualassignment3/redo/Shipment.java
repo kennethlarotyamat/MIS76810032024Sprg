@@ -159,8 +159,15 @@ public class Shipment {
 I'm using this area to add words to the dictionary.
 
 // website // websites // gpt // gaussian // Gaussian // pretrained // dispersant // Artificial // Blockchain // Han-fen Hu // Spira // Sloan // Duan et al. // regulatory // Regulatory // Affordances // paradigms
-// Jablonka, K. M., Schwaller, P., Ortega-Guerrero, A., & Smit, B. (2024).
+// Jablonka, K. M., Schwaller, P., Ortega-Guerrero, A., & Smit, B. (2024). //
 
+
+These are where the oranges
+spent most of their time on the
+trees before
+they were 
+squeeze and became a
+cup of juice.
 
 
 
