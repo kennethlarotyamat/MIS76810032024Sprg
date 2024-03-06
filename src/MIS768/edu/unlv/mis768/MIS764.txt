@@ -490,6 +490,9 @@ Type III - core business processes
 				not compatible with one another.
 				
 				Data Quality - the quality of the data used to train AI models could be skewed, Inaccurate, biased, not representative - or poorly defined.
+							 - low quality inputs result in low quality outputs by the AI models.
+							 
+				Privacy Measures - need to be in place to product individuals, large amounts of data are required to train AI models.
 
 3: Artificial Intelligence (AI): Multidisciplinary Perspectives 
 
