@@ -1,5 +1,5 @@
-// Book
-package edu;
+package edu.unlv.mis768; // Book
+// package edu;
 
 
 import java.io.*;
@@ -9,7 +9,9 @@ public class ImprovedBookDataFormatter {
 
 	public static void main(String[] args) throws IOException {
 
-		// A Scanner object for getting input from the keyboard
+		// A Scanner object for getting input from the keyboard // Isomers
+		// exploitative // tweets // blog posts // devalue their // Artificial // Professionals // Multidisciplinary // Illnesses // "Isomers refer to compounds that have the same molecular formula but are structurally different."
+		// Inaccurate // interoperability
 		Scanner keyboard = new Scanner(System.in);
 		
 		// Prompt the user to enter the input file name
