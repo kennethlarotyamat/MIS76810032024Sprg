@@ -154,7 +154,7 @@ public class Shipment {
 			System.out.println(   reset+"You will be receiving a frequent shipper discount in the amount of: "+ green+ formatDoubleDollars.format(   (   THE_FREQUENT_SHIPPER_DISCOUNT * thePrelim   )   ) +" USD"+reset   );
 			System.out.println(reset+" "+reset);
 			// double theFinalGrandTotalAggregateShipmentExpenses = getTheGrandTotal();
-			System.out.println(   reset+"The total final cost of shipping your "+ packageShippingChargeArray.size() + " package(s) amounts to a Grand Total of: "+ green+ formatDoubleDollars.format(     thePrelim-(   thePrelim*THE_FREQUENT_SHIPPER_DISCOUNT   )      ) +" USD" +reset+ " deliverable as pounds of British Eurodollars"+reset); // Pounds of +invisible
+			System.out.println(   reset+"The total final cost of shipping your "+ packageShippingChargeArray.size() + " package(s) amounts to a Grand Total of: "+ green+ formatDoubleDollars.format(     thePrelim-(   thePrelim*THE_FREQUENT_SHIPPER_DISCOUNT   )      ) +" USD" +reset+ " deliverable as pounds of British Eurodollars"+reset);
 			// So it's actually this line that was driving me crazy // System.out.println(reset+" "+reset);
 			//return theGrandTotal;
 			// String grandTotal = this.grandTotal = theGrandTotal
@@ -164,40 +164,27 @@ public class Shipment {
 
 			System.out.println(   reset+"The preliminary cost of shipping your "+ packageShippingChargeArray.size() + " package(s) amounts to: "+ green+ formatDoubleDollars.format(   thePrelim   ) +" USD"+reset)   ;
 			System.out.println(    reset+"You will be receiving a frequent shipper discount in the amount of: "+ green+ formatDoubleDollars.format(        THE_FREQUENT_SHIPPER_DISCOUNT * thePrelim        ) +" USD"+reset     );
-			// double theBulkDiscountAmount = THE_BULK_PACKAGE_DISCOUNT;
+
 			System.out.println(reset+"You will also be receiving a frequent shipper bulk shipment discount in the amount of: "+ green+ formatDoubleDollars.format(THE_BULK_PACKAGE_DISCOUNT) +" USD"+reset); // Pounds of 
 			System.out.println(reset+" "+reset);
-			// double theFinalGrandTotalAggregateShipmentExpenses = getTheGrandTotal();
-			System.out.println(reset+"The total final cost of shipping your "+ packageShippingChargeArray.size() + " package(s) amounts to a Grand Total of: "+ green+ formatDoubleDollars.format(   (thePrelim-(thePrelim*THE_FREQUENT_SHIPPER_DISCOUNT))-THE_BULK_PACKAGE_DISCOUNT   ) +" USD" +reset+ " deliverable as pounds of British Eurodollars"+reset); // +invisible
-			// So it's actually this line that was driving me crazy // System.out.println(reset+" "+reset);// System.out.println(reset+" "+reset);
-			//return theGrandTotal;
-			
-			 /* 
-					I'm having a hard time. I'm always having a hard time. when does that ever change?
-			 */
+
+			System.out.println(reset+"The total final cost of shipping your "+ packageShippingChargeArray.size() + " package(s) amounts to a Grand Total of: "+ green+ formatDoubleDollars.format(   (thePrelim-(thePrelim*THE_FREQUENT_SHIPPER_DISCOUNT))-THE_BULK_PACKAGE_DISCOUNT   ) +" USD" +reset+ " deliverable as pounds of British Eurodollars"+reset);
+
 
 			
 			
 		}	else {
-			// theGrandTotal = getThePreliminaryGrandTotal(); // .xml
+
 
 			System.out.println(reset+" "+reset);
-			// double theFinalGrandTotalAggregateShipmentExpenses = getTheGrandTotal();
-			System.out.println(reset+"The total final cost of shipping your "+ packageShippingChargeArray.size() + " package(s) amounts to a Grand Total of: "+ green+ formatDoubleDollars.format(   thePrelim   ) +" USD" +reset+ " deliverable as pounds of British Eurodollars"+reset); // +invisible // Pounds of deliverable in vs deliverable as
-			// So it's actually this line that was driving me crazy // System.out.println(reset+" "+reset);// System.out.println(reset+" "+reset);
-			//return theGrandTotal;
-			
-			// I'm a little irritated. It finally works. but it's taken forever.
-			// thankYou = "thank You for shipping"
-			// theGrandTotal = theGrandTotal;
+
+			System.out.println(reset+"The total final cost of shipping your "+ packageShippingChargeArray.size() + " package(s) amounts to a Grand Total of: "+ green+ formatDoubleDollars.format(   thePrelim   ) +" USD" +reset+ " deliverable as pounds of British Eurodollars"+reset);
+
 
 		}
 
 		return theGrandTotal;
-		// System.out.println(reset + brown + "Chestnut" + red + " + " + green + "Hazel's" + reset + " Parcel Service cannot accept packages exceeding 120 American Pounds in weight." + reset);
-		//  = "Thank you for shipping your packages with"brown+ "Chestnut" + Hazel's Parcel Services"  	    	
-		// System.out.println(reset + brown + "Chestnut" + red + " + " + green + "Hazel's" + reset + 
-		// " Parcel Service cannot accept packages exceeding 120 American Pounds in weight." + reset);		
+		
 
 	}
 
@@ -214,6 +201,33 @@ public class Shipment {
 
 }
 
+// Pounds of +invisible // +invisible // Pounds of deliverable in vs deliverable as  // +invisible
+
+// double theBulkDiscountAmount = THE_BULK_PACKAGE_DISCOUNT;
+// double theFinalGrandTotalAggregateShipmentExpenses = getTheGrandTotal();
+// So it's actually this line that was driving me crazy // System.out.println(reset+" "+reset);// System.out.println(reset+" "+reset);
+//return theGrandTotal;
+
+ /* 
+		I'm having a hard time. I'm always having a hard time. when does that ever change?
+ */
+
+// theGrandTotal = getThePreliminaryGrandTotal(); // .xml
+
+// double theFinalGrandTotalAggregateShipmentExpenses = getTheGrandTotal();
+
+// So it's actually this line that was driving me crazy // System.out.println(reset+" "+reset);// System.out.println(reset+" "+reset);
+//return theGrandTotal;
+
+// I'm a little irritated. It finally works. but it's taken forever.
+// thankYou = "thank You for shipping"
+// theGrandTotal = theGrandTotal;
+
+
+// System.out.println(reset + brown + "Chestnut" + red + " + " + green + "Hazel's" + reset + " Parcel Service cannot accept packages exceeding 120 American Pounds in weight." + reset);
+//  = "Thank you for shipping your packages with"brown+ "Chestnut" + Hazel's Parcel Services"  	    	
+// System.out.println(reset + brown + "Chestnut" + red + " + " + green + "Hazel's" + reset + 
+// " Parcel Service cannot accept packages exceeding 120 American Pounds in weight." + reset);
 
 
 // public double getTheGrandTotal() {}
