@@ -160,31 +160,36 @@ public class Shipment {
 			// String grandTotal = this.grandTotal = theGrandTotal
 			
 			
-		} else if ((theFreqShipIdenNum != 0) && ((thePrelim - (thePrelim * THE_FREQUENT_SHIPPER_DISCOUNT)) >= 300) ) {
+		} else if ((theFreqShipIdenNum != 0) && ((thePrelim - (thePrelim * THE_FREQUENT_SHIPPER_DISCOUNT)) >= 300)) {
 
-			System.out.println(   reset+"The preliminary cost of shipping your "+ packageShippingChargeArray.size() + " package(s) amounts to: "+ green+ formatDoubleDollars.format(   thePrelim   ) +" USD"+reset)   ;
-			System.out.println(    reset+"You will be receiving a frequent shipper discount in the amount of: "+ green+ formatDoubleDollars.format(        THE_FREQUENT_SHIPPER_DISCOUNT * thePrelim        ) +" USD"+reset     );
+			System.out.println(reset + "The preliminary cost of shipping your " + packageShippingChargeArray.size()
+					+ " package(s) amounts to: " + green + formatDoubleDollars.format(thePrelim) + " USD" + reset);
+			System.out.println(reset + "You will be receiving a frequent shipper discount in the amount of: " + green
+					+ formatDoubleDollars.format(THE_FREQUENT_SHIPPER_DISCOUNT * thePrelim) + " USD" + reset);
 
-			System.out.println(reset+"You will also be receiving a frequent shipper bulk shipment discount in the amount of: "+ green+ formatDoubleDollars.format(THE_BULK_PACKAGE_DISCOUNT) +" USD"+reset); // Pounds of 
-			System.out.println(reset+" "+reset);
+			System.out.println(
+					reset + "You will also be receiving a frequent shipper bulk shipment discount in the amount of: "
+							+ green + formatDoubleDollars.format(THE_BULK_PACKAGE_DISCOUNT) + " USD" + reset); // Pounds
+																												// of
+			System.out.println(reset + " " + reset);
 
-			System.out.println(reset+"The total final cost of shipping your "+ packageShippingChargeArray.size() + " package(s) amounts to a Grand Total of: "+ green+ formatDoubleDollars.format(   (thePrelim-(thePrelim*THE_FREQUENT_SHIPPER_DISCOUNT))-THE_BULK_PACKAGE_DISCOUNT   ) +" USD" +reset+ " deliverable as pounds of British Eurodollars"+reset);
+			System.out.println(reset + "The total final cost of shipping your " + packageShippingChargeArray.size()
+					+ " package(s) amounts to a Grand Total of: " + green
+					+ formatDoubleDollars.format(
+							(thePrelim - (thePrelim * THE_FREQUENT_SHIPPER_DISCOUNT)) - THE_BULK_PACKAGE_DISCOUNT)
+					+ " USD" + reset + " deliverable as pounds of British Eurodollars" + reset);
 
+		} else {
 
-			
-			
-		}	else {
+			System.out.println(reset + " " + reset);
 
-
-			System.out.println(reset+" "+reset);
-
-			System.out.println(reset+"The total final cost of shipping your "+ packageShippingChargeArray.size() + " package(s) amounts to a Grand Total of: "+ green+ formatDoubleDollars.format(   thePrelim   ) +" USD" +reset+ " deliverable as pounds of British Eurodollars"+reset);
-
+			System.out.println(reset + "The total final cost of shipping your " + packageShippingChargeArray.size()
+					+ " package(s) amounts to a Grand Total of: " + green + formatDoubleDollars.format(thePrelim)
+					+ " USD" + reset + " deliverable as pounds of British Eurodollars" + reset);
 
 		}
 
 		return theGrandTotal;
-		
 
 	}
 
