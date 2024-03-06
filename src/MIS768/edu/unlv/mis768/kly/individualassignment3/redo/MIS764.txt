@@ -666,6 +666,9 @@ Type III - core business processes
 					public opinion formation through tools like social media
 						influences public policy directions
 					
+				Smart Cities and development of 
+					better city design
+				
 		Social Science Implications
 		
 				Digital haves and have-nots
@@ -677,6 +680,10 @@ Type III - core business processes
 				
 				profiling and law enforcement issues. biases may be reinforced
 				
+				Keeping Humans at the center of the design
+				
+				Ethical implications of artificual Intelligence have
+					not been fully contemplated and established
 				
 
 		I really can't believe how long this article is. I've been listening to this for I even don't  how many
@@ -691,6 +698,12 @@ Type III - core business processes
 				Framework 
 				
 		Blockchain and Artificial Intelligence
+		
+		- Reading Completed on 06:47 AM on 03/06/2024
+		
+			I want to say that the reading took a full 7 hours.
+		
+		
 
 
 	3.1 Leveraging large language models for predictive chemistry
