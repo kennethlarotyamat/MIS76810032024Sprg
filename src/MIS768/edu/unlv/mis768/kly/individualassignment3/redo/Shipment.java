@@ -10,122 +10,83 @@
 package edu.unlv.mis768.kly.individualassignment3.redo;
 
 import java.text.DecimalFormat;
-// for the ParcelTerminalDemo class I used the selection formatter to clearn up the 
-// apperance of my program, but the code looks funny so I won't be doing that here. // import java.text.DecimalFormat;
-import java.util.ArrayList;
 
+import java.util.ArrayList;
 
 public class Shipment {
 	DecimalFormat formatDoubleDollars = new DecimalFormat("0.00");
-    String red = "\u001B[31m" + "\u001B[1m"; 		// set text color to red and bold.
-    String reset = "\u001B[0m"; 					// resets the text color to default text color
-    String green  = "\u001B[32m" + "\u001B[1m";		// set text color to green and bold.
-    String brown  = "\u001B[33m" + "\u001B[1m";		// set text color to brown and bold.
-    												//  String invisible ="\u001B[37m";
-	private String 	theFrequentShipperIdentificationNumber;
-	private int 	theTotalNumberOfPackages;
-	final double 	THE_FREQUENT_SHIPPER_DISCOUNT = 0.05; 						// "if so, a 5% discount will be applied to the shipping cost." - Han-fen Hu, Ph.D  /*// //  = ""; //  = 0.00*/
-	final double 	THE_BULK_PACKAGE_DISCOUNT = 20.00;							// "additional “bulk package” discount of $20 off would be applied." - Han-fen Hu, Ph.D // width // i wasn't sure if that was spelled correctly.
-	private String  theGrandTotal = "";
-	private double  thePreliminaryGrandTotal = 0.00;
-	public double 	billableWeight;
-	public String 	theInvoiceStatement;													// I'm trying to think. In the transcript assignment I put and updated the array in the demo class, but assignment
-																				// 3 requires that the array list is in the shipment model class. I don't know how this is going to work.
-	                                                                            // Here is goes.
-	ArrayList<Double> packageShippingChargeArray = new ArrayList<Double>();		// private ArrayList<Double> packageShippingChargeArray = new ArrayList<Double>(); // private ArrayList<Double> packageShippingChargeArray = new ArrayList<Double>();     // ArrayList<Double> packageShippingChargesArray = new ArrayList<Double>(); // ArrayList<Double> packageShippingCostsArray = new ArrayList<Double>();  // ArrayList<Double> pointScaleTimesCreditHoursArray = new ArrayList<Double>();
-																
-	
-																				// This didn't work to resolve the error in the Parcel Terminal Demo // public Object packageShippingCostsArray;
-																			    // System.out.println(packageShippingChargeArray);  // System.out.println(packageShippingCostsArray);  // I will need this for testing later. //	System.out.println(courseNumberArray);			// this was for testing it can be reactivated if more testing is needed
-																				// well, that was something of a detour. I spent a little while formatting the output, the way things look on the console.
+	String red = "\u001B[31m" + "\u001B[1m";
+
+	String reset = "\u001B[0m";
+
+	String green = "\u001B[32m" + "\u001B[1m";
+
+	String brown = "\u001B[33m" + "\u001B[1m";
+
+	private String theFrequentShipperIdentificationNumber;
+	private int theTotalNumberOfPackages;
+	final double THE_FREQUENT_SHIPPER_DISCOUNT = 0.05;
+
+	final double THE_BULK_PACKAGE_DISCOUNT = 20.00;
+
+	private String theGrandTotal = "";
+	private double thePreliminaryGrandTotal = 0.00;
+	public double billableWeight;
+	public String theInvoiceStatement;
+
+	ArrayList<Double> packageShippingChargeArray = new ArrayList<Double>();
+
 	public Shipment(double billableWt) {
-																	// DecimalFormat formatDoubleDollars = new DecimalFormat("0.00");
-		this.billableWeight = billableWt;							// formatDoubleDollars.format(billableWt);
-																	// this.courseNumber = courseNo;
-																	// super();
-																	// TO DO Auto-generated constructor stub
-																	// let us see if this worked // System.out.println(packageShippingChargeArray);
+
+		this.billableWeight = billableWt;
+
 	}
+
 	public Shipment(String billableWt) {
-																	// DecimalFormat formatDoubleDollars = new DecimalFormat("0.00");
-		this.billableWeight = Double.parseDouble(billableWt);		// this is such a nightmare. // formatDoubleDollars.format(billableWt);
-																	// this.courseNumber = courseNo;
-																	// super();
-																	// TO DO Auto-generated constructor stub
-																	// let us see if this worked // System.out.println(packageShippingChargeArray); // what a nightmare.
-		 															// this is for testing .length
-																	// what else do I need?
+
+		this.billableWeight = Double.parseDouble(billableWt);
+
 	}
+
 	public ArrayList<Double> getPackageShippingChargeArray() {
 		return packageShippingChargeArray;
 	}
-	
-																											// I'm not sure if the setter is going to be used.
-	public void setPackageShippingChargeArray(ArrayList<Double> packageShippingChargeArray) { 				// this is set by the user in the ParcelTerminalDemo.java class
+
+	public void setPackageShippingChargeArray(ArrayList<Double> packageShippingChargeArray) {
+
 		this.packageShippingChargeArray = packageShippingChargeArray;
 	}
+
 	public String getTheFrequentShipperIdentificationNumber() {
 		return theFrequentShipperIdentificationNumber;
 	}
+
 	public void setTheFrequentShipperIdentificationNumber(String theFrequentShipperIdentificationNo) {
-		this.theFrequentShipperIdentificationNumber = theFrequentShipperIdentificationNo;            		// theFrequentShipperIdentificationNo // theFrequentShipperIdentificationNumber;
+		this.theFrequentShipperIdentificationNumber = theFrequentShipperIdentificationNo;
+
 	}
-							//	public double getTheFrequentShipperIdentificationNumberDouble() {
-							//		return theFrequentShipperIdentificationNumber;
-							//	}
-							//	public void setTheFrequentShipperIdentificationNumber(double theFrequentShipperIdentificationNo) {
-							//		this.theFrequentShipperIdentificationNumber = double.parsedouble(theFrequentShipperIdentificationNo);            		// theFrequentShipperIdentificationNo // theFrequentShipperIdentificationNumber;
-							//	}
+
 	public int getTheTotalNumberOfPackages() {
 		return theTotalNumberOfPackages;
 	}
+
 	public void setTheTotalNumberOfPackages(int theTotalNumberOfPkgs) {
-		this.theTotalNumberOfPackages = theTotalNumberOfPkgs; // theTotalNumberOfPackages;                    // theTotalNumberOfPkgs;// theTotalNumberOfPackages;
+		this.theTotalNumberOfPackages = theTotalNumberOfPkgs;
+
 	}
-	
-	
-	
-//	public double getTheGrandTotal() {													
-//		
-//									
-//		for (double value : packageShippingChargeArray) {
-//			theGrandTotal += value; 									
-//		}
-//		return theGrandTotal;
-//	} 	
-	
-	// double theGrandTotal = 0.00;
-	// theGrandTotal	
-	//
-	//double preliminaryCost = 0.00;
-	// double t o t // public double getTheGrandTotal(double t o t) {
-	
-//	public double getThePreliminaryGrandTotal() {													
-//		
-//		
-//		for (double value : packageShippingChargeArray) {
-//			thePreliminaryGrandTotal += value; 									
-//		}
-//		return thePreliminaryGrandTotal;
-//	} 	
+
 	public double getThePreliminaryGrandTotal() {
-	    // double thePreliminaryGrandTotal = 0.0; // Declare local variable here
 
-	    for (double value : packageShippingChargeArray) {
-	    	thePreliminaryGrandTotal += value;
-	    }
+		for (double value : packageShippingChargeArray) {
+			thePreliminaryGrandTotal += value;
+		}
 
-	    return thePreliminaryGrandTotal;
+		return thePreliminaryGrandTotal;
 	}
-	
-	
-	
+
 	public void setThePreliminaryGrandTotal(double thePrelimGrandTotal) {
 		this.thePreliminaryGrandTotal = thePrelimGrandTotal;
 	}
-	
-	
-	// return thePreliminaryGrandTotal * THE_FREQUENT_SHIPPER_DISCOUNT; // theGrandTotal // if theFreqShipIdenNum != 0; { 	// return theGrandTotal; 							// if theFrequentShipperIdentificationNumber != 0; return theGrandTotal; 																			// I might not need this.  v
 
 	public String getTheGrandTotal() {
 
@@ -189,6 +150,123 @@ public class Shipment {
 	}
 
 }
+
+// set text color to red and bold.
+// resets the text color to default text color
+// set text color to green and bold.
+// set text color to brown and bold.
+// String invisible ="\u001B[37m";
+// "if so, a 5% discount will be applied to the shipping cost." -
+
+// Han-fen Hu, Ph.D /*// // = ""; // = 0.00*/
+// DecimalFormat formatDoubleDollars = new DecimalFormat("0.00");
+// formatDoubleDollars.format(billableWt);
+// this.courseNumber = courseNo;
+// super();
+// TO DO Auto-generated constructor stub
+// let us see if this worked //
+// System.out.println(packageShippingChargeArray);
+
+// I'm trying to think. In the transcript assignment I put and updated the array
+// in the demo class, but assignment
+// 3 requires that the array list is in the shipment model class. I don't know
+// how this is going to work.
+// Here is goes.
+
+// "additional “bulk package” discount of $20 off would be applied."
+// - Han-fen Hu, Ph.D // width // i wasn't sure if that was spelled
+// correctly.
+
+// for the ParcelTerminalDemo class I used the selection formatter to clearn up
+// the
+// apperance of my program, but the code looks funny so I won't be doing that
+// here. // import java.text.DecimalFormat;
+
+// private ArrayList<Double>
+// packageShippingChargeArray = new
+// ArrayList<Double>(); // private
+// ArrayList<Double>
+// packageShippingChargeArray = new
+// ArrayList<Double>(); // ArrayList<Double>
+// packageShippingChargesArray = new
+// ArrayList<Double>(); // ArrayList<Double>
+// packageShippingCostsArray = new
+// ArrayList<Double>(); // ArrayList<Double>
+// pointScaleTimesCreditHoursArray = new
+// ArrayList<Double>();
+
+// This didn't work to resolve the error in the Parcel Terminal Demo // public
+// Object packageShippingCostsArray;
+// System.out.println(packageShippingChargeArray); //
+// System.out.println(packageShippingCostsArray); // I will need this for
+// testing later. // System.out.println(courseNumberArray); // this was for
+// testing it can be reactivated if more testing is needed
+// well, that was something of a detour. I spent a little while formatting the
+// output, the way things look on the console.
+
+// DecimalFormat formatDoubleDollars = new DecimalFormat("0.00");
+// this is such a nightmare. //
+// formatDoubleDollars.format(billableWt);
+// this.courseNumber = courseNo;
+// super();
+// TO DO Auto-generated constructor stub
+// let us see if this worked //
+// System.out.println(packageShippingChargeArray); //
+// what a nightmare.
+// this is for testing .length
+// what else do I need?
+// I'm not sure if the setter is going to be used.
+// this is set by the user
+// in the
+// ParcelTerminalDemo.java
+// class
+
+// theFrequentShipperIdentificationNo
+// //
+// theFrequentShipperIdentificationNumber;
+// public double getTheFrequentShipperIdentificationNumberDouble() {
+// return theFrequentShipperIdentificationNumber;
+// }
+// public void setTheFrequentShipperIdentificationNumber(double
+// theFrequentShipperIdentificationNo) {
+// this.theFrequentShipperIdentificationNumber =
+// double.parsedouble(theFrequentShipperIdentificationNo); //
+// theFrequentShipperIdentificationNo // theFrequentShipperIdentificationNumber;
+// }
+// theTotalNumberOfPackages;
+// theTotalNumberOfPackages; // theTotalNumberOfPkgs;//
+
+// public double getTheGrandTotal() {
+//
+//
+// for (double value : packageShippingChargeArray) {
+// theGrandTotal += value;
+// }
+// return theGrandTotal;
+// }
+
+// double theGrandTotal = 0.00;
+// theGrandTotal
+//
+// double preliminaryCost = 0.00;
+// double t o t // public double getTheGrandTotal(double t o t) {
+
+// public double getThePreliminaryGrandTotal() {
+//
+//
+// for (double value : packageShippingChargeArray) {
+// thePreliminaryGrandTotal += value;
+// }
+// return thePreliminaryGrandTotal;
+// }
+
+// double thePreliminaryGrandTotal = 0.0; // Declare local variable here
+
+// return thePreliminaryGrandTotal * THE_FREQUENT_SHIPPER_DISCOUNT; //
+// theGrandTotal // if theFreqShipIdenNum != 0; { // return theGrandTotal;
+
+// if theFrequentShipperIdentificationNumber != 0; return theGrandTotal; // I
+// might not need this. v
 
 // this was something I actually had a hard time with. I was trying to use the
 // method getThePreliminaryGrandTotal(), but I think
