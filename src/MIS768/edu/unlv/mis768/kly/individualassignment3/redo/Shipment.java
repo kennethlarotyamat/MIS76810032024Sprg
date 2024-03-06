@@ -126,38 +126,25 @@ public class Shipment {
 	
 	
 	// return thePreliminaryGrandTotal * THE_FREQUENT_SHIPPER_DISCOUNT; // theGrandTotal // if theFreqShipIdenNum != 0; { 	// return theGrandTotal; 							// if theFrequentShipperIdentificationNumber != 0; return theGrandTotal; 																			// I might not need this.  v
-	
-	
-	
-	
-	
+
 	public String getTheGrandTotal() {
-		
+
 		int theFreqShipIdenNum = Integer.parseInt(theFrequentShipperIdentificationNumber);
-		double thePrelim = getThePreliminaryGrandTotal(); 
-		
-		// this was something I actually had a hard time with. I was trying to use the method getThePreliminaryGrandTotal(), but I think
-		// that it kept calling it over and over in my calculations, so I had to set. i had to create a variable that called the method 
-		// the variable is thePrelim, which is where the method getThePreliminaryGrandTotal() is called and the value of the variable is set and used for calculations in the getTheGrandTotal method.
-		
-		// this method alone took me a really long time to deal with. 
-		// I think I started it earlier today and allocated one hour to get it done, it took me six or so.
-		// it started off in the ParcelTerminalDemo class, but I had to move it to the Shipment class as a requirement of the assignment.
-		// adjusting it took a while because. there's a slightly different process that goes on when it's done in the ParcelTerminalDemo
-		
-		// String grandTotal;
-		
-		if (     (theFreqShipIdenNum != 0) && (thePrelim - (thePrelim * THE_FREQUENT_SHIPPER_DISCOUNT)  ) <= 300)  { // thePreliminaryGrandTotal
+		double thePrelim = getThePreliminaryGrandTotal();
 
-			
-			System.out.println(   reset+"The preliminary cost of shipping your "+ packageShippingChargeArray.size() + " package(s) amounts to: "+ green+ formatDoubleDollars.format(   thePrelim   ) +" USD"+reset   );
-			System.out.println(   reset+"You will be receiving a frequent shipper discount in the amount of: "+ green+ formatDoubleDollars.format(   (   THE_FREQUENT_SHIPPER_DISCOUNT * thePrelim   )   ) +" USD"+reset   );
-			System.out.println(reset+" "+reset);
-			// double theFinalGrandTotalAggregateShipmentExpenses = getTheGrandTotal();
-			System.out.println(   reset+"The total final cost of shipping your "+ packageShippingChargeArray.size() + " package(s) amounts to a Grand Total of: "+ green+ formatDoubleDollars.format(     thePrelim-(   thePrelim*THE_FREQUENT_SHIPPER_DISCOUNT   )      ) +" USD" +reset+ " deliverable as pounds of British Eurodollars"+reset);
+		if ((theFreqShipIdenNum != 0) && (thePrelim - (thePrelim * THE_FREQUENT_SHIPPER_DISCOUNT)) <= 300) {
 
-			
-			
+			System.out.println(reset + "The preliminary cost of shipping your " + packageShippingChargeArray.size()
+					+ " package(s) amounts to: " + green + formatDoubleDollars.format(thePrelim) + " USD" + reset);
+			System.out.println(reset + "You will be receiving a frequent shipper discount in the amount of: " + green
+					+ formatDoubleDollars.format((THE_FREQUENT_SHIPPER_DISCOUNT * thePrelim)) + " USD" + reset);
+			System.out.println(reset + " " + reset);
+
+			System.out.println(reset + "The total final cost of shipping your " + packageShippingChargeArray.size()
+					+ " package(s) amounts to a Grand Total of: " + green
+					+ formatDoubleDollars.format(thePrelim - (thePrelim * THE_FREQUENT_SHIPPER_DISCOUNT)) + " USD"
+					+ reset + " deliverable as pounds of British Eurodollars" + reset);
+
 		} else if ((theFreqShipIdenNum != 0) && ((thePrelim - (thePrelim * THE_FREQUENT_SHIPPER_DISCOUNT)) >= 300)) {
 
 			System.out.println(reset + "The preliminary cost of shipping your " + packageShippingChargeArray.size()
@@ -167,7 +154,7 @@ public class Shipment {
 
 			System.out.println(
 					reset + "You will also be receiving a frequent shipper bulk shipment discount in the amount of: "
-							+ green + formatDoubleDollars.format(THE_BULK_PACKAGE_DISCOUNT) + " USD" + reset); 
+							+ green + formatDoubleDollars.format(THE_BULK_PACKAGE_DISCOUNT) + " USD" + reset);
 			System.out.println(reset + " " + reset);
 
 			System.out.println(reset + "The total final cost of shipping your " + packageShippingChargeArray.size()
@@ -202,6 +189,27 @@ public class Shipment {
 	}
 
 }
+
+// this was something I actually had a hard time with. I was trying to use the
+// method getThePreliminaryGrandTotal(), but I think
+// that it kept calling it over and over in my calculations, so I had to set. i
+// had to create a variable that called the method
+// the variable is thePrelim, which is where the method
+// getThePreliminaryGrandTotal() is called and the value of the variable is set
+// and used for calculations in the getTheGrandTotal method.
+
+// this method alone took me a really long time to deal with.
+// I think I started it earlier today and allocated one hour to get it done, it
+// took me six or so.
+// it started off in the ParcelTerminalDemo class, but I had to move it to the
+// Shipment class as a requirement of the assignment.
+// adjusting it took a while because. there's a slightly different process that
+// goes on when it's done in the ParcelTerminalDemo
+
+// String grandTotal;
+// thePreliminaryGrandTotal
+// double theFinalGrandTotalAggregateShipmentExpenses = getTheGrandTotal();
+
 // So it's actually this line that was driving me crazy //
 // System.out.println(reset+" "+reset);
 // return theGrandTotal;
