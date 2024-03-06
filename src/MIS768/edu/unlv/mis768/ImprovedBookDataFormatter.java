@@ -31,7 +31,7 @@ public class ImprovedBookDataFormatter {
 		keyboard.close();
 		
 
-		// read the first line
+		// read the first line // "For instance, Ransbotham, Kiron, Gerbert, // 		ecosystem). 
 		String line = inputFile.nextLine();
 
 		// while loop that runs until the program reaches the end of the input file
