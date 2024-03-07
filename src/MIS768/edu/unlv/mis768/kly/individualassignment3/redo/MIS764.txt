@@ -436,6 +436,15 @@ Type III - core business processes
 				- used to identify anomalies in data sets
 				
 		Substitution of unemployment - vs substitution or automation of specific tasks
+				- Routine
+				- semi-routine
+				- cognitive tasks
+				- non-routine tasks
+				
+		used for productivity increases
+		
+		some applications use deep learning and machine learning to refine their own processes 
+			other applications require input from experts to refine their processes
 				
 		Financial Applications - Insurance Underwriting - Credit approval - Fraud detection - fraudulent transaction identification
 
