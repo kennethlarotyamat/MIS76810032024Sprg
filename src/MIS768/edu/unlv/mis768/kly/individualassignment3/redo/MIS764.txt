@@ -424,6 +424,13 @@ Type III - core business processes
 3.3: Innovating With Artificial Intelligence
  
 1: Artificial Intelligence In Organizations 
+		
+		Automatically managing business processes
+		Machine Learning - Automated algorithms for detecting fraudulent financial transactions
+						 - Manufacturing in a factory
+						 - Automated delivery robots
+		History - Started in 1970's
+				- Domains such as psychology - linguistics - biology - mathematics - cognitive sciences - neurosciences
 
 2: AI Innovation Typology
 
