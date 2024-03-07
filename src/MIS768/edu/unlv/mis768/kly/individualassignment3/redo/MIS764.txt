@@ -431,6 +431,8 @@ Type III - core business processes
 						 - Automated delivery robots
 		History - Started in 1970's
 				- Domains such as psychology - linguistics - biology - mathematics - cognitive sciences - neurosciences
+				
+		Financial Applications - Insurance Underwriting - Credit approval - Fraud detection - fraudulent transaction identification
 
 2: AI Innovation Typology
 
