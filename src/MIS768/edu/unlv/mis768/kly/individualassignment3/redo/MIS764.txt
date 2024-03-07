@@ -431,6 +431,11 @@ Type III - core business processes
 						 - Automated delivery robots
 		History - Started in 1970's
 				- Domains such as psychology - linguistics - biology - mathematics - cognitive sciences - neurosciences
+				- were not initially able to refine their own processes, currently can do refinements of their own processes
+					- process automation - not considered state of the art - such as robots in a manufacturing of warehouse setting
+				- used to identify anomalies in data sets
+				
+		Substitution of unemployment - vs substitution or automation of specific tasks
 				
 		Financial Applications - Insurance Underwriting - Credit approval - Fraud detection - fraudulent transaction identification
 

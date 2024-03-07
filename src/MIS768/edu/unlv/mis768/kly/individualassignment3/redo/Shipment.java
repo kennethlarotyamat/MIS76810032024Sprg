@@ -160,7 +160,7 @@ I'm using this area to add words to the dictionary.
 
 // website // websites // gpt // gaussian // Gaussian // pretrained // dispersant // Artificial // Blockchain // Han-fen Hu // Spira // Sloan // Duan et al. // regulatory // Regulatory // Affordances // paradigms
 // Jablonka, K. M., Schwaller, P., Ortega-Guerrero, A., & Smit, B. (2024). //
-// fraudulent // Siri // siri // Susan Alice Bennett // psychology // neurosciences // fraudulent // approval // neurosciences
+// anomalies // fraudulent // Siri // siri // Susan Alice Bennett // psychology // neurosciences // fraudulent // approval // neurosciences
 
 These are where the oranges
 spent most of their time on the
