@@ -16,7 +16,9 @@ import java.text.DecimalFormat;
 
 /*
 	Revision Notes:
-	
+
+D:\GitHub\MIS76810032024Sprg\src\MIS768\edu\\unlv\mis768\kly\individualassignment3\redo\ParcelTerminalDemo.java	
+
 "Take getPackageWeight() for example, it should just 
 return packageWeight while setPackageWeight() is taking 
 the value given by the user and set it to the field packageWeight."
@@ -1108,3 +1110,323 @@ public class ParcelTerminalDemo { // this is the demo class// public class Shipp
 // there is a strong chance that I will have to audit this course MIS 768 // and
 // that's a nightmare // and a disappointment
 // a real disappointment for me.
+
+/*
+ * Microsoft Windows [Version 10.0.22631.3155]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\KLYam>javac
+Usage: javac <options> <source files>
+where possible options include:
+  @<filename>                  Read options and filenames from file
+  -Akey[=value]                Options to pass to annotation processors
+  --add-modules <module>(,<module>)*
+        Root modules to resolve in addition to the initial modules,
+        or all modules on the module path if <module> is ALL-MODULE-PATH.
+  --boot-class-path <path>, -bootclasspath <path>
+        Override location of bootstrap class files
+  --class-path <path>, -classpath <path>, -cp <path>
+        Specify where to find user class files and annotation processors
+  -d <directory>               Specify where to place generated class files
+  -deprecation
+        Output source locations where deprecated APIs are used
+  --enable-preview
+        Enable preview language features.
+        To be used in conjunction with either -source or --release.
+  -encoding <encoding>         Specify character encoding used by source files
+  -endorseddirs <dirs>         Override location of endorsed standards path
+  -extdirs <dirs>              Override location of installed extensions
+  -g                           Generate all debugging info
+  -g:{lines,vars,source}       Generate only some debugging info
+  -g:none                      Generate no debugging info
+  -h <directory>
+        Specify where to place generated native header files
+  --help, -help, -?            Print this help message
+  --help-extra, -X             Print help on extra options
+  -implicit:{none,class}
+        Specify whether to generate class files for implicitly referenced files
+  -J<flag>                     Pass <flag> directly to the runtime system
+  --limit-modules <module>(,<module>)*
+        Limit the universe of observable modules
+  --module <module>(,<module>)*, -m <module>(,<module>)*
+        Compile only the specified module(s), check timestamps
+  --module-path <path>, -p <path>
+        Specify where to find application modules
+  --module-source-path <module-source-path>
+        Specify where to find input source files for multiple modules
+  --module-version <version>
+        Specify version of modules that are being compiled
+  -nowarn                      Generate no warnings
+  -parameters
+        Generate metadata for reflection on method parameters
+  -proc:{none,only,full}
+        Control whether annotation processing and/or compilation is done.
+  -processor <class1>[,<class2>,<class3>...]
+        Names of the annotation processors to run;
+        bypasses default discovery process
+  --processor-module-path <path>
+        Specify a module path where to find annotation processors
+  --processor-path <path>, -processorpath <path>
+        Specify where to find annotation processors
+  -profile <profile>
+        Check that API used is available in the specified profile.
+        This option is deprecated and may be removed in a future release.
+  --release <release>
+        Compile for the specified Java SE release.
+        Supported releases:
+            8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21
+  -s <directory>               Specify where to place generated source files
+  --source <release>, -source <release>
+        Provide source compatibility with the specified Java SE release.
+        Supported releases:
+            8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21
+  --source-path <path>, -sourcepath <path>
+        Specify where to find input source files
+  --system <jdk>|none          Override location of system modules
+  --target <release>, -target <release>
+        Generate class files suitable for the specified Java SE release.
+        Supported releases:
+            8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21
+  --upgrade-module-path <path>
+        Override location of upgradeable modules
+  -verbose                     Output messages about what the compiler is doing
+  --version, -version          Version information
+  -Werror                      Terminate compilation if warnings occur
+
+
+C:\Users\KLYam>java D:\GitHub\MIS76810032024Sprg\src\MIS768\edu\unlv\mis768\kly\individualassignment3\redo\ParcelTerminalDemo.java
+D:\GitHub\MIS76810032024Sprg\src\MIS768\edu\unlv\mis768\kly\individualassignment3\redo\ParcelTerminalDemo.java:48: error: cannot find symbol
+                Shipment shipment = new Shipment(billableWeight);
+                ^
+  symbol:   class Shipment
+  location: class ParcelTerminalDemo
+D:\GitHub\MIS76810032024Sprg\src\MIS768\edu\unlv\mis768\kly\individualassignment3\redo\ParcelTerminalDemo.java:48: error: cannot find symbol
+                Shipment shipment = new Shipment(billableWeight);
+                                        ^
+  symbol:   class Shipment
+  location: class ParcelTerminalDemo
+D:\GitHub\MIS76810032024Sprg\src\MIS768\edu\unlv\mis768\kly\individualassignment3\redo\ParcelTerminalDemo.java:96: error: no suitable constructor found for Package(double,double,double,double)
+                        Package parcelPackage = new Package(packageWeight, packageLength, packageWidth, packageHeight);
+                                                ^
+    constructor Package.Package(String,String,String,String,String,String,String,URL,ClassLoader) is not applicable
+      (actual and formal argument lists differ in length)
+    constructor Package.Package(String,Module) is not applicable
+      (actual and formal argument lists differ in length)
+D:\GitHub\MIS76810032024Sprg\src\MIS768\edu\unlv\mis768\kly\individualassignment3\redo\ParcelTerminalDemo.java:171: error: cannot find symbol
+                                packageWeight = Math.ceil(parcelPackage.keyboard.nextDouble());
+                                                                       ^
+  symbol:   variable keyboard
+  location: variable parcelPackage of type Package
+D:\GitHub\MIS76810032024Sprg\src\MIS768\edu\unlv\mis768\kly\individualassignment3\redo\ParcelTerminalDemo.java:175: error: cannot find symbol
+                                parcelPackage.setPackageWeight(packageWeight);
+                                             ^
+  symbol:   method setPackageWeight(double)
+  location: variable parcelPackage of type Package
+D:\GitHub\MIS76810032024Sprg\src\MIS768\edu\unlv\mis768\kly\individualassignment3\redo\ParcelTerminalDemo.java:177: error: cannot find symbol
+                                packageWeight = parcelPackage.getPackageWeight();
+                                                             ^
+  symbol:   method getPackageWeight()
+  location: variable parcelPackage of type Package
+D:\GitHub\MIS76810032024Sprg\src\MIS768\edu\unlv\mis768\kly\individualassignment3\redo\ParcelTerminalDemo.java:233: error: cannot find symbol
+                                packageLength = Math.ceil(parcelPackage.keyboard.nextDouble());
+                                                                       ^
+  symbol:   variable keyboard
+  location: variable parcelPackage of type Package
+D:\GitHub\MIS76810032024Sprg\src\MIS768\edu\unlv\mis768\kly\individualassignment3\redo\ParcelTerminalDemo.java:234: error: cannot find symbol
+                                parcelPackage.setPackageLength(packageLength);
+                                             ^
+  symbol:   method setPackageLength(double)
+  location: variable parcelPackage of type Package
+D:\GitHub\MIS76810032024Sprg\src\MIS768\edu\unlv\mis768\kly\individualassignment3\redo\ParcelTerminalDemo.java:238: error: cannot find symbol
+                                packageLength = parcelPackage.getPackageLength();
+                                                             ^
+  symbol:   method getPackageLength()
+  location: variable parcelPackage of type Package
+D:\GitHub\MIS76810032024Sprg\src\MIS768\edu\unlv\mis768\kly\individualassignment3\redo\ParcelTerminalDemo.java:350: error: cannot find symbol
+                                packageWidth = Math.ceil(parcelPackage.keyboard.nextDouble());
+                                                                      ^
+  symbol:   variable keyboard
+  location: variable parcelPackage of type Package
+D:\GitHub\MIS76810032024Sprg\src\MIS768\edu\unlv\mis768\kly\individualassignment3\redo\ParcelTerminalDemo.java:351: error: cannot find symbol
+                                parcelPackage.setPackageWidth(packageWidth);
+                                             ^
+  symbol:   method setPackageWidth(double)
+  location: variable parcelPackage of type Package
+D:\GitHub\MIS76810032024Sprg\src\MIS768\edu\unlv\mis768\kly\individualassignment3\redo\ParcelTerminalDemo.java:353: error: cannot find symbol
+                                packageWidth = parcelPackage.getPackageWidth(); // packageWidth + packageHeight
+                                                            ^
+  symbol:   method getPackageWidth()
+  location: variable parcelPackage of type Package
+D:\GitHub\MIS76810032024Sprg\src\MIS768\edu\unlv\mis768\kly\individualassignment3\redo\ParcelTerminalDemo.java:418: error: cannot find symbol
+                                packageHeight = Math.ceil(parcelPackage.keyboard.nextDouble());
+                                                                       ^
+  symbol:   variable keyboard
+  location: variable parcelPackage of type Package
+D:\GitHub\MIS76810032024Sprg\src\MIS768\edu\unlv\mis768\kly\individualassignment3\redo\ParcelTerminalDemo.java:419: error: cannot find symbol
+                                parcelPackage.setPackageHeight(packageHeight);
+                                             ^
+  symbol:   method setPackageHeight(double)
+  location: variable parcelPackage of type Package
+D:\GitHub\MIS76810032024Sprg\src\MIS768\edu\unlv\mis768\kly\individualassignment3\redo\ParcelTerminalDemo.java:421: error: cannot find symbol
+                                packageHeight = parcelPackage.getPackageHeight();
+                                                             ^
+  symbol:   method getPackageHeight()
+  location: variable parcelPackage of type Package
+15 errors
+error: compilation failed
+
+C:\Users\KLYam>D:
+
+D:\>cd GitHub
+
+D:\GitHub>cd MIS76810032024Sprg
+
+D:\GitHub\MIS76810032024Sprg>cd src
+
+D:\GitHub\MIS76810032024Sprg\src>cd MIS768
+
+D:\GitHub\MIS76810032024Sprg\src\MIS768>cd edu
+
+D:\GitHub\MIS76810032024Sprg\src\MIS768\edu>cd unlv
+
+D:\GitHub\MIS76810032024Sprg\src\MIS768\edu\unlv>cd mis768
+
+D:\GitHub\MIS76810032024Sprg\src\MIS768\edu\unlv\mis768>cd kly
+
+D:\GitHub\MIS76810032024Sprg\src\MIS768\edu\unlv\mis768\kly>cd individualassignment3
+
+D:\GitHub\MIS76810032024Sprg\src\MIS768\edu\unlv\mis768\kly\individualassignment3>cd redo
+
+D:\GitHub\MIS76810032024Sprg\src\MIS768\edu\unlv\mis768\kly\individualassignment3\redo>
+D:\GitHub\MIS76810032024Sprg\src\MIS768\edu\unlv\mis768\kly\individualassignment3\redo>
+D:\GitHub\MIS76810032024Sprg\src\MIS768\edu\unlv\mis768\kly\individualassignment3\redo>
+D:\GitHub\MIS76810032024Sprg\src\MIS768\edu\unlv\mis768\kly\individualassignment3\redo>ParcelTerminalDemo.java
+
+D:\GitHub\MIS76810032024Sprg\src\MIS768\edu\unlv\mis768\kly\individualassignment3\redo>
+ParcelTerminalDemo.java
+
+D:\GitHub\MIS76810032024Sprg\src\MIS768\edu\unlv\mis768\kly\individualassignment3\redo>
+javac ParcelTerminalDemo.java
+ParcelTerminalDemo.java:20: error: illegal unicode escape
+D:\GitHub\MIS76810032024Sprg\src\MIS768\edu\unlv\mis768\kly\individualassignment3\redo\ParcelTerminalDemo.java
+                                             ^
+1 error
+
+D:\GitHub\MIS76810032024Sprg\src\MIS768\edu\unlv\mis768\kly\individualassignment3\redo>D:\GitHub\MIS76810032024Sprg\src\MIS768\edu\\unlv\mis768\kly\individualassignment3\redo\ParcelTerminalDemo.java
+
+D:\GitHub\MIS76810032024Sprg\src\MIS768\edu\unlv\mis768\kly\individualassignment3\redo>
+D:
+
+D:\GitHub\MIS76810032024Sprg\src\MIS768\edu\unlv\mis768\kly\individualassignment3\redo>cd GitHub
+The system cannot find the path specified.
+
+D:\GitHub\MIS76810032024Sprg\src\MIS768\edu\unlv\mis768\kly\individualassignment3\redo>cd MIS76810032024Sprg
+The system cannot find the path specified.
+
+D:\GitHub\MIS76810032024Sprg\src\MIS768\edu\unlv\mis768\kly\individualassignment3\redo>cd src
+The system cannot find the path specified.
+
+D:\GitHub\MIS76810032024Sprg\src\MIS768\edu\unlv\mis768\kly\individualassignment3\redo>cd MIS768
+The system cannot find the path specified.
+
+D:\GitHub\MIS76810032024Sprg\src\MIS768\edu\unlv\mis768\kly\individualassignment3\redo>cd edu
+The system cannot find the path specified.
+
+D:\GitHub\MIS76810032024Sprg\src\MIS768\edu\unlv\mis768\kly\individualassignment3\redo>cd unlv
+The system cannot find the path specified.
+
+D:\GitHub\MIS76810032024Sprg\src\MIS768\edu\unlv\mis768\kly\individualassignment3\redo>cd mis768
+The system cannot find the path specified.
+
+D:\GitHub\MIS76810032024Sprg\src\MIS768\edu\unlv\mis768\kly\individualassignment3\redo>cd kly
+The system cannot find the path specified.
+
+D:\GitHub\MIS76810032024Sprg\src\MIS768\edu\unlv\mis768\kly\individualassignment3\redo>cd individualassignment3
+The system cannot find the path specified.
+
+D:\GitHub\MIS76810032024Sprg\src\MIS768\edu\unlv\mis768\kly\individualassignment3\redo>cd redo
+The system cannot find the path specified.
+
+D:\GitHub\MIS76810032024Sprg\src\MIS768\edu\unlv\mis768\kly\individualassignment3\redo>java ParcelTerminalDemo.java
+ParcelTerminalDemo.java:50: error: cannot find symbol
+                Shipment shipment = new Shipment(billableWeight);
+                ^
+  symbol:   class Shipment
+  location: class ParcelTerminalDemo
+ParcelTerminalDemo.java:50: error: cannot find symbol
+                Shipment shipment = new Shipment(billableWeight);
+                                        ^
+  symbol:   class Shipment
+  location: class ParcelTerminalDemo
+ParcelTerminalDemo.java:98: error: no suitable constructor found for Package(double,double,double,double)
+                        Package parcelPackage = new Package(packageWeight, packageLength, packageWidth, packageHeight);
+                                                ^
+    constructor Package.Package(String,String,String,String,String,String,String,URL,ClassLoader) is not applicable
+      (actual and formal argument lists differ in length)
+    constructor Package.Package(String,Module) is not applicable
+      (actual and formal argument lists differ in length)
+ParcelTerminalDemo.java:173: error: cannot find symbol
+                                packageWeight = Math.ceil(parcelPackage.keyboard.nextDouble());
+                                                                       ^
+  symbol:   variable keyboard
+  location: variable parcelPackage of type Package
+ParcelTerminalDemo.java:177: error: cannot find symbol
+                                parcelPackage.setPackageWeight(packageWeight);
+                                             ^
+  symbol:   method setPackageWeight(double)
+  location: variable parcelPackage of type Package
+ParcelTerminalDemo.java:179: error: cannot find symbol
+                                packageWeight = parcelPackage.getPackageWeight();
+                                                             ^
+  symbol:   method getPackageWeight()
+  location: variable parcelPackage of type Package
+ParcelTerminalDemo.java:235: error: cannot find symbol
+                                packageLength = Math.ceil(parcelPackage.keyboard.nextDouble());
+                                                                       ^
+  symbol:   variable keyboard
+  location: variable parcelPackage of type Package
+ParcelTerminalDemo.java:236: error: cannot find symbol
+                                parcelPackage.setPackageLength(packageLength);
+                                             ^
+  symbol:   method setPackageLength(double)
+  location: variable parcelPackage of type Package
+ParcelTerminalDemo.java:240: error: cannot find symbol
+                                packageLength = parcelPackage.getPackageLength();
+                                                             ^
+  symbol:   method getPackageLength()
+  location: variable parcelPackage of type Package
+ParcelTerminalDemo.java:352: error: cannot find symbol
+                                packageWidth = Math.ceil(parcelPackage.keyboard.nextDouble());
+                                                                      ^
+  symbol:   variable keyboard
+  location: variable parcelPackage of type Package
+ParcelTerminalDemo.java:353: error: cannot find symbol
+                                parcelPackage.setPackageWidth(packageWidth);
+                                             ^
+  symbol:   method setPackageWidth(double)
+  location: variable parcelPackage of type Package
+ParcelTerminalDemo.java:355: error: cannot find symbol
+                                packageWidth = parcelPackage.getPackageWidth(); // packageWidth + packageHeight
+                                                            ^
+  symbol:   method getPackageWidth()
+  location: variable parcelPackage of type Package
+ParcelTerminalDemo.java:420: error: cannot find symbol
+                                packageHeight = Math.ceil(parcelPackage.keyboard.nextDouble());
+                                                                       ^
+  symbol:   variable keyboard
+  location: variable parcelPackage of type Package
+ParcelTerminalDemo.java:421: error: cannot find symbol
+                                parcelPackage.setPackageHeight(packageHeight);
+                                             ^
+  symbol:   method setPackageHeight(double)
+  location: variable parcelPackage of type Package
+ParcelTerminalDemo.java:423: error: cannot find symbol
+                                packageHeight = parcelPackage.getPackageHeight();
+                                                             ^
+  symbol:   method getPackageHeight()
+  location: variable parcelPackage of type Package
+15 errors
+error: compilation failed
+
+D:\GitHub\MIS76810032024Sprg\src\MIS768\edu\unlv\mis768\kly\individualassignment3\redo>
+ */
