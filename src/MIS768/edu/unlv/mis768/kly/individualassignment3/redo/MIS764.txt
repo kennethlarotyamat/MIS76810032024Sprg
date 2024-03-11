@@ -1809,3 +1809,845 @@ and yet, this is how it's always been. it is as if the universe itself was
 designed to frustrated me.
 
 ...
+
+Bensinger, G. (2024, March 8). Google's newest office has AI designers toiling in a Wi-Fi desert. Reuters. https://www.reuters.com/technology/googles-newest-office-has-ai-designers-toiling-wi-fi-desert-2024-03-08/
+
+Gurman, M. (2024, February 27). Apple to wind down electric car effort after decadelong odyssey. Bloomberg. https://www.bloomberg.com/news/articles/2024-02-27/apple-to-wind-down-electric-car-effort-after-decadelong-odyssey
+
+In the article The Nonlinear Influence Of Harmonious Information Technology (Chatterjee et al., 2021) the author puts forward the idea that the relationship between HITA and Innovation is U-shaped, meaning that increased innovation is a result of increased HITA, but increased innovation can also be a result of decreased HITA. It’s intuitive enough that increased innovation results from increased HITA, everyone works well when everything works well, but the counterintuitive aspect of Chatterjee’s hypothesis is that increased innovation can also result when HITA is decreased, out of the chaos: innovation. In chaotic and creatively dissonant environments, a need arises to develop mechanisms that tie different operational units together. A general example of this would be something like the creation of the Euro to deal with the myriad currencies that existed in the EU trade bloc before the invention of the Euro, on the other hand, there isn’t enough dissonance between North American countries to drive or warrant such a currency innovation for the USMCA trade bloc.
+
+In The Strategic Relevance Of Organizational Virtues Enabled By IT (Chatterjee et al., 2015) the author puts forward a framework for business ethics based on virtues that contrasts with conventional business ethics frameworks based on morality as well as business ethics frameworks based on optimization. Courage, justice, wisdom, and temperance are the virtues that Chatterjee bases the virtue based business ethics framework upon. Chatterjee extends upon this framework in two directions: the first is to determine how specific elements of HITA drive specific organizational virtues, the second is to determine how these organizational virtues drive innovation. Chatterjee goes on to posit that improvised solutions precede innovation, that innovations are a result of necessity, as well as a need for a temporary solution to that unexpected necessity. Chatterjee found that high levels of Organization Wisdom guide the improvisation and innovation process with the greatest level of success and that the HITA elements of collaboration and memory enable that virtue with the greatest levels of economy. An interesting example of this would be the East Palestine, Ohio train derailment incident involving Norfolk Southern, as well as other high-profile safety issues involving the Boeing Max 737, various news reports mentioned that they had systems in place to detect and document safety issues and quality issues, but would either ignore or disregard those issues. Both of these examples will continue to play out, but either engineering innovations will reduce the costs of resolving safety issues, or legislative and judicial innovations will occur that increase the costs of unsafely operating these businesses.
+
+In The Role Of IT In Organizational Innovation (Mamonov & Peterson 2021) the authors outline a number of different metrics used to measure information technology, and a number of different metrics for measuring innovation. Information technology can be measured with metrics like computing capacity, digital storage capacity, server capacity, data transfer rates, latency. Innovation is often measured by the number of patents filed, or the number of research papers published. This is important because information technology and innovation can seem amorphous and conceptual, but by creating metrics for measuring information technology and measuring innovation, these concepts become concrete and measuring impact and returns on IT investments can be determined. An article was recently published about the Wi-Fi connectivity issues at the Alphabet, Inc. campus where the Gemini AI project is being worked on (Bensinger 2024), it would be interesting to see how this plays out, and if something as simple as Wi-Fi connectivity can result in Google pulling out of the AI race. There have been a number of different instances where companies have pulled back from one venture or another, Apple recently canceled it’s autonomous electric vehicle project (Gurman 2024), similar examples include Google pulling out of social media, Amazon canceling it’s smartphone, Microsoft canceling it’s music player, and it would be interesting if these project cancellations, all of which would have been wonderful innovations, all originally started with simple IT problems like Wi-Fi connectivity issues.
+
+...
+
+In the article The Nonlinear Influence Of Harmonious Information Technology (Chatterjee et al., 2021) the author puts forward the idea that the relationship between HITA and Innovation is U-shaped, meaning that increased innovation is a result of increased HITA, but increased innovation can also be a result of decreased HITA. It’s intuitive enough that increased innovation results from increased HITA, everyone works well when everything works well, but the counterintuitive aspect of Chatterjee’s hypothesis is that increased innovation can also result when HITA is decreased, out of the chaos: innovation. In chaotic and creatively dissonant environments, a need arises to develop mechanisms that tie different operational units together. A general example of this would be something like the creation of the Euro to deal with the myriad currencies that existed in the EU trade bloc before the invention of the Euro, on the other hand, there isn’t enough dissonance between North American countries to drive or warrant such a currency innovation for the USMCA trade bloc.
+
+In The Strategic Relevance Of Organizational Virtues Enabled By IT (Chatterjee et al., 2015) the author puts forward a framework for business ethics based on virtues that contrasts with conventional business ethics frameworks based on morality as well as business ethics frameworks based on optimization. Courage, justice, wisdom, and temperance are the virtues that Chatterjee bases the virtue based business ethics framework upon. Chatterjee extends upon this framework in two directions: the first is to determine how specific elements of HITA drive specific organizational virtues, the second is to determine how these organizational virtues drive innovation. Chatterjee goes on to posit that improvised solutions precede innovation, that innovations are a result of necessity, as well as a need for a temporary solution to that unexpected necessity. Chatterjee found that high levels of Organization Wisdom guide the improvisation and innovation process with the greatest level of success and that the HITA elements of collaboration and memory enable that virtue with the greatest levels of economy. An interesting example of this would be the East Palestine, Ohio train derailment incident involving Norfolk Southern, as well as other high-profile safety issues involving the Boeing Max 737, various news reports mentioned that they had systems in place to detect and document safety issues and quality issues, but would either ignore or disregard those issues. Both of these examples will continue to play out, but either engineering innovations will reduce the costs of resolving safety issues, or legislative and judicial innovations will occur that increase the costs of unsafely operating these businesses.
+
+In The Role Of IT In Organizational Innovation (Mamonov & Peterson 2021) the authors outline a number of different metrics used to measure information technology, and a number of different metrics for measuring innovation. Information technology can be measured with metrics like computing capacity, digital storage capacity, server capacity, data transfer rates, latency. Innovation is often measured by the number of patents filed, or the number of research papers published. This is important because information technology and innovation can seem amorphous and conceptual, but by creating metrics for measuring information technology and measuring innovation, these concepts become concrete and measuring impact and returns on IT investments can be determined. An article was recently published about the Wi-Fi connectivity issues at the Alphabet, Inc. campus where the Gemini AI project is being worked on (Bensinger 2024), it would be interesting to see how this plays out, and if something as simple as Wi-Fi connectivity can result in Google pulling out of the AI race. There have been a number of different instances where companies have pulled back from one venture or another, Apple recently canceled it’s autonomous electric vehicle project (Gurman 2024), similar examples include Google pulling out of social media, Amazon canceling it’s smartphone, Microsoft canceling it’s music player, IBM pulling out of the personal computer business, and it would be interesting if these project cancellations, all of which would have been wonderful innovations, all originally started with simple IT problems like Wi-Fi connectivity issues.
+
+The article Information Technology and organizational innovation: Harmonious information technology affordance and courage-based actualization (Chatterjee et al., 2019) goes over how the capabilities offered by an information technology tool can be affected by attitudes toward using the technology: high levels of organizational courage on one end of the spectrum, and high levels of risk aversion on the other.
+
+...
+
+life is always kicking my ass. never. ceases. to be kicking my ass.
+
+...
+
+
+// everything always takes twice as long as I anticipate it will.
+//
+//
+//
+// // for (double value : pointScaleTimesCreditHoursArray) {
+// // sumPointScaleTimesCreditHours += value;
+//
+// // for (double value : packageShippingChargeArray) {
+// // packageShippingChargeArray += value;
+//
+// // double preliminaryCost = 0.00;
+// // for (double value : packageShippingChargeArray) {
+// // preliminaryCost += value; //
+// // }
+// // i eliminated preliminaryCost and replaced it with theGrandTotal
+//
+// // double thePreliminaryGrandTotal = shipment.getThePreliminaryGrandTotal();
+// // private double thePreliminaryGrandTotal
+// // System.out.println(reset+"The preliminary cost of shipping your "+
+// packageShippingChargeArray.size() + " package(s) amounts to: "+ green+
+// formatDoubleDollars.format(thePreliminaryGrandTotal) +" USD"+reset); //
+// getTheGrandTotal()// v// "British Euro Dollars");
+// // START - turned out to be a huge waste of time
+// // shipment.setThePreliminaryGrandTotal(thePreliminaryGrandTotal);
+// // String tFsIn = shipment.getTheFrequentShipperIdentificationNumber();
+// // double frequentShipperDiscount = shipment.THE_FREQUENT_SHIPPER_DISCOUNT;
+// // double theBulkDiscountAmount = shipment.THE_BULK_PACKAGE_DISCOUNT;
+// /*
+// if (Integer.parseInt(tFsIn) !=0 &&
+// (thePreliminaryGrandTotal-(thePreliminaryGrandTotal *
+// frequentShipperDiscount)) <= 300) {
+//
+// System.out.println(reset+"The preliminary cost of shipping your "+
+// packageShippingChargeArray.size() + " package(s) amounts to: "+ green+
+// formatDoubleDollars.format(thePreliminaryGrandTotal) +" USD"+reset);
+// System.out.println(reset+"You will be receiving a frequent shipper discount
+// in the amount of: "+ green+
+// formatDoubleDollars.format((frequentShipperDiscount *
+// thePreliminaryGrandTotal)) +" USD"+reset);
+// System.out.println(reset+" "+reset);
+// double theFinalGrandTotalAggregateShipmentExpenses =
+// shipment.getTheGrandTotal();
+// System.out.println(reset+"The total final cost of shipping your "+
+// packageShippingChargeArray.size() + " package(s) amounts to a Grand Total of:
+// "+ green+
+// formatDoubleDollars.format(theFinalGrandTotalAggregateShipmentExpenses) +"
+// USD"+reset);
+// System.out.println(reset+" "+reset);
+//
+// } else if (Integer.parseInt(tFsIn) !=0 &&
+// (thePreliminaryGrandTotal-(thePreliminaryGrandTotal *
+// frequentShipperDiscount)) >= 300) {
+// System.out.println(reset+"The preliminary cost of shipping your "+
+// packageShippingChargeArray.size() + " package(s) amounts to: "+ green+
+// formatDoubleDollars.format(thePreliminaryGrandTotal) +" USD"+reset);
+// System.out.println(reset+"You will be receiving a frequent shipper discount
+// in the amount of: "+ green+
+// formatDoubleDollars.format((frequentShipperDiscount *
+// thePreliminaryGrandTotal)) +" USD"+reset);
+// System.out.println(reset+"You will also be receiving a frequent shipper bulk
+// shipment discount in the amount of: "+ green+ (theBulkDiscountAmount) +"
+// USD"+reset);
+// System.out.println(reset+" "+reset);
+// double theFinalGrandTotalAggregateShipmentExpenses =
+// shipment.getTheGrandTotal();
+// System.out.println(reset+"The total final cost of shipping your "+
+// packageShippingChargeArray.size() + " package(s) amounts to a Grand Total of:
+// "+ green+
+// formatDoubleDollars.format(theFinalGrandTotalAggregateShipmentExpenses) +"
+// USD"+reset);
+// System.out.println(reset+" "+reset);
+//
+// } else {
+// System.out.println(reset+" "+reset);
+// double theFinalGrandTotalAggregateShipmentExpenses =
+// shipment.getTheGrandTotal();
+// System.out.println(reset+"The total final cost of shipping your "+
+// packageShippingChargeArray.size() + " package(s) amounts to a Grand Total of:
+// "+ green+
+// formatDoubleDollars.format(theFinalGrandTotalAggregateShipmentExpenses) +"
+// USD"+reset);
+// System.out.println(reset+" "+reset);
+// }
+// */
+// // END - turned out to be a huge waste of time
+// // START - Let's see if this works
+// // I found it this thing was annoying the hell out of me. //
+// System.out.print(shipment.getTheGrandTotal());
+
+// System.out.println(reset+(thePreliminaryGrandTotal-(thePreliminaryGrandTotal
+// * frequentShipperDiscount))+reset); // for testing
+
+// Integer.parseInt(tFsIn) !=0 && // } else if (Integer.parseInt(tFsIn) !=0 &&
+// (thePreliminaryGrandTotal-(thePreliminaryGrandTotal *
+// frequentShipperDiscount)) >= 300) {
+
+// THE_FREQUENT_SHIPPER_DISCOUNT * thePreliminaryGrandTotal
+// [0mThe preliminary cost of shipping your 1 package(s) amounts to:
+// [32m[1m3.12 USD
+// this pushes the preliminary cost of the transaction into the Shipment.java
+// but this is actually wrong, so i actually have to do this in the Shipment
+// class.
+// it's a simple move, but i'm already tired of this.
+
+// British Eurodollars // this is actually supposed to be extremely funny!
+// because, at first is seems wrong, the British don't use euro(s), or dollars,
+// but British Eurodollars are real, like, they're US dollars held in bank in
+// London, or something.
+// but yeah, that's supposed to be really funny.
+
+// this alone took forever. the preliminary cost.
+// this is taking forever. not only. am not going to get anything higher than a
+// C, - what a nightmare.
+
+// I really just want to put the discounts here, but they have to go. inside the
+// shipment class. - this is a nightmare -
+
+//
+//
+
+// I think that this is where I would put it.
+// packageWidth = parcelPackage.getPackageWidth();
+
+// System.out.println(packageShippingChargeArray); // ArrayList<Double>
+// packageShippingChargeArray = new ArrayList<Double>();
+
+// I'm starting to understand what object oriented design is
+//
+// it's like this - the demo class is like an HTML page, and the model class is
+// like the JavaScript file.
+// when I was starting this assignment, I started with the demo class, because
+// like an HTML page, it's
+// something I can see. and it's something I can interact with.
+
+// I'm trying to think. I think that the package class is done, but I need
+// something to happen once this while loop ends. or.
+// I think that it just goes after the end of the while loop, so once a person
+// enters N, then the next part of the program starts.
+// this is almost done.
+// System.out.println(packageShippingChargeArray);
+// /*
+//
+//
+// System.out.print("Please enter your frequent shipper identification number:"
+// + green);
+// packageWeight = Math.ceil(parcelPackage.keyboard.nextDouble()); // Math.ceil(
+// parcelPackage.setPackageWeight(packageWeight);
+//
+//
+
+//
+// "However, each package should not exceed 120 pounds (actual weight) and 100
+// outside linear inches (length plus width plus height)."  - Han-fen Hu, Ph.D
+//
+// "Overweight or over-sized packages are not accepted."  - Han-fen Hu, Ph.D
+//
+// "If the user enters a zero or a negative number, the program should show an
+// error message and request input again until a positive number is entered."  - Han-fen Hu, Ph.D
+//
+//
+//
+// "For the actual weight, any fraction of the measurement should be increased to
+// the nearest whole number (for example, 20.1 will be considered 21)."  - Han-fen Hu, Ph.D
+//
+// "For each package that can be shipped, the dimensional weight should be
+// calculated. Dimensional weight reflects the amount of space a package
+// occupies; dimensional weight is calculated by the following steps: (1)
+// Determine the package dimensions in inches. For each dimension, any fraction
+// of the measurement should be increased to the nearest whole number (for
+// example, 1.3 will be considered 2). (2) Multiply the package length by the
+// width by the height. The result is the cubic size in inches. (3) Divide the
+// cubic size in inches by 166 to determine dimensional weight in pounds. (4)
+// Increase any fraction to the next whole pound."  - Han-fen Hu, Ph.D
+//
+// "The shipping cost of each package is calculated by comparing the actual
+// weight to the dimensional weight. The greater of the two is the billable
+// weight and should be used to calculate the rate. The final cost of the
+// shipment is calculated by multiplying the price per pound ($3.12) by the
+// billable weight."  - Han-fen Hu, Ph.D
+//
+// "For each accepted package, the program should show the actual weight,
+// calculated dimensional weight, and the shipping cost for the package."  - Han-fen Hu, Ph.D
+//
+// After all the packages are entered, the program will prompt the users to
+// enter if they have “frequent-shipper” numbers; if so, a 5% discount will be
+// applied to the shipping cost. If the total amount after the frequent-shipper
+// discount is greater than $300, an additional “bulk package” discount of $20
+// off would be applied. The program shows the total number of packages to ship,
+// subtotal before discount, frequent-shipper discount if applied, bulk package
+// discount if applied, and the grand total. -  - "Han-fen Hu, Ph.D
+//
+// "Please use the object-oriented approach to design the program. Specifically,
+// a Package class and a Shipment class should be designed and implemented. The
+// Package class represents the data and behavior for each individual package.
+// The Shipment class represents the entire transaction made by a user."  - Han-fen Hu, Ph.D
+//
+//
+//
+// */
+//
+//
+// /*
+// [0m[31mGreetings: [0m Utilize this terminal to determine the cost to ship
+// your parcel.
+// Please enter the[31m weight[0m and the [31mdimensions [0mof your parcel:
+//
+// [0m Data for Parcel # 1
+//
+// Please enter the[31m weight [0mof your parcel: [32m50
+// [0mPlease enter the[31m length [0mof your parcel: [32m50
+// [0mPlease enter the[31m width [0m of your parcel: [32m50
+// [0mPlease enter the[31m height [0mof your parcel: [32m50
+//
+// [0mThe parcel has an actual weight of: PLACEHOLDER
+// [0mThe parcel has a dimensional weight of: PLACEHOLDER
+// [0mThe parcel has the following dimensions: PLACEHOLDER
+// [0mThe parcel has a shipping cost of: PLACEHOLDER
+//
+// [0mWill you be shipping any additional parcels? (Y/N): [32my
+//
+// [0m Data for Parcel # 2
+//
+// Please enter the[31m weight [0mof your parcel: [32m50
+// [0mPlease enter the[31m length [0mof your parcel: [32m50
+// [0mPlease enter the[31m width [0m of your parcel: [32m50
+// [0mPlease enter the[31m height [0mof your parcel: [32m50
+//
+// [0mThe parcel has an actual weight of: PLACEHOLDER
+// [0mThe parcel has a dimensional weight of: PLACEHOLDER
+// [0mThe parcel has the following dimensions: PLACEHOLDER
+// [0mThe parcel has a shipping cost of: PLACEHOLDER
+//
+// [0mWill you be shipping any additional parcels? (Y/N): [32my
+//
+// [0m Data for Parcel # 3
+//
+// Please enter the[31m weight [0mof your parcel: [32m50
+// [0mPlease enter the[31m length [0mof your parcel: [32m50
+// [0mPlease enter the[31m width [0m of your parcel: [32m50
+// [0mPlease enter the[31m height [0mof your parcel: [32m50
+//
+// [0mThe parcel has an actual weight of: PLACEHOLDER
+// [0mThe parcel has a dimensional weight of: PLACEHOLDER
+// [0mThe parcel has the following dimensions: PLACEHOLDER
+// [0mThe parcel has a shipping cost of: PLACEHOLDER
+//
+// [0mWill you be shipping any additional parcels? (Y/N): [32my
+//
+// [0m Data for Parcel # 4
+//
+// Please enter the[31m weight [0mof your parcel: [32m50
+// [0mPlease enter the[31m length [0mof your parcel: [32m50
+// [0mPlease enter the[31m width [0m of your parcel: [32m50
+// [0mPlease enter the[31m height [0mof your parcel: [32m50
+//
+// [0mThe parcel has an actual weight of: PLACEHOLDER
+// [0mThe parcel has a dimensional weight of: PLACEHOLDER
+// [0mThe parcel has the following dimensions: PLACEHOLDER
+// [0mThe parcel has a shipping cost of: PLACEHOLDER
+//
+// [0mWill you be shipping any additional parcels? (Y/N): [32my
+//
+// [0m Data for Parcel # 5
+//
+// Please enter the[31m weight [0mof your parcel: [32m50
+// [0mPlease enter the[31m length [0mof your parcel: [32m50
+// [0mPlease enter the[31m width [0m of your parcel: [32m50
+// [0mPlease enter the[31m height [0mof your parcel: [32m50
+//
+// [0mThe parcel has an actual weight of: PLACEHOLDER
+// [0mThe parcel has a dimensional weight of: PLACEHOLDER
+// [0mThe parcel has the following dimensions: PLACEHOLDER
+// [0mThe parcel has a shipping cost of: PLACEHOLDER
+//
+// [0mWill you be shipping any additional parcels? (Y/N): [32my
+//
+// [0m Data for Parcel # 6
+//
+// Please enter the[31m weight [0mof your parcel: [32mchickens
+// Exception in thread "main" java.util.InputMismatchException
+// at java.base/java.util.Scanner.throwFor(Scanner.java:947)
+// at java.base/java.util.Scanner.next(Scanner.java:1602)
+// at java.base/java.util.Scanner.nextDouble(Scanner.java:2573)
+// at
+// edu.unlv.mis768.kly.individualassignment3.ShippingCalculatorDemo.main(ShippingCalculatorDemo.java:44)
+// */
+//
+// //Please enter the file name where you would like to print your transcript:
+// D:\GitHub\MIS76810032024Sprg\src\MIS768\edu\
+// unlv\mis768\kly\individualassignment2\transcript02292024.txt
+// //Data has been written to D:\GitHub\MIS76810032024Sprg\src\MIS768\edu\
+// unlv\mis768\kly\individualassignment2\transcript02292024.txt successfully.
+// //
+// //Enter a course number for entry # 1: Advanced Studies in Chickens 101
+// //Enter credit hours for entry # 1: 3
+// //Enter letter grade earned for entry # 1: a
+// //Do you have additional course details to enter? (Y/N): y
+// //Enter a course number for entry # 2: advanced studies in geese 102
+// //Enter credit hours for entry # 2: 3
+// //Enter letter grade earned for entry # 2: a
+// //Do you have additional course details to enter? (Y/N): y
+// //Enter a course number for entry # 3: intermediate duck related conspiracy
+// theories 103
+// //Enter credit hours for entry # 3: a
+// //Exception in thread "main" java.util.InputMismatchException
+// // at java.base/java.util.Scanner.throwFor(Scanner.java:947)
+// // at java.base/java.util.Scanner.next(Scanner.java:1602)
+// // at java.base/java.util.Scanner.nextInt(Scanner.java:2267)
+// // at java.base/java.util.Scanner.nextInt(Scanner.java:2221)
+// // at
+// edu.unlv.mis768.kly.individualassignment2.CreateTranscriptDemo.main(CreateTranscriptDemo.java:59)
+// //
+// //
+// // Enter a course number for entry # 1: Advanced Studies in Chickens 232
+// //Enter credit hours for entry # 1: 4
+// //Enter letter grade earned for entry # 1: a
+// //Do you have additional course details to enter? (Y/N): y
+// //Enter a course number for entry # 2: Advanced Studies in Orange Juice 443
+// //Enter credit hours for entry # 2: 3.5
+// //Exception in thread "main" java.util.InputMismatchException
+// // at java.base/java.util.Scanner.throwFor(Scanner.java:947)
+// // at java.base/java.util.Scanner.next(Scanner.java:1602)
+// // at java.base/java.util.Scanner.nextInt(Scanner.java:2267)
+// // at java.base/java.util.Scanner.nextInt(Scanner.java:2221)
+// // at
+// edu.unlv.mis768.kly.individualassignment2.CreateTranscriptDemo.main(CreateTranscriptDemo.java:59)
+// //
+// //
+// // String red = "\u001B[31m";
+// // String reset = "\u001B[0m";
+// //
+// // ANSI escape codes
+// //
+// // String black = "\u001B[30m";
+// // String red = "\u001B[31m";
+// // String green = "\u001B[32m";
+// // String reset = "\u001B[0m";
+// //
+// // Black: \u001B[30m
+// // Red: \u001B[31m
+// // Green: \u001B[32m
+// // Yellow: \u001B[33m
+// // Blue: \u001B[34m
+// // Magenta: \u001B[35m
+// // Cyan: \u001B[36m
+// // White: \u001B[37m
+//
+// //System.out.println("[31mGreetings: [0m Utilize this terminal to determine
+// the shipping costs of your parcel.");
+// /*
+// Nectar
+// Enter a course number for entry # 1: Orange Juice 232
+// Enter credit hours for entry # 1: 3
+// Enter letter grade earned for entry # 1: a
+// Do you have additional course details to enter? (Y/N): y
+// Enter a course number for entry # 2: Lemonade 443
+// Enter credit hours for entry # 2: 3
+// Enter letter grade earned for entry # 2: a
+// Do you have additional course details to enter? (Y/N): y
+// Enter a course number for entry # 3: Milk 868
+// Enter credit hours for entry # 3: 3
+// Enter letter grade earned for entry # 3: c
+// Do you have additional course details to enter? (Y/N): y
+// Enter a course number for entry # 4: Nectar
+// Enter credit hours for entry # 4: 3
+// Enter letter grade earned for entry # 4: a
+// Do you have additional course details to enter? (Y/N): n
+// Grade Point Average: 3.50
+// Would you like to printout of your transcript? (Y/N): y
+//
+//
+//
+//
+// */
+// // public class ShippingCalculatorDemo {
+// // The name of a class should be a noun/noun-phrase.
+// // I'm frustrated right now. everything is a disaster, and nothing is going
+// right.'
+// // and I don't anticipate things getting better. this is a nightmare.'
+//
+//
+// /*
+// "Dimensional weight, also known as volumetric weight, is a pricing technique
+// used
+// by postal services and commercial freight companies. It's based on the cubic
+// capacity
+// of a package, rather than its weight.""
+// */
+
+// I'm really stressed out right now. such a nightmare - I filed a software copyright for the computer program for
+// individual assignment # 3.
+
+// here is one of the major challenges I'm facing right now.
+// I won't get any credit for turning in a group project because I would have to be part of a group
+// in order to receive any credit for doing a group project. and it's due. later today. this is a nightmare.
+
+// I don't know what to do - life is such a nightmare
+// a real nightmare.
+// a headache beyond anything anyone can imagine.
+
+// there is a strong chance that I will have to audit this course MIS 768 // and
+// that's a nightmare // and a disappointment
+// a real disappointment for me.
+
+/*
+ * Microsoft Windows [Version 10.0.22631.3155]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\KLYam>javac
+Usage: javac <options> <source files>
+where possible options include:
+  @<filename>                  Read options and filenames from file
+  -Akey[=value]                Options to pass to annotation processors
+  --add-modules <module>(,<module>)*
+        Root modules to resolve in addition to the initial modules,
+        or all modules on the module path if <module> is ALL-MODULE-PATH.
+  --boot-class-path <path>, -bootclasspath <path>
+        Override location of bootstrap class files
+  --class-path <path>, -classpath <path>, -cp <path>
+        Specify where to find user class files and annotation processors
+  -d <directory>               Specify where to place generated class files
+  -deprecation
+        Output source locations where deprecated APIs are used
+  --enable-preview
+        Enable preview language features.
+        To be used in conjunction with either -source or --release.
+  -encoding <encoding>         Specify character encoding used by source files
+  -endorseddirs <dirs>         Override location of endorsed standards path
+  -extdirs <dirs>              Override location of installed extensions
+  -g                           Generate all debugging info
+  -g:{lines,vars,source}       Generate only some debugging info
+  -g:none                      Generate no debugging info
+  -h <directory>
+        Specify where to place generated native header files
+  --help, -help, -?            Print this help message
+  --help-extra, -X             Print help on extra options
+  -implicit:{none,class}
+        Specify whether to generate class files for implicitly referenced files
+  -J<flag>                     Pass <flag> directly to the runtime system
+  --limit-modules <module>(,<module>)*
+        Limit the universe of observable modules
+  --module <module>(,<module>)*, -m <module>(,<module>)*
+        Compile only the specified module(s), check timestamps
+  --module-path <path>, -p <path>
+        Specify where to find application modules
+  --module-source-path <module-source-path>
+        Specify where to find input source files for multiple modules
+  --module-version <version>
+        Specify version of modules that are being compiled
+  -nowarn                      Generate no warnings
+  -parameters
+        Generate metadata for reflection on method parameters
+  -proc:{none,only,full}
+        Control whether annotation processing and/or compilation is done.
+  -processor <class1>[,<class2>,<class3>...]
+        Names of the annotation processors to run;
+        bypasses default discovery process
+  --processor-module-path <path>
+        Specify a module path where to find annotation processors
+  --processor-path <path>, -processorpath <path>
+        Specify where to find annotation processors
+  -profile <profile>
+        Check that API used is available in the specified profile.
+        This option is deprecated and may be removed in a future release.
+  --release <release>
+        Compile for the specified Java SE release.
+        Supported releases:
+            8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21
+  -s <directory>               Specify where to place generated source files
+  --source <release>, -source <release>
+        Provide source compatibility with the specified Java SE release.
+        Supported releases:
+            8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21
+  --source-path <path>, -sourcepath <path>
+        Specify where to find input source files
+  --system <jdk>|none          Override location of system modules
+  --target <release>, -target <release>
+        Generate class files suitable for the specified Java SE release.
+        Supported releases:
+            8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21
+  --upgrade-module-path <path>
+        Override location of upgradeable modules
+  -verbose                     Output messages about what the compiler is doing
+  --version, -version          Version information
+  -Werror                      Terminate compilation if warnings occur
+
+
+C:\Users\KLYam>java D:\GitHub\MIS76810032024Sprg\src\MIS768\edu\unlv\mis768\kly\individualassignment3\redo\ParcelTerminalDemo.java
+D:\GitHub\MIS76810032024Sprg\src\MIS768\edu\unlv\mis768\kly\individualassignment3\redo\ParcelTerminalDemo.java:48: error: cannot find symbol
+                Shipment shipment = new Shipment(billableWeight);
+                ^
+  symbol:   class Shipment
+  location: class ParcelTerminalDemo
+D:\GitHub\MIS76810032024Sprg\src\MIS768\edu\unlv\mis768\kly\individualassignment3\redo\ParcelTerminalDemo.java:48: error: cannot find symbol
+                Shipment shipment = new Shipment(billableWeight);
+                                        ^
+  symbol:   class Shipment
+  location: class ParcelTerminalDemo
+D:\GitHub\MIS76810032024Sprg\src\MIS768\edu\unlv\mis768\kly\individualassignment3\redo\ParcelTerminalDemo.java:96: error: no suitable constructor found for Package(double,double,double,double)
+                        Package parcelPackage = new Package(packageWeight, packageLength, packageWidth, packageHeight);
+                                                ^
+    constructor Package.Package(String,String,String,String,String,String,String,URL,ClassLoader) is not applicable
+      (actual and formal argument lists differ in length)
+    constructor Package.Package(String,Module) is not applicable
+      (actual and formal argument lists differ in length)
+D:\GitHub\MIS76810032024Sprg\src\MIS768\edu\unlv\mis768\kly\individualassignment3\redo\ParcelTerminalDemo.java:171: error: cannot find symbol
+                                packageWeight = Math.ceil(parcelPackage.keyboard.nextDouble());
+                                                                       ^
+  symbol:   variable keyboard
+  location: variable parcelPackage of type Package
+D:\GitHub\MIS76810032024Sprg\src\MIS768\edu\unlv\mis768\kly\individualassignment3\redo\ParcelTerminalDemo.java:175: error: cannot find symbol
+                                parcelPackage.setPackageWeight(packageWeight);
+                                             ^
+  symbol:   method setPackageWeight(double)
+  location: variable parcelPackage of type Package
+D:\GitHub\MIS76810032024Sprg\src\MIS768\edu\unlv\mis768\kly\individualassignment3\redo\ParcelTerminalDemo.java:177: error: cannot find symbol
+                                packageWeight = parcelPackage.getPackageWeight();
+                                                             ^
+  symbol:   method getPackageWeight()
+  location: variable parcelPackage of type Package
+D:\GitHub\MIS76810032024Sprg\src\MIS768\edu\unlv\mis768\kly\individualassignment3\redo\ParcelTerminalDemo.java:233: error: cannot find symbol
+                                packageLength = Math.ceil(parcelPackage.keyboard.nextDouble());
+                                                                       ^
+  symbol:   variable keyboard
+  location: variable parcelPackage of type Package
+D:\GitHub\MIS76810032024Sprg\src\MIS768\edu\unlv\mis768\kly\individualassignment3\redo\ParcelTerminalDemo.java:234: error: cannot find symbol
+                                parcelPackage.setPackageLength(packageLength);
+                                             ^
+  symbol:   method setPackageLength(double)
+  location: variable parcelPackage of type Package
+D:\GitHub\MIS76810032024Sprg\src\MIS768\edu\unlv\mis768\kly\individualassignment3\redo\ParcelTerminalDemo.java:238: error: cannot find symbol
+                                packageLength = parcelPackage.getPackageLength();
+                                                             ^
+  symbol:   method getPackageLength()
+  location: variable parcelPackage of type Package
+D:\GitHub\MIS76810032024Sprg\src\MIS768\edu\unlv\mis768\kly\individualassignment3\redo\ParcelTerminalDemo.java:350: error: cannot find symbol
+                                packageWidth = Math.ceil(parcelPackage.keyboard.nextDouble());
+                                                                      ^
+  symbol:   variable keyboard
+  location: variable parcelPackage of type Package
+D:\GitHub\MIS76810032024Sprg\src\MIS768\edu\unlv\mis768\kly\individualassignment3\redo\ParcelTerminalDemo.java:351: error: cannot find symbol
+                                parcelPackage.setPackageWidth(packageWidth);
+                                             ^
+  symbol:   method setPackageWidth(double)
+  location: variable parcelPackage of type Package
+D:\GitHub\MIS76810032024Sprg\src\MIS768\edu\unlv\mis768\kly\individualassignment3\redo\ParcelTerminalDemo.java:353: error: cannot find symbol
+                                packageWidth = parcelPackage.getPackageWidth(); // packageWidth + packageHeight
+                                                            ^
+  symbol:   method getPackageWidth()
+  location: variable parcelPackage of type Package
+D:\GitHub\MIS76810032024Sprg\src\MIS768\edu\unlv\mis768\kly\individualassignment3\redo\ParcelTerminalDemo.java:418: error: cannot find symbol
+                                packageHeight = Math.ceil(parcelPackage.keyboard.nextDouble());
+                                                                       ^
+  symbol:   variable keyboard
+  location: variable parcelPackage of type Package
+D:\GitHub\MIS76810032024Sprg\src\MIS768\edu\unlv\mis768\kly\individualassignment3\redo\ParcelTerminalDemo.java:419: error: cannot find symbol
+                                parcelPackage.setPackageHeight(packageHeight);
+                                             ^
+  symbol:   method setPackageHeight(double)
+  location: variable parcelPackage of type Package
+D:\GitHub\MIS76810032024Sprg\src\MIS768\edu\unlv\mis768\kly\individualassignment3\redo\ParcelTerminalDemo.java:421: error: cannot find symbol
+                                packageHeight = parcelPackage.getPackageHeight();
+                                                             ^
+  symbol:   method getPackageHeight()
+  location: variable parcelPackage of type Package
+15 errors
+error: compilation failed
+
+C:\Users\KLYam>D:
+
+D:\>cd GitHub
+
+D:\GitHub>cd MIS76810032024Sprg
+
+D:\GitHub\MIS76810032024Sprg>cd src
+
+D:\GitHub\MIS76810032024Sprg\src>cd MIS768
+
+D:\GitHub\MIS76810032024Sprg\src\MIS768>cd edu
+
+D:\GitHub\MIS76810032024Sprg\src\MIS768\edu>cd unlv
+
+// D:\GitHub\MIS76810032024Sprg\src\MIS768\edu\ unlv>cd mis768
+
+D:\GitHub\MIS76810032024Sprg\src\MIS768\edu\ unlv\mis768>cd kly
+
+D:\GitHub\MIS76810032024Sprg\src\MIS768\edu\unlv\mis768\kly>cd individualassignment3
+
+D:\GitHub\MIS76810032024Sprg\src\MIS768\edu\unlv\mis768\kly\individualassignment3>cd redo
+
+D:\GitHub\MIS76810032024Sprg\src\MIS768\edu\unlv\mis768\kly\individualassignment3\redo>
+D:\GitHub\MIS76810032024Sprg\src\MIS768\edu\unlv\mis768\kly\individualassignment3\redo>
+D:\GitHub\MIS76810032024Sprg\src\MIS768\edu\unlv\mis768\kly\individualassignment3\redo>
+D:\GitHub\MIS76810032024Sprg\src\MIS768\edu\unlv\mis768\kly\individualassignment3\redo>ParcelTerminalDemo.java
+
+D:\GitHub\MIS76810032024Sprg\src\MIS768\edu\unlv\mis768\kly\individualassignment3\redo>
+ParcelTerminalDemo.java
+
+D:\GitHub\MIS76810032024Sprg\src\MIS768\edu\unlv\mis768\kly\individualassignment3\redo>
+javac ParcelTerminalDemo.java
+ParcelTerminalDemo.java:20: error: illegal unicode escape
+D:\GitHub\MIS76810032024Sprg\src\MIS768\edu\unlv\mis768\kly\individualassignment3\redo\ParcelTerminalDemo.java
+                                             ^
+1 error
+
+D:\GitHub\MIS76810032024Sprg\src\MIS768\edu\unlv\mis768\kly\individualassignment3\redo>D:\GitHub\MIS76810032024Sprg\src\MIS768\edu\\unlv\mis768\kly\individualassignment3\redo\ParcelTerminalDemo.java
+
+D:\GitHub\MIS76810032024Sprg\src\MIS768\edu\unlv\mis768\kly\individualassignment3\redo>
+D:
+
+D:\GitHub\MIS76810032024Sprg\src\MIS768\edu\unlv\mis768\kly\individualassignment3\redo>cd GitHub
+The system cannot find the path specified.
+
+D:\GitHub\MIS76810032024Sprg\src\MIS768\edu\unlv\mis768\kly\individualassignment3\redo>cd MIS76810032024Sprg
+The system cannot find the path specified.
+
+D:\GitHub\MIS76810032024Sprg\src\MIS768\edu\unlv\mis768\kly\individualassignment3\redo>cd src
+The system cannot find the path specified.
+
+D:\GitHub\MIS76810032024Sprg\src\MIS768\edu\unlv\mis768\kly\individualassignment3\redo>cd MIS768
+The system cannot find the path specified.
+
+D:\GitHub\MIS76810032024Sprg\src\MIS768\edu\unlv\mis768\kly\individualassignment3\redo>cd edu
+The system cannot find the path specified.
+
+D:\GitHub\MIS76810032024Sprg\src\MIS768\edu\unlv\mis768\kly\individualassignment3\redo>cd unlv
+The system cannot find the path specified.
+
+D:\GitHub\MIS76810032024Sprg\src\MIS768\edu\unlv\mis768\kly\individualassignment3\redo>cd mis768
+The system cannot find the path specified.
+
+D:\GitHub\MIS76810032024Sprg\src\MIS768\edu\unlv\mis768\kly\individualassignment3\redo>cd kly
+The system cannot find the path specified.
+
+D:\GitHub\MIS76810032024Sprg\src\MIS768\edu\unlv\mis768\kly\individualassignment3\redo>cd individualassignment3
+The system cannot find the path specified.
+
+D:\GitHub\MIS76810032024Sprg\src\MIS768\edu\unlv\mis768\kly\individualassignment3\redo>cd redo
+The system cannot find the path specified.
+
+D:\GitHub\MIS76810032024Sprg\src\MIS768\edu\unlv\mis768\kly\individualassignment3\redo>java ParcelTerminalDemo.java
+ParcelTerminalDemo.java:50: error: cannot find symbol
+                Shipment shipment = new Shipment(billableWeight);
+                ^
+  symbol:   class Shipment
+  location: class ParcelTerminalDemo
+ParcelTerminalDemo.java:50: error: cannot find symbol
+                Shipment shipment = new Shipment(billableWeight);
+                                        ^
+  symbol:   class Shipment
+  location: class ParcelTerminalDemo
+ParcelTerminalDemo.java:98: error: no suitable constructor found for Package(double,double,double,double)
+                        Package parcelPackage = new Package(packageWeight, packageLength, packageWidth, packageHeight);
+                                                ^
+    constructor Package.Package(String,String,String,String,String,String,String,URL,ClassLoader) is not applicable
+      (actual and formal argument lists differ in length)
+    constructor Package.Package(String,Module) is not applicable
+      (actual and formal argument lists differ in length)
+ParcelTerminalDemo.java:173: error: cannot find symbol
+                                packageWeight = Math.ceil(parcelPackage.keyboard.nextDouble());
+                                                                       ^
+  symbol:   variable keyboard
+  location: variable parcelPackage of type Package
+ParcelTerminalDemo.java:177: error: cannot find symbol
+                                parcelPackage.setPackageWeight(packageWeight);
+                                             ^
+  symbol:   method setPackageWeight(double)
+  location: variable parcelPackage of type Package
+ParcelTerminalDemo.java:179: error: cannot find symbol
+                                packageWeight = parcelPackage.getPackageWeight();
+                                                             ^
+  symbol:   method getPackageWeight()
+  location: variable parcelPackage of type Package
+ParcelTerminalDemo.java:235: error: cannot find symbol
+                                packageLength = Math.ceil(parcelPackage.keyboard.nextDouble());
+                                                                       ^
+  symbol:   variable keyboard
+  location: variable parcelPackage of type Package
+ParcelTerminalDemo.java:236: error: cannot find symbol
+                                parcelPackage.setPackageLength(packageLength);
+                                             ^
+  symbol:   method setPackageLength(double)
+  location: variable parcelPackage of type Package
+ParcelTerminalDemo.java:240: error: cannot find symbol
+                                packageLength = parcelPackage.getPackageLength();
+                                                             ^
+  symbol:   method getPackageLength()
+  location: variable parcelPackage of type Package
+ParcelTerminalDemo.java:352: error: cannot find symbol
+                                packageWidth = Math.ceil(parcelPackage.keyboard.nextDouble());
+                                                                      ^
+  symbol:   variable keyboard
+  location: variable parcelPackage of type Package
+ParcelTerminalDemo.java:353: error: cannot find symbol
+                                parcelPackage.setPackageWidth(packageWidth);
+                                             ^
+  symbol:   method setPackageWidth(double)
+  location: variable parcelPackage of type Package
+ParcelTerminalDemo.java:355: error: cannot find symbol
+                                packageWidth = parcelPackage.getPackageWidth(); // packageWidth + packageHeight
+                                                            ^
+  symbol:   method getPackageWidth()
+  location: variable parcelPackage of type Package
+ParcelTerminalDemo.java:420: error: cannot find symbol
+                                packageHeight = Math.ceil(parcelPackage.keyboard.nextDouble());
+                                                                       ^
+  symbol:   variable keyboard
+  location: variable parcelPackage of type Package
+ParcelTerminalDemo.java:421: error: cannot find symbol
+                                parcelPackage.setPackageHeight(packageHeight);
+                                             ^
+  symbol:   method setPackageHeight(double)
+  location: variable parcelPackage of type Package
+ParcelTerminalDemo.java:423: error: cannot find symbol
+                                packageHeight = parcelPackage.getPackageHeight();
+                                                             ^
+  symbol:   method getPackageHeight()
+  location: variable parcelPackage of type Package
+15 errors
+error: compilation failed
+
+D:\GitHub\MIS76810032024Sprg\src\MIS768\edu\unlv\mis768\kly\individualassignment3\redo>
+ */
+ 
+ 		// I no longer need this, it works, and I know that //
+		// System.out.println(packageShippingChargeArray);
+		// keyboard.nextLine(); // this is for testing .length // packageHeight =
+		// Math.ceil(parcelPackage.keyboard.nextDouble());
+		// public int theFrequentShipperIdentificationNumber;
+		// I might have to move this into the Shipment class
+		// int theFrequentShipperIdentificationNumber;
+		// System.out.print(reset+"Please enter your frequent shipper identification
+		// number: " + green);
+		// theFrequentShipperIdentificationNumber = keyboard.nextInt();
+		// // int // packageShippingChargeArrayLength =0;
+		// int packageShippingChargeArrayLength = packageShippingChargeArray.length;
+		// System.out.println("You are shipping a total of "+ +); //
+		// packageShippingChargeArray.length; packageShippingChargeArray.length
+		// This is finally done. I'm not even really ready to read about whatever
+		// shortcomings it has.
+		// i changed this to string to make it easier to process, there
+		// kept being an integer error, so i figured, a shipper number
+		// is really more like a numberName rather than // it's
+		// basically a numerical name, not a real number.
+		// Integer.parseInt(keyboard.nextLine());// keyboard.nextInt(); //
+		// Integer.parseInt(keyboard.nextInt())
+		// int // packageShippingChargeArrayLength =0;
+		// int packageShippingChargeArrayLength = packageShippingChargeArray.size(); //
+		// what a nightmare, .length is for an array, for an array list, you use .size()
+		// I don't know why I have to do this, but I have -- and i mean, it's required
+		// by the assignment that I do this.
+		// when i say: i have to do this, I have to make a distinction between my own
+		// issues, and the assignment requirements,
+		// but i basically have to push the customer ID into the shipment class.
+		// and pull it right back out. hahahaha - nightmare.
+
+		// actually I don't think I have to pull it back out, i just have to push it in.
+		// i'll pull it out, in the sense that it factors into the discounts, but it's
+		// not otherwise being pulled back out in it's original form.
+		
+		// packageShippingChargeArray.length; packageShippingChargeArray.length
+		// this pushes the number of packages into the Shipment.java class //
+		// shipment.// setTheTotalNumberOfPackages(int theTotalNumberOfPkgs)
+		
+		
+...
+
+			// System.out.print(reset+"Will you be shipping any additional parcels? ("+
+			// green +"Y"+reset+"/"+reset+red+"N"+reset+"): "+green); // this was a headache
+			// just to make the Y and N green and red
+			// I really want to remove these parentheses // let's see if it works.
+			// char yesOrNoEntry = keyboard.next().charAt(0); // allows a Y/N
+			// or Yes/No response
+			// keyboard.next
+			// keyboard.nextLine(); // what a nightmare.
+			
+			
+...
+
+			// Shipment shipment = new Shipment();
+
+			// Shipment shipment = new Shipment(billableWeight);
+			
+			// i really don't know how to resolve this issue.
+			// (formatDoubleDollars.format)
+
+			// DecimalFormat formatDoubleDollars = new DecimalFormat("0.00");
+			// i don't know what to do here
+			// I think that I got this thing to work. let's see if it actually does work or
+			// not.
+
+			// System.out.println(packageShippingChargeArray);
+			// packageShippingChargeArray
+			// I know what the issue is: I changed the name of the array earlier //
+			// shipment.packageShippingCostsArray.add(billableWeight);
+
+			// CreateTranscript transcript = new CreateTranscript(courseNumber, courseHours,
+			// letterGrade);
+			// transcript.setLetterGrade(letterGrade);
+			// numberGradeArray.add(transcript.getNumberGrade());
+
+			// shipment.packageShippingCostsArray.add(billableWeight)
+			// numberGradeArray.add(transcript.getNumberGrade()); // letter grade converted
+			// to numerical value and added to array
+			// shipment.addShippingCost(billableWeight); //
+			// packageShippingCostsArray.add(shippingCost);
+
+			// System.out.println(reset+"The parcel has a dimensional weight of: " +
+			// formatDouble.format(dimensionalWeight));
+			// entryNumber++;
+			
+...
+
+What a nightmare. I'm going to have to audit MIS 768.
