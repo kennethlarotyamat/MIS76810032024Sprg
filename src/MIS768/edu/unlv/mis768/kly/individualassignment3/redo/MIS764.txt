@@ -1760,16 +1760,7 @@ Article Read Aloud Set up Area
 
 – this was basically useless, you can’t print a pdf that has read aloud enabled, a document has to be downloaded, not printed – as a pdf in order for it to be read aloud enabled
 
-
-
-
-
-
-
-
-
-
-
+...
 
 Module 1 											Vicky
 Module 2											Kelly
@@ -1810,3 +1801,9 @@ The Role Of IT In Organizational Innovation (Mamonov & Peterson 2021)
 
 This is already feeling like it's too long. I'm thinking that I'll just continue writing, and 
 cut whatever I need to later.
+
+...
+
+I'm frustrated right now. Not a single thing is going right for me right now.
+and yet, this is how it's always been. it is as if the universe itself was 
+designed to frustrated me.
