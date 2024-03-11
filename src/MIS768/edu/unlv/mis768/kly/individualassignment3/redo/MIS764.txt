@@ -2650,4 +2650,16 @@ D:\GitHub\MIS76810032024Sprg\src\MIS768\edu\unlv\mis768\kly\individualassignment
 			
 ...
 
-What a nightmare. I'm going to have to audit MIS 768.
+What a nightmare. I'm going to have to audit MIS 768
+
+...
+
+do stock trade settlements occur at the end or beginning of the trading day
+
+Currently, settlement date occurs two business days after trade date, but recent rule amendments from the Securities and Exchange Commission (SEC) and conforming FINRA rule changes will soon make that cycle one day shorter.Jan 30, 2024
+
+The U.S. Securities and Exchange Commission (SEC) announced that it would shorten the standard settlement period from T+2 to T+1, which is expected to take effect in May 2024. 
+
+https://www.finra.org/investors/insights/understanding-settlement-cycles#:~:text=Currently%2C%20settlement%20date%20occurs%20two,that%20cycle%20one%20day%20shorter.
+
+...
