@@ -1,3 +1,12 @@
+The Development Workspace for a series of assignments for MIS 764
+
+...
+
+Done - Module 1 											Vicky
+Done - Module 2												Kelly
+
+...
+
 References
 
 Mamonov, S., & Peterson, R. (2021). The role of IT in organizational innovation – A systematic literature review. Journal of Strategic Information Systems, 30, 101696. https://doi.org/10.1016/j.jsis.2021.101696
