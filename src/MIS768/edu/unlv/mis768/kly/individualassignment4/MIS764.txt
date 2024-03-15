@@ -1,3 +1,49 @@
+3.3: Innovating With Artificial Intelligence
+ 
+1: Artificial Intelligence In Organizations 
+
+
+
+
+
+
+...
+
+4: Strategic Use Of AI
+	Analytical tools for business strategy
+		used a tool to review customer reviews on Yelp and similar websites
+		and drafted a business strategy or business proposals
+I didn’t find this article very useful - I’ve gone over it twice, but - it seems like the author is in citation cluster optimization
+		Mode. In some cases, the citation clusters are larger than the written sentence. I’ll probably go over this article a third 
+		Time.
+
+
+
+...
+
+Benbya, H., Pachidi, S., & Jarvenpaa, S. (2021). Special Issue Editorial: Artificial 
+	Intelligence in Organizations: Implications for Information Systems Research. 
+	Journal of the Association for Information Systems, 22(2), 281-303. 
+	https://doi.org/10.17705/1jais.00662
+
+	Machine Learning
+	Deep Learning
+	In context learning - -  Jablonka, K. M., Schwaller, P., Ortega-Guerrero, A., & Smit, B. (2024)
+		In context learning is sometimes referred to as contextual learning
+	Reinforcement learning - - Dwivedi, Y. K., Hughes, L., Ismagilova, E., Aarts, G., Coombs, C., Crick, T., ... Williams, 
+	33M. D. (2021)
+Transfer Learning
+Supervised Learning – another word for training when people talk about training an AI model, they are talking about 
+		supervised learning
+Semi-Supervised Learning
+Self-Supervised Learning
+Unsupervised Learning
+Generative Adversarial Networks (GANs)
+
+
+
+...
+
 I remember this.
 there was something that
 I had to do to fix it, but it broke all of my images.	
