@@ -7,8 +7,8 @@ minimum acceptable level. a B average.
 
 I really have no choice. I have to audit the course.
 I also. have to file a patent.
-yet again.
-I have no choice in the matter.
+and. yet again.
+I. really. have no choice in the matter.
 
 ...
 
