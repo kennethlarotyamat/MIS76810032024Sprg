@@ -19,6 +19,8 @@ return packageWeight while setPackageWeight() is taking
 the value given by the user and set it to the field packageWeight."
 	- Han-fen Hu, Ph.D
 	
+// Vanguard	 // Vanguard // immediately
+ * 
 */
 
 public class Package {

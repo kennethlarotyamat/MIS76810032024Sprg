@@ -19,14 +19,14 @@ came around, four years later, to taking a detailed
 look at the patent.
 
 when I looked at the Vanguard VTI ETF patent, one thing
-that immediatly caught my eye was the section about the
+that immediately caught my eye was the section about the
 patent application itself being under copyright protection,
 and, when looking at other patent application files, not all
 of them have that.
 so I think.
 
-I think I would file a copyright for the application material for
-the patent application before submitting the patent application.
+I think I would file a copyright for the application material in
+the patent application before submitting the patent application
 
 ...
 
@@ -130,7 +130,7 @@ Object-Oriented Programming Concepts. Retrieved from
 i remember downloading a modding
 program for empire total war
 and it was hosted on github
-it actually can mod any total war game
+it can actually  mod any total war game
 
 what was it. well, i don't remember it
 having a landing page
