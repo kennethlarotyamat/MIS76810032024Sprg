@@ -18,6 +18,16 @@ when I was working at the hotel. I guess I finally
 came around, four years later, to taking a detailed
 look at the patent.
 
+when I looked at the Vanguard VTI ETF patent, one thing
+that immediatly caught my eye was the section about the
+patent application itself being under copyright protection,
+and, when looking at other patent application files, not all
+of them have that.
+so I think.
+
+I think I would file a copyright for the application material for
+the patent application before submitting the patent application.
+
 ...
 
 11
