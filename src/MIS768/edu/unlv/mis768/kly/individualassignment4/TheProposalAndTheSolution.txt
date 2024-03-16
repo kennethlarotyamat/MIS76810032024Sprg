@@ -148,7 +148,7 @@
 																										^
 																										^
 [IntradayNetAssetValue]>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>^
-
+	- isExchangeTradedfund	boolean
 
 		
 		E) File and database design:

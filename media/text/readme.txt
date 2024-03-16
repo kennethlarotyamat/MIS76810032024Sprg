@@ -10,6 +10,14 @@ I also. have to file a patent.
 and. yet again.
 I. really. have no choice in the matter.
 
+I think. one of the things that got me the
+most interested in filing patents was. when I read
+an article about the vanguard patent for the VTI ETF
+being close to expiring. This was back in Missouri
+when I was working at the hotel. I guess I finally
+came around, four years later, to taking a detailed
+look at the patent.
+
 ...
 
 11
