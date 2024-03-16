@@ -1,3 +1,9 @@
+12
+
+I'm failing MIS 768. as in. I'm getting an F. I will have to audit
+the course. an F is something that could take years to recover from
+GPA wise. I really have no choice. I have to audit the course.
+
 11
 
 I don't know how that last assignment went. It worked, I wanted to
