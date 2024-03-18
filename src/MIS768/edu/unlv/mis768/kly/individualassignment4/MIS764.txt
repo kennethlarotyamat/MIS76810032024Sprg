@@ -1,3 +1,356 @@
+2: AI Innovation Typology
+		Different Current Users	
+		used by credit card companies to detect fraud
+		ai assistants like siri and alexa
+		medical uses of AI to detect Illnesses
+		
+		Professionals need to determine if Artificial intelligence will enhance their professions, or serve to undermine and devalue their professions.
+		
+		Structured Data
+			this type of data is schematically standardized and organized
+				inventory figures  sales data  production levels  stock exchange data
+		unstructured Data
+				IoT // social media posts // blog posts // reviews // tweets
+					IoT - the Internet of things - how objects are connected to the Internet
+		
+		processes
+			pre-processes
+				Natural Language Understanding
+					converts spoken words into text
+						statistical modeling and machine learning
+				computer vision
+			
+			main processes
+				problem solving
+				reasoning
+				Machine Learning
+					lets AI systems enhance their performance  initially allowed
+					artificial neural networks - consist of a sequence of layers where data is processed
+						in one layer before being handed off to and processed by a deeper layer.
+			
+			outputs
+				natural language generation
+				image creation
+				robotics
+			Technological discontinuities
+				when a new technology offers so much of an advantage that no increase in efficiencies, scale, or design to existing technologies can compete
+					this relates back to
+						exploratory and disruptive innovation
+						and
+						exploitative and incremental innovation
+			
+			autonomous vehicles
+			
+			competence enhancing
+			
+				do not change fundamentals, increase and serve as a tool to existing skills.
+			
+			
+			
+			
+			competence destroying
+			
+				render existing skills obsolete
+			
+			Artificial generalized intelligence - strong AI - to simulate human thought
+			
+			Applied Artificial Intelligence - for tasks that are commercially viable
+			Artificial super intelligence -
+			
+			Things to consider
+				
+				implementation - there is a need for interoperability between programs - this can be difficult if API's are
+				not compatible with one another.
+				
+				Data Quality - the quality of the data used to train AI models could be skewed, Inaccurate, biased, not representative - or poorly defined.
+							 - low quality inputs result in low quality outputs by the AI models.
+							
+				Privacy Measures - need to be in place to product individuals, large amounts of data are required to train AI models.
+
+
+
+3: Artificial Intelligence (AI): Multidisciplinary Perspectives 
+
+						Two Types or goals
+				to perform specific tasks
+				to think like a human
+				
+			deep neural networks to improve AI, may not improve these tools.
+			realistic limits of AI, the - it's to serve as a tool, and move up the value chain - while using AI -
+			the concept of AI replacing humans is a dated concept.
+			
+			Application domains
+			The AI literature has identified several separate domains in which the technology can be applied:
+			
+			Digital Imaging,
+			Education,
+				improve teacher effectiveness
+					tutoring systems
+					library users
+					library processes
+					intelligent narrative technologies
+					staffing requirements
+				student engagement
+					game-based learning environments
+			Government,
+			Healthcare,
+				medical informatics
+				loopthink - limitation of medical AI-loopthink
+					type of implicit bias
+					which does not  perform correct reappraisal of information or revision
+					
+					Weak loopthink refers to the intrinsic inability of computer
+						intelligence to redirect executive data flow because of its fixed internal
+						hard writing, un-editable sectors of its operating system, or unalterable
+						lines of its programme code.
+					Strong loopthink refers to AI suppression
+						due to internalisation of the ethical framework.
+					
+				This is interesting - it seems to refer when the AI tool which should train itself in a way that improves itself
+			Manufacturing,
+			Robotics and
+			Supply Chain.
+			
+			Data Visualizations
+			
+			Data Challenges
+				Disagreements about data standards creates challenges
+					a cardiac imaging - there were - there was a need to standardize data across institutions
+				issues about transparency and reliability
+				interpretations of imagery proved to be an obstacle
+				the dimensionality obstacle
+			
+			Social Challenges
+				Unrealistic expectations
+				not
+				fear of job losses
+				fear of loss of participation in society
+				
+			Human cognitive flexibility
+				the ability to interpret unstructured data
+				
+				
+			SME - Society of Manufacturing Engineers
+			Small and midsize enterprises (SMEs) 
+				are businesses that have revenues, assets, or a number of employees below a certain
+				threshold. Each country has its own definition of what constitutes a small and midsize enterprise.
+					- investopedia (2024)
+					
+			Critically, in subsets of these components, the data science may be handled independently,
+			for example by
+			product or cloud suppliers, with different
+			viewpoints. So the following question arises: how can the inferences
+			delivered by different AI components be
+			
+			integrated coherently when they may
+			be based on
+				different data, and subject to
+				different ecosystem conventions
+								(and the associated
+				quality differences) (Walton, 2018a; Walton, 2018b)?
+				
+			This question can be retitled as the discrimination problem
+			
+		one of the earliest uses of AI was
+			the chess game computer
+				
+		different levels of automation are appropriate for different types of tasks
+			manual
+			autonomous
+			
+				how much is given to a human, how much and what kind of input a human user gives to the machine
+				
+		situational awareness
+			there is an expectation that there will be increasing issues with situational
+			awareness because humans don't have the same level of alertness or cognizance of events
+			that they themselves do not create - whether that change is made by an AI, or another human,
+			so as more things become automated, and more changes are made - or more actions are made by machines
+			situational awareness is expected to decrease.		
+			
+		Logistics	
+			
+			Amazon
+			
+			Uber
+			
+		Value of AI should be highest when it reaches maturity - unlikely to be commoditized - meaning standardized product or indistinguishable from other AI products.
+		
+		consumer preferences
+				can make or assist in providing customers with more
+				more validated purchasing decisions. frequency of marketing messages
+				automated bidding on marketing Artifacts
+				advertising - machines generate content - consumers feel like they are being targeted
+				people are afraid of AI that they don't really have a full understanding of
+				
+		I can't believe how long this article is. it's taking forever to get through.
+		
+		Marketing Implications
+			
+				Assists in designing better marketing material
+				allows advertisers to better understand the data
+				sales teams to meet their sales targets and goals
+			
+		AI resulted in reduced production rate at AirBus
+		
+				"For instance, Ransbotham, Kiron, Gerbert,
+				and Reeves (2017) highlights that AI reduced the production rate in Air
+				Bus."
+			
+				"A production rate is a quantity of production accomplished over a specific period of time and
+				realistic production rates are the key in determining reasonable contract times for construction projects."
+				
+				"In manufacturing, production rate is typically measured as the quantity of goods manufactured per hour, day, week, month, or any other relevant time frame."
+				
+				"For example, let's say that workers at a manufacturing plant can produce 5,000 units per week using 50 hours of labor. As a result,
+				the production rate per hour would be 100 units (5,000 / 50 hours) minus any defective units. The 100 unit per hour
+				production rate could be used as a baseline number for comparative purposes. "
+				
+				"In a wide range of areas AI can be deployed (please see for a recent
+				review, Duan et al., 2019). For instance, Ransbotham, Kiron, Gerbert,
+				and Reeves (2017) highlights that AI reduced the production rate in Air"
+					
+					"Ransbotham, S., Kiron, D., Gerbert, P., & Reeves, M. (2017). Reshaping business with
+					artificial intelligence: Closing the gap between ambition and action. MIT Sloan
+					Management Review, 59(1)."
+					"Gerbert, P., Reeves, M., Ransbotham, S., Kiron, D., & Spira, M. (2018). Global
+					competition with AI in business: How China differs. MIT Sloan Management Review
+					(July)." 					
+					
+					
+		Legal and Regulatory Implications
+		
+				how to determine liability and accountability issues.
+				
+				fake news and misleading information
+				
+				Human Rights implications
+					the right not to be measured
+					not to participate or be used to train the AI models in question
+					
+				Government Adoption of AI tools and applications
+					efficiencies
+					public hospitals using analytics tools to determine outbreaks
+					algorithmic opacity - when it's not known, or disclosed how a system works.
+					public opinion formation through tools like social media
+						influences public policy directions
+					
+				Smart Cities and development of
+					better city design
+				
+		Social Science Implications
+		
+				Digital haves and have-nots
+				
+				disrupts can create new social paradigms
+					exposes people lower on the social rung to exploitation
+					
+				Digital inequity, and digital divide
+				
+				profiling and law enforcement issues. biases may be reinforced
+				
+				Keeping Humans at the center of the design
+				
+				Ethical implications of artificial Intelligence have
+					not been fully contemplated and established
+				
+		I really can't believe how long this article is. I've been listening to this for I even don't  how many
+		hours. Lord.
+		
+		Reinforcement Learning
+				Referenced during GPT 2 development and Meta chat-bot experiments
+				can have unpredictable results
+				
+		Deep Max Scores
+			
+				Framework
+				
+		Blockchain and Artificial Intelligence
+		
+		- Reading Completed on 06:47 AM on 03/06/2024
+		
+			I want to say that the reading took a full 7 hours.
+
+
+
+
+
+
+
+3.1 Leveraging large language models for predictive chemistry
+
+
+Terminology:	Machine Learning
+			Large Language Model
+			LLM Training
+			In context learning - this refers to how the LLM learns about a subject during the course 
+                                       		of a chat session, rather than fine-tuning or training the model directly.		
+			Inverse design - this refers to creating molecular structures - or chemicals - polymers or 
+alloys - that react in a certain way, or have a specific set of properties - I think that it 
+is called inverse design because, rather than creating a chemical, and describing its 
+properties, - the desired properties are described, and then the molecule is designed
+			Generative Models
+			MLM - Machine Learning Model
+			LLM - Large Language Model
+			First-principles theory
+                          Isomers - This is chemistry related
+Polymers- This is chemistry related
+Monomers - This is chemistry related
+		Gaussian process regression - GPR
+		Generative pretrained transformer - gpt
+
+Applications:	Large Language Models and machine learning to chemistry, and physical sciences
+			Computing, programming, AI, ML, LLM on Physical sciences, chemistry, and predictive
+				Simulations
+			Generating a specific type of dispersant - which I think is a kind of soap - generating a 
+dispersant with a specific set of characteristics
+
+Limitations:		The LLM was able to generate molecules using inverse design, or, it was able to 
+Hypothesize the existence of chemicals with a desired set of characteristics,
+But there were instances where the LLM generated invalid chemical structures
+Even if an LLM is able to generate a new chemical, that chemical still has to be synthesized
+	And there are instances where it’s not really possible or practical to synthesize the
+	Chemical generated by the LLM
+It can be difficult to train an LLM accurately, or train it well for accuracy because very 
+large dataset are required, and there are limitations on how many chemicals can be 
+tested and added to a given data set to train an LLM on
+
+Variations:		Using a general LLM AI tool (GPT 3) trained on chemistry documents Rather than a 
+chemistry specific AI tool, or existing chemistry simulation tools conventional machine learning models designed for chemistry
+Existing machine learning models represent chemicals or molecular structures 
+	mathematically, or symbolically, or as a kind of code or program that reacts  	
+a certain way, rather than verbally. Existing machine learning models simulate 
+molecular structures in an abstract way, rather than verbally, the approach used in 
+this paper, by these researchers, describes chemicals verbally
+The GPT 3 LLM was compared with a gaussian process regression mlm
+
+Reflections:	this was a really interesting article - one of the things that I’m wondering is: if copyright 
+protection isn’t or cannot be granted to ai generated text or ai generated artwork, will patents also not be granted to ai generated chemicals? Or AI generated medicines or Pharmaceuticals? Or ai generated chemical compounds.
+AI is already used to create novel chemical structures, however, the prevailing AI tools 
+used for the purpose of generating novel chemical structures are Machine learning 
+models, rather than large language models, this research paper approaches 
+generating novel chemical structures using LLMs rather than MLMs
+
+
+Intersections:	This paper illustrates the concept of IT Affordances - LLMs have certain capabilities, and 
+how LLMs are appropriated, in this case, an LLM is appropriated for the purpose of creating novel chemical compounds - this article illustrates a novel appropriation of an existing tool.
+
+
+
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+...
+
 https://www.bloomberg.com/explore/treasury/?utm_medium=Adwords_SEM&utm_campaign=835689&utm_content=AMER_CorpTreasurySEM&utm_source=pdsrch&tactic=835689
 
 https://www.sap.com/products/financial-management/treasury-management.html
