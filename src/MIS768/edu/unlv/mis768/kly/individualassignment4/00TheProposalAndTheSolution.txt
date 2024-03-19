@@ -17,6 +17,9 @@
 								a new ticket based on the fulfillment of the previous ticket, 
 								the chain of tickets would continue until the user decided to
 								cancel the chain.
+								
+								Another application of this program would be to serve as a
+								treasury management solution.
 		
 		A) Background and the needs:
 		
