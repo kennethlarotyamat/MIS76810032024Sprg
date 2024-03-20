@@ -45,51 +45,25 @@ public class ParcelTerminalDemo {
 		double billableWeight = 0;
 		Shipment shipment = new Shipment(billableWeight);
 
-		// new instance of the Shipment class. // pulls Shipment class
 
-		// into the demo class.
-		// int theFrequentShipperIdentificationNumber;
-
-		// double theNumberOfOutsideLinerInches = 0;
-		// double theDimensionalWeight = 0;
 
 		Scanner keyboard = new Scanner(System.in);
 
-		// initializes the scanner.
 
-		// System.out.println(invisible+"test area");
 
 		System.out.println(reset + red + "Greetings:  " + reset
 				+ " Utilize this terminal to determine the costs of shipping your parcel(s). ");
 		System.out.println("             Please enter the" + red + " weight" + reset + " and the " + red + "dimensions "
 				+ reset + "of your parcel: ");
 
-		// user greeting for the customer
+
 
 		System.out.println(" ");
 		do {
 			System.out.println(reset + "                                     Data for Parcel # " + entryNumber);
 			System.out.println(" ");
 
-			// /**/System.out.println(" Data for Package # 1"); // entryNumber// this number
-			// needs to increment depending on the number of packages. // this number needs
-			// to iterate depending on the number of packages.
 
-			// this line is being moved down System.out.println("Please enter the"+ red + "
-			// weight "+reset+"of your parcel:"); // " and the "+ red +"dimensions "+reset+
-			// System.out.println(" "); // I don't know what's going on here, the line won't
-			// skip. I know what it is, it's on the wrong line.
-			// keyboard.nextLine();
-
-			// System.out.println("Please enter the"+ red + " weight "+reset+"of your
-			// parcel:");
-			// double packageWeight = keyboard.nextDouble(); // this needs to be a double.
-			// // String packageWeight = keyboard.nextLine(); // this needs to be a double.
-			// // String packageWeight = keyboard.nextLine();
-			// keyboard.nextLine();
-
-			// Package package = new Package(packageWeight, packageLength, packageWidth,
-			// packageHeight);
 
 			Package parcelPackage = new Package(packageWeight, packageLength, packageWidth, packageHeight);
 
