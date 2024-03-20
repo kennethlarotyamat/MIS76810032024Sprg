@@ -24,9 +24,9 @@ the value given by the user and set it to the field packageWeight."
 	
 */
 
-// Mamonov // Peterson // I figured out why it was there, I was reusing code from the Create transcript and it auto imported. // I have no idea why this is here. 		// import edu.unlv.mis768.kly.individualassignment2.CreateTranscript; import edu.unlv.mis768.kly.individualassignment2.CreateTranscript;
+ 		// import edu.unlv.mis768.kly.individualassignment2.CreateTranscript; import edu.unlv.mis768.kly.individualassignment2.CreateTranscript;
 
-public class ParcelTerminalDemo { // this is the demo class// public class ShippingCalculatorDemo {
+public class ParcelTerminalDemo {
 
 	public static void main(String[] args) throws IOException {
 		DecimalFormat formatDoubleDollars = new DecimalFormat("0.00");
@@ -34,15 +34,13 @@ public class ParcelTerminalDemo { // this is the demo class// public class Shipp
 		String reset = "\u001B[0m";
 		String green = "\u001B[32m" + "\u001B[1m";
 															
-		int entryNumber = 1; // initializes the package count.
-		// This is no longer being used now that the calculated items are calculated. //
-		// final String THE_PLACEHOLDER = "PLACEHOLDER"; // this is used for things that
-		// I will calculate later,
-		double packageWeight = 0; // the weight of the parcel
-		double packageLength = 0; // the length of the parcel
-		double packageWidth = 0; // the width of the parcel
-		double packageHeight = 0; // = keyboard.nextDouble();
-		double dimensionalWeight; // the dimensional weight of a package to be shipped, based on the dimensions of the package.
+		int entryNumber = 1; 
+
+		double packageWeight = 0;
+		double packageLength = 0;
+		double packageWidth = 0;
+		double packageHeight = 0;
+		double dimensionalWeight;
 		char yesOrNoEntry;
 		double billableWeight = 0;
 		Shipment shipment = new Shipment(billableWeight);
