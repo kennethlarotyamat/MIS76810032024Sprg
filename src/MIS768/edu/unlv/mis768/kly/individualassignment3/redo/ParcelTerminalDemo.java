@@ -16,6 +16,18 @@ import java.util.Scanner;
 import java.text.DecimalFormat;
 
 /*
+ 
+ 
+ 
+How can a person have athlete's food, and. 
+well, sometimes a person develops athelet's balls.
+and the balls 
+are in a sack 
+that's the size 
+of a tangerine!
+
+
+
 	Revision Notes:
 
 D:\GitHub\MIS76810032024Sprg\src\MIS768\edu\\unlv\mis768\kly\individualassignment3\redo\ParcelTerminalDemo.java	
