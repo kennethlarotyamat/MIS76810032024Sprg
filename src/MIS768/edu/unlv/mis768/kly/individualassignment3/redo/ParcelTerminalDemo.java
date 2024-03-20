@@ -17,21 +17,6 @@ import java.text.DecimalFormat;
 
 /*
  
- 
- 
-How can a person have athlete's food, and. 
-well, sometimes a person develops athelet's balls.
-and the balls 
-are in a sack 
-that's the size 
-of a tangerine!
-
-
-
-	Revision Notes:
-
-D:\GitHub\MIS76810032024Sprg\src\MIS768\edu\\unlv\mis768\kly\individualassignment3\redo\ParcelTerminalDemo.java	
-
 "Take getPackageWeight() for example, it should just 
 return packageWeight while setPackageWeight() is taking 
 the value given by the user and set it to the field packageWeight."
@@ -43,12 +28,12 @@ the value given by the user and set it to the field packageWeight."
 
 public class ParcelTerminalDemo { // this is the demo class// public class ShippingCalculatorDemo {
 
-	public static void main(String[] args) throws IOException { // this is the main argument
-		DecimalFormat formatDoubleDollars = new DecimalFormat("0.00"); // formats two places to the right of the decimal
-		String red = "\u001B[31m" + "\u001B[1m"; // formats text red and bold
-		String reset = "\u001B[0m";// resets the text color
-		String green = "\u001B[32m" + "\u001B[1m"; // formats the color of the text to be green and bold.
-		// String invisible ="\u001b[38;5; + n + m + n";
+	public static void main(String[] args) throws IOException {
+		DecimalFormat formatDoubleDollars = new DecimalFormat("0.00");
+		String red = "\u001B[31m" + "\u001B[1m";
+		String reset = "\u001B[0m";
+		String green = "\u001B[32m" + "\u001B[1m";
+															
 		int entryNumber = 1; // initializes the package count.
 		// This is no longer being used now that the calculated items are calculated. //
 		// final String THE_PLACEHOLDER = "PLACEHOLDER"; // this is used for things that
