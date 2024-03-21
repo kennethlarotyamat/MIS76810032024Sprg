@@ -15,7 +15,7 @@ public class ChickenStory {
 		System.out.println("and it is a road that");System.out.println(" ");
 		
 		System.out.println("does not appear to be well ");
-		System.out.println("traveled");System.out.println("and yet still seems so well");System.out.println("maintained"); //  and it does not
+		System.out.println("traveled");System.out.println("and yet still seems so well");System.out.println("maintained");
 		System.out.println("and it does not");
 		System.out.println("appear to have very much");System.out.println(" ");
 		
