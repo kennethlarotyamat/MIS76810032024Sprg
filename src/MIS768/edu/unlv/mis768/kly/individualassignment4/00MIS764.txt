@@ -1,3 +1,75 @@
+The type of citation provided in APA format for information from the PitchBook Platform about Perplexity would be an online or web-based source citation. 
+This is because the information is retrieved from a website or online platform.
+
+To cite the information about Perplexity from the PitchBook Platform in APA format, you can use the following:
+
+PitchBook Platform. (n.d.). Perplexity. Retrieved from [URL]
+
+Replace "[URL]" with the specific URL of the Perplexity profile page on the PitchBook Platform.
+
+For in-text citations, you can use the organization name or a shortened version of the title:
+
+(PitchBook Platform, n.d.)
+(Perplexity profile, n.d.)
+
+For articles, news or company reports, 
+
+For example:  Bloomberg L.P. (2006). Stock price graph for United Parcel Service 11/1/05 to 11/1/06. Retrieved from Bloomberg database
+
+For data, table and screen-prints,
+
+The requested attribution for use of derived or reformatted information is: "Source: Bloomberg Finance L.P.".
+
+In the case of screen-prints, the Bloomberg copyright language contained in any such screen-prints (lower right-hand corner) 
+must be retained, and the attribution language "Used with permission of Bloomberg Finance L.P." must be noted adjacent to each use.
+
+https://guides.library.ubc.ca/finance/bloomberg/citing
+
+
+
+
+o cite the information about Perplexity from the PitchBook Platform in APA format, you can use the following:
+
+PitchBook Platform. (n.d.). Perplexity. Retrieved from [URL]
+
+Replace "[URL]" with the specific URL of the Perplexity profile page on the PitchBook Platform.
+
+For in-text citations, you can use the organization name or a shortened version of the title:
+
+(PitchBook Platform, n.d.)
+(Perplexity profile, n.d.)
+
+
+Bloomberg L.P. (2006). Stock price graph for United Parcel Service 11/1/05 to 11/1/06. Retrieved from Bloomberg database
+
+PitchBook Platform. (2024). Perplexity. Retrieved from [URL]
+
+PitchBook Data, Inc. (2024). Perplexity AI, Inc. Retrieved from https://pitchbook.com/profiles/company/517947-04
+
+PitchBook Data, Inc.
+
+The APA citation provided, "PitchBook Data, Inc. (2024). Perplexity AI, Inc. Retrieved from https://pitchbook.com/profiles/company/517947-04#overview," 
+is not entirely correct based on APA guidelines. The correct format for citing a company profile like Perplexity AI from PitchBook should follow this structure:
+Perplexity AI. (2024). Perplexity AI [Company profile]. PitchBook. Retrieved from https://pitchbook.com/profiles/company/517947-04
+This revised citation includes the correct formatting for citing a company profile according to APA guidelines
+1
+5
+.
+
+Perplexity AI. (2024). Perplexity AI [Company profile]. PitchBook. Retrieved from
+ https://pitchbook.com/profiles/company/517947-04
+ 
+ so here is the thing I think it should follow a format similar to the one for the bloomberg terminal citation style because 
+ it's usually the author that comes first, not the name of the article, so the author of the page is PitchBook, not perplexity AI
+ 
+ it's pitchbook authoring a company profile of
+
+PitchBook Data, Inc. is a research firm. The firm focuses its research on small, mid-market, and large deals and companies of all sizes, types, and industries. It provides data, news, and analysis.
+
+Pitchbook Data Inc - Company Profile and News - Bloomberg
+
+
+
 Chestnut + Hazel Treasury Management Solutions
 
 
