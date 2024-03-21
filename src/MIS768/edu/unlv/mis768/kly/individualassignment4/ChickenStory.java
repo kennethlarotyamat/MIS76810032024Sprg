@@ -5,6 +5,7 @@ import java.io.IOException;
 public class ChickenStory {
 	
 	public static void main(String[] args) throws IOException {
+		System.out.println("The Chicken Story by Kenneth Larot Yamat dba Chestnut + Hazel (2024) "); System.out.println(" ");
 	System.out.println("when the chicken");
 	System.out.println("first crossed the road");
 		System.out.println("the chicken thought "); System.out.println("in it's avian brain");System.out.println(" ");
@@ -48,7 +49,10 @@ public class ChickenStory {
 		System.out.println("and it does not");
 		System.out.println("appear to have very much");System.out.println(" ");
 		
-		System.out.println("traffic and so the chicken ");
+		System.out.println("traffic   ");
+		System.out.println("  and so  ");
+		System.out.println("  the chicken ");
+		
 		System.out.println("crossed the road in an");
 		System.out.println("attempt to get to the other side");System.out.println(" ");
 	
@@ -67,7 +71,23 @@ public class ChickenStory {
 		System.out.println("but this is an old story that many ");
 		System.out.println("people have told and retold ");
 		System.out.println("throughout the generations ");
-		System.out.println("so remember it ");
+		System.out.println("so remember it "); System.out.println(" ");
+		
+		System.out.println("and yet there is one aspect ");
+		System.out.println("of the story that proves ");
+		System.out.println("to be a major oversight on the part ");
+		System.out.println("of so many scholars of the chicken story ");System.out.println(" ");
+		
+		System.out.println("the chicken ");
+		System.out.println("encountered ");
+		System.out.println("a frog ");
+		System.out.println("on the other side of the road ");
+		System.out.println(" ");
+		
+		System.out.println("the frog, named: frog. ur. ");
+		System.out.println("was trying to cross the road ");
+		System.out.println("to get to the side  ");
+		System.out.println("of the road the chicken was previously on ");
 
 }
 }
