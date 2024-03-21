@@ -24,7 +24,7 @@ the value given by the user and set it to the field packageWeight."
 	
 */
 
- 		// import edu.unlv.mis768.kly.individualassignment2.CreateTranscript; import edu.unlv.mis768.kly.individualassignment2.CreateTranscript;
+ 		// import edu.unlv.mis768.kly.individualassignment2.CreateTranscript; import edu.unlv.mis768.kly.individualassignment2.CreateTranscript; // traveled
 
 public class ParcelTerminalDemo {
 
