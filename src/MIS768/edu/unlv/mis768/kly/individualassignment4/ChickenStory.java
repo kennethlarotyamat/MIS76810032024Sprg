@@ -6,40 +6,10 @@ public class ChickenStory {
 	
 	public static void main(String[] args) throws IOException {
 		System.out.println("The Chicken Story by Kenneth Larot Yamat dba Chestnut + Hazel (2024) "); System.out.println(" ");
-	System.out.println("when the chicken");
-	System.out.println("first crossed the road");
+		System.out.println("when the chicken");
+		System.out.println("first crossed the road");
 		System.out.println("the chicken thought "); System.out.println("in it's avian brain");System.out.println(" ");
-		/*
-		 
-		 when the chicken 
-		first crossed the road
-		he said to himself
 
-		this is a nice road 
-		i like this road.
-		and it is a road that
-
-		does not appear to be well 
-		traveled and it does not 
-		appear to have very much
-
-		traffic and so the chicken 
-		crossed the road in an
-		attempt to get to the other side
-
-		it went well for the chicken 
-		and the chicken was able to find 
-		whatever it is chickens eat.
-
-		chicken food 
-		perhaps
-		or maybe duck food.
-
-		whatever it was
-		i don't really know.
-		i wasn't actually there.
-		 
-		*/
 		System.out.println("i like this road.");
 		System.out.println("this is a nice road");
 		System.out.println("and it is a road that");System.out.println(" ");
@@ -91,34 +61,3 @@ public class ChickenStory {
 
 }
 }
-/*
- 
- when the chicken 
-first crossed the road
-he said to himself
-
-this is a nice road 
-i like this road.
-and it is a road that
-
-does not appear to be well 
-traveled and it does not 
-appear to have very much
-
-traffic and so the chicken 
-crossed the road in an
-attempt to get to the other side
-
-it went well for the chicken 
-and the chicken was able to find 
-whatever it is chickens eat.
-
-chicken food 
-perhaps
-or maybe duck food.
-
-whatever it was
-i don't really know.
-i wasn't actually there.
- 
-*/
