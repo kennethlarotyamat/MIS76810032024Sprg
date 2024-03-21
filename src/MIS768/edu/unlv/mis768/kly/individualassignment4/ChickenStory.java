@@ -56,13 +56,18 @@ public class ChickenStory {
 		System.out.println("and the chicken was able to find ");
 		System.out.println("whatever it is chickens eat.");System.out.println(" ");
 		
-		System.out.println("when the chicken");
-		System.out.println("when the chicken");
-		System.out.println("when the chicken");System.out.println(" ");
+		System.out.println("chicken food ");
+		System.out.println("perhaps");
+		System.out.println("or maybe duck food.");System.out.println(" ");
 		
-		System.out.println("when the chicken");
-		System.out.println("when the chicken");
-		System.out.println("when the chicken");
+		System.out.println("whatever it was");
+		System.out.println("i don't really know.");
+		System.out.println("i wasn't actually there."); System.out.println(" ");
+		
+		System.out.println("but this is an old story that many ");
+		System.out.println("people have told and retold ");
+		System.out.println("throughout the generations ");
+		System.out.println("so remember it ");
 
 }
 }
