@@ -5,8 +5,8 @@ import java.io.IOException;
 public class DuckStory {
 	
 	public static void main(String[] args) throws IOException {
-		System.out.println("The Duck Story (2024) "); 
-		System.out.println("  by Kenneth Larot Yamat dba Chestnut + Hazel"); System.out.println(" ");
+		System.out.println("The Duck Story (2024) by Kenneth Larot Yamat dba Chestnut + Hazel ");System.out.println("  "); 
+//		System.out.println("  "); System.out.println(" ");
 		
 		System.out.println("are you");
 		System.out.println("the kind of");
@@ -25,7 +25,12 @@ public class DuckStory {
 		System.out.println("Kenneth did not know how to answer");
 		System.out.println("because, even though there was a true");
 		System.out.println("answer, Kenneth wasn't sure if the true answer");
-		System.out.println("would also be the right answer");
+		System.out.println("would also be the right answer");System.out.println(" ");
+		
+		System.out.println("Look, said Kenneth, when I go to the");
+		System.out.println("pond, and I don't usually go to the pond");
+		System.out.println("but when I do go to the pond, I interact");
+		System.out.println("with the ducks in a very human manner");
 
 
 }
