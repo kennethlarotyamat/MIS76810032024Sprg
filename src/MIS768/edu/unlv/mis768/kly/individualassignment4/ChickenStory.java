@@ -57,7 +57,7 @@ public class ChickenStory {
 		System.out.println("the frog, named: frog. ur. ");
 		System.out.println("was trying to cross the road ");
 		System.out.println("to get to the side  ");
-		System.out.println("of the road the chicken was previously on ");
+		System.out.println("of the road the chicken was previously on.");
 
 }
 }
