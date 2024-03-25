@@ -26,6 +26,9 @@ public class ChickenStory {
 		System.out.println("i like this road.");
 		System.out.println("this is a nice road");
 		System.out.println("and it is a road that");System.out.println(" ");
+		// this course has been a total nightmare. I mean. It's not just the course,
+		// I think that if my overall circumstances were less challenging, then,
+		// it wouldn't be as problematic as it turned out to be.
 		
 		System.out.println("does not appear to be well ");
 		System.out.println("traveled");System.out.println("and yet still seems so well");System.out.println("maintained");
