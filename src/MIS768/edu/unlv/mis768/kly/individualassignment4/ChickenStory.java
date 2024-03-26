@@ -10,6 +10,7 @@ public class ChickenStory {
 		System.out.println("first crossed the road");
 		System.out.println("the chicken thought "); System.out.println("in it's avian brain");System.out.println(" ");
 		// Challenging // challenging // Class Exercise (Week 10): EmployeeData
+		// Individual Assignment 4 // Class Exercise (Week 12): DAO structure for the Coffee table
 		System.out.println("i like this road.");
 		System.out.println("this is a nice road");
 		System.out.println("and it is a road that");System.out.println(" ");
