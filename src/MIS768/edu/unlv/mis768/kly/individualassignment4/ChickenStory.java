@@ -9,7 +9,7 @@ public class ChickenStory {
 		System.out.println("when the chicken");
 		System.out.println("first crossed the road");
 		System.out.println("the chicken thought "); System.out.println("in it's avian brain");System.out.println(" ");
-		// Challenging // challenging
+		// Challenging // challenging // Class Exercise (Week 10): EmployeeData
 		System.out.println("i like this road.");
 		System.out.println("this is a nice road");
 		System.out.println("and it is a road that");System.out.println(" ");
